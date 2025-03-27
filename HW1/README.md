@@ -1,0 +1,275 @@
+# ENV details
+
+Python 3.10.16
+
+CUDA 11.5
+
+conda 24.1.2
+
+## HARDWARE
+48Gb VRAM
+
+Used at most 30Gb as I recall.
+
+## Conda's environment.yml
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - anyio=4.9.0=pyh29332c3_0
+  - argon2-cffi=23.1.0=pyhd8ed1ab_1
+  - argon2-cffi-bindings=21.2.0=py310ha75aee5_5
+  - arrow=1.3.0=pyhd8ed1ab_1
+  - asttokens=3.0.0=pyhd8ed1ab_1
+  - async-lru=2.0.5=pyh29332c3_0
+  - attrs=25.3.0=pyh71513ae_0
+  - babel=2.17.0=pyhd8ed1ab_0
+  - beautifulsoup4=4.13.3=pyha770c72_0
+  - bleach=6.2.0=pyh29332c3_4
+  - bleach-with-css=6.2.0=h82add2a_4
+  - brotli=1.1.0=hb9d3cd8_2
+  - brotli-bin=1.1.0=hb9d3cd8_2
+  - brotli-python=1.1.0=py310hf71b8c6_2
+  - bzip2=1.0.8=h5eee18b_6
+  - c-ares=1.34.4=hb9d3cd8_0
+  - ca-certificates=2025.2.25=h06a4308_0
+  - cached-property=1.5.2=hd8ed1ab_1
+  - cached_property=1.5.2=pyha770c72_1
+  - certifi=2025.1.31=pyhd8ed1ab_0
+  - cffi=1.17.1=py310h8deb56e_0
+  - charset-normalizer=3.4.1=pyhd8ed1ab_0
+  - comm=0.2.2=pyhd8ed1ab_1
+  - contourpy=1.3.1=py310h3788b33_0
+  - cuda-version=12.8=h5d125a7_3
+  - cycler=0.12.1=pyhd8ed1ab_1
+  - cyrus-sasl=2.1.28=h52b45da_1
+  - dbus=1.13.18=hb2f20db_0
+  - debugpy=1.8.13=py310hf71b8c6_0
+  - decorator=5.2.1=pyhd8ed1ab_0
+  - defusedxml=0.7.1=pyhd8ed1ab_0
+  - exceptiongroup=1.2.2=pyhd8ed1ab_1
+  - executing=2.1.0=pyhd8ed1ab_1
+  - expat=2.6.4=h5888daf_0
+  - filelock=3.13.1=py310h06a4308_0
+  - fontconfig=2.14.1=h55d465d_3
+  - fonttools=4.56.0=py310h89163eb_0
+  - fqdn=1.5.1=pyhd8ed1ab_1
+  - freetype=2.12.1=h4a9f257_0
+  - fsspec=2024.12.0=py310h06a4308_0
+  - glib=2.78.4=h6a678d5_0
+  - glib-tools=2.78.4=h6a678d5_0
+  - h11=0.14.0=pyhd8ed1ab_1
+  - h2=4.2.0=pyhd8ed1ab_0
+  - hpack=4.1.0=pyhd8ed1ab_0
+  - httpcore=1.0.7=pyh29332c3_1
+  - httpx=0.28.1=pyhd8ed1ab_0
+  - huggingface_hub=0.29.3=pyhd8ed1ab_0
+  - hyperframe=6.1.0=pyhd8ed1ab_0
+  - icu=73.1=h6a678d5_0
+  - idna=3.10=pyhd8ed1ab_1
+  - importlib-metadata=8.6.1=pyha770c72_0
+  - importlib_resources=6.5.2=pyhd8ed1ab_0
+  - ipykernel=6.29.5=pyh3099207_0
+  - ipython=8.34.0=pyh907856f_0
+  - isoduration=20.11.0=pyhd8ed1ab_1
+  - jedi=0.19.2=pyhd8ed1ab_1
+  - jinja2=3.1.6=pyhd8ed1ab_0
+  - jpeg=9e=h0b41bf4_3
+  - json5=0.10.0=pyhd8ed1ab_1
+  - jsonpointer=3.0.0=py310hff52083_1
+  - jsonschema=4.23.0=pyhd8ed1ab_1
+  - jsonschema-specifications=2024.10.1=pyhd8ed1ab_1
+  - jsonschema-with-format-nongpl=4.23.0=hd8ed1ab_1
+  - jupyter-lsp=2.2.5=pyhd8ed1ab_1
+  - jupyter_client=8.6.3=pyhd8ed1ab_1
+  - jupyter_core=5.7.2=pyh31011fe_1
+  - jupyter_events=0.12.0=pyh29332c3_0
+  - jupyter_server=2.15.0=pyhd8ed1ab_0
+  - jupyter_server_terminals=0.5.3=pyhd8ed1ab_1
+  - jupyterlab=4.3.6=pyhd8ed1ab_0
+  - jupyterlab_pygments=0.3.0=pyhd8ed1ab_2
+  - jupyterlab_server=2.27.3=pyhd8ed1ab_1
+  - kiwisolver=1.4.7=py310h3788b33_0
+  - krb5=1.20.1=h143b758_1
+  - lcms2=2.16=hb9589c4_0
+  - ld_impl_linux-64=2.40=h12ee557_0
+  - lerc=4.0.0=h6a678d5_0
+  - libabseil=20250127.0=cxx17_hbbce691_0
+  - libblas=3.9.0=31_h59b9bed_openblas
+  - libbrotlicommon=1.1.0=hb9d3cd8_2
+  - libbrotlidec=1.1.0=hb9d3cd8_2
+  - libbrotlienc=1.1.0=hb9d3cd8_2
+  - libcblas=3.9.0=31_he106b2a_openblas
+  - libclang13=14.0.6=default_he11475f_2
+  - libcups=2.4.2=h2d74bed_1
+  - libcurl=8.12.1=hc9e6f67_0
+  - libdeflate=1.22=hb9d3cd8_0
+  - libedit=3.1.20230828=h5eee18b_0
+  - libev=4.33=hd590300_2
+  - libexpat=2.6.4=h5888daf_0
+  - libffi=3.4.4=h6a678d5_1
+  - libgcc=14.2.0=h767d61c_2
+  - libgcc-ng=14.2.0=h69a702a_2
+  - libgfortran=14.2.0=h69a702a_2
+  - libgfortran5=14.2.0=hf1ad2bd_2
+  - libglib=2.78.4=hdc74915_0
+  - libgomp=14.2.0=h767d61c_2
+  - libiconv=1.18=h4ce23a2_1
+  - liblapack=3.9.0=31_h7ac8fdf_openblas
+  - libllvm14=14.0.6=hecde1de_4
+  - libnghttp2=1.57.0=h2d74bed_0
+  - libopenblas=0.3.29=pthreads_h94d23a6_0
+  - libpng=1.6.39=h5eee18b_0
+  - libpq=17.4=hdbd6064_0
+  - libprotobuf=5.29.3=hc99497a_0
+  - libsodium=1.0.18=h36c2ea0_1
+  - libssh2=1.11.1=h251f7ec_0
+  - libstdcxx=14.2.0=h8f9b012_2
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - libtiff=4.5.1=hffd6297_1
+  - libuuid=1.41.5=h5eee18b_0
+  - libwebp-base=1.5.0=h851e524_0
+  - libxcb=1.17.0=h8a09558_0
+  - libxkbcommon=1.8.0=hc4a0caf_0
+  - libxml2=2.13.5=hfdd30dd_0
+  - libxslt=1.1.41=h097e994_0
+  - lz4-c=1.9.4=h6a678d5_1
+  - markupsafe=3.0.2=py310h89163eb_1
+  - matplotlib=3.10.1=py310hff52083_0
+  - matplotlib-base=3.10.1=py310h68603db_0
+  - matplotlib-inline=0.1.7=pyhd8ed1ab_1
+  - minizip=4.0.3=hf59b114_0
+  - mistune=3.1.3=pyh29332c3_0
+  - munkres=1.1.4=pyh9f0ad1d_0
+  - mysql=8.4.0=h721767e_2
+  - nbclient=0.10.2=pyhd8ed1ab_0
+  - nbconvert-core=7.16.6=pyh29332c3_0
+  - nbformat=5.10.4=pyhd8ed1ab_1
+  - nccl=2.26.2.1=ha44e49d_0
+  - ncurses=6.4=h6a678d5_0
+  - nest-asyncio=1.6.0=pyhd8ed1ab_1
+  - notebook-shim=0.2.4=pyhd8ed1ab_1
+  - nspr=4.36=h5888daf_0
+  - nss=3.89.1=h6a678d5_0
+  - numpy=2.2.4=py310hefbff90_0
+  - openjpeg=2.5.2=he7f1fd0_0
+  - openldap=2.6.4=h42fbc30_0
+  - openssl=3.4.1=h7b32b05_0
+  - overrides=7.7.0=pyhd8ed1ab_1
+  - packaging=24.2=pyhd8ed1ab_2
+  - pandocfilters=1.5.0=pyhd8ed1ab_0
+  - parso=0.8.4=pyhd8ed1ab_1
+  - pcre2=10.42=hebb0a14_1
+  - pexpect=4.9.0=pyhd8ed1ab_1
+  - pickleshare=0.7.5=pyhd8ed1ab_1004
+  - pillow=11.1.0=py310hcea889d_0
+  - pip=25.0=py310h06a4308_0
+  - pkgutil-resolve-name=1.3.10=pyhd8ed1ab_2
+  - platformdirs=4.3.7=pyh29332c3_0
+  - prometheus_client=0.21.1=pyhd8ed1ab_0
+  - prompt-toolkit=3.0.50=pyha770c72_0
+  - psutil=7.0.0=py310ha75aee5_0
+  - pthread-stubs=0.4=hb9d3cd8_1002
+  - ptyprocess=0.7.0=pyhd8ed1ab_1
+  - pure_eval=0.2.3=pyhd8ed1ab_1
+  - pycparser=2.22=pyh29332c3_1
+  - pygments=2.19.1=pyhd8ed1ab_0
+  - pyparsing=3.2.2=pyhd8ed1ab_0
+  - pyside6=6.7.2=py310ha2c6bb1_0
+  - pysocks=1.7.1=pyha55dd90_7
+  - python=3.10.16=he870216_1
+  - python-dateutil=2.9.0.post0=pyhff2d567_1
+  - python-fastjsonschema=2.21.1=pyhd8ed1ab_0
+  - python-json-logger=2.0.7=pyhd8ed1ab_0
+  - python_abi=3.10=2_cp310
+  - pytz=2025.1=pyhd8ed1ab_0
+  - pyyaml=6.0.2=py310h89163eb_2
+  - pyzmq=26.2.0=py310h71f11fc_1
+  - qhull=2020.2=h4bd325d_2
+  - qtbase=6.7.2=hdaa5aa8_1
+  - qtdeclarative=6.7.2=h6a678d5_0
+  - qtshadertools=6.7.2=h6a678d5_0
+  - qtsvg=6.7.2=he621ea3_0
+  - qttools=6.7.2=h80c7b02_0
+  - qtwebchannel=6.7.2=h6a678d5_0
+  - qtwebengine=6.7.2=hcbda680_0
+  - qtwebsockets=6.7.2=h6a678d5_0
+  - readline=8.2=h5eee18b_0
+  - referencing=0.36.2=pyh29332c3_0
+  - requests=2.32.3=pyhd8ed1ab_1
+  - rfc3339-validator=0.1.4=pyhd8ed1ab_1
+  - rfc3986-validator=0.1.1=pyh9f0ad1d_0
+  - rpds-py=0.23.1=py310hc1293b2_0
+  - send2trash=1.8.3=pyh0d859eb_1
+  - setuptools=75.8.0=py310h06a4308_0
+  - six=1.17.0=pyhd8ed1ab_0
+  - sniffio=1.3.1=pyhd8ed1ab_1
+  - soupsieve=2.5=pyhd8ed1ab_1
+  - sqlite=3.45.3=h5eee18b_0
+  - stack_data=0.6.3=pyhd8ed1ab_1
+  - terminado=0.18.1=pyh0d859eb_0
+  - tinycss2=1.4.0=pyhd8ed1ab_0
+  - tk=8.6.14=h39e8969_0
+  - tomli=2.2.1=pyhd8ed1ab_1
+  - tornado=6.4.2=py310ha75aee5_0
+  - tqdm=4.67.1=py310h2f386ee_0
+  - traitlets=5.14.3=pyhd8ed1ab_1
+  - types-python-dateutil=2.9.0.20241206=pyhd8ed1ab_0
+  - typing-extensions=4.12.2=hd8ed1ab_1
+  - typing_extensions=4.12.2=pyha770c72_1
+  - typing_utils=0.1.0=pyhd8ed1ab_1
+  - tzdata=2025a=h04d1e81_0
+  - unicodedata2=16.0.0=py310ha75aee5_0
+  - uri-template=1.3.0=pyhd8ed1ab_1
+  - urllib3=2.3.0=pyhd8ed1ab_0
+  - wcwidth=0.2.13=pyhd8ed1ab_1
+  - webcolors=24.11.1=pyhd8ed1ab_0
+  - webencodings=0.5.1=pyhd8ed1ab_3
+  - websocket-client=1.8.0=pyhd8ed1ab_1
+  - wheel=0.45.1=py310h06a4308_0
+  - xcb-util=0.4.1=hb711507_2
+  - xcb-util-cursor=0.1.5=hb9d3cd8_0
+  - xcb-util-image=0.4.0=hb711507_2
+  - xcb-util-renderutil=0.3.10=hb711507_0
+  - xkeyboard-config=2.43=hb9d3cd8_0
+  - xorg-libx11=1.8.12=h4f16b4b_0
+  - xorg-libxau=1.0.12=hb9d3cd8_0
+  - xorg-libxdmcp=1.1.5=hb9d3cd8_0
+  - xz=5.6.4=h5eee18b_1
+  - yaml=0.2.5=h7f98852_2
+  - zeromq=4.3.5=h6a678d5_0
+  - zipp=3.21.0=pyhd8ed1ab_1
+  - zlib=1.2.13=h5eee18b_1
+  - zstandard=0.23.0=py310ha75aee5_1
+  - zstd=1.5.6=hc292b87_0
+
+# How to run
+
+## Task1.ipynb
+Simply press Run All would work.
+
+Each cell has its title: Model+Dataset
+
+1. BLIP+MSCOCO
+2. BLIP+flickr30k
+3. Phi-4+MSCOCO
+4. Phi-4+flickr30k
+
+It would generate 4 csv file, each corresponds to BLIP, Phi-4's performance on MSCOCO, flickr30k.
+
+The last cell will read those 4 csv and output the plot.
+
+## Task2.ipynb
+Pressing Run all would work as well.
+
+However, those cell with "My photo" needs "myface.jpg", which is on the report.
+
+So, if you need to re-implement, skip all "my photo" cells.
+
+### Code logic
+It will load model first.
+
+Then run cell with CeleFace. It will output the generated pic into a folder. 
