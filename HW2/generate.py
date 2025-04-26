@@ -16,18 +16,10 @@ MODEL_ID = "microsoft/Phi-4-multimodal-instruct"
 
 SYSTEM_PROMPT = """
 You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
-
-1. Extract every piece of written content:
-   • Slide title
-   • Sub-bullets and their full text
-   • Definitions, formulas, and any inline examples
-
-2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
-
-3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
-
-4. If the slide shows a plot, describe the plot.
-
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
 5. Organize your output as a valid JSON object with these fields:
    {
      "title": string,
@@ -36,11 +28,7 @@ You are an AI lecture slide analyzer. The following input is an image and the OC
      "keywords": [ string ],
      "formulas": [ string ]
    }
-
-6. Output ONLY the JSON object as a string—no extra text or formatting.
-
-7. The formulas should be in LaTeX format, and the JSON object should be valid and parsable, don't generate \u00b7.
-
+6. Output ONLY the JSON object as a string, with no extra text or formatting.
 """
 
 # --- Model Setup ---
@@ -66,8 +54,10 @@ def caption_with_phi4(img: Image.Image, system: str) -> str:
     with torch.no_grad():
         outputs = model.generate(
             **inputs,
-            generation_config=generation_config,
-            max_new_tokens=generation_config.max_new_tokens,
+            max_length=1024,
+            temperature=0.0,     # 保持一致性
+            num_beams=5,          # 提高质量
+            no_repeat_ngram_size=3
         )
     return processor.decode(outputs[0], skip_special_tokens=True)
 
@@ -77,15 +67,10 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 failed = []
 # --- Main Loop: process each page ---
 reader = PdfReader(FILE)
+
 for page_num in range(1, len(reader.pages) + 1):
-    page_num = 393
-    # 1. Render PDF page to image
-    images = convert_from_path(
-        FILE, dpi=200,
-        first_page=page_num, last_page=page_num,
-        use_pdftocairo=True
-    )
-    img = images[0]
+    # read img 
+    img = Image.open(OUTPUT_DIR + f"/page_{page_num:03d}.png")
     base = f"page_{page_num:03d}"
 
     # 2. Generate raw caption
@@ -127,7 +112,7 @@ for page_num in range(1, len(reader.pages) + 1):
         # optionally bump generation_config.max_new_tokens and retry here
     finally:
         # cleanup
-        del img, images
+        del img
         gc.collect()
 
 # save failed into txt

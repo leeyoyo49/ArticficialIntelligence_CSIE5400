@@ -7,7 +7,7 @@
   },
   "keywords": ["Expected Age", "NTU CSIE", "Probability", "Expected Value", "Probability Distribution"],
   "formulas": [
-    "E[A] = \sum_{a\in A} P(a)\,a \;=\; 0.35 \times 20 + \dots"
+    "E[A] = \sum_{a\in A} P(a)\,a \;=\; 0.35 \times 20 + \dots",
     "\hat{P}(a) = \frac{\mathrm{num}(a)}{N}\qquadE[A] \approx \sum_{a\in A} \hat{P}(a)\,a",
     "E[A] \approx \frac{1}{N}\sum_{i=1}^{N} a_i"
   ]

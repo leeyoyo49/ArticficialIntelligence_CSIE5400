@@ -8,8 +8,8 @@
   },
   "formulas": [
     "R_BERT = (0.713 x 1.27) + (0.515 x 7.94) + ... / (1.27 + 7.94 + 1.82 + 7.90 + 8.88)",
-    "Pairwise Cosine Similarity Formula": "cos(θ) = (A . B) / (||A|| ||B||)",
-    "Maximum Similarity Formula": "max(Similarity Scores)"
+    "Pairwise Cosine Similarity Formula: cos(θ) = (A . B) / (||A|| ||B||)",
+    "Maximum Similarity Formula: max(Similarity Scores)"
   ],
   "keywords": [
     "BERT",

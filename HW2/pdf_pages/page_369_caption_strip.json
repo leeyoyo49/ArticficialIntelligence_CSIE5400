@@ -11,7 +11,7 @@
   "formulas": [
     "V\u0305\u2080 (s) = 0",
     "V\u0305\u2081 (s) \u2192 \u222a T(s, \u03c0(s), s') [R(s, \u03c0(s), s')] + \u03b7V\u0305 (s')",
-    "V\u0305 (s) = \u222x V\u0305 (s1) V\u0305 (s2) ..."
+    "V\\u0305 (s) = x V\\u0305 (s1) V\\u0305 (s2) ..."
   ],
   "keywords": [
     "Policy Evaluation",
