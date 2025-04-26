@@ -1,0 +1,20 @@
+iY     Reflexion [NeurlPS 2023]                                       (
+_
+
+Reflexion uses verbal reinforcement to help agents learn from
+prior failings, i.e., converting binary (e.g., success/fail) or scalar
+feedback from the environment into verbal feedback in the form
+of a textual summary, which is then added as additional context
+for the MLLM agent in the next episode.
+
+Reflexion utilizes three distinct models:
+
+¢ Actor: generating text and actions
+
+¢ Evaluator: scoring the outputs produced by the Actor
+
+¢ Self-Reflection model: generating verbal reinforcement cues to
+assist the Actor in self-improvement.
+
+Source: “Reflexion: Language Agents with Verbal Reinforcement Learning,” NeurlPS, 2023.
+

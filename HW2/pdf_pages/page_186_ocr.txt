@@ -1,0 +1,13 @@
+aN  Solve it by Machine Learning (ML)?         (
+
+Tons of labeled data needed!                "ls
+
+ 
+
+“Bill Gates”
+
+Would we still refer to ML as Al when it requires vast
+amounts of labeled data to learn such a “simple” task?
+
+12                                                                                          Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

@@ -1,0 +1,20 @@
+{
+  "title": "Problems with TD Value Learning",
+  "definitions": {
+    "TD value leaning": "a model-free way to do policy evaluation",
+    "Q-values": "Learn Q-values, not values",
+    "action selection": "Makes action selection model-free too!"
+  },
+  "formulas": [
+    "π(s) = arg max(Q(s, a)",
+    "Q(s, a) = Σ T(s, a, s') [R(s, a, s') + γV(s')]"
+  ],
+  "keywords": [
+    "TD value leaning",
+    "model-free",
+    "policy evaluation",
+    "Q-values",
+    "action selection"
+  ],
+  "summary": "The slide discusses the issues with TD value learning in policy evaluation, suggesting learning Q-values instead of values to make action selection model-free."
+}

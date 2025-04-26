@@ -1,0 +1,17 @@
+{
+  "title": "Policy Extraction",
+  "definitions": {
+    "Policy": "A set of rules or guidelines that govern the behavior of an AI system."
+  },
+  "formulas": [
+    "The policy extraction process involves identifying and extracting the rules that an AI system uses to make decisions."
+  ],
+  "keywords": [
+    "Policy",
+    "Extraction",
+    "AI system",
+    "Rules",
+    "Guidelines"
+  ],
+  "summary": "The slide discusses the concept of 'Policy Extraction' in the context of AI systems. It defines 'Policy' as a set of rules or guidelines that govern the behavior of an AI system. The slide also mentions that the policy extraction process involves identifying and extracting the rules that an AI system uses to make decisions."
+}

@@ -1,0 +1,53 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "A Running Example (3/4)",
+  "definitions": {
+    "Automatic Curriculum": "A system that provides a sequence of tasks or learning activities for a learner.",
+    "Iterative Prompting Mechanism": "A process that repeatedly asks for input or provides feedback to refine a task or action.",
+    "Skill Library": "A collection of predefined skills or actions that can be used in a task or game."
+  },
+  "formulas": [
+    "async function combatZombie(bot) {",
+    "const sword = bot.inventory.findInventoryItem(\"stone_sword\");",
+    "if (sword) {",
+    "await bot.equip(sword, \"hand\");",
+    "} else {",
+    "await craftStoneSword(bot);",
+    "}",
+    "await craftShield(bot);",
+    "...",
+    "}"
+  ],
+  "keywords": [
+    "Automatic Curriculum",
+    "Iterative Prompting Mechanism",
+    "Skill Library",
+    "combatZombie",
+    "bot"
+  ],
+  "summary": "The slide presents a running example of an automatic curriculum in a game, where a bot is given tasks to combat zombies. The bot uses an iterative prompting mechanism to equip itself with a sword or craft one if it doesn't have one. The skill library includes tasks like making a crafting table, crafting a stone sword, and crafting a shield. The environment is updated based on the bot's exploration progress and code execution errors."
+  }
+}
+```

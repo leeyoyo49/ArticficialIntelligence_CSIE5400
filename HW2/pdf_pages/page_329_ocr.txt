@@ -1,0 +1,17 @@
+Values of States
+
+m Recursive definition of value (similar to expectimax):
+
+V*(s) =
+
+ 
+
+sisa
+state
+
+(s, a)isa
+q-state
+
+(s,a,s’) isa
+transition
+

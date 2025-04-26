@@ -1,0 +1,19 @@
+{
+  "title": "Goal: Entity-Centric -> Event-Centric",
+  "definitions": {
+    "State-of-the-art Captioner": "An advanced system for generating captions for images.",
+    "Entity-centric": "A method of focusing on the entities within an image.",
+    "Event-centric": "A method of focusing on the events or actions within an image."
+  },
+  "formulas": [
+    "Knowledge-Driven Vision-Language Encoding"
+  ],
+  "keywords": [
+    "Entity-Centric",
+    "Event-Centric",
+    "Captioner",
+    "State-of-the-art",
+    "Protest"
+  ],
+  "summary": "The slide presents a goal to shift from an entity-centric to an event-centric approach in image captioning. It includes a definition of a state-of-the-art captioner and a diagram illustrating the transition from entity-centric to event-centric methods. The slide also features a photograph of a protest, with a captioner example and a diagram showing the entities and events in the image."
+}

@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Stanford AI Village [JUST 2023]",
+  "definitions": {
+    "Episodic memory of experience": "A type of memory that captures specific events or episodes from an individual's life."
+  },
+  "formulas": [],
+  "keywords": [
+    "Stanford",
+    "AI",
+    "Village",
+    "JUST",
+    "2023",
+    "Episodic memory",
+    "Experience",
+    "Generative Agents",
+    "Interactive Simulacra",
+    "Human Behavior"
+  ],
+  "summary": "The slide presents the concept of 'Stanford AI Village' as a platform for studying episodic memory of experience through interactive simulations. It includes various scenarios like taking a walk in the park, joining for coffee at a cafe, arriving at school, sharing news with colleagues, and finishing a morning routine. The source is cited as 'Generative Agents: Interactive Simulacra of Human Behavior,' UIST, 2023."
+}
+```

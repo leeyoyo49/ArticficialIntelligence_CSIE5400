@@ -1,0 +1,30 @@
+iY    Sequence to Sequence Generation
+_
+
+ 
+
+with Transformer Based Models
+
+¢ Input: Sequence x,, ..., X7
+¢ Output: Sequence yj, ..., yr
+
+¢ Transformer is an encoder-decoder architecture:
+‧ An encoder (neural network) analyzes the input and builds an
+intermediate representation (a.k.a. context vector) of it;
+¢ Adecoder (neural network) analyzes the intermediate
+representation and creates an output.
+
+/
+
+The house                       Context
+is red                                   Vector
+
+9                                                                                                                  Source: https://huggingface.co/blog/encoder-decoder
+
+ 
+
+La casa e
+rossa
+
+  
+

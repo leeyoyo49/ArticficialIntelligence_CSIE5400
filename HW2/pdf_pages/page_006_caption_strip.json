@@ -1,0 +1,20 @@
+{
+  "title": "SkillMim: Skill Learning Results",
+  "definitions": {
+    "SkillMim": "Skill Learning Results"
+  },
+  "formulas": [],
+  "keywords": [
+    "SkillMim",
+    "Skill Learning",
+    "Results",
+    "Dribble",
+    "Layup",
+    "Jump shot",
+    "Turnaround layup",
+    "Rebound",
+    "Pickup",
+    "Pass"
+  ],
+  "summary": "The slide presents the results of SkillMim, a system that enables the learning of diverse basketball skills within a single policy. It visually demonstrates various basketball maneuvers such as dribbling, layups, jump shots, and passing."
+}

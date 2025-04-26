@@ -1,0 +1,17 @@
+{
+  "title": "Problems with Direct Evaluation",
+  "definitions": {
+    "Direct Evaluation": "It's easy to understand, doesn't require any knowledge of T, R, and eventually computes the correct average values, using just sample transitions."
+  },
+  "formulas": [
+    "Output Values"
+  ],
+  "keywords": [
+    "Direct Evaluation",
+    "T",
+    "R",
+    "average values",
+    "sample transitions"
+  ],
+  "summary": "The slide discusses the pros and cons of direct evaluation in the context of artificial intelligence. It highlights that while direct evaluation is easy to understand and doesn't require knowledge of T and R, it has drawbacks such as wasting information about state connections and the need to have all episodes ahead of time, which is not feasible."
+}

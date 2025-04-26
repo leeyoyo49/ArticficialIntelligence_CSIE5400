@@ -1,0 +1,18 @@
+iY   A Case Study                                         (
+mm
+
+= Task: Language Model Self-Improvement (LMSI)
+
+e To improve language models without requiring external
+supervision, in an unsupervised training manner
+
+e Two notable LMSI works
+
+* RLCAI (arXiv 2022)         RLCAI employs a model to evaluate which of
+
+* RLAIF (arXiv 2023)          the two answers better adheres to a set of
+rules or principles, subsequently creating a
+dataset of Al preferences. The system then
+trains using reinforcement learning, with the
+preference model as the reward signal.
+

@@ -1,0 +1,42 @@
+Multimodal Reasoning
+
+  
+
+For MLLMs, how to understand text-to-image references?
+The Image Declaration is proposed as a solution to establish the
+reference between image and text.
+
+Original VL Task                   (a) Image Declaration               (b) Multi-modal Data with Interconnected Images
+
+Visual Question Answering                                                                  ~
+Carefully analyze image j: [[MG,]         Carefully analyze images to answer the question.
+
+en    |  TL. oe
+和生  ee A a   to answer the question.    In image 0: [IMG] i  Say is image 1: [JMG,] A. 4
+
+Are the men and women            ICE              quarrelling with image 2: [JMG2]  Sy 2
+are quarrelling?                       ee
+Answer: Yes                      : Yes
+wy        (c) Unified Multi-modal-in-context Format
+品
+
+站      Q: The image 0 is uwo攻生呈   Carefully analyze the
+Image:Captioning                   The image j is [/MG;] Ea
+
+image 0 to generate a concise and accurate description that
+
+ 
+
+ 
+
+=: @ Carefully analyze image j to                 accurately Tepresents the objects, people, or scenery present.
+ee          人ri generate a concise and accurate               A: An airplane flying in the sky,
+aes,                description that accurately                    : The image is [/A/G/] 一、 Carefully analyze the
+An eee              represents the objects, people, and          同          ee jis [1G]能  人           pees
+時                    scenery present.                               image j to generate a concise and accurate description that
+accurately represents the objects, people, or scenery present.
+~       A
+wav Machine Annotation          ?  Manual Annotation              [IMG] Image Proxy
+
+44                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

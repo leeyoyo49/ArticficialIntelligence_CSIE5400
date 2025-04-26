@@ -1,0 +1,19 @@
+{
+  "title": "k=100",
+  "definitions": {
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=100"
+  ],
+  "keywords": [
+    "k",
+    "100",
+    "Noise",
+    "Discount",
+    "Living reward"
+  ],
+  "summary": "The slide presents a grid with numerical values after 100 iterations, indicating a simulation or model output. The values are color-coded, with green for positive values and red for a negative value. The slide also includes definitions for 'Noise', 'Discount', and 'Living reward'."
+}

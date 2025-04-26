@@ -1,0 +1,27 @@
+  
+
+iY     Self-Attention Layer
+mm
+
+Permutation equivariant
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+self-attention                                    self-attention                                         self-attention
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+Self-attention layer doesn’t care about the orders of the inputs!
+Problem: How can we encode ordered sequences like language or spatially ordered image features?
+
+— That’s why we need positional encoding!
+
+27                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

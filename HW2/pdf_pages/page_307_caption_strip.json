@@ -1,0 +1,18 @@
+{
+  "title": "Non-Deterministic Search",
+  "definitions": {
+    "Non-Deterministic": "A type of search algorithm that does not guarantee to find the best solution, but rather explores multiple possible solutions.",
+    "Search Algorithm": "A method for finding a solution to a problem by systematically searching among all possible solutions."
+  },
+  "formulas": [
+    "No formulas present"
+  ],
+  "keywords": [
+    "Non-Deterministic",
+    "Search Algorithm",
+    "Best Solution",
+    "Multiple Solutions",
+    "Systematic Search"
+  ],
+  "summary": "The slide presents the concept of Non-Deterministic Search, explaining it as a search algorithm that explores multiple possible solutions without guaranteeing the best one. It includes a visual metaphor of an astronaut in a dangerous situation, symbolizing the exploration and uncertainty involved in such searches."
+}

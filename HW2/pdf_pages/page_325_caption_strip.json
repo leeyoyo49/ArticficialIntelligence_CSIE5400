@@ -1,0 +1,21 @@
+{
+  "title": "Solving MDPs",
+  "definitions": {
+    "MDP": "Markov Decision Process",
+    "State": "A representation of the system at a certain point in time",
+    "Action": "A decision made by the agent",
+    "Reward": "The feedback received by the agent from the environment",
+    "Policy": "A strategy used by the agent to decide the next action"
+  },
+  "formulas": [
+    "V(s) = \sum_{a \in A} \pi(a|s) \cdot [R(s, a) + \gamma \sum_{s' \in S} P(s'|s, a) \cdot V(s')]"
+  ],
+  "keywords": [
+    "Markov",
+    "Decision",
+    "Process",
+    "State",
+    "Action"
+  ],
+  "summary": "The slide presents an overview of solving Markov Decision Processes (MDPs), including key definitions and the Bellman equation used to calculate the value function V(s) for a given state s."
+}

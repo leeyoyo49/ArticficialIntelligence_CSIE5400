@@ -1,0 +1,15 @@
+{
+  "title": "Text to Image Generation with Diffusion Based Models",
+  "definitions": {
+    "Diffusion Process": "Diffusion models are inspired by non-equilibrium thermodynamics. For a small fraction of the time, it is difficult to determine whether particles are moving in the direction of mixing or in the opposite direction."
+  },
+  "formulas": [],
+  "keywords": [
+    "Diffusion Process",
+    "Non-equilibrium thermodynamics",
+    "Particles",
+    "Mixing",
+    "Opposite direction"
+  ],
+  "summary": "The slide discusses diffusion models inspired by non-equilibrium thermodynamics. It highlights the difficulty in determining the direction of particle movement during the diffusion process."
+}

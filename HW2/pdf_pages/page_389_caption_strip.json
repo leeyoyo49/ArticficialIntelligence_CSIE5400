@@ -1,0 +1,23 @@
+{
+  "title": "Passive Reinforcement Learning",
+  "definitions": {
+    "policy evaluation": "Simplified task: policy evaluation",
+    "fixed policy": "Input: a fixed policy π(s)",
+    "transitions": "You don't know the transitions T(s,a,s')",
+    "rewards": "You don't know the rewards R(s,a,s')",
+    "state values": "Goal: learn the state values"
+  },
+  "formulas": [
+    "π(s)",
+    "T(s,a,s')",
+    "R(s,a,s')"
+  ],
+  "keywords": [
+    "policy evaluation",
+    "fixed policy",
+    "transitions",
+    "rewards",
+    "state values"
+  ],
+  "summary": "The slide discusses Passive Reinforcement Learning, focusing on policy evaluation. It explains that the learner does not have control over actions or know the transitions and rewards. The goal is to learn the state values. The learner follows a fixed policy and learns from experience, which is not offline planning."
+}

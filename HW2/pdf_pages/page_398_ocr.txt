@@ -1,0 +1,25 @@
+Example: Direct Evaluation
+
+ 
+
+Input Policy zr           Observed (s, a, $, R) Transitions           Output Values
+
+Episode 1                Episode 2
+
+B, east, C, -1               B, east, C, -1
+C, east, D, -1              C, east, D, -1
+
+D, exit, x, +10          D, exit, x, +10
+
+ 
+
+Episode 3                Episode 4
+
+E north, C,-1           E north, C, -1
+C, east, D, -1     C,east, A, -1
+Assume: y= 1      D, exit, x, +10   A, exit, x,-10
+
+   
+
+V(s) is sum of discounted rewards from suntil the end, averaged over all encounters of s
+

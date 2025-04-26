@@ -1,0 +1,23 @@
+| SD 全
+mm
+
+111
+
+Reasoning is one of the fundamental intelligent behaviors of
+human beings, which requires understanding and analyzing given
+conditions and background knowledge to derive a new conclusion
+logically and rationally.
+On-going Directions of Research
+
+‧ MLLM Architectures
+
+¢ Efficiency and Scalability of MLLM Training Recipes
+
+¢ Long-context Support
+
+¢ Instruction Fine-tuning (IFT) Data
+
+¢ Reinforcement Learning for Multimodal Reasoning
+
+¢ Evaluation Benchmarks
+

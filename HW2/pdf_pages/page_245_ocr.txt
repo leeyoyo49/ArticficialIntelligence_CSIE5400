@@ -1,0 +1,20 @@
+71
+
+ 
+
+                                                                                                                                                                                                                                                                 
+
+Object                                         Entity
+
+ 
+
+Relation                 |
+
+ 
+
+Scene Graph         |
+
+ 
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

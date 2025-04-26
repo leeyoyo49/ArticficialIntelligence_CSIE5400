@@ -1,0 +1,25 @@
+Example: Grid World
+
+ 
+
+mw Amazeike problem
+m= Theagentlives in agrid
+mu Walls block the agent's path
+
+m Noisy movement: actions do not always go as planned
+= 80% of the time, the action North takes the agent North
+
+(if there is no wall there)
+10% of the time, North takes the agent West; 10% East
+
+If there is a wall in the direction the agent would have
+been taken, the agent stays put
+
+ 
+
+m= Theagent receives rewards each time step
+= Small “living” reward each step (can be negative)
+= Bigrewards come at the end (good or bad)
+
+= Goal: maximize sum of rewards
+

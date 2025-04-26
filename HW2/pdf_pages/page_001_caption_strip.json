@@ -1,0 +1,18 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "Artificial Intelligence": "AI is the simulation of human intelligence processes by computer systems.",
+    "AI Agent": "An AI agent is a system that perceives its environment and takes actions to achieve its goals."
+  },
+  "formulas": [
+    "AI = Intelligence + Technology"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "AI Agent",
+    "Intelligence",
+    "Simulation",
+    "Computer Systems"
+  ],
+  "summary": "The slide introduces the topic of Artificial Intelligence, focusing on preliminaries and the basics of AI agents. It includes a definition of AI and AI agents, and presents a simple formula combining intelligence and technology."
+}

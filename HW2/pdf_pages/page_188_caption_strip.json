@@ -1,0 +1,19 @@
+{
+  "title": "Few-shot chain-of-thought (CoT)",
+  "definitions": {
+    "CoT": "Few-shot chain-of-thought (CoT) is a method of problem-solving that involves generating a series of thoughts or steps to arrive at a solution."
+  },
+  "formulas": [
+    "The 'Last Letter Concatenation' problem is a problem that involves concatenating the last letter of one word with the first letter of the next word."
+  ],
+  "keywords": [
+    "Few-shot chain-of-thought",
+    "CoT",
+    "Last Letter Concatenation",
+    "LLMs",
+    "Elon Musk",
+    "Bill Gates",
+    "Barack Obama"
+  ],
+  "summary": "The slide discusses the 'Last Letter Concatenation' problem and how it can be solved using Few-shot chain-of-thought (CoT) with the help of Large Language Models (LLMs). The slide provides examples of the problem with the names 'Elon Musk', 'Bill Gates', and 'Barack Obama', and shows that the LLMs are not able to solve the problem correctly."
+}

@@ -1,0 +1,9 @@
+iY    MLLMs as Agent Models                           (
+『
+
+¢ MLLMs predict model-specific tokens
+(W1,W2, We) — West
+¢ Al Agents predict observation-action sequences
+¢ Policy model: (01, a1, 02,a2,...,0¢) — a
+¢ World model: (01, 44,02, 42, --,0¢,4¢) 一 Or+1
+

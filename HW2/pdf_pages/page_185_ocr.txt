@@ -1,0 +1,10 @@
+iY   Let’s start from a toy problem                     (
+mm
+
+‘Last Letter Concatenation’
+Rule: Take the last letter of each word, and then concatenate them
+
+ 
+
+11                                                                                           Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

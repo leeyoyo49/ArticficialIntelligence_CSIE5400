@@ -1,0 +1,120 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>¢ MMStar [NeurlIPS 2024]
+
+ 
+
+ 
+
+Experts Choice
+‘Tokens Choice
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10!                   10                  10!
+
+Demse
+w     10°
+Total Training TPUv3-days     ‘Total Training ExaFLOP" &   ap
+(b) ImageNet 10-shot Accuracy     W   @)
+
+at is the capital of Nebraska?  :
+
+ 
+
+A: Providence
+
+B: Saint Paul
+
+C: Lincoin
+
+D: Kansas City
+The image does nothing,
+it‘s the same as asking
+me with a text question
+directly.
+
+Which model can achieve the best
+ImageNet 10-shot Accuracy score?
+
+B: Experts Choice
+C: Tokens Choice
+D: Dense
+
+MathVista: question-565 Answer:A LLM
+
+#Correct LLMs : 16/22 (72.7%)
+101
+
+=
+
+SEED-Benchimage: question-75500 :
+
+#LLM-LVLM™* Pairs : 9/16 (56.3%)
+
+What is the shape of the round dirt
+
+A: Square
+B:  riangle
+
+D: Diamond
+@)
+LLM Be |
+
+Which cell type is pictured?
+A: Eosinophil
+
+B: Thrombocyte
+
+C: Lymphocyte
+
+D: Monocyte
+: Neutrophil
+
+@<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMS": "NeurIPS 2024",
+    "LLM": "Language Model",
+    "LVM": "Language Vision Model",
+    "SEED-Bench": "Benchmark",
+    "MathVista": "Benchmark"
+  },
+  "formulas": [
+    "Total Training TPUv3-days",
+    "Total Training ExaFLOP"
+  ],
+  "keywords": [
+    "MMS",
+    "NeurIPS",
+    "2024",
+    "LLM",
+    "LVM",
+    "SEED-Bench",
+    "MathVista",
+    "Benchmark"
+  ],
+  "summary": "The slide presents various reasoning benchmarks emerging in the field of artificial intelligence, specifically focusing on the MMS model at NeurIPS 2024. It includes examples of questions and answers related to geography, image recognition, and cell types, demonstrating the capabilities of different language models in answering these questions."
+}
+```

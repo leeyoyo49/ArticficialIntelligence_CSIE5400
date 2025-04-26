@@ -1,0 +1,52 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Sample tasks proposed by the automatic curriculum",
+  "definitions": {
+    "inventory": "A list of items the player has collected.",
+    "biome": "A type of environment in the game.",
+    "nearby entities": "Entities that are close to the player.",
+    "health": "The player's current health status.",
+    "hunger": "The player's current hunger status.",
+    "time": "The current time in the game.",
+    "equipment": "Items the player is currently equipped with."
+  },
+  "formulas": [
+    "inventory (5/36): {\"oak_planks\": 3, \"stick\": 4, \"crafting_table\": 1, \"stone\": 3, \"wooden_pickaxe\": 1}",
+    "inventory (4/36): {\"sugar_cane\": 3, \"paper\": 3, \"fishing_rod\": 1, \"wooden_pickaxe\": 1}",
+    "inventory (6/36): {\"furnace\": 1, \"stone_pickaxe\": 1, \"oak_planks\": 7, \"crafting_table\": 1, \"raw_iron\": 4, \"coal\": 1}",
+    "inventory (6/36): {\"furnace\": 1, \"stone_pickaxe\": 1, \"oak_planks\": 7, \"crafting_table\": 1, \"raw_iron\": 4, \"coal\": 1}"
+  ],
+  "keywords": [
+    "inventory",
+    "biome",
+    "nearby entities",
+    "health",
+    "hunger",
+    "time",
+    "equipment"
+  ],
+  "summary": "The slide presents sample tasks proposed by an automatic curriculum for a game, likely Minecraft, based on the player's inventory, biome, nearby entities, health, hunger, time, and equipment. Each task is accompanied by a reasoning and a specific action to be taken."
+}
+```

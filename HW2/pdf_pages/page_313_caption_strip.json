@@ -1,0 +1,19 @@
+{
+  "title": "What is Markov about MDPs?",
+  "definitions": {
+    "Markov": "generally means that given the present state, the future and the past are independent",
+    "Markov decision processes": "means action outcomes depend only on the current state"
+  },
+  "formulas": [
+    "P(St+1 = s' | St = st, At = a_t, St-1 = st-1, At-1, ..., S0 = s0) = P(St+1 = s' | St = st, At = a_t)",
+    "P(St+1 = s' | St = st, At = a_t)"
+  ],
+  "keywords": [
+    "Markov",
+    "MDPs",
+    "decision processes",
+    "action outcomes",
+    "current state"
+  ],
+  "summary": "The slide explains Markov's concept in the context of Markov Decision Processes (MDPs), emphasizing that action outcomes depend solely on the current state, similar to search algorithms where the successor function depends only on the current state, not the history."
+}

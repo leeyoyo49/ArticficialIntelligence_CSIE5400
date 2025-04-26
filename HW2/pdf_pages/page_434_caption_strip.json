@@ -1,0 +1,17 @@
+{
+  "title": "Reinforcement Learning Contemplation (RLC) [ICLR 2024]",
+  "definitions": {
+    "RLC": "Reinforcement Learning Contemplation"
+  },
+  "formulas": [],
+  "keywords": [
+    "Reinforcement Learning",
+    "Contemplation",
+    "Language Model",
+    "Unlabelled Question Set",
+    "Self-evaluation",
+    "Rewards",
+    "Optimization"
+  ],
+  "summary": "The slide discusses Reinforcement Learning Contemplation (RLC), a method where a language model generates answers to unlabelled samples and evaluates their quality. RLC uses self-evaluation results as rewards to optimize the language model."
+}

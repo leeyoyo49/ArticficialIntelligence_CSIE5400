@@ -1,0 +1,20 @@
+{
+  "title": "Voyager [TMLR 2024] A procedural memory of skills",
+  "definitions": {
+    "Procedural memory of skills": "A type of memory that involves skills and tasks that can be performed without conscious thought."
+  },
+  "formulas": [],
+  "keywords": [
+    "Voyager",
+    "TMLR 2024",
+    "Procedural memory",
+    "Skills",
+    "MLLMs",
+    "OpenAI's APIs",
+    "Game mechanics",
+    "Automatic curriculum",
+    "Skill library",
+    "Iterative prompting"
+  ],
+  "summary": "The slide discusses the Voyager project, which aims to improve game mechanics understanding by leveraging MLLMs (Large Language Models) and OpenAI's APIs. It introduces an automatic curriculum and skill library, where the curriculum proposes increasingly complex tasks and the skill library serves as a learning and evolution basis. The iterative prompting mechanism refines the program and incorporates it into the skill library as a new skill."
+}

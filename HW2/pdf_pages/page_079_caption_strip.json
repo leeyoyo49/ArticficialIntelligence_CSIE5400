@@ -1,0 +1,19 @@
+{
+  "title": "Reflexion [NeurIPS 2023]",
+  "definitions": {
+    "Reflexion": "Reflexion uses verbal reinforcement to help agents learn from prior failings, i.e., converting binary (e.g., success/fail) or scalar feedback from the environment into verbal feedback in the form of a textual summary, which is then added as additional context for the MLLM agent in the next episode."
+  },
+  "formulas": [],
+  "keywords": [
+    "Reflexion",
+    "Verbal reinforcement",
+    "Agents",
+    "Failings",
+    "Binary feedback",
+    "Scalar feedback",
+    "Textual summary",
+    "MLLM agent",
+    "Episode"
+  ],
+  "summary": "The slide discusses 'Reflexion', a method that uses verbal reinforcement to help agents learn from their failures by converting feedback into textual summaries. It outlines three models: Actor, Evaluator, and Self-Reflection model, each with a specific role in the learning process."
+}

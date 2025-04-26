@@ -1,0 +1,21 @@
+  
+
+iY    Tricks for handling a constantly changing input and output
+和
+
+= Target Network
+
+e Since the same network is calculating the predicted value and the target
+value, there could be a lot of divergence between these two. So, instead of
+using one neural network for learning, we can use two.
+
+e We could use a separate network to estimate the target. This target
+network has the same architecture as the function approximator but with
+frozen parameters. For every C iterations (a hyperparameter), the
+parameters from the prediction network are copied to the target network.
+
+e This leads to more stable training because it keeps the target function fixed
+(for a while).
+
+144
+

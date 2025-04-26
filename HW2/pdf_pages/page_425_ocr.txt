@@ -1,0 +1,23 @@
+Ay
+
+140
+
+A Comparison Between
+Q-learning & Deep Q-learning
+
+Q-Table       So Si S2 53 Sa
+
+十4.21 十3.24 十1.84 十2.33 十3.73
+
+ 
+
+  
+
+Ql |+2.53 +7.44 +3.34 +5.31 +6.22
+
+DQN
+
+Q(s,a) > Q(3,1) > §               +> 4+5.31
+
+ 
+

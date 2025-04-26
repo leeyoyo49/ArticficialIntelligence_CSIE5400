@@ -1,0 +1,16 @@
+SkillMimic: Skill Learning Results
+
+Dribble left                                  Dribble turn                                 Dribble back
+
+ 
+
+Layup                                           mp shot                               Turnaround layup
+
+ 
+
+Rebound                                        Pickup                                            Pass
+
+ 
+
+Learning diverse basketball skills within a single policy
+

@@ -1,0 +1,22 @@
+{
+  "title": "Model-Based Imitation Learning for Urban Driving [NeurIPS 2022]",
+  "definitions": {
+    "RGB input": "The input image in the RGB color space at a specific time t.",
+    "sepia-coloured": "A color scheme that is a combination of red, green, and blue, used to indicate the model is driving in imagination.",
+    "BEV": "Bird's-eye view, a type of view from above the scene.",
+    "ground truth": "The actual data or measurement that is being compared to the predicted data.",
+    "Pred. acceleration": "Predicted acceleration value.",
+    "Pred. steering": "Predicted steering value."
+  },
+  "formulas": [
+    "The model can drive in the simulator with a driving plan predicted entirely from imagination."
+  ],
+  "keywords": [
+    "Model-Based Imitation Learning",
+    "Urban Driving",
+    "NeurIPS 2022",
+    "RGB input",
+    "sepia-coloured"
+  ],
+  "summary": "The slide presents an example of Model-Based Imitation Learning for Urban Driving, where a model can drive in a simulator with a driving plan predicted entirely from imagination. The slide includes an RGB input image, a comparison of ground truth and predicted bird's-eye view semantic segmentation, and a comparison of predicted acceleration and steering values."
+}

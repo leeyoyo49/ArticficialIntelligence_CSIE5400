@@ -1,0 +1,22 @@
+Infinite Utilities?!
+
+ 
+
+mg Problem: What if the game lasts forever? Do we get infinite rewards?
+
+m Solutions:
+m Finite horizon: (similar to depth-limited search)
+= Terminate episodes after a fixed T steps (e.g. life)
+m Gives nonstationary policies (7depends on time left)
+
+ 
+
+m Discounting: use 0 <y <1
+CO
+U(Iro,.-- Tool) = S- y'rt < Rmax/(1 — 7)
+t=0
+= Smaller y means smaller “horizon” — shorter term focus
+
+m Absorbing state: guarantee that for every policy, a terminal state will eventually
+be reached (like “overheated” for racing)
+

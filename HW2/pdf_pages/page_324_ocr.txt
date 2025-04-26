@@ -1,0 +1,15 @@
+Recap: Defining MDPs
+
+m Markov decision processes:
+m Setof states S
+m Start state so
+g Set of actions A
+m Transitions P(s'|s,a) (or T(s,a,s’))                        a
+= Rewards R(s,a,s’) (and discount y)                   Sas
+
+ 
+
+= MDP quantities so far:
+= Policy = Choice of action for each state
+gw Utility =sum of (discounted) rewards
+

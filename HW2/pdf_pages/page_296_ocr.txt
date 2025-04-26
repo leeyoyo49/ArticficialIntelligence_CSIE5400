@@ -1,0 +1,27 @@
+DM: feature point matching methods
+
+However, MSE directly matches pixel-level or patch-level information
+without capturing the semantic structures embedded in highdimensional
+manifolds, which falls short for distribution comparison.
+
+@ Synthetic Data yy Real Data
+
+一[La |
+
+min L(D, D,|ZpR)     1     AU D2|Zp
+
+»
+
+PRS   e\ |
+     ye i    |,
+!    oe |   頁 |
+6%)  NR) a)
+
+weeemeweee ewe ew oe =
+
+ee
+
+村人人 ew we we HY
+
+(a) Previous paradigm: optimize D to minimize the distance within Z.
+

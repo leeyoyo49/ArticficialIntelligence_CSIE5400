@@ -1,0 +1,16 @@
+iY   This Lecture — Agenda                           (
+mm
+
+= Markov Decision Processes (MDP)
+=m Defining MDP
+m= Policy Methods
+= Reinforcement Learning
+= Passive Reinforcement Learning
+m Active Reinforcement Learning
+= Approximate Reinforcement Learning
+m Case Study
+
+e Language Model Self-improvement
+
+20
+

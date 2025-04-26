@@ -1,0 +1,17 @@
+{
+  "title": "Computing Actions from Q-Values",
+  "definitions": {
+    "Q-Values": "Optimal values used in decision-making processes in AI and machine learning to determine the best action to take in a given state."
+  },
+  "formulas": [
+    "π*(s) = arg max Q*(s,a)"
+  ],
+  "keywords": [
+    "Q-Values",
+    "Optimal",
+    "Actions",
+    "Decide",
+    "Max"
+  ],
+  "summary": "The slide discusses the concept of computing actions from Q-values in AI, highlighting the triviality of decision-making and the importance of selecting actions over values."
+}

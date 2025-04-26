@@ -1,0 +1,10 @@
+The Transformer Encoder Block (1/5)
+
+  
+
+Made up of N encoder blocks.
+
+Transformer encoder
+
+15                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

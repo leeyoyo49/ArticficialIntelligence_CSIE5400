@@ -1,0 +1,19 @@
+{
+  "title": "Transfer text event knowledge to images",
+  "definitions": {
+    "Caption Text": "Antigovernment protesters carry an injured man on a stretcher after clashes with riot police on Independence Square in Kyiv on February 20, 2014.",
+    "Text Information Extraction": "A process of extracting structured information from unstructured text.",
+    "Weakly Supervision": "A type of supervision where the model is trained with a small amount of labeled data and a large amount of unlabeled data."
+  },
+  "formulas": [
+    "No formulas present in the image."
+  ],
+  "keywords": [
+    "Caption Text",
+    "Text Information Extraction",
+    "Weakly Supervision",
+    "Event Type",
+    "Transport (carry)"
+  ],
+  "summary": "The slide presents the concept of transferring text event knowledge to images using a process called Text Information Extraction. It involves weakly supervised learning, where a model is trained with limited labeled data and a large amount of unlabeled data. The example given is of antigovernment protesters carrying an injured man on a stretcher after a clash with riot police."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Offline (MDPs) vs. Online (RL)",
+  "definitions": {
+    "Offline Solution": "Compute policy ahead of time",
+    "Online Learning": "Compute policy as experience comes in"
+  },
+  "formulas": [],
+  "keywords": [
+    "Offline Solution",
+    "Online Learning",
+    "MDPs",
+    "RL",
+    "policy"
+  ],
+  "summary": "The slide compares two approaches to computing policy in artificial intelligence: Offline (MDPs) and Online Learning (RL). Offline Solution involves computing the policy ahead of time, while Online Learning involves computing the policy as experience comes in."
+}

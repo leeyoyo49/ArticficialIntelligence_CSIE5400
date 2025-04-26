@@ -1,0 +1,13 @@
+{
+  "title": "Example - Gridworld Q* Values",
+  "definitions": {},
+  "formulas": [],
+  "keywords": [
+    "Gridworld",
+    "Q* Values",
+    "Iterations",
+    "Values",
+    "100 iterations"
+  ],
+  "summary": "The slide presents a gridworld with Q* values after 100 iterations. The grid is color-coded to represent different Q* values, with green indicating positive values, red indicating negative values, and gray indicating neutral or zero values. The highest value is 1.00, and the lowest is -1.00."
+}

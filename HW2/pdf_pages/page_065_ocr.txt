@@ -1,0 +1,25 @@
+¢ The model can drive in the simulator with a driving
+plan predicted entirely from imagination.
+
+ 
+
+   
+
+ee g             a             8
+
+i                                  |
+
+                               |
+RGB input (time t)                                                          Ground truth BEV (time t) Pred. BEV (time t)
+
+RGB input                                   Pred. acceleration; —_____ = 0.34
+Pred. steering:    —SS 二
+
+ 
+
+When the RGB input becomes sepia-coloured,
+the model is driving in imagination.                  Ground truth bird's-eye view Predicted bird’s-eye view
+
+semantic segmentation          segmentation
+65
+

@@ -1,0 +1,23 @@
+A
+
+31
+
+  
+
+Y     Inference Approaches
+
+Best-of-N search generates N complete responses and selects the best one among them.
+Sentence-level Beam Search generates multiple candidate options for each sentence and chooses the best one.
+
+Stage-level Beam Search generates candidates for each reasoning stage (e.g., summary, caption, reasoning, and
+conclusion) and selects the best option at each stage.
+
+Best-of-N Search                                   Sentence-level Beam Search                          Stage-level Beam Search
+
+Question                                                                      Question                                                                      Question
+
+ 
+
+!   | = Apply Verification       = Skip Verification   @ = Selected upon Verification   @ = Rejected upon Verification
+Source: “LLaVA-CoT: Let Vision Language Models Reason Step-by-Step,” arXiv, 2025.
+

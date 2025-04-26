@@ -1,0 +1,50 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>iY   How to perform step by step reasoning
+=     without using demonstration examples?
+
+  
+
+“Let’s think step by step” (Zero-shot CoT)
+
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls,
+and half of the golf balls are blue. How many blue golf balls are
+there?
+
+A: The answer (arabic numerals) is
+
+(Output) 8 X
+
+ 
+
+ 
+
+一 一
+
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls,
+
+                                                                                                                                                                                                                                                                  
+
+and half of the golf balls are blue. How many blue golf balls are
+there?
+A: Let’s think step by step.
+
+(Output) There are 16 balls in total. Half of the balls are golf
+balls. That means that there are 8 golf balls. Half of the golf balls
+are blue. That means that there are 4 blue golf balls. /
+
+However, zero-shot is usually significantly worse than few-shot ...
+
+18                                                                                       Source: “Large Language Models are Zero-Shot Reasoners,” NeurlPS, 2022.<|im_end|><|im_start|>assistant<|im_sep|>{"title": "How to perform step by step reasoning without using demonstration examples?", "definitions": {"juggler": "A person who performs the act of juggling.", "balls": "Objects that are being juggled.", "golf balls": "Small, hollow balls used in the sport of golf.", "blue": "A color that is a lighter shade of blue."}, "formulas": ["16 balls in total", "Half of the balls are golf balls", "Half of the golf balls are blue"], "keywords": ["juggler", "balls", "golf balls", "blue", "16"], "summary": "The slide explains how to perform step by step reasoning without using demonstration examples. It uses a juggler and balls as an example to illustrate the process. The juggler can juggle 16 balls, half of which are golf balls, and half of the golf balls are blue. The slide concludes that there are 8 golf balls and 4 blue golf balls."}

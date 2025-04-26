@@ -1,0 +1,30 @@
+iY    BERTScore                                                         (
+ys
+
+= BERTScore Architecture
+
+Step 1: Contextual Embeddings:
+
+Reference and candidate sentences are represented using
+contextual embeddings based on surrounding words, computed
+by models like BERT, Roberta, XLNET, and XLM.
+
+Contextual          Pairwise Cosine              Maximum Similarity             Importance Weighting
+Embedding               Similarity                                                                             (Optional)
+
+Reference 7
+the weather is         一人                   一人
+cold today
+Candidate 7
+一
+it is freezing today   >
+
+164
+
+_ (0.713 x 1.27)+(0.515 x7.94)+...
+> Reert =  1.27+7.94+1.82+7.90+8.88
+
+Reference
+
+  
+

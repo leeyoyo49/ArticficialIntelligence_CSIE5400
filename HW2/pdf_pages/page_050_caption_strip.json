@@ -1,0 +1,21 @@
+{
+  "title": "Multimodal Embedding Spaces",
+  "definitions": {
+    "Multimodal learning": "The multi-modal nature of MLLMs is powered by two encoder models (Text encoder and Image encoder) trained to 'speak the same language'."
+  },
+  "formulas": [
+    "[1.29, 0.76, ...]",
+    "[2.41, -0.03, ...]",
+    "[1.21, 0.81, ...]",
+    "[2.04, -0.11, ...]"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Embedding",
+    "Spaces",
+    "Multimodal learning",
+    "Text encoder",
+    "Image encoder"
+  ],
+  "summary": "The slide discusses Multimodal Embedding Spaces, focusing on Multimodal learning. It explains that the multi-modal nature of Multimodal Machine Learning Models (MLLMs) is achieved through two encoder models, a Text encoder and an Image encoder, which are trained to 'speak the same language'. The slide also includes a diagram showing the flow from text to image encoders and the resulting embeddings."
+}

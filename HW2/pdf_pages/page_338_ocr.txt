@@ -1,0 +1,12 @@
+Time-Limited Values
+
+ 
+
+m Key idea: time-limited values
+
+m Define V,(S) to be the optimal value of s if the game ends
+ink more time steps
+m Equivalently, it’s what a depth-k expectimax would give from s
+
+ 
+

@@ -1,0 +1,21 @@
+{
+  "title": "Evaluation Metrics for Text Summarization",
+  "definitions": {
+    "BLEU": "Word-Level Similarity Measurement",
+    "ROUGE": "Word-Level Similarity Measurement",
+    "BERTScore": "Measuring Semantic Similarity"
+  },
+  "formulas": [
+    "BLEU",
+    "ROUGE",
+    "BERTScore"
+  ],
+  "keywords": [
+    "Evaluation Metrics",
+    "Text Summarization",
+    "BLEU",
+    "ROUGE",
+    "BERTScore"
+  ],
+  "summary": "The slide presents three evaluation metrics for text summarization: BLEU, ROUGE, and BERTScore, each with a brief description of their purpose."
+}

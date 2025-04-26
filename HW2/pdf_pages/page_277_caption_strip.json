@@ -1,0 +1,16 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "ECCV 2024",
+    "Fine-grained Perception": "single-instance"
+  },
+  "formulas": [],
+  "keywords": [
+    "reasoning",
+    "benchmarks",
+    "ECCV 2024",
+    "MMBench",
+    "Fine-grained Perception"
+  ],
+  "summary": "The slide discusses emerging reasoning benchmarks, specifically MMBench and Fine-grained Perception, and includes examples of object localization, OCR, and reasoning questions."
+}

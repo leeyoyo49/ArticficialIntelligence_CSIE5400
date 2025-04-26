@@ -1,0 +1,45 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Masked Self-Attention Layer",
+  "definitions": {
+    "Masked Self-Attention": "Masked self-attention is used to ensure that the model doesn't attend to some of the tokens in the input sequence during training or generation."
+  },
+  "formulas": [
+    "Softmax",
+    "Linear",
+    "Add & Norm",
+    "Feed Forward",
+    "Multi-Head Attention"
+  ],
+  "keywords": [
+    "Vision Transformer",
+    "Architecture",
+    "Self-Attention",
+    "Masked",
+    "Training"
+  ],
+  "summary": "The slide presents the architecture of the Vision Transformer (ViT) with a focus on the Masked Self-Attention Layer. It explains that this layer is used to prevent the model from attending to certain tokens during training or generation. The slide includes a diagram of the ViT architecture and a brief explanation of the purpose of masked self-attention."
+}
+```

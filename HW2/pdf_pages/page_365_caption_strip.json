@@ -1,0 +1,17 @@
+{
+  "title": "Policy Evaluation",
+  "definitions": {
+    "Policy Evaluation": "The process of assessing the effectiveness of a policy in achieving its intended goals."
+  },
+  "formulas": [
+    "Effectiveness = (Policy Goals Achieved) / (Policy Goals Set)"
+  ],
+  "keywords": [
+    "Policy",
+    "Evaluation",
+    "Effectiveness",
+    "Goals",
+    "Policy Goals"
+  ],
+  "summary": "The slide presents the concept of 'Policy Evaluation' as a process to assess the effectiveness of a policy. It includes a formula for calculating effectiveness based on the policy goals achieved versus the goals set."
+}

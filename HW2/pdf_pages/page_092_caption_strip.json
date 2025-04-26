@@ -1,0 +1,29 @@
+{
+  "title": "A Running Example (4/4)",
+  "definitions": {
+    "Automatic Curriculum": "A system that provides a structured learning path for a bot.",
+    "Iterative Prompting Mechanism": "A process that allows a bot to learn through repeated interactions and feedback.",
+    "Skill Library": "A collection of predefined skills that a bot can perform."
+  },
+  "formulas": [
+    "async function combatZombie(bot) {",
+    "const sword = bot.inventory.findInventoryItem(\"stone_sword\");",
+    "if (sword) {",
+    "await bot.equip(sword, \"hand\");",
+    "} else {",
+    "await craftStoneSword(bot);",
+    "}",
+    "await craftShield(bot);",
+    "...",
+    "}",
+    "}"
+  ],
+  "keywords": [
+    "Automatic Curriculum",
+    "Iterative Prompting Mechanism",
+    "Skill Library",
+    "combatZombie",
+    "bot"
+  ],
+  "summary": "The slide presents a running example of an AI system with an automatic curriculum, iterative prompting mechanism, and a skill library. It includes a code snippet for a combatZombie function and a diagram illustrating the process flow."
+}

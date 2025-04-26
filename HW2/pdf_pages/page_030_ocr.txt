@@ -1,0 +1,22 @@
+iY    The Transformer Decoder Block (1)               (
+mm
+
+person wearing         hat [END]
+
+be] (x) [x] [el
+|
+
+Made up of N decoder blocks.
+
+Japooap JOWJIOJSUBI]
+
+  
+
+—
+—
+ees
+
+fn} be) [el [el
+
+30        [START] person wearing hat                   Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

@@ -1,0 +1,17 @@
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "Structured Encoding": "A method of encoding information in a structured format to facilitate better understanding and processing by AI systems."
+  },
+  "formulas": [
+    "No formulas present"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Structured Encoding",
+    "Challenge"
+  ],
+  "summary": "The slide discusses the challenge of structured encoding in the context of MLLM pretraining with event semantic structures. It includes a diagram illustrating the relationships between entities, agents, and instruments in an event, as well as an example caption describing a specific event."
+}

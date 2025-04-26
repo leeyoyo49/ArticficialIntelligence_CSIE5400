@@ -1,0 +1,12 @@
+aN   URC)                                            (
+
+= Brevity Penalty (BP)
+e To add a penalty for a candidate whose length is less than the reference
+
+= Therefore, the final BLEU score is:
+
+BLEU = BP * MEAN_BLEU**
+
+BP =     1             ifc>r  ¢ the length of the candidate
+el-r/e) if ¢e<r___rthe length of the reference
+

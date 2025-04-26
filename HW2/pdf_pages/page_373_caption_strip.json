@@ -1,0 +1,21 @@
+{
+  "title": "Computing Actions from Values",
+  "definitions": {
+    "optimal values": "V*(s)",
+    "mini-expectimax": "one step",
+    "policy extraction": "policy implied by the values"
+  },
+  "formulas": [
+    "π*(s) = arg max_a Σs' T(s,a,s')R(s,a,s') + γV*(s')",
+    "max [0.5, 1.7, 1.2] = 1.7",
+    "argmax [0.5, 1.7, 1.2] = 1"
+  ],
+  "keywords": [
+    "optimal values",
+    "mini-expectimax",
+    "policy extraction",
+    "policy",
+    "values"
+  ],
+  "summary": "The slide discusses computing actions from values in AI, introducing the concept of optimal values, the mini-expectimax method, and policy extraction. It includes a formula for policy extraction and examples of its application."
+}

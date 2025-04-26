@@ -1,0 +1,19 @@
+{
+  "title": "Challenges: Structure-Aware Encoding",
+  "definitions": {
+    "Text": "Strong ability in reasoning and semantic structure understanding",
+    "Vision": "Better in capturing details with visual features"
+  },
+  "formulas": [],
+  "keywords": [
+    "Structure-Aware Encoding",
+    "Challenges",
+    "Text",
+    "Vision",
+    "Reasoning",
+    "Semantic Structure",
+    "Visual Features",
+    "Spatiotemporal Scene Graphs"
+  ],
+  "summary": "The slide discusses the challenges in structure-aware encoding, highlighting the strong ability of text in reasoning and semantic structure understanding, and the vision's better capability in capturing details with visual features. It also introduces the concept of spatiotemporal scene graphs to represent the action 'Sitting on a sofa' over time."
+}

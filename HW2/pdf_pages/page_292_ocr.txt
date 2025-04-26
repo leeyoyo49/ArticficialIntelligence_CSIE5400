@@ -1,0 +1,9 @@
+Achieved performances of this paper
+
+¢ 20.5% accuracy boost on ImageSquawk [CVPR 2022]
+¢ GPU memory usage reduction by over 300x
+¢ 20x faster processing speeds compared to state-of-the-art methods
+
+¢ The first work to achieve lossless compression of CIFAR-100 on a
+single NVIDIA 2080 Ti GPU using only 2.3 GB of memory
+

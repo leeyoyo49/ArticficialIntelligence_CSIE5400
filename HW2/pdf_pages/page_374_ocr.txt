@@ -1,0 +1,12 @@
+Computing Actions from Q-Values
+m Let's imagine we have the optimal g-values:
+
+m How should we act?
+= Completely trivial to decide!
+
+T*(s) = arg max Q*(s,a)
+
+ 
+
+= Important lesson: actions are easier to select from q-values than values!
+

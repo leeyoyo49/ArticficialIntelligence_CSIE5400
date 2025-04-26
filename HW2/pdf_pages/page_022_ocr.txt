@@ -1,0 +1,31 @@
+Ay
+
+22
+
+ 
+
+ 
+
+Positional Encoding Visualization
+
+ 
+
+k=0
+k=1
+k=2
+k=3
+sin(w. t)
+cos(w.t)
+sin(w». t)
+1.0                                                                                                                                     cos(w>. t)
+os 0                                                                                                 p(t) =
+0.6
+0.4
+0.2           0
+0.0                         ae ae ps一                                    sin(wa/2. t)                                        tl
+“22            2          4          6          8          10         12         14         16         18         20                    con(way-t) |,     Where = Too00/4
+-0.6                 o
+-08
+
+Source: https://erdem.pl/2021/05/understanding-positional-encoding-in-transformers
+

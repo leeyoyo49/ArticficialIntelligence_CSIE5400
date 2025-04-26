@@ -1,0 +1,60 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Object Count": "How many chairs are there in this room?",
+    "Relative Distance": "Measuring from the closest point of each object, which of these objects (refrigerator, sofa, ceiling light, cutting board) is the closest to the printer?",
+    "Appearance Order": "What will be the first-time appearance order of the following categories in the video: basket, printer, refrigerator, kettle?",
+    "Relative Direction": "If I am standing by the refrigerator and facing the sofa, is the kettle to my left, right, or back?",
+    "Object Size": "What is the length of the longest dimension (length, width, or height) of the refrigerator in centimeters?",
+    "Absolute Distance": "Measuring from the closest point of each object, what is the distance between the bed and the sofa in meters?",
+    "Room Size": "What is the size of this room (in square meters)? If multiple rooms are shown, estimate the size of the combined space.",
+    "Route Plan": "You are a robot beginning at the toilet and facing the washer. Navigate to the pan. Fill in this route: 1. Go forward until the washing machine 2. [?] 3. Go forward until the sofa 4. [?] 5. Go forward until the pan."
+  },
+  "formulas": [
+    "Object Count",
+    "Relative Distance",
+    "Appearance Order",
+    "Relative Direction",
+    "Object Size",
+    "Absolute Distance",
+    "Room Size",
+    "Route Plan"
+  ],
+  "keywords": [
+    "AI",
+    "Weekly",
+    "Object Count",
+    "Relative Distance",
+    "Appearance Order",
+    "Relative Direction",
+    "Object Size",
+    "Absolute Distance",
+    "Room Size",
+    "Route Plan"
+  ],
+  "summary": "The slide titled 'AI Weekly' presents various tasks related to spatial reasoning and navigation, such as counting objects, determining relative and absolute distances, and planning routes. These tasks are part of a demonstration of VSI-Bench, a benchmark for evaluating AI's spatial understanding and decision-making capabilities."
+}
+```

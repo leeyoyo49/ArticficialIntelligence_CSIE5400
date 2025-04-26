@@ -1,0 +1,20 @@
+{
+  "title": "Few-shot chain-of-thought (CoT)",
+  "definitions": {
+    "reasoning process": "The process of thinking about a problem or question in a logical and systematic way to arrive at a solution."
+  },
+  "formulas": [
+    "Concatenating 'n', 'k' leads to 'nk'.",
+    "Concatenating 'I', 's' leads to 'Is'."
+  ],
+  "keywords": [
+    "Few-shot",
+    "chain-of-thought",
+    "CoT",
+    "reasoning process",
+    "Elon Musk",
+    "Bill Gates",
+    "Barack Obama"
+  ],
+  "summary": "The slide introduces the concept of Few-shot chain-of-thought (CoT) and demonstrates the reasoning process through examples. It explains how to concatenate the last letters of given names to form a new string."
+}

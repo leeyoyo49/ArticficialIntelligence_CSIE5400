@@ -1,0 +1,25 @@
+- MMVet [ICML 2024]
+
+Me: I'll do it at 8
+Time: 8.05
+Me: looks like | gotta wait till 9 now
+
+   
+
+Q: What will the girl on the right write                  Q: Where is this photo taken?                           Q: Can you explain this meme?
+on the board?                                                GT: Qatar                                                    GT: This meme is a humorous take on
+GT: 14
+
+procrastination and the tendency to delay
+Required capabilities:                            Required capabilities:                             tasks until a specific time ...
+Recognitio                          Recognitior                        Required capabilities:
+
+L     j
+iowledage                          Ct
+
+YVOTIG! GWOrenless
+
+ 
+
+108
+

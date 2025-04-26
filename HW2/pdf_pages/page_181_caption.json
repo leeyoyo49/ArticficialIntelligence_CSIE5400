@@ -1,0 +1,69 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>See a video of an apartment
+
+ 
+
+a laboratory
+
+a factory
+
+ 
+
+Remember?      BAe THe 46e@@eaGolwrwrBbae fava
+
+Multimodal LLM’ “cognitive map” of the space | Cabinet Door Chair Sink Cabinet
+
+sh
+
+o  ee             @ sf sf
+ts
+Recall?’
+What is the distance between the
+keyboard and the TV, in meters?
+
+First Aid Trash 50,  Li
+
+a Ceiling pri inter Basket      TV Blanket Fridge Table Pan   Milling Plastic Rolling Stooi reece Workbench
+
+ 
+
+Can
+
+Dl     > @ &
+因
+
+(an) 6)
+
+Bee
+
+ca
+340
+
+How many cabinet(s) are in this room?
+
+Machine Drum Stand
+
+                                                                                                                                                                                      
+
+What is the height of the stool, in cm?<|im_end|><|im_start|>assistant<|im_sep|>{
+  "title": "Multimodal LLM's 'cognitive map' of the space",
+  "definitions": {
+    "cognitive map": "A mental representation of the layout of a space, used to navigate and understand the environment."
+  },
+  "formulas": [],
+  "keywords": ["Multimodal LLM", "cognitive map", "space", "cabinet", "TV", "stool", "height"],
+  "summary": "The slide presents a multimodal LLM's cognitive map of a space, which includes an apartment, a laboratory, and a factory. It features a grid with icons representing various objects and furniture, and poses questions about the distance between the keyboard and the TV, the number of cabinets, and the height of the stool."
+}

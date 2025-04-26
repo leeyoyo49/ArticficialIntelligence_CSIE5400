@@ -1,0 +1,21 @@
+{
+  "title": "BERTScore Architecture",
+  "definitions": {
+    "Contextual Embedding": "A process of converting words into vectors that capture their meanings and relationships.",
+    "Pairwise Cosine Similarity": "A measure of similarity between two non-zero vectors in an inner product space that measures the cosine of the angle between them.",
+    "Maximum Similarity": "The highest similarity score between the reference and candidate embeddings.",
+    "Importance Weighting (Optional)": "A method to adjust the contribution of each token in the candidate based on its importance."
+  },
+  "formulas": [
+    "R_BERT = (0.713 x 1.27) + (0.515 x 7.94) + ... / (1.27 + 7.94 + 1.82 + 7.90 + 8.88)",
+    "Pairwise Cosine Similarity = dot_product / (norm(reference) * norm(candidate))"
+  ],
+  "keywords": [
+    "BERTScore",
+    "Architecture",
+    "Contextual Embedding",
+    "Pairwise Cosine Similarity",
+    "Maximum Similarity"
+  ],
+  "summary": "The slide presents the BERTScore Architecture, explaining the process of converting text into contextual embeddings, calculating pairwise cosine similarities, identifying maximum similarity, and optionally applying importance weighting to compute the final BERTScore."
+}

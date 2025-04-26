@@ -1,0 +1,30 @@
+\ SD @
+mm
+
+= Model output examples on BigBench-hard
+
+Question                                                  Before training                     After training
+
+(Object Counting) I have two fish, four cats, two | First we add all the animals: two | I have 2 fish, 4 cats,
+
+chickens, a mouse, and a goat. How many animals | fish, 4 cats, 2 chickens, mouse, | 2 chickens, a mouse,
+
+do I have? Let’s think step by step.                          and goat= 11. Now we add up | and a goat, soi have
+all the animals together: 2x 4 | 2 fish + 4 cats + 2
+= 8. Now divide this by 4 and | chickens + 1 mouse
+multiply it by 2 to get the num- | + 1 goat = 10 ani-
+ber of animals: 8 x 4=48. So, | mals. So, the an-
+the answer is 48.                           swer is 10.
+
+(Logical Deduction Objects (3)) The following para- | The falcon is second from the | The blue jay is the
+graphs each describe a set of three objects arranged | left. The answer: (C).                   second from the left.
+in a fixed order. The statements are logically consis-                                                     The answer: (A).
+tent within each paragraph. On a branch, there are
+three birds: a blue jay, a quail, and a falcon. The
+falcon is to the right of the blue jay. The blue jay is
+to the right of the quail. Options: (A) The blue jay is
+the second from the left (B) The quail is the second
+from the left (C) The falcon is the second from the
+left. Let’s think step by step.
+174
+

@@ -1,0 +1,52 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "Q": "A function that maps a state and action to a value",
+    "Q'": "Target Network",
+    "Q": "Prediction Network",
+    "Input": "The data fed into the networks",
+    "Target": "The desired output of the target network",
+    "Prediction": "The output of the prediction network",
+    "Parameter update": "The process of adjusting the network parameters"
+  },
+  "formulas": [
+    "Q(s', a'; θi^-1) = r + γ max Q(s', a'; θi^-1)",
+    "Q(s, a; θi) = Q(s, a; θi)"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "Q",
+    "Q'",
+    "Prediction Network",
+    "Target Network",
+    "Input",
+    "Target",
+    "Prediction",
+    "Parameter update"
+  ],
+  "summary": "The slide presents a diagram of a Deep Q-Network (DQN) algorithm, which is a reinforcement learning technique. It shows the flow of data from input to the prediction network, which predicts the Q-value for a given state and action. The target network's Q-value is calculated using the Bellman equation, and the difference between the target and prediction Q-values is used to update the parameters of the prediction network."
+}
+```

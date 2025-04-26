@@ -1,0 +1,21 @@
+{
+  "title": "The Transformer Encoder Block (5/5)",
+  "definitions": {
+    "MLP": "Multilayer Perceptron",
+    "Layer norm": "Layer normalization",
+    "Multi-head self-attention": "Multi-head self-attention mechanism",
+    "Positional encoding": "Positional encoding"
+  },
+  "formulas": [
+    "Attention attends over all the vectors",
+    "Add positional encoding"
+  ],
+  "keywords": [
+    "Transformer",
+    "Encoder",
+    "MLP",
+    "Layer norm",
+    "Multi-head self-attention"
+  ],
+  "summary": "The slide presents the Transformer Encoder Block, focusing on the MLP, Layer norm, Multi-head self-attention, and Positional encoding. It explains that attention attends over all vectors and adds positional encoding."
+}

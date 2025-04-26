@@ -1,0 +1,10 @@
+Offline (MDPs) vs. Online (RL)
+
+ 
+
+    
+
+Offline Solution:                            Online Leaming:
+Compute policy ahead                                            Compute policy as
+of time                                                     experience comes in
+

@@ -1,0 +1,20 @@
+{
+  "title": "MLLMs as Agent Models",
+  "definitions": {
+    "MLLMs": "Multi-Layer Language Models",
+    "Agent Models": "Models that predict sequences of actions or observations"
+  },
+  "formulas": [
+    "(w1, w2, ..., wt) -> wt+1",
+    "(o1, a1, o2, a2, ..., ot) -> at",
+    "(o1, a1, o2, a2, ..., ot, at) -> ot+1"
+  ],
+  "keywords": [
+    "MLLMs",
+    "Agent Models",
+    "Policy model",
+    "World model",
+    "Tokenize"
+  ],
+  "summary": "The slide discusses how MLLMs can be used as agent models by tokenizing observations and actions. It explains the policy model and world model, which predict observation-action sequences and the next state, respectively."
+}

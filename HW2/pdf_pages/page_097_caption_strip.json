@@ -1,0 +1,22 @@
+{
+  "title": "Sample Skill Library",
+  "definitions": {
+    "combatZombie": "The function is about equipping a stone sword to combat a zombie. If a stone sword is not found, it will craft one. Additionally, it crafts and equips a shield for added protection. Afterwards, it proceeds to cook sticks in order to restore hunger. Once hunger is replenished, it actively searches for a zombie and engages in combat with it."
+  },
+  "formulas": [
+    "const sword = bot.inventory.findInventoryItem(mcData.itemsByName[\"stone_sword\"])",
+    "await bot.equip(sword, \"hand\")",
+    "await craftStoneSword(bot);",
+    "await bot.equip(\"shield\", \"hand\")",
+    "await bot.eat(\"hunger\");",
+    "await bot.lookForAndCombatZombie()"
+  ],
+  "keywords": [
+    "GPT-3.5",
+    "combatZombie",
+    "stone_sword",
+    "shield",
+    "hunger"
+  ],
+  "summary": "The slide presents a sample skill library for a bot, detailing the process of adding a new skill to combat zombies. It includes a code snippet for the combatZombie function, a description of the function's purpose, and a visual representation of the skill library with a focus on the combatZombie skill."
+}

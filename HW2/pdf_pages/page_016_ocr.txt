@@ -1,0 +1,17 @@
+iY    The Transformer Encoder Block (2/5)            (
+mm
+
+[on | ssn] ~ [Be]
+
+Let's dive into one encoder block
+
+                                                                                                                                                                                                      
+
+Transformer encoder
+
+~~
+
+eles le] [esis]
+
+16                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

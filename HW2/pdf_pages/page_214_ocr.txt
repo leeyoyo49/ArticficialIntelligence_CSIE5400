@@ -1,0 +1,28 @@
+  
+
+iY    Multimodal Reasoning
+mm
+
+Example Problem: Logical
+
+ 
+
+ 
+   
+
+ 
+
+e= = 2] 2] 2] 2] 2] =] =] =| =| = = = =my
+f                                                                               \
+i            Please take a closer look at the two                  i
+i  XS   images and explain the connection                i
+i        between them.                                                   j
+1                                                                                 |
+上                                                                                 |
+:              The baby is crying as he broke the                .
+cup.
+I                                                                   I
+N                                   還                                       儿
+
+40                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

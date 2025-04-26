@@ -1,0 +1,28 @@
+{
+  "title": "This Lecture – Agenda",
+  "definitions": {
+    "Chain-of-Thought (CoT)": "A method of reasoning that involves a sequence of thoughts leading to a conclusion.",
+    "Zero-shot reasoner": "A type of reasoner that can make inferences without prior examples.",
+    "Few-shot reasoner": "A type of reasoner that requires a few examples to make inferences.",
+    "Analogical Reasoning": "A type of reasoning that involves drawing parallels between similar situations.",
+    "Multimodal Reasoning": "A type of reasoning that involves multiple modes of input or output.",
+    "Multimodal CoT": "A type of Chain-of-Thought that involves multiple modes of input or output.",
+    "Commonsense Knowledge": "Knowledge that is widely accepted and used by most people."
+  },
+  "formulas": [
+    "No formulas present in the slide."
+  ],
+  "keywords": [
+    "Reasoning",
+    "Basics",
+    "Chain-of-Thought",
+    "Zero-shot reasoner",
+    "Few-shot reasoner",
+    "Analogical Reasoning",
+    "Multimodal Reasoning",
+    "Multimodal CoT",
+    "Commonsense Knowledge",
+    "Reasoning Benchmarks"
+  ],
+  "summary": "The lecture agenda covers the basics of reasoning, including Chain-of-Thought (CoT) with zero-shot and few-shot reasoners, Analogical Reasoning, Multimodal Reasoning, and Commonsense Knowledge. It also discusses Reasoning Benchmarks."
+}

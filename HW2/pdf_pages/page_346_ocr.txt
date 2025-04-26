@@ -1,0 +1,29 @@
+Example: Value Iteration
+
+0.5       +1
+CA /
+0.5          >
+
+ 
+
+0
+i
+
+ 
+
+ 
+
+4 3  a 3
+Wo            3.5            ?                0              Slow       UG                                          Warm                                sie  ae
+CY ee                     Fast       0.5 +2                                             >
+40      +1      Cool          0.6                                  Overheated
+                                    ©
+Assume no discount!
+Vi            2                 1                 0
+
+wo+l(s) — max》 7了(2, Q, 9/)  [R(s, a,s’) + 7 Vi(s’)|
+
+Vo            a=slow:         0.5(1 +2) +0.5(1 +1) =2.5
+
+a=fast:            1(-10 +0) =-10
+

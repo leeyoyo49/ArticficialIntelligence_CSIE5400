@@ -1,0 +1,19 @@
+{
+  "title": "Example: Value Iteration",
+  "definitions": {
+    "V0": "0",
+    "V1": "0",
+    "Vk+1": "max [sum T(s, a, s') [R(s, a, s') + γVk(s')]]"
+  },
+  "formulas": [
+    "Vk+1(s) <=> max [sum T(s, a, s') [R(s, a, s') + γVk(s')]]"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "V0",
+    "Vk+1",
+    "max",
+    "sum"
+  ],
+  "summary": "The slide presents an example of Value Iteration in AI, showing a diagram with cars in different states and transitions between them. It includes a formula for calculating the next value iteration."
+}

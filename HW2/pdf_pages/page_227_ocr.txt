@@ -1,0 +1,87 @@
+ 
+
+53
+
+Multimodal CoT Reasoning
+
+ 
+
+Problem
+
+Question: Which solution has a higher concentration of yellow particles?
+
+Context: The diagram below is a model of two solutions. Each yellow ball represents one particle of solute.
+
+ 
+
+ 
+
+ 
+
+ (B) Solution A |
+
+ 
+
+Options: | (A) Solution B
+
+Gold Rationale: In Solution A and Solution B, the yellow particles represent the solute. To figure out which
+solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume
+of the solvent in each container. Use the concentration formula to find the number of yellow particles per milliliter.
+Solution B has more yellow particles per milliliter. So, Solution B has a higher concentration of yellow particles.
+
+ 
+
+Answer: The answer is (A).
+
+Baseline
+
+Rationale: In Solution A and Solution B, the yellow particles represent
+the solute. To figure out which solution has a higher concentration of
+yellow particles, look at both the number of yellow particles and the
+
+volume of the solvent in each container. Use the concentration formula
+to find the number of yellow particles per milliliter. Solution A has more
+yellow particles per milliliter. So, Solution A has a higher concentration
+of yellow particles.
+
+Answer: The answer is (B).
+
+(C) neither; their concentrations are the same
+
+{
+'
+'
+'
+'
+1
+1
+t
+'
+1
+'
+1
+I
+t
+'   Solvent volume: 30 mL
+1
+
+1
+
+1
+
++ Vision Features
+
+Rationale: In Solution A and Solution B, the yellow particles represent
+the solute. To figure out which solution has a higher concentration of
+yellow particles, look at both the number of yellow particles and the
+volume of the solvent in each container. Use the concentration formula
+to find the number of yellow particles per milliliter. Solution B has more
+yellow particles per milliliter. So, Solution B has a higher concentration
+of yellow particles.
+
+Answer: The answer is (A).
+
+ 
+
+Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

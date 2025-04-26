@@ -1,0 +1,31 @@
+iY   Key Idea: Derive the Final Answer through
+和
+
+  
+
+A pioneering study utilized natural language rationales to solve
+math problems by ... “derive the final answer through a series of
+
+small steps.          Probe:
+
+Question: Two trains running in opposite directions cross a
+man standing on the platform in 27 seconds and 17 seconds
+respectively and they cross each other in 23 seconds. The ratio
+
+In this study, a model is        of their speeds is:
+
+proposed to jointly learn
+to generate the text in
+the rationale, and to
+
+Rationale: Let the speeds of the two trains be x m/sec and y
+m/sec respectively. Then, length of the first train = 27x meters,
+perform the math                 and length of the second train = 17 y meters. (27x + 17y)/(x +
+operations required to         y) = 23 > 27x + 17y =23x + 23y 一> 4X 三 6y 一 x/y = 3/2.
+
+solve the problem.              orrect Option: 5
+
+ 
+
+17                                           Source: “Program Induction by Rationale Generation: Learning to Solve and Explain Algebraic Word Problems,” ACL, 2017.
+

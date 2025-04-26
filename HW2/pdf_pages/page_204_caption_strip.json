@@ -1,0 +1,19 @@
+{
+  "title": "Any concern on generating intermediate steps instead of direct answers?",
+  "definitions": {
+    "MLLMs": "probabilistic models of generating next tokens",
+    "decoding": "process of generating a sequence of tokens from a model"
+  },
+  "formulas": [
+    "arg max P(reasoning path, final answer|problem)",
+    "arg max P(final answer|problem)"
+  ],
+  "keywords": [
+    "concern",
+    "intermediate steps",
+    "direct answers",
+    "MLLMs",
+    "probabilistic models"
+  ],
+  "summary": "The slide discusses the concern of generating intermediate steps in MLLMs and compares the decoding process of MLLMs with the desired outcome. It emphasizes that MLLMs are probabilistic models and not humans, and it presents two formulas related to the decoding process."
+}

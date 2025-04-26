@@ -1,0 +1,17 @@
+Reinforcement Learning
+
+ 
+
+gm Still assume a Markov decision process (MDP):
+= Asetof statesseS
+= Aset of actions (per state) A
+= Amodel T(s,a,3’)
+= Areward function R(s,a,s’)
+gw Still looking for a policy z(s)
+
+                                                                                                                                                                                                                                                                                                                                                                                             
+
+= New twist: don't know Tor R
+m i.e. we don’t know which states are good or what the actions do
+= Must actually try out actions and states to learn
+

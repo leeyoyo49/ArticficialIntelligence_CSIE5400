@@ -1,0 +1,42 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "A Case Study",
+  "definitions": {
+    "LMSI": "Language Model Self-Improvement (LMSI) is to improve language models without requiring external supervision, in an unsupervised training manner."
+  },
+  "formulas": [
+    "RLCAI (arXiv 2022)",
+    "RLAIF (arXiv 2023)"
+  ],
+  "keywords": [
+    "Language Model",
+    "Self-Improvement",
+    "LMSI",
+    "RLCAI",
+    "RLAIF"
+  ],
+  "summary": "The slide discusses a case study on Language Model Self-Improvement (LMSI), which aims to enhance language models without external supervision. It highlights two notable works: RLCAI and RLAIF, which use different methods to improve AI models."
+}
+```

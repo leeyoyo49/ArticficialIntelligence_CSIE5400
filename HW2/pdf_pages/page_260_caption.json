@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Hard negatives via manipulating event structures",
+  "definitions": {
+    "Hard negatives": "Negative examples that are difficult to identify or classify correctly.",
+    "Event structures": "A structured representation of events, including the entities involved and the actions performed."
+  },
+  "formulas": [
+    "Event Type: Arrest (arrest)",
+    "Event Type: Transport (carry)",
+    "Event Type: Transport (carry)"
+  ],
+  "keywords": [
+    "Hard negatives",
+    "manipulating",
+    "event structures",
+    "arrest",
+    "transport"
+  ],
+  "summary": "The slide discusses the concept of 'Hard negatives' in the context of manipulating event structures. It provides definitions for key terms and lists event types with their respective agents, entities, and instruments. The slide also includes an image with labeled elements to illustrate the concept."
+}
+```

@@ -1,0 +1,19 @@
+{
+  "title": "A Comparison Between Q-learning & Deep Q-learning",
+  "definitions": {
+    "Q-learning": "A type of reinforcement learning algorithm that seeks to learn the value of actions in states.",
+    "Deep Q-learning": "An extension of Q-learning that uses a neural network to approximate the Q-value function."
+  },
+  "formulas": [
+    "Q(s, a) -> Q(3, 1) -> s -> 3 -> +5.31",
+    "Q(s, a) -> Q(3, 1) -> a -> 1 -> +5.31"
+  ],
+  "keywords": [
+    "Q-learning",
+    "Deep Q-learning",
+    "Reinforcement learning",
+    "Algorithm",
+    "Neural network"
+  ],
+  "summary": "The slide compares Q-learning and Deep Q-learning, two types of reinforcement learning algorithms. It includes a Q-table and a diagram of a Deep Q-Network (DQN) to illustrate the process of learning in these algorithms."
+}

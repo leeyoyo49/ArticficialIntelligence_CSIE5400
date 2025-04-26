@@ -1,0 +1,20 @@
+What is Markov about MDPs?
+
+ 
+
+m “Markov” generally means that given the present state, the
+future and the past are independent
+
+m= For Markov decision processes, “Markov” means action
+outcomes depend only on the current state
+
+P(St44 = s'|S; = 8, Ap = a4, St_—1 = S¢-1, At_-1,-.--S0 = so)
+
+ 
+
+Andrey Markov
+P(St44 = s'| St = St, At = at)                                            (1856-1922)
+
+m Thisis just like search, where the successor function could only
+depend on the current state (not the history)
+

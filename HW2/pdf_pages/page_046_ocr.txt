@@ -1,0 +1,21 @@
+iY   Text to Image Generation
+讓      with Diffusion Based Models
+
+ 
+
+= Generating photorealistic images given any text input
+(Conditional generation)
+
+ 
+   
+
+ 
+
+bee eee ee
+F---------~
+Deri eh teeta ow
+
+ 
+
+46                                                               Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

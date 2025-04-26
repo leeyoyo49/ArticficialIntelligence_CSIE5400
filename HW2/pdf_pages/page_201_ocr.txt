@@ -1,0 +1,54 @@
+  
+
+iY   CoT Reasoning without Prompting
+mm
+
+CoT prompting (few-shot or zero-shot), while effective, often involves
+
+manually intensive prompt engineering.
+New findings reveal that CoT reasoning paths can be elicited from pre-
+
+trained LLMs by simply altering the decoding process.
+Decoding step 0       Continue greedy decoding
+
+5apples XX
+| have 3 apples, my dad has 2 more apples than me, so he
+has 5 apples. 3+5=8. We have 8 apples in total.
+
+We have 5 apples in total. >
+
+You have 3 apples, your dad has 2 more apples than you,
+so he has 5 apples. 3+5=8. You have 8 apples in total.  VY
+
+The answeris5. J
+
+Question in standard QA format
+
+ 
+ 
+ 
+  
+
+Q: | have 3 apples, my dad has 2
+more apples than me, how many
+apples do we have in total?
+
+A:
+
+  
+
+  
+
+Language
+model
+
+ 
+
+  
+
+.    .             .                                                                 uncertain             certain
+Considering alternative top-k tokens, rather than
+solely relying on the top-1 greedy decoding path!
+
+27                                                                                                Source: “Chain-of-Thought Reasoning without Prompting,” NeurlPS, 2024.
+

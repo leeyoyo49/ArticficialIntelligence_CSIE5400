@@ -1,0 +1,23 @@
+{
+  "title": "Summary: MDP Algorithms",
+  "definitions": {
+    "Value Iteration": "A method to compute optimal values in a Markov Decision Process by iterating over value function V*.",
+    "Policy Iteration": "A method to compute optimal policies in a Markov Decision Process by iterating over policy V*.",
+    "Policy Evaluation": "A method to compute the value of a particular policy in a Markov Decision Process.",
+    "Policy Extraction": "A method to turn computed values into a policy in a Markov Decision Process."
+  },
+  "formulas": [
+    "V*",
+    "V*",
+    "V*",
+    "V*"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "Policy Iteration",
+    "Policy Evaluation",
+    "Policy Extraction",
+    "Optimal Values"
+  ],
+  "summary": "The slide summarizes MDP algorithms, focusing on methods to compute optimal values and policies. It introduces value iteration and policy iteration as methods to compute optimal values, policy evaluation to compute values for a particular policy, and policy extraction to turn values into a policy."
+}

@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Approximate Q-Learning",
+  "definitions": {
+    "Q-function": "a function (or value function) for any state using a few weights w1, w2, ...",
+    "V-function": "V(s) = w1f1(s) + w2f2(s) + ... + wn.fn(s)",
+    "Q-function with action": "Q(s, a) = w1f1(s, a) + w2f2(s, a) + ... + wn.fn(s, a)"
+  },
+  "formulas": [
+    "V(s) = w1f1(s) + w2f2(s) + ... + wn.fn(s)",
+    "Q(s, a) = w1f1(s, a) + w2f2(s, a) + ... + wn.fn(s, a)"
+  ],
+  "keywords": [
+    "Approximate Q-Learning",
+    "Feature representation",
+    "Q-function",
+    "V-function",
+    "Weights"
+  ],
+  "summary": "The slide discusses Approximate Q-Learning, explaining how a Q-function or V-function can be written for any state using a few weights. It presents the formulas for V(s) and Q(s, a) and highlights the advantage of summarizing experience with powerful numbers. However, it also points out the disadvantage that states may share features but be very different in value, with an example provided."
+  }
+```

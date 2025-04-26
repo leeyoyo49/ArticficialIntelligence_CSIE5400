@@ -1,0 +1,9 @@
+{
+  "title": "Reinforcement Learning Contemplation (RLC)",
+  "definitions": {
+    "RLC": "RLC is a novel LMSI method, which is grounded on the observation that it is simpler for a language model to evaluate a sentence than to generate it."
+  },
+  "formulas": [],
+  "keywords": ["Reinforcement Learning Contemplation", "RLC", "LMSI", "language model", "text generation", "text evaluation"],
+  "summary": "The slide introduces Reinforcement Learning Contemplation (RLC), a new method in Language Model Self-Improvement (LMSI). It explains that RLC is based on the observation that it's easier for a language model to evaluate a sentence than to generate it. The slide also includes a diagram showing the process of text generation and evaluation, with a language model being used in both steps."
+}

@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Infinite Utilities?!",
+  "definitions": {
+    "Finite horizon": "similar to depth-limited search"
+  },
+  "formulas": [
+    "Terminate episodes after a fixed T steps (e.g. life)"
+  ],
+  "keywords": [
+    "Problem",
+    "game",
+    "infinite rewards",
+    "finite horizon",
+    "depth-limited search",
+    "nonstationary policies",
+    "time left"
+  ],
+  "summary": "The slide discusses the problem of infinite rewards in a game that lasts forever and proposes a solution using a finite horizon approach, similar to depth-limited search. It suggests terminating episodes after a fixed number of steps and using nonstationary policies that depend on the time left."
+  }
+}
+```

@@ -1,0 +1,20 @@
+{
+  "title": "Exponential Moving Average",
+  "definitions": {
+    "Traditional Average": "AVG(x) = 1/N Σ xn",
+    "Exponential Moving Average": "xn = (1 - α) * xn-1 + α * xn"
+  },
+  "formulas": [
+    "AVG(x) = 1/N Σ xn",
+    "xn = (1 - α) * xn-1 + α * xn",
+    "xn = xn + (1 - α) * xn-1 + (1 - α)^2 * xn-2 + ..."
+  ],
+  "keywords": [
+    "Exponential Moving Average",
+    "Traditional Average",
+    "Running Interpolation Update",
+    "Recent Samples",
+    "Past Samples"
+  ],
+  "summary": "The slide compares the Traditional Average and Exponential Moving Average methods. The Traditional Average requires all N samples at once and cannot be streamed, while the Exponential Moving Average updates with a running interpolation and gives more importance to recent samples, but forgets about past samples."
+}

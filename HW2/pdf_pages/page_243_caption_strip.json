@@ -1,0 +1,20 @@
+{
+  "title": "Existing object-centric info miss situational understanding",
+  "definitions": {
+    "Vision": "Vision",
+    "Object": "Object",
+    "Relation": "Relation",
+    "Scene Graph": "Scene Graph"
+  },
+  "formulas": [
+    "Knowledge-Driven Vision-Language Encoding"
+  ],
+  "keywords": [
+    "Vision",
+    "Object",
+    "Relation",
+    "Scene Graph",
+    "Knowledge-Driven Vision-Language Encoding"
+  ],
+  "summary": "The slide discusses the limitations of object-centric information in understanding situational contexts, highlighting the need for knowledge-driven vision-language encoding to improve situational understanding."
+}

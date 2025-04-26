@@ -1,0 +1,20 @@
+{
+  "title": "Infinite Utilities?!",
+  "definitions": {
+    "Finite horizon": "similar to depth-limited search",
+    "Discounting": "use 0 < γ < 1",
+    "Absorbing state": "guarantee that for every policy, a terminal state will eventually be reached (like 'overheated' for racing)"
+  },
+  "formulas": [
+    "· U([r0, ..., r∞]) = ∪ γ^t r_t ≤ Rmax/(1 - γ)",
+    "∂t=0"
+  ],
+  "keywords": [
+    "Infinite utilities",
+    "Finite horizon",
+    "Discounting",
+    "Absorbing state",
+    "Terminal state"
+  ],
+  "summary": "The slide discusses the problem of infinite rewards in games that last forever and presents solutions like finite horizon, discounting, and absorbing state. It includes a formula for calculating the utility of a sequence of rewards and a visual metaphor of a car on a track."
+}

@@ -1,0 +1,17 @@
+iY   Denoising Diffusion Models                    (
+和
+
+Sampling
+S
+(Unconditional generation)
+
+人 轉
+
+(unknown) data distribution                     known distribution
+
+ 
+
+                                                                                                                                                                                                                                                                 
+
+42                                                               Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

@@ -1,0 +1,70 @@
+Ne <
+
+LN output (y axis) vs. LN input (x axis)
+
+ 
+
+                                                                                                                                                                                                                                                                  
+
+ 
+
+ 
+
+                                                                                                                                                                                                                                                                  
+
+ 
+
+                                                                                                                                                                                                                                                                 
+
+ 
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+~ 20+ VITLN layer 5    i            ViT LN layer 15                            ViT LN layer 20   oo sw  ~           ViT LN layer 25               .     1
+5                             !
+,                         £        |             fm           -              ,
+
+original block                  3             tf
+a                                                                     mae                                          =
+=                                                                       加                                        yen
+> 204.                          4               =                     =
+
+10           0           10          -100                0                100    -100                0                100    -100                0                100
+Atte nti O n  /  上 a N                                                                 3         wav2vec LN layer 5                         wav2vec LN layer 30                        wav2vec LN layer 35                        wav2vec LN layer 40
+Zz
+= 70
+9°
+&
+scale & shift         g            |       :                                                           一
+Layer  Norm                                                                                    10           0           10                                                 50-10                 0                 10-100                                 100
+normalize              3 2 ae           Caer ee Lv 21 1 OAL 2s |
+中                                                                                                                        i
+2 0                                                                                                                                                            #”
+一
+5 -20-
+-200        0        200     -1000              0              1000    -1000        0         1000       -2000           0           2000
+
+LN input
+
+We introduce Dynamic Tanh (DyT),
+
+3                                                                                        DyT(ax) = tanh(az),
+

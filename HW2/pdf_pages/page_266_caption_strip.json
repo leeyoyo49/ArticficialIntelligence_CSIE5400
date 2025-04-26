@@ -1,0 +1,23 @@
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "Structured Alignment": "Alignment of structured data, such as text and image event graphs, to optimize transport.",
+    "Cost Matrix": "A matrix used to measure the similarity between elements of two datasets.",
+    "Optimization Goal": "Minimize transport distance between aligned elements."
+  },
+  "formulas": [
+    "D(S,T) = min T * C",
+    "T = diag(p) exp(-C/γ) diag(q)",
+    "p^i+1 = 1 ⊗ (Kq^i)",
+    "q^i+1 = 1 ⊗ (K^T p^i+1)",
+    "Tk = diag(p^k) K diag(q^k)"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Structured Alignment",
+    "Optimal Transport"
+  ],
+  "summary": "The slide discusses MLLM Pretraining with Event Semantic Structures, focusing on Structured Alignment via Optimal Transport. It defines a cost matrix for embedding similarity and outlines the optimization goal of minimizing transport distance. The slide also includes a diagram of an Image Event Graph and a mathematical formula for the Sinkhorn Knopp algorithm."
+}

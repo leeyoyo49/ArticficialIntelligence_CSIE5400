@@ -1,0 +1,19 @@
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Multimodal-CoT": "a proposed mechanism to incorporate language (text) and vision (images) modalities into a two-stage framework that separates rationale generation and answer inference.",
+    "Rationale Generation": "a stage in the Multimodal CoT framework where the rationale for the answer is generated.",
+    "Answer Inference": "a stage in the Multimodal CoT framework where the final answer is inferred based on the rationale generated."
+  },
+  "formulas": [
+    "Multimodal-CoT = Language (text) + Vision (images) + Rationale Generation + Answer Inference"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT",
+    "Reasoning",
+    "Language",
+    "Vision"
+  ],
+  "summary": "The slide presents the concept of Multimodal CoT Reasoning, a mechanism that integrates text and image modalities into a two-stage framework. The first stage involves rationale generation, and the second stage involves answer inference. Both stages share the same model structure but differ in input and output. The slide also includes a visual representation of the process and a question-answer example."
+}

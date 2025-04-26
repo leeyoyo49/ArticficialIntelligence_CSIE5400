@@ -1,0 +1,19 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMVet": "ICML 2024"
+  },
+  "formulas": [
+    "3x3=9",
+    "7x2=14",
+    "11-2=9"
+  ],
+  "keywords": [
+    "reasoning",
+    "benchmarks",
+    "MMVet",
+    "ICML",
+    "2024"
+  ],
+  "summary": "The slide discusses emerging reasoning benchmarks, specifically MMVet at ICML 2024. It includes examples of mathematical problems and their solutions, highlighting required capabilities such as recognition, spatial awareness, OCR, and knowledge. The slide also features a meme related to procrastination."
+}

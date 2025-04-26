@@ -1,0 +1,29 @@
+iY  MLLM Pretraining with Event Semantic Structures
+和
+
+,            ,       ,                    T
+Structured Alignment via Optimal Transport 了
+9g
+
+Text Event Graph
+
+1 | Define cost matrix C (embedding similarity)
+ee)
+
+   
+                                                                                                                                                                                            
+  
+   
+
+ 
+
+Image Event Graph
+
+                                                                                                                                                                                                                                                                 
+
+Independence Square               buildifig
+
+Event Level Alignment
+
+91                                                                                              Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

@@ -1,0 +1,34 @@
+{
+  "title": "The Reflexion process",
+  "definitions": {
+    "Agent": "The entity that performs actions and receives feedback",
+    "Self-reflection (LM)": "A process where the agent evaluates its own performance",
+    "Evaluator (LM)": "A component that assesses the agent's actions",
+    "Trajectory (short-term memory)": "The agent's short-term memory of its actions",
+    "Experience (long-term memory)": "The agent's long-term memory of its experiences",
+    "Actor (LM)": "The component that executes the agent's actions",
+    "Environment": "The external context in which the agent operates",
+    "Action": "The agent's behavior or response",
+    "Obs / Reward": "Observation and reward from the environment",
+    "External feedback": "Feedback from the environment to the agent",
+    "Internal feedback": "Feedback from the agent's self-reflection"
+  },
+  "formulas": [
+    "Trajectory = Action + Environment",
+    "Experience = Action + Reward"
+  ],
+  "keywords": [
+    "Agent",
+    "Self-reflection",
+    "Evaluator",
+    "Trajectory",
+    "Experience",
+    "Actor",
+    "Environment",
+    "Action",
+    "Obs / Reward",
+    "External feedback",
+    "Internal feedback"
+  ],
+  "summary": "The Reflexion process diagram illustrates the components and flow of information within an agent's decision-making process. It includes the agent's interaction with the environment, the role of self-reflection, and the distinction between short-term and long-term memory. The diagram also shows how actions are influenced by observations and rewards from the environment."
+}

@@ -1,0 +1,22 @@
+Adversarial Distribution Matching
+
+¢ This paper proposes a novel approach that reformulates distribution
+matching as an adversarial minmax optimization problem.
+
+¢ We maximize the discrepancy measure to define a robust discrepancy metric,
+parameterized by a neural network 山.
+
+Concurrently, we minimize the discrepancy between the synthetic dataset D~
+and the real dataset D by optimizing the synthetic data distribution D™.
+
+Formally, this minmax optimization problem is expressed as:
+
+min max L(D, D, f, v)
+D YY
+
+where L denotes the discrepancy measure, f is the feature extractor network,
+and wW is the network learning the discrepancy metric.
+
+This minmax framework seeks the optimal synthetic data distribution D~ that
+minimizes L while network W maximizes L to establish a robust metric.
+

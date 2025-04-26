@@ -1,0 +1,23 @@
+Example: Value Iteration
+
+ 
+
+ 
+
+ 
+
+0.5
+cp     &     SS                 a sow NY      入            40
+0.5       =     ,
+Warm             \  bye 3
+V2                                                                                                                       Slow            T                                                                                                                                                           5 sO
+一二~       Fast 05 +2               :
+Cool      0.5                     Overheated
+
++2
+Assume no discount!
+
+a=slow:         1(1 +0) =1
+
+a=fast:             0.5(2 + 0) + 0.5(2 +0) =2
+

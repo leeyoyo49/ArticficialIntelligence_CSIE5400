@@ -1,0 +1,19 @@
+{
+  "title": "Remarks",
+  "definitions": {
+    "Reinforcement learning": "an AI area concerned with how an intelligent agent ought to take actions in a dynamic environment in order to maximize the cumulative reward.",
+    "Supervised learning": "not needing labelled input/output pairs to be presented, reinforcement learning focuses on finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge) with the goal of maximizing the long term reward."
+  },
+  "formulas": [
+    "R = R + 1",
+    "R = R - 5"
+  ],
+  "keywords": [
+    "Reinforcement learning",
+    "Supervised learning",
+    "machine learning",
+    "exploration",
+    "exploitation"
+  ],
+  "summary": "The slide discusses reinforcement learning, a subset of machine learning, which differs from supervised learning by not requiring labeled input/output pairs. It emphasizes the balance between exploration and exploitation to maximize long-term rewards. Visual examples of unsupervised, supervised, and reinforcement learning are provided."
+}

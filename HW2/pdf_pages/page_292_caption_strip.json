@@ -1,0 +1,18 @@
+{
+  "title": "Achieved performances of this paper",
+  "definitions": {},
+  "formulas": [],
+  "keywords": [
+    "Accuracy boost",
+    "ImageSquawk",
+    "CVPR 2022",
+    "GPU memory usage reduction",
+    "Processing speeds",
+    "State-of-the-art methods",
+    "Lossless compression",
+    "CIFAR-100",
+    "NVIDIA 2080 Ti GPU",
+    "2.3 GB of memory"
+  ],
+  "summary": "The paper presents significant achievements in AI, including a 20.5% accuracy boost on ImageSquawk at CVPR 2022, a reduction in GPU memory usage by over 300x, 20x faster processing speeds compared to state-of-the-art methods, and the first work to achieve lossless compression of CIFAR-100 on a single NVIDIA 2080 Ti GPU using only 2.3 GB of memory."
+}

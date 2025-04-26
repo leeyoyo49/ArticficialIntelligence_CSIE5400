@@ -1,0 +1,20 @@
+{
+  "title": "BERTScore Architecture",
+  "definitions": {
+    "BERTScore": "A metric for evaluating the quality of text by comparing the similarity of BERT embeddings between a reference and a candidate sentence."
+  },
+  "formulas": [
+    "R_BERT = (1/|X|) * sum(max(x_i^T * x_j^T))",
+    "P_BERT = (1/|X|) * sum(max(x_i^T * x_j^T))",
+    "F_BERT = 2 * (P_BERT * R_BERT) / (P_BERT + R_BERT)"
+  ],
+  "keywords": [
+    "BERT",
+    "Score",
+    "Architecture",
+    "Token Matching",
+    "Precision",
+    "Recall"
+  ],
+  "summary": "The slide presents the BERTScore architecture, a method for evaluating text quality by token matching for precision and recall. It includes formulas for calculating R_BERT, P_BERT, and F_BERT, and illustrates the process with a diagram and a table showing maximum similarity scores."
+}

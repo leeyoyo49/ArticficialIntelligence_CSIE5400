@@ -1,0 +1,26 @@
+{
+  "title": "Feature-Based Representations",
+  "definitions": {
+    "Solution": "describe a state using a vector of features (properties) f1, f2, ...",
+    "Features": "functions from states to real numbers (often 0/1) that capture important properties of the state",
+    "Example features": [
+      "Distance to closest ghost",
+      "Distance to closest dot",
+      "Number of ghosts",
+      "1 / (dist to dot)2",
+      "Is Pacman in a tunnel? (0/1)"
+    ],
+    "q-state": "Can also describe a q-state (s, a) with features (e.g. action moves closer to food)"
+  },
+  "formulas": [
+    "1 / (dist to dot)2"
+  ],
+  "keywords": [
+    "Feature-Based Representations",
+    "Solution",
+    "Features",
+    "Example features",
+    "q-state"
+  ],
+  "summary": "The slide discusses Feature-Based Representations in AI, explaining how to describe a state using a vector of features. It provides examples of features and a formula for calculating the distance to a dot. It also mentions the concept of a q-state."
+}

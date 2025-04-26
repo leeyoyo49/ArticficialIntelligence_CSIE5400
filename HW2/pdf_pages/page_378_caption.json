@@ -1,0 +1,47 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Summary: MDP Algorithms",
+  "definitions": {
+    "Value Iteration": "A method to compute optimal values in a Markov Decision Process by iterating over value function V*.",
+    "Policy Iteration": "A method to compute optimal policies in a Markov Decision Process by iterating over policy V*.",
+    "Policy Evaluation": "A method to compute the value of a particular policy in a Markov Decision Process.",
+    "Policy Extraction": "A method to turn computed values into a policy in a Markov Decision Process."
+  },
+  "formulas": [
+    "V*",
+    "V*",
+    "V*",
+    "V*"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "Policy Iteration",
+    "Policy Evaluation",
+    "Policy Extraction",
+    "Optimal Values"
+  ],
+  "summary": "The slide summarizes MDP algorithms, focusing on methods to compute optimal values and policies. It introduces value iteration and policy iteration as methods to compute optimal values, policy evaluation to compute values for a particular policy, and policy extraction to turn values into a policy."
+}
+```

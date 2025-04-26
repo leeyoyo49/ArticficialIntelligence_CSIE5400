@@ -1,0 +1,21 @@
+The system prompt for automatic curriculum (3/3)
+
+  
+
+You should only respond in the format as described below:
+
+RESPONSE FORMAT:
+
+Reasoning: Based on the information I listed above, do reasoning about what the next task
+should be.
+
+Task: The next task.
+
+Here’s an example response:
+Reasoning: The inventory is empty now, chop down a tree to get some wood.
+Task: Obtain a wood log.
+
+ 
+
+95
+

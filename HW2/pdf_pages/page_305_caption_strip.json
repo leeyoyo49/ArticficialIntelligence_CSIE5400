@@ -1,0 +1,23 @@
+{
+  "title": "This Lecture – Agenda",
+  "definitions": {
+    "Markov Decision Processes (MDP)": "Defining MDP",
+    "Policy Methods": "Policy Methods",
+    "Reinforcement Learning": "Passive Reinforcement Learning",
+    "Active Reinforcement Learning": "Active Reinforcement Learning",
+    "Approximate Reinforcement Learning": "Approximate Reinforcement Learning",
+    "Language Model Self-improvement": "Language Model Self-improvement"
+  },
+  "formulas": [],
+  "keywords": [
+    "Markov Decision Processes",
+    "MDP",
+    "Policy Methods",
+    "Reinforcement Learning",
+    "Passive Reinforcement Learning",
+    "Active Reinforcement Learning",
+    "Approximate Reinforcement Learning",
+    "Language Model Self-improvement"
+  ],
+  "summary": "The lecture agenda includes topics on Markov Decision Processes (MDP), Policy Methods, and various types of Reinforcement Learning, concluding with a case study on Language Model Self-improvement."
+}

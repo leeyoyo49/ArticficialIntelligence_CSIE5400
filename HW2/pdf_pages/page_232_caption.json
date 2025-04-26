@@ -1,0 +1,69 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>iY   Multimodal CoT Reasoning
+mm
+
+¢« Examples of commonsense mistakes: About utilizing alphabet
+
+Question: Which word would you find on a dictionary page with the following guide words? helping - hunter
+
+Context: The diagram below shows a solution with one solute. Each solute particle is represented by a green ball. The
+solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is
+permeable to the solute particles. The diagram shows how the solution can change over time during the process of diffusion.
+
+Options:       (A) hospital                                      (B) hardship
+
+Rationale : Put the words in alphabetical order. Since hospital is between the guide words helping - hunter, it would be found on that page.
+Answer: The answer is (A).
+
+Rationale: Put the words in alphabetical order. Since hardship is between the guide words helping - hunter, it would be found on that page.
+Answer: The answer is (B).
+
+   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+58                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.<|im_end|><|im_start|>assistant<|im_sep|>Based on the image, here is the JSON object with the required fields:
+
+```json
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Multimodal CoT Reasoning": "A method of reasoning that involves multiple modes of input and output, such as text, images, and speech."
+  },
+  "formulas": [
+    "N/A"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT",
+    "Reasoning",
+    "Commonsense",
+    "Mistakes"
+  ],
+  "summary": "The slide discusses Multimodal CoT Reasoning and provides examples of commonsense mistakes about utilizing the alphabet. It also includes a problem and its solution related to finding a word on a dictionary page."
+}
+```

@@ -1,0 +1,23 @@
+Multimodal Reasoning
+
+  
+
+Example Problem: Temporal
+
+What happens to the
+or                                                                                                           man after hitting the
+ball?
+
+ 
+  
+ 
+ 
+
+area with trees and shrubbery surrounding the
+
+He falls to the ground in front of a green grassy      wS i
+I
+spot where he hit the golf ball.                                           i
+
+41                                                               Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

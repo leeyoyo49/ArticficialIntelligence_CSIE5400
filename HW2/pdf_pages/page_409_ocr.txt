@@ -1,0 +1,15 @@
+The Story So Far: Reinforcement Learning
+
+m We still assume an MDP:
+= AsetofstatesseS
+= Aset of actions (per state) A
+= Amodel T(s,a,s’)
+= Areward function R(s,a,s’)
+gw Still looking for a policy z(s)
+
+ 
+
+= New twist: don't know Tor R, so must try out actions
+
+= Big idea: Compute all averages over T using sample outcomes
+

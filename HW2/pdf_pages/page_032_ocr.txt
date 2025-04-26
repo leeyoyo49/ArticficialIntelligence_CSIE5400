@@ -1,0 +1,102 @@
+                                                                                                                                                                                                                                                                  
+
+ 
+
+                                                                                                                                                                                                                                                                  
+
+person wearing   hat [END]             Layer norm
+
+  
+ 
+
+ 
+
+ 
+
+MLP
+
+   
+
+ 
+
+ 
+
+Layer norm
+
+Most of the network is
+the same the
+transformer encoder.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+  
+
+3) JOWJOJSUBI |
+
+ 
+
+ 
+
+Layer norm
+
+ 
+
+ 
+
+Masked Self-attention
+only interacts with
+Positional encoding        past inputs.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+     
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[START] person wearing hat
+
+ 
+

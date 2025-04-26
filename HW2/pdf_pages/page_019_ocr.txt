@@ -1,0 +1,38 @@
+Positional Encoding
+
+              
+ 
+ 
+
+self-attention
+
+Bee
+
+position encoding
+
+  
+
+                                                                                                                                                                                                                                                                 
+
+Desiderata of pos(.) :
+
+1. It should output a unique encoding for each time-step
+(word’s position in a sentence)
+
+Concatenate special positional             2. Distance between any two time-steps should be
+
+encoding p, to each input vector x,               consistent across sentences with different lengths.
+
+3. Our model should generalize to longer sentences
+without any efforts. Its values should be bounded.
+
+4. It must be deterministic.
+
+We use a function pos: N 一R'
+to process the position j of the
+vector into a d-dimensional vector
+
+Source: “Attention is all you need,” NeurlPS, 2017.
+
+19                    So, p; = pos(j)
+

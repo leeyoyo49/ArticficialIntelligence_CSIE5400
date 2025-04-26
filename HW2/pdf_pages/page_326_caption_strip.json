@@ -1,0 +1,21 @@
+{
+  "title": "Optimal Quantities",
+  "definitions": {
+    "V*(s)": "expected utility starting in state s and acting optimally",
+    "Q*(s,a)": "expected utility starting out having taken action a from state s and (thereafter) acting optimally",
+    "π*(s)": "optimal action from state s"
+  },
+  "formulas": [
+    "V*(s) = expected utility starting in state s and acting optimally",
+    "Q*(s,a) = expected utility starting out having taken action a from state s and (thereafter) acting optimally",
+    "π*(s) = optimal action from state s"
+  ],
+  "keywords": [
+    "utility",
+    "state",
+    "action",
+    "optimal",
+    "expected"
+  ],
+  "summary": "The slide presents the concepts of optimal quantities in decision-making processes, focusing on the value of a state, the value of a state-action pair, and the optimal policy. It includes definitions and formulas for each concept, along with a diagram illustrating a state-action transition."
+}

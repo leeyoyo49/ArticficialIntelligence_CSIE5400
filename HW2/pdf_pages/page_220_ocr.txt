@@ -1,0 +1,18 @@
+Multimodal Reasoning
+
+  
+
+VPG: Visual-Prompt Generators
+
+                                                                                                                                                                                                                                                                 
+
+人                                      t         1         人
+Text                                   Text       Text       Text
+q      t                                    Image Declaration                                     +
+veG | veG |                                 =        Be                        VPG 一
+1            1                                                           1                                1
+Img          Ing                                                         Img                             Img
+MLLMs focus on a single image          MLLMs with few-shot ability             MLLMs with text-to-image reference
+
+46                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

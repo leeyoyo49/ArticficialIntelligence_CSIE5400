@@ -1,0 +1,42 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Training DQNs",
+  "definitions": {
+    "Q-table": "A table used in reinforcement learning to store the Q-values for each state-action pair.",
+    "Neural network": "A computational model designed to simulate the behavior of a human brain, consisting of layers of interconnected nodes or neurons."
+  },
+  "formulas": [
+    "Q(st, at) <- Q(st, at) + \u03b1 [ rt+1 + \u03b7 max Q(st+1, a) - Q(st, at) ]"
+  ],
+  "keywords": [
+    "Q-learning",
+    "Neural network",
+    "Q-table",
+    "Learning rate",
+    "Discount"
+  ],
+  "summary": "The slide discusses the simplification of the Q-learning algorithm by replacing the Q-table with a neural network. It includes a formula for updating the Q-value and a color-coded diagram explaining the components of the formula."
+}
+```

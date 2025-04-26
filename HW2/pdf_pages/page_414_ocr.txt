@@ -1,0 +1,21 @@
+Exploration Functions
+
+ 
+
+m When to explore?
+
+m Random actions: explore a fixed amount
+= Better idea: explore areas whose badness is not
+(yet) established, eventually stop exploring
+
+= Exploration function                                 constant
+m lakes a value estimate u and a visit count n, and
+returns an optimistic utility, e.g. f(u,n) = u+k/n
+
+  
+
+Regular Q-Update: @Q(s,a) <a R(s,a,s’) + y max Q(s', a’)
+Modified Q-Update:  Q(s,a) <a R(s,a,s') +7 max f(Q(s’, a’), N(s',a’))
+
+xX <q v is shorthand for x — (1—a)x + av
+

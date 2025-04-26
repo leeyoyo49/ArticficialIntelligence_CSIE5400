@@ -1,0 +1,13 @@
+Positional Encoding
+
+ 
+
+Concatenate special positional
+encoding Pp, to each input vector x
+
+We use a function pos: N ->R°
+to process the position j of the
+vector into a d-dimensional vector
+
+18                 So, p = pos(j)                                                        Source: “Attention is all you need,” NeurlPS, 2017.
+

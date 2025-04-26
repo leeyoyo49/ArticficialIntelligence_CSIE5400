@@ -1,0 +1,14 @@
+Ne <
+
+Basic principle of deep reinforcement learning
+
+Agent
+
+State s                                                               Action a
+
+Action
+
+ 
+
+Environment
+

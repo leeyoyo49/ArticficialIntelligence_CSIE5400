@@ -1,0 +1,19 @@
+{
+  "title": "Values of States",
+  "definitions": {
+    "V*(s)": "max Q*(s,a)",
+    "Q*(s,a)": "R(s,a,s') + V*(s')"
+  },
+  "formulas": [
+    "V*(s) = max Q*(s,a)",
+    "Q*(s,a) = R(s,a,s') + V*(s')"
+  ],
+  "keywords": [
+    "Recursive definition",
+    "value",
+    "expectimax",
+    "state",
+    "transition"
+  ],
+  "summary": "The slide presents the recursive definition of value in a manner similar to the expectimax algorithm. It includes two key formulas: V*(s) = max Q*(s,a) and Q*(s,a) = R(s,a,s') + V*(s'). The slide also features a diagram illustrating the relationship between states, actions, and transitions."
+}

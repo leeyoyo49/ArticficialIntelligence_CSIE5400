@@ -1,0 +1,18 @@
+iY   Challenges in Deep Reinforcement Learning   (
+『
+
+= Non-stationary or unstable learning target
+
+|
+The learning target is continuously changing with
+each iteration. In deep learning, the target variable
+does not change and hence the training is stable,
+which is just not true for reinforcement learning.
+
+= To summarize, we often depend on the policy or value functions in reinforcement
+learning to sample actions. However, this is frequently changing as we continuously
+learn what to explore. As we play out the game, we get to know more about the
+
+ground truth values of states and actions and hence, the output is also changing.
+143
+

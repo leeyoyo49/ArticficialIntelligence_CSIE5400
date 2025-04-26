@@ -1,0 +1,22 @@
+Self-Attention Layer
+
+  
+
+Outputs:
+Context vectors: y (shape: N x D)
+
+Operations:
+Query vectors: g = xW,
+
+Input vectors
+
+ 
+
+Inputs:
+
+-% | a | a |             Input vectors: x (shape: N x D)
+
+25                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+
+ 
+

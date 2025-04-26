@@ -1,0 +1,16 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "ECCV 2024",
+    "Attribute Reasoning": "Physical Property Reasoning"
+  },
+  "formulas": [],
+  "keywords": [
+    "MMBench",
+    "ECCV 2024",
+    "Attribute Reasoning",
+    "Physical Property Reasoning",
+    "Function Reasoning"
+  ],
+  "summary": "The slide discusses various emerging reasoning benchmarks, specifically focusing on MMBench and Attribute Reasoning. It includes examples of Physical Property Reasoning and Function Reasoning, with questions and answers related to the properties and functions of different objects."
+}

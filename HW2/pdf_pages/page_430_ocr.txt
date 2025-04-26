@@ -1,0 +1,23 @@
+Ay
+
+145
+
+     
+
+Q’
+
+Target Network
+
+(+m |)
+
+Target                                Prediction
+
+Parameter update at every
+C iterations
+
+Q
+
+Prediction Network
+
+ 
+

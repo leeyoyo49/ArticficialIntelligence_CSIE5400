@@ -1,0 +1,31 @@
+Probing “Visible” Physical Commonsense Knowledge JL   qa oo til
+
+Visually accessible knowledge representing color, size and space
+
+Task         Setting Prompt
+
+Color       ZS      O is of [MASK] color
+FT        [CLS] color of O
+QA       What is the color of O? (a) .. (b)..
+
+ 
+
+ 
+
+ 
+
+Size         ZS      O; is [MASK] than Og in size
+FT         [CLS] size of O; in comparison to O2
+QA       what is the size of O; in comparison to
+;      3                                              Oz? (a) .. (b) ..
+~+ Color: keyboard is white, black                ;                ;              ;
+                                                            Spatial      ZS      in a S, the O; is located [MASK] the
+— Size: monitor is larger than keyboard                          Oz
+f | VLM Nn   Space: monitor is located above table                       Bt        (EES ans ©, the O1 is located incom
+parison to O2
+QA       in a S, where is O; is located in com-
+
+parison to Oz? (a) .. (b) ..
+
+Source: “VIPHY: Probing “Visible” Physical Commonsense Knowledge,” EMNLP 2023.
+

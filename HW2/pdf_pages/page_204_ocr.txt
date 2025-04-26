@@ -1,0 +1,20 @@
+A       Any concern on generating intermediate steps
+om       instead of direct answers?
+
+ 
+
+Always keep in mind that MLLMs are probabilistic models of generating
+next tokens. They are not humans.
+
+What MLLM does in decoding:
+
+~ arg max P(reasoning path, final answer|problem)
+
+ 
+
+What we want:
+
+arg max P(final answer|problem)
+
+30                                                                                          Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

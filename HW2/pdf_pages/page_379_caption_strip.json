@@ -1,0 +1,17 @@
+{
+  "title": "Reinforcement Learning",
+  "definitions": {
+    "Reinforcement Learning": "A type of machine learning where an agent learns to make decisions by performing actions and receiving rewards or penalties."
+  },
+  "formulas": [
+    "Q-learning formula: Q(s, a) = Q(s, a) + alpha * (R + gamma * max(Q(s', a')) - Q(s, a))"
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "Machine Learning",
+    "Agent",
+    "Rewards",
+    "Penalties"
+  ],
+  "summary": "The slide introduces Reinforcement Learning, a machine learning approach where an agent learns optimal actions through rewards and penalties. It includes the Q-learning formula for updating the value of taking a certain action in a given state."
+}

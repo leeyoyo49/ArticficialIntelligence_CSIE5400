@@ -1,0 +1,15 @@
+{
+  "title": "Distribution Matching (DM)",
+  "definitions": {
+    "Distribution Matching": "Among various methods, distribution matching (DM) based approaches stand out for their balance of computational efficiency and strong performance."
+  },
+  "formulas": [],
+  "keywords": [
+    "Distribution Matching",
+    "DM",
+    "computational efficiency",
+    "performance",
+    "metric"
+  ],
+  "summary": "The slide discusses Distribution Matching (DM) methods, highlighting their balance of computational efficiency and strong performance. It also mentions the challenge in defining an effective metric to measure discrepancies between real and synthetic datasets."
+}

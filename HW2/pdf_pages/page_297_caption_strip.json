@@ -1,0 +1,25 @@
+{
+  "title": "DM: moment matching methods",
+  "definitions": {
+    "MMD": "Maximum Mean Discrepancy"
+  },
+  "formulas": [
+    "min L(D, D1|Z_R)",
+    "min L(D, D2|Z_R)",
+    "min L(D, D1|Z_H)",
+    "min L(D, D2|Z_H)"
+  ],
+  "keywords": [
+    "DM",
+    "moment matching methods",
+    "Maximum Mean Discrepancy",
+    "MMD",
+    "latent Hilbert space",
+    "Z_R",
+    "Z_H",
+    "D",
+    "D1",
+    "D2"
+  ],
+  "summary": "The slide discusses DM, specifically moment matching methods, and introduces Maximum Mean Discrepancy (MMD) as a later method for aligning moments of distributions in a latent Hilbert space. It includes a comparison of previous and new paradigms, with diagrams illustrating the optimization process in MMD."
+}

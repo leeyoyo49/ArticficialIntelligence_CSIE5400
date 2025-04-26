@@ -1,0 +1,21 @@
+iY     Observations
+ys
+
+ 
+
+[Google Research 2023]    (
+
+= Open-web datasets used to train open text-to-image models
+suffer from significant issues.
+
+e To be specific, the captions in the LAION dataset, used to train vision-
+language models, come from alt HTML tags (Alttext) and often describes
+only a narrow aspect of the image, neglecting significant visual details.
+
+e For example, an image of a person can have as Alttext the name of the
+person and the name of the photographer, but not a description of their
+appearance, their clothes, their position, or the background.
+
+Source: “A Picture is Worth a Thousand Words: Principled Recaptioning Improves Image Generation,” arXiv, 2023.
+52
+

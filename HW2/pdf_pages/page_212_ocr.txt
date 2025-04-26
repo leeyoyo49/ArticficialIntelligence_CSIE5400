@@ -1,0 +1,14 @@
+iY   This Lecture — Agenda                           (
+mm
+
+=m Reasoning Basics
+# Chain-of-Thought (CoT)
+m Zero-shot reasoner
+= Few-shot reasoner
+
+# Analogical Reasoning
+= Multimodal Reasoning
+a Multimodal CoT
+
+38
+

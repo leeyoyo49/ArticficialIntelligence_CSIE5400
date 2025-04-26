@@ -1,0 +1,21 @@
+{
+  "title": "Exploration Functions",
+  "definitions": {
+    "Random actions": "explore a fixed amount",
+    "Better idea": "explore areas whose badness is not (yet) established, eventually stop exploring"
+  },
+  "formulas": [
+    "f(u, n) = u + k/n",
+    "Q(s, a) <=> a R(s, a, s') + gamma max Q(s', a')",
+    "Q(s, a) <=> a R(s, a, s') + gamma max f(Q(s', a'), N(s', a'))",
+    "x <=> (1 - alpha) x + alpha v"
+  ],
+  "keywords": [
+    "Exploration",
+    "Functions",
+    "Value estimate",
+    "Visit count",
+    "Optimistic utility"
+  ],
+  "summary": "The slide discusses when to explore in the context of artificial intelligence, suggesting to explore areas with unknown badness and to stop eventually. It introduces the exploration function, which takes a value estimate and a visit count to return an optimistic utility. Two update rules, Regular Q-Update and Modified Q-Update, are presented with their respective formulas."
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "Fine-grained Perception (cross-instance)"
+  },
+  "formulas": [],
+  "keywords": [
+    "MMBench",
+    "ECCV 2024",
+    "Fine-grained Perception",
+    "cross-instance",
+    "Spatial Relationship",
+    "Attribute Comparison"
+  ],
+  "summary": "The slide discusses emerging reasoning benchmarks, specifically MMBench [ECCV 2024], which focuses on fine-grained perception (cross-instance). It includes examples of spatial relationship and attribute comparison questions, with answers provided for each."
+}

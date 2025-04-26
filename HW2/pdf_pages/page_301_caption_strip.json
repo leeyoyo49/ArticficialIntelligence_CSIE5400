@@ -1,0 +1,24 @@
+{
+  "title": "Adversarial Distribution Matching",
+  "definitions": {
+    "Ours": "Our method or approach",
+    "max L(D, D1|Zψ1)": "Maximum likelihood function for D given D1 and Zψ1",
+    "min L(D, D1|Zψ2)": "Minimum likelihood function for D given D1 and Zψ2",
+    "maximize the distance in parameterized space Zψ": "The goal to increase the distance in the space defined by the parameters",
+    "minimize the distance within Zψ": "The goal to decrease the distance within the space defined by the parameters"
+  },
+  "formulas": [
+    "max L(D, D1|Zψ1)",
+    "min L(D, D1|Zψ2)",
+    "maximize the distance in parameterized space Zψ",
+    "minimize the distance within Zψ"
+  ],
+  "keywords": [
+    "Adversarial",
+    "Distribution",
+    "Matching",
+    "Likelihood",
+    "Parameterized space"
+  ],
+  "summary": "The slide presents the 'Adversarial Distribution Matching' method, which involves optimizing parameters to maximize and minimize distances in a parameterized space. The process is illustrated with a diagram showing the optimization steps and the corresponding likelihood functions."
+}

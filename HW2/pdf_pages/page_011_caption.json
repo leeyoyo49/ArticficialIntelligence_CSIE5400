@@ -1,0 +1,48 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Example: Language Translation with Transformers",
+  "definitions": {
+    "Transformers": "Transformers utilize an autoregressive approach for output generation."
+  },
+  "formulas": [
+    "x1=I",
+    "x2=want",
+    "x3=to",
+    "x4=buy",
+    "x5=a",
+    "x6=car",
+    "x7=EOS"
+  ],
+  "keywords": [
+    "Language Translation",
+    "Transformers",
+    "Autoregressive",
+    "Output Generation",
+    "Encoder Block",
+    "Decoder Block"
+  ],
+  "summary": "The slide provides an example of language translation using transformers, which utilize an autoregressive approach for output generation. It includes a diagram showing the encoder and decoder blocks and a list of example words."
+}
+```

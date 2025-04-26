@@ -1,0 +1,17 @@
+Visual Event Extraction
+
+  
+
+Supporting Zero-shot Vision Event Extraction
+
+ 
+
+Arrest
+
+agent                             detainee
+agent | agent
+1                           e
+: ‘
+
+     
+

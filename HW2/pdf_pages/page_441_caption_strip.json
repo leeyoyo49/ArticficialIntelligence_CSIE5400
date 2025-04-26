@@ -1,0 +1,20 @@
+{
+  "title": "Sample Data of CNN/Daily Mail",
+  "definitions": {
+    "CNN": "Cable News Network",
+    "Daily Mail": "A British daily newspaper",
+    "Source Document": "A document that provides the original information",
+    "Ground truth Summary": "The accurate information that is confirmed by evidence"
+  },
+  "formulas": [
+    "The first theatrical movie centering around the most popular female superhero"
+  ],
+  "keywords": [
+    "CNN",
+    "Daily Mail",
+    "Source Document",
+    "Ground truth Summary",
+    "Theatrical movie"
+  ],
+  "summary": "The slide presents a sample data from CNN/Daily Mail, including a source document and its ground truth summary. The document discusses a film director's departure from a movie project due to creative differences, and the summary confirms the director's departure and the movie's release date."
+}

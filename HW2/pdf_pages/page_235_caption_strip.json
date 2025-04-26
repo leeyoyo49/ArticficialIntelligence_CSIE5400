@@ -1,0 +1,15 @@
+{
+  "title": "Visual Commonsense Knowledge",
+  "definitions": {
+    "VisualCOMET": "Cognitive Image Understanding via Visual Commonsense Graphs"
+  },
+  "formulas": [],
+  "keywords": [
+    "VisualCOMET",
+    "Cognitive Image Understanding",
+    "Visual Commonsense Graphs",
+    "Cognitive",
+    "Image"
+  ],
+  "summary": "The slide presents the concept of VisualCOMET, which stands for Cognitive Image Understanding via Visual Commonsense Graphs. It explains how VisualCOMET can be used to understand the dynamic context of a still image by analyzing the actions and intentions of the people depicted in the image. The slide includes a diagram that illustrates the reasoning process behind the actions of individuals in a water rescue scenario, using a combination of commonsense knowledge and visual cues."
+}

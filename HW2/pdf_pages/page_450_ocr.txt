@@ -1,0 +1,38 @@
+iY    BERTScore                                                         (
+ys
+
+= BERTScore Architecture
+
+Reference 7
+the weather is
+cold today
+
+Candidate 7
+it is freezing today
+
+165
+
+Step 2: Cosine Similarity:
+
+The similarity between contextual embeddings of
+reference and candidate sentences is measured using
+cosine similarity.
+
+Contextual          Pairwise Cosine              Maximum Similarity             Importance Weighting
+Embedding               Similarity                                                                             (Optional)
+
++ &|-
+
+__ (0.713 1.27)-+(0.515x7.94)+...
+—> Reertr =
+
+1.27+7.94+1.82+7.90+8.88
+
+Reference
+
+ 
+
+全|一
+
+ 
+

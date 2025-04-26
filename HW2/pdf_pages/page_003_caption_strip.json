@@ -1,0 +1,27 @@
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Agent Robotics": "Learning-from-observation (LfO)",
+    "Task model": "Minsky's frame",
+    "Encoding": "What-to-do, Where-to-do, How-to-do",
+    "Skill agents": "Not direct mimicking",
+    "Teaching mode": "Not specified",
+    "Execution mode": "Not specified"
+  },
+  "formulas": [
+    "Not specified"
+  ],
+  "keywords": [
+    "Agent Robotics",
+    "Learning-from-observation",
+    "LfO",
+    "Task model",
+    "Minsky's frame",
+    "Encoding",
+    "Skill agents",
+    "Not direct mimicking",
+    "Teaching mode",
+    "Execution mode"
+  ],
+  "summary": "The slide presents an overview of Agent Robotics, specifically Learning-from-observation (LfO). It explains the concept of a task model, which includes encoding what, where, and how to do tasks. It also discusses the difference between teaching and execution modes, emphasizing that skill agents do not directly mimic. The slide includes images of robots in teaching and execution modes."
+}

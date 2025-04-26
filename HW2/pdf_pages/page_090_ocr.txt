@@ -1,0 +1,67 @@
+ 
+
+A Running Example (2/4)
+
+ 
+
+Automatic Curriculum
+
+,®:.
+
+ake Crafting Table
+
+ 
+
+New
+
+Combat                          Task
+
+Zombie
+
+Q
+
+Mine Diamond
+
+  
+
+Mine Wood Log
+
+ 
+
+90
+
+Iterative Prompting Mechanism
+
+async function combatZombie(bot) {
+
+// Equip a weapon
+
+const sword = bot.inventory.findInventoryItem(
+mcData. itemsByName["stone_sword"].id);
+
+if (sword) {
+
+await bot.equip(sword, "“hand");}
+else {
+await craftStoneSword(bot);} .--------. a   Skill
+
+// Craft and equip a shield                   Retrieval
+await craftShield(bot);  ----------+---++- i  4一一一一
+
+a 人人
+
+ 
+
+Skill Library
+
+Mine Wood Log
+Make Crafting Table
+Craft Stone Sword
+Make Furnace
+
+Craft Shield
+
+Cook Steak
+
+Combat Zombie
+

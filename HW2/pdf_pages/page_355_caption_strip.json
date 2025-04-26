@@ -1,0 +1,23 @@
+{
+  "title": "Gridworld Display",
+  "definitions": {
+    "k": "5",
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=5",
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "Gridworld",
+    "Display",
+    "k",
+    "Noise",
+    "Discount"
+  ],
+  "summary": "The slide presents a gridworld display with values after 5 iterations. It includes a table with numerical values and directional arrows, and defines key terms such as 'k', 'Noise', 'Discount', and 'Living reward'."
+}

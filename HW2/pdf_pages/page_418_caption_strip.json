@@ -1,0 +1,17 @@
+{
+  "title": "Approximate Q-Learning",
+  "definitions": {
+    "Approximate Q-Learning": "A type of reinforcement learning algorithm that estimates the value of each state-action pair."
+  },
+  "formulas": [
+    "Q(s, a) = \sum_{s', r, d} P(s', r, d | s, a) [r + \gamma \max_{a'} Q(s', a')]"
+  ],
+  "keywords": [
+    "reinforcement learning",
+    "algorithm",
+    "state-action pair",
+    "value estimation",
+    "gamma"
+  ],
+  "summary": "The slide presents the concept of Approximate Q-Learning, a reinforcement learning algorithm that estimates the value of each state-action pair. It includes a formula for the Q-value calculation."
+}

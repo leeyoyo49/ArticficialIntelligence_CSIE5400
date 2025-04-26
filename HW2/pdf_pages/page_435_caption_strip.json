@@ -1,0 +1,22 @@
+{
+  "title": "Potential for Self-Improvement",
+  "definitions": {
+    "BIG-bench": "The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench are"
+  },
+  "formulas": [
+    "Bigbench-hard (2023)"
+  ],
+  "keywords": [
+    "Experiments",
+    "NLP",
+    "benchmarks",
+    "reasoning",
+    "Bigbench-hard",
+    "BIG-bench",
+    "multiple-choice",
+    "direct-generation",
+    "language models",
+    "tasks"
+  ],
+  "summary": "The slide discusses the potential for self-improvement in AI through experiments conducted on NLP benchmarks, specifically focusing on the Bigbench-hard (2023) and BIG-bench benchmarks. These benchmarks include multiple reasoning tasks and are designed to probe and extrapolate the future capabilities of large language models."
+}

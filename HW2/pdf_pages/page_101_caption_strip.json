@@ -1,0 +1,17 @@
+{
+  "title": "Stanford AI Village [JUST 2023] Episodic memory of experience",
+  "definitions": {
+    "Memory Stream": "The memory stream comprises a large number of observations that are relevant and irrelevant to the agent's current situation. Retrieval identifies a subset of these observations that should be passed to the language model to condition its response to the situation."
+  },
+  "formulas": [
+    "retrieval = recency + importance + relevance"
+  ],
+  "keywords": [
+    "Stanford AI Village",
+    "JUST 2023",
+    "Episodic memory",
+    "Experience",
+    "Memory Stream"
+  ],
+  "summary": "The slide discusses the concept of 'Episodic memory of experience' in the context of AI, specifically how a 'Memory Stream' is used to process observations relevant to an agent's current situation. It also explains the retrieval process and provides a formula for calculating the relevance of observations."
+}

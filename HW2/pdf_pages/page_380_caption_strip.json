@@ -1,0 +1,22 @@
+{
+  "title": "Grandmaster level in StarCraft II using multi-agent reinforcement learning",
+  "definitions": {
+    "Article": "Published: 30 October 2019",
+    "Actions limit": "~22 per 5 s",
+    "Requested delay": "~200 ms",
+    "Processing delay": "30 ms"
+  },
+  "formulas": [
+    "Actions limit ~22 per 5 s",
+    "Requested delay ~200 ms",
+    "Processing delay 30 ms"
+  ],
+  "keywords": [
+    "Grandmaster",
+    "level",
+    "StarCraft II",
+    "multi-agent",
+    "reinforcement learning"
+  ],
+  "summary": "The slide presents an article published on 30 October 2019, discussing the achievement of grandmaster level in StarCraft II using multi-agent reinforcement learning. It includes details about the actions limit, requested delay, and processing delay."
+}

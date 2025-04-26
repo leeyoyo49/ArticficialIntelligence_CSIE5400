@@ -1,0 +1,21 @@
+{
+  "title": "Markov Decision Processes",
+  "definitions": {
+    "MDP": "An MDP is defined by: A set of states s in S, A set of actions a in A, A transition function T(s, a, s'), A reward function R(s, a, s'), A start state, Maybe a terminal state",
+    "transition function": "A transition function T(s, a, s')",
+    "reward function": "A reward function R(s, a, s')",
+    "start state": "A start state",
+    "terminal state": "Maybe a terminal state"
+  },
+  "formulas": [
+    "P(s'|s, a)"
+  ],
+  "keywords": [
+    "Markov",
+    "Decision Processes",
+    "MDP",
+    "states",
+    "actions"
+  ],
+  "summary": "The slide defines Markov Decision Processes (MDP) and lists its components such as states, actions, transition function, reward function, start state, and terminal state. It also includes a diagram illustrating the concept."
+}

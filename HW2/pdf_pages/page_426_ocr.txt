@@ -1,0 +1,15 @@
+iY   Training DQNs                                      (
+mm
+
+m= With the neural network taking the place of the Q-table, we can
+simplify the Q-learning algorithm.
+
+| |  Current Q-table value we are updating
+
+[| Learning rate
+| Reward
+| | Discount
+
+圖  Estimated reward from our next action
+141
+

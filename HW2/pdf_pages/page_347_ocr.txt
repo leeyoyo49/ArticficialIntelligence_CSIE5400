@@ -1,0 +1,24 @@
+Example: Value Iteration
+
+  
+
++1
+還            ‘as       .
+Slow                     38,                       ~
+十1                                 4,
+V.                                                                                                                                                               /  oO 4
+2                                                                                                                                           a
+of                Fast    0.5 +2                            y
+Overheated
+
+V,                                                                                                                                  Assume no discount!
+1
+
+Vet10s) — max) Ts, a, s’)  [R(s, a,s’) +7 V;(s |
+
+9/
+
+Vo
+
+ola
+

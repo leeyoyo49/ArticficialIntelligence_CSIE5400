@@ -1,0 +1,47 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Results",
+  "definitions": {
+    "Base Model": "A red bench and a yellow clock",
+    "RECAP": "A car driving through a hole in a huge tree"
+  },
+  "formulas": [
+    "A kitchen with a wooden table and a white refrigerator"
+  ],
+  "keywords": [
+    "Results",
+    "Base Model",
+    "RECAP",
+    "Bench",
+    "Clock",
+    "Car",
+    "Tree",
+    "Kitchen",
+    "Table",
+    "Refrigerator"
+  ],
+  "summary": "The slide presents results of a project, showcasing a base model with a red bench and a yellow clock, and a recap with a car driving through a tree hole. It also includes a kitchen with a wooden table and a white refrigerator."
+}
+```

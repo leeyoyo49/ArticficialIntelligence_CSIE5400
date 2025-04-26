@@ -1,0 +1,16 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "A benchmark for evaluating machine learning models on reasoning tasks",
+    "ECCV 2024": "A conference where the MMBench was presented"
+  },
+  "formulas": [],
+  "keywords": [
+    "Artificial Intelligence",
+    "Reasoning",
+    "Benchmark",
+    "Machine Learning",
+    "Logic"
+  ],
+  "summary": "The slide presents the emerging reasoning benchmarks in the field of Artificial Intelligence, specifically the MMBench presented at ECCV 2024. It includes examples of future prediction and structuralized image-text understanding."
+}

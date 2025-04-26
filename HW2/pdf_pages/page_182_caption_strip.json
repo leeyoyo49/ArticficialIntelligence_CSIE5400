@@ -1,0 +1,36 @@
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Object Count": "How many chairs are there in this room?",
+    "Relative Distance": "Measuring from the closest point of each object, which of these objects (refrigerator, sofa, ceiling light, cutting board) is the closest to the printer?",
+    "Appearance Order": "What will be the first-time appearance order of the following categories in the video: basket, printer, refrigerator, kettle?",
+    "Relative Direction": "If I am standing by the refrigerator and facing the sofa, is the kettle to my left, right, or back?",
+    "Object Size": "What is the length of the longest dimension (length, width, or height) of the refrigerator in centimeters?",
+    "Absolute Distance": "Measuring from the closest point of each object, what is the distance between the bed and the sofa in meters?",
+    "Room Size": "What is the size of this room (in square meters)? If multiple rooms are shown, estimate the size of the combined space.",
+    "Route Plan": "You are a robot beginning at the toilet and facing the washer. Navigate to the pan. Fill in this route: 1. Go forward until the washing machine 2. [?] 3. Go forward until the sofa 4. [?] 5. Go forward until the pan."
+  },
+  "formulas": [
+    "Object Count",
+    "Relative Distance",
+    "Appearance Order",
+    "Relative Direction",
+    "Object Size",
+    "Absolute Distance",
+    "Room Size",
+    "Route Plan"
+  ],
+  "keywords": [
+    "AI",
+    "Weekly",
+    "Object Count",
+    "Relative Distance",
+    "Appearance Order",
+    "Relative Direction",
+    "Object Size",
+    "Absolute Distance",
+    "Room Size",
+    "Route Plan"
+  ],
+  "summary": "The slide titled 'AI Weekly' presents various tasks related to spatial reasoning and navigation, such as counting objects, determining relative and absolute distances, and planning routes. These tasks are part of a demonstration of VSI-Bench, a benchmark for evaluating AI's spatial understanding and decision-making capabilities."
+}

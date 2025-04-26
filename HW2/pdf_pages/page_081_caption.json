@@ -1,0 +1,58 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "The Reflexion process",
+  "definitions": {
+    "Agent": "The entity that performs actions and receives feedback",
+    "Self-reflection (LM)": "A process where the agent evaluates its own performance",
+    "Evaluator (LM)": "A component that assesses the agent's actions",
+    "Trajectory (short-term memory)": "The agent's short-term memory of its actions",
+    "Experience (long-term memory)": "The agent's long-term memory of its experiences",
+    "Actor (LM)": "The component that executes the agent's actions",
+    "Environment": "The external context in which the agent operates",
+    "Action": "The agent's behavior or response",
+    "Obs / Reward": "Observation and reward from the environment",
+    "External feedback": "Feedback from the environment to the agent",
+    "Internal feedback": "Feedback from the agent's self-reflection"
+  },
+  "formulas": [
+    "Trajectory = Action + Environment",
+    "Experience = Action + Reward"
+  ],
+  "keywords": [
+    "Agent",
+    "Self-reflection",
+    "Evaluator",
+    "Trajectory",
+    "Experience",
+    "Actor",
+    "Environment",
+    "Action",
+    "Obs / Reward",
+    "External feedback",
+    "Internal feedback"
+  ],
+  "summary": "The Reflexion process diagram illustrates the components and flow of information within an agent's decision-making process. It includes the agent's interaction with the environment, the role of self-reflection, and the distinction between short-term and long-term memory. The diagram also shows how actions are influenced by observations and rewards from the environment."
+}
+```

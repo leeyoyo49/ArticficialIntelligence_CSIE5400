@@ -1,0 +1,111 @@
+¢ VisualCOMET: Cognitive Image Understanding via Visual Commonsense Graphs
+
+  
+  
+   
+ 
+
+                                                                                                                                      
+ 
+  
+  
+     
+  
+
+Save
+himself from
+drowning.
+
+  
+  
+  
+
+   
+  
+
+  
+   
+  
+ 
+
+Try to help
+[Person2].
+
+Wait for
+help to arrive.
+
+Sink in
+the water.
+
+   
+ 
+    
+  
+
+Notice water
+washing in.
+
+                                                                                                                                                                                                                                
+  
+
+Swim
+towards the
+
+。                    After Person1
+Swim to              :          }                         Because Person2              statute.
+will most likely ...                                         =z                             hi
+safety.                            =                   wantedto ,,,           7                       Sense his
+(BE!                        own death.
+
+   
+                                                                                                                                                                            
+                                                                                                                                                                              
+ 
+ 
+   
+  
+
+ 
+
+we ' Before Person2
+Get to               Because        ,
+
+|                                   ded
+the top.     Person1 wanted   |                             ee
+
+  
+  
+   
+ 
+
+Scream
+for help.
+
+Before Person1                 2                        y          After Person3
+Get caught       needed to .             ae                     讓          will most likely ...
+
+  
+
+in a rush of
+water.
+
+    
+ 
+ 
+
+ 
+                                                                                                                                                                                                     
+
+Be washed
+away.
+
+Start moving
+against the water.
+
+   
+ 
+
+ 
+
+61                                                              Source: “VisualCOMET: Reasoning About the Dynamic Context of a Still Image,” ECCV, 2020.
+

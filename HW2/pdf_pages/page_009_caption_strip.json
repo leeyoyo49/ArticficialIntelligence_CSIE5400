@@ -1,0 +1,20 @@
+{
+  "title": "Sequence to Sequence Generation with Transformer Based Models",
+  "definitions": {
+    "Transformer": "an encoder-decoder architecture",
+    "Encoder": "a neural network that analyzes the input and builds an intermediate representation (a.k.a. context vector) of it",
+    "Decoder": "a neural network that analyzes the intermediate representation and creates an output"
+  },
+  "formulas": [
+    "Input: Sequence x1, ..., xT",
+    "Output: Sequence y1, ..., yT'"
+  ],
+  "keywords": [
+    "Sequence",
+    "Transformer",
+    "Encoder",
+    "Decoder",
+    "Context Vector"
+  ],
+  "summary": "The slide explains the process of sequence to sequence generation using transformer-based models. It details the input and output sequences, the encoder-decoder architecture, and the roles of the encoder and decoder in the process. A diagram illustrates the flow from input to output through the encoder and decoder."
+}

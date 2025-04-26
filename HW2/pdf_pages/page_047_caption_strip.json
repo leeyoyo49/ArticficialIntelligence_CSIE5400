@@ -1,0 +1,28 @@
+{
+  "title": "Example: Stable Diffusion",
+  "definitions": {
+    "Pixel Space": "The space where individual pixels are represented and processed.",
+    "Latent Space": "A compressed representation of data, often used in machine learning to reduce dimensionality.",
+    "Diffusion Process": "A method of generating data by gradually adding noise to a signal.",
+    "Denoising U-Net": "A type of neural network used for noise reduction in images.",
+    "Semantic Map": "A representation of the scene or object in a machine learning context.",
+    "Text": "Input text used to guide the generation process.",
+    "Representations": "The output of the model, often in the form of images or other data.",
+    "Images": "The final output of the model, visual representations of the input text and semantic map."
+  },
+  "formulas": [
+    "x -> E -> z -> T -> zT -> T0"
+  ],
+  "keywords": [
+    "Stable Diffusion",
+    "Pixel Space",
+    "Latent Space",
+    "Diffusion Process",
+    "Denoising U-Net",
+    "Semantic Map",
+    "Text",
+    "Representations",
+    "Images"
+  ],
+  "summary": "The slide provides an overview of the Stable Diffusion process, illustrating the flow from pixel space to latent space, through a diffusion process, and back to pixel space. It highlights the role of a denoising U-Net in reducing noise and the use of semantic maps and text to guide the generation of representations and images."
+}

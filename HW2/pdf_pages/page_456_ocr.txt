@@ -1,0 +1,16 @@
+iY  Problem Formulation (2/3)                      (
+mm
+
+= To fine-tune LLM with reinforcement learning, we can view this
+problem by MDP, which is described as a tuple (S, A, P, R, y, do):
+e State space S: the space of input token sequences:
+° g U {0o, O7,..., Of.
+* S, is defined as the token sequence of question gq.
+e Action space A: the space of tokens o,.
+
+e Reward function R(q, {09, . . . , 0,}): a score that reflects the quality of the
+generated answer to the question.
+
+e Transition P: S44 = S;U Ops4-
+e Initial distribution dy: the distribution of question g.
+

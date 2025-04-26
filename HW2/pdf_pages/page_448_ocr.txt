@@ -1,0 +1,23 @@
+iY    BERTScore                                                         (
+ys
+
+= BERTScore Architecture
+
+Contextual          Pairwise Cosine              Maximum Similarity             Importance Weighting
+Embedding             Similarity                                                                  (Optional)
+Reference 1                                                                         |
+the weather is         一>       0        一>
+cold today                 一                                                            一 mm人
+
+Reference
+
+ 
+
+Candidate 7
+一                   一
+it is freezing today             ®
+
+163
+
+ 
+

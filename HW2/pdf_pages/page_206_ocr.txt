@@ -1,0 +1,17 @@
+iY     LLaVA-CoT                                                                 (
+『
+
+¢ LLaVA-CoT is a novel VLM designed to conduct autonomous
+multistage reasoning, capable of generating four distinct
+stages: summary, caption, reasoning, and conclusion.
+Summary: A brief outline in which the model summarizes the
+forthcoming task.
+Caption: A description of the relevant parts of an image (if present),
+focusing on elements related to the question.
+Reasoning: A detailed analysis in which the model systematically
+considers the question.
+Conclusion: A concise summary of the answer, providing a final
+response based on the preceding reasoning.
+
+32                                                                                  Source: “LLaVA-CoT: Let Vision Language Models Reason Step-by-Step,” arXiv, 2025.
+

@@ -1,0 +1,45 @@
+iY   Multimodal CoT Reasoning
+mm
+
+  
+
+¢ The rationales have a significant impact on answer prediction.
+¢ An example:
+
+A drop by over 12%
+
+   
+   
+   
+
+Language
+
+ Question: Will these magnets attract or repel each
+1 other?
+
+ Context: Two magnets are placed as shown. Hint: |
+
+' Magnets that attract pull together. Magnets that :
+
+' repel push apart.                                       I
+| Options: | (A) attract       | (B) repel
+
+Accuracy
+
+Reasoning               QCM—->RA
+
+  
+
+No-CoT predicts the answer directly (QOM—A)
+
+Rationale: Will these magnets attract or repel? To find out, look at which poles are       e
+closest to each other. The north pole of one magnet is closest to the south pole of the
+
+Reasoning where answer inference is conditioned to the
+th    t. Poles that  different attract. So, th     its will attract each other.        '                .
+rowers ancwer is (A).   erent attrac  io, these magnets will attract each other.         rationale (QCM—RA);
+
+ 
+
+49                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

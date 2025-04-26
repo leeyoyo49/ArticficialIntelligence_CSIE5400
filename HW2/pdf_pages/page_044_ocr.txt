@@ -1,0 +1,26 @@
+iY   Denoising Diffusion Models                    (
+和
+
+= Forward diffusion process: Introducing noise
+
+e In the forward diffusion process, the small Gaussian noise is incrementally
+added to the distribution over T steps, resulting in a series of increasingly
+noisy samples.
+
+a>,                           Ae            pm am |z+-1)   a>                            a>
+/              \                         /                                                                                                 \
+\     a      gf     eee          >    CH                               >        Lt                      <                 xp      |
+\              y                                                                   %        及                           x y
+
+—
+
+<j                                                                                                                               bee ne
+
+Q(X+|Xz-1) = N (x13 V1 — BX¢-1, 6:1)
+
+mean yu      variance 02
+
+ 
+
+44                                                               Source: https://lilianweng.github.io/posts/202 1-07-11-diffusion-models/
+

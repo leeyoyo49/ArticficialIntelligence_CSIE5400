@@ -1,0 +1,21 @@
+Generalizing Across States
+
+ 
+
+m Basic QLearning keeps a table of all q-values
+
+m Inrealistic situations, we cannot possibly learn
+about every single state!
+= loo many states to visit them all in training
+= Too many states to hold the q-tables in memory
+
+m Instead, we want to generalize:
+m Leam about some small number of training states from
+experience
+m Generalize that experience to new, similar situations
+
+m Thisis a fundamental idea in machine learning, and we'll
+see it over and over again
+
+ 
+

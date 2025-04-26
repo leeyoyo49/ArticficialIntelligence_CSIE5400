@@ -1,0 +1,16 @@
+Approximate Q-Learning
+
+ 
+
+m Using afeature representation f;, fz, ...we can write aq function (or value function)
+for any state using a few weights wi, Wa, ...:
+
+V(s) = wift(s) + wofe(s) +... + wnfn(s)
+Q(s, a) 一 wifils, a)+wofo(s, a)+. . tunfn(s, a)
+m Advantage: our experience is summed up in a few powerful numbers wi, Wa, ...
+
+m Disadvantage: states may share features but actually be very different in value!
+m Ex these two states would have the same value if we don’t include ghost positions as a feature:
+
+ 
+

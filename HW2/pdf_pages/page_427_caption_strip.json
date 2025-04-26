@@ -1,0 +1,17 @@
+{
+  "title": "Training DQNs",
+  "definitions": {
+    "Q-learning": "A type of reinforcement learning algorithm that seeks to find a policy that maximizes the sum of all future rewards. It does this by learning a value function that estimates the value of each state-action pair."
+  },
+  "formulas": [
+    "Q(st, at) <- Q(st, at) + α[rt+1 + ηmax Q(st+1, a) - Q(st, at)]"
+  ],
+  "keywords": [
+    "neural network",
+    "Q-learning algorithm",
+    "Q-table",
+    "back-propagating optimizer",
+    "learning rate"
+  ],
+  "summary": "The slide discusses the simplification of the Q-learning algorithm by replacing the Q-table with a neural network. It includes a formula for updating the Q-value and explains the removal of the learning rate, which allows for the elimination of two Q(st, a) terms."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Reinforcement Learning: Overview",
+  "definitions": {
+    "Passive Reinforcement Learning": "how to learn from already given experiences",
+    "Model-based": "learn the MDP model from experiences, then solve the MDP",
+    "Model-free": "forego learning the MDP model, directly learn V or Q",
+    "Value learning": "learns value of a fixed policy",
+    "Q learning": "learns Q values of the optimal policy (Q version of TD Learning)"
+  },
+  "formulas": [
+    "MDP model",
+    "TD Learning"
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "Passive Reinforcement Learning",
+    "Model-based",
+    "Model-free",
+    "Value learning",
+    "Q learning",
+    "Active Reinforcement Learning",
+    "Approximate Reinforcement Learning"
+  ],
+  "summary": "The slide provides an overview of Reinforcement Learning, discussing Passive Reinforcement Learning, Model-based and Model-free approaches, Value learning, Q learning, Active Reinforcement Learning, and Approximate Reinforcement Learning."
+}

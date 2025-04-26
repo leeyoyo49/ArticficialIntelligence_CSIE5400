@@ -1,0 +1,12 @@
+CVPR 2025 (Rating: 555)
+
+Dataset Distillation with Neural Characteristic Function: A Minmax Perspective
+
+Shaobo Wang!” =Yicun Yang? Zhiyuan Liu? + Chenghao Sun?
+Xuming Hu? ConghuiHe* Linfeng Zhang!?*
+School of Artificial Intelligence, Shanghai Jiao Tong University
+2EPIC Lab, Shanghai Jiao Tong University
+SHong Kong University of Science and Technology, Guangzhou
+4Shanghai Artificial Intelligence Laboratory
+{shaobowang1009, zhanglinfeng}@sjtu.edu.cn
+

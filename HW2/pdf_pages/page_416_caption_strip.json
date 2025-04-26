@@ -1,0 +1,17 @@
+{
+  "title": "Regret",
+  "definitions": {
+    "Regret": "a measure of your total mistake cost: Difference between all your (expected) rewards, including youthful suboptimality, and optimal (expected) rewards"
+  },
+  "formulas": [
+    "Regret = Total Mistake Cost"
+  ],
+  "keywords": [
+    "optimal policy",
+    "mistake cost",
+    "expected rewards",
+    "suboptimality",
+    "optimal learning"
+  ],
+  "summary": "The slide discusses the concept of regret in the context of learning and decision-making. It explains that even with an optimal policy, mistakes are inevitable and regret is a measure of the total mistake cost. It also highlights that minimizing regret requires optimal learning, not just optimal learning. An example is given that random exploration and exploration functions both can be optimal, but random exploration has higher regret."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Example: Racing",
+  "summary": "The slide presents a scenario where an autonomous car aims to travel far quickly. It outlines three states of the car: Cool, Warm, and Overheated, and two actions: Slow and Fast. Going faster results in double the reward.",
+  "definitions": {
+    "Cool": "The car is in a cool state.",
+    "Warm": "The car is in a warm state.",
+    "Overheated": "The car is in an overheated state.",
+    "Slow": "The action of slowing down the car.",
+    "Fast": "The action of speeding up the car."
+  },
+  "keywords": [
+    "Autonomous car",
+    "Travel",
+    "Quickly",
+    "Cool",
+    "Warm",
+    "Overheated",
+    "Slow",
+    "Fast",
+    "Reward"
+  ],
+  "formulas": [
+    "Going faster gets double reward"
+  ]
+}

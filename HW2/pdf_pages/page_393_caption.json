@@ -1,0 +1,39 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. If the slide shows a plot, describe the plot.
+
+5. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "summary": string,
+     "definitions": { term: definition },
+     "keywords": [ string ],
+     "formulas": [ string ]
+   }
+
+6. Output ONLY the JSON object as a string—no extra text or formatting.
+
+7. The formulas should be in LaTeX format, and the JSON object should be valid and parsable, don't generate ·.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Analogy: Expected Age",
+  "summary": "The slide presents an analogy to compute the expected age of current students in NTU CSIE using known and unknown probabilities of age. It explains the concept of expected value and how it can be calculated with and without the probability distribution.",
+  "definitions": {
+    "Expected Value": "The expected value of a random variable is the long-run average value of repetitions of the same experiment.",
+    "Probability": "The probability of an event is a measure of the likelihood that the event will occur."
+  },
+  "keywords": ["Expected Age", "NTU CSIE", "Probability", "Expected Value", "Probability Distribution"],
+  "formulas": [
+    "E[A] = \sum_{a\in A} P(a)\,a \;=\; 0.35 \times 20 + \dots"
+    "\hat{P}(a) = \frac{\mathrm{num}(a)}{N}\qquadE[A] \approx \sum_{a\in A} \hat{P}(a)\,a",
+    "E[A] \approx \frac{1}{N}\sum_{i=1}^{N} a_i"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MathVista": "MathVista is a benchmark for math-targeted tasks."
+  },
+  "formulas": [
+    "(5 - 4)^3 = 1",
+    "(7 - 3)^3 = 64",
+    "(8 - 2)^3 = 216",
+    "(11 - 8)^3 = 27"
+  ],
+  "keywords": [
+    "MathVista",
+    "ICLR 2024",
+    "Math-targeted",
+    "Puzzle test",
+    "Elementary school",
+    "College",
+    "Logical reasoning",
+    "Algebraic reasoning",
+    "Scientific reasoning",
+    "API-based LLMs",
+    "Open-sourced LLMs",
+    "AgentBench Overall Score"
+  ],
+  "summary": "The slide presents various reasoning benchmarks, including MathVista, with examples of math problems and their solutions. It also compares the performance of API-based and open-sourced LLMs using AgentBench Overall Score."
+}

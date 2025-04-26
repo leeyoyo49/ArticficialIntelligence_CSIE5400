@@ -1,0 +1,30 @@
+A       Example: Exploring LoT in MLLM with Creative
+om        Humor Generation
+
+  
+
+¢ Oogiri (XK =) game: Players are required to make surprising
+and creative humorous responses to the given multimodal
+information e.g., images, text, or both.
+
+                                                                                                                                                                                                                                                                 
+
+   
+
+Excuse me, Sir
+(4
+
+How many
+fingers do
+
+programmers
+usually use
+to write code?
+
+Would....Would you mind            Get out of my way!                    Two.
+uncuffing me?                 My friend is badly hurt!        Ctrl+C / Ctrl+V
+
+36                      Source: “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation,” CVPR, 2024.
+
+  
+

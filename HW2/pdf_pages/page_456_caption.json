@@ -1,0 +1,45 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Problem Formulation (2/3)",
+  "definitions": {
+    "State space S": "the space of input token sequences",
+    "Action space A": "the space of tokens",
+    "Reward function R(q, {o0, ..., ot})": "a score that reflects the quality of the generated answer to the question",
+    "Transition P": "St+1 = St U Ot+1",
+    "Initial distribution d0": "the distribution of question q"
+  },
+  "formulas": [
+    "St+1 = St U Ot+1"
+  ],
+  "keywords": [
+    "State space",
+    "Action space",
+    "Reward function",
+    "Transition",
+    "Initial distribution"
+  ],
+  "summary": "The slide discusses the problem formulation for fine-tuning a language model with reinforcement learning using Markov Decision Process (MDP). It defines key components such as state space, action space, reward function, transition, and initial distribution."
+}
+```

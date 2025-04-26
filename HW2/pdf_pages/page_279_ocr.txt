@@ -1,0 +1,45 @@
+Various reasoning benchmarks are emerging
+
+  
+
+¢ MMBench [ECCV 2024]      Attribute Reasoning
+
+Physical Property Reasoning
+
+ee ee ee
+
+Is the hardest naturally occurring                                       Q: The object shown in this figure:
+
+ 
+
+105
+
+s
+
+substance on Earth.
+Conducts electricity well at room
+temperature.
+
+ 
+
+ 
+
+Is one kind of metal that is liquid
+at the room temperature.
+Can be easily dissolved in water.
+
+C. Is typically found in igneous rocks                                      Has a low boiling point compared
+like |  asalt and granite.                                                       to other metals.
+D. Has a low melting point compared                                     = attracted to magnets.
+to other minerals.
+GT: A
+Q: What's the function of the                                                                                 ,
+Q: What's the function of the
+demonstrated object?                                                           demonstrated object?
+A. Cut vegetables                                                               A. Separating
+說  a         ses                                                             B. Clamping
+. Water puvification                                                          C. drill
+人 oo water                                                                D. incise
+
+GT: A
+

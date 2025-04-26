@@ -1,0 +1,23 @@
+{
+  "title": "A Running Example",
+  "definitions": {
+    "Nicolas Cage": "Nicolas Cage",
+    "Odd": "Odd",
+    "Even": "Even",
+    "1964": "1964",
+    "He was born in an even year": "He was born in an even year",
+    "Cage was born in 1964, an even year": "Cage was born in 1964, an even year"
+  },
+  "formulas": [
+    "Probability for the answer token"
+  ],
+  "keywords": [
+    "Nicolas Cage",
+    "Odd",
+    "Even",
+    "1964",
+    "He was born in an even year",
+    "Cage was born in 1964, an even year"
+  ],
+  "summary": "The slide presents a running example of probability for answer tokens, with a table showing different statements about Nicolas Cage's birth year and their associated probabilities."
+}

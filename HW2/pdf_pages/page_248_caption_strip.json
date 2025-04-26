@@ -1,0 +1,23 @@
+{
+  "title": "Existing object-centric info miss situational understanding",
+  "definitions": {
+    "Object": "Entity",
+    "Relation": "Relation",
+    "Scene Graph": "Entity-Relation Graph",
+    "Entity-Relation Graph": "Scene Graph",
+    "State-of-the-art Captioner": "Answer"
+  },
+  "formulas": [
+    "a woman holding a sign in front of a group of people.",
+    "a woman holding a sign while standing in a park.",
+    "a woman holding a sign in front of a crowd."
+  ],
+  "keywords": [
+    "Object-centric",
+    "Information",
+    "Situational understanding",
+    "Entity",
+    "Relation"
+  ],
+  "summary": "The slide discusses the limitations of object-centric information in understanding situational context. It introduces the concept of entity-centric information, which includes entities, relations, and scene graphs to provide a more comprehensive understanding. The slide also presents a state-of-the-art captioner that can generate descriptive sentences based on the entity-centric information."
+}

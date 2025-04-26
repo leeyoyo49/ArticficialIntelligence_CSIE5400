@@ -1,0 +1,20 @@
+ 
+
+ 
+
+iY   Deep Q-Learning Networks (DQNs)
+mm
+
+m By using a neural network to approximate the Q-function, which estimates
+the expected cumulative reward for each action in a given state, Deep Q-
+Learning can handle environments with large state spaces.
+
+m It aims to enable agents to learn optimal actions in complex, high-
+dimensional environments.
+
+ 
+
+Deep Q Learning
+
+139
+

@@ -1,0 +1,25 @@
+Racing Search Tree
+
+ 
+
+m= We're doing way too much
+
+&
+work with expectimax!                         oe
+
+&                      &                         &
+m Problem: States are repeated
+m Idea: Only compute needed               , oR        ow                    x 允
+quantities once, cache the rest in        a & & &            &                       人
+
+ve   AN AAO AS
+
+m Problem: Tree goes on forever
+
+m Idea: Doa depth-limited
+computation, but with increasing                                                          ‘tt
+depths until change is small
+
+m Note: deep parts of the tree     則生 VW AWM CEM —— LWUWAE CHEW CW關
+eventually don’t matter if y < 1
+

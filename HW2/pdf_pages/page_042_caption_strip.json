@@ -1,0 +1,15 @@
+{
+  "title": "Denoising Diffusion Models",
+  "definitions": {
+    "Sampling": "Unconditional generation"
+  },
+  "formulas": [],
+  "keywords": [
+    "Denoising",
+    "Diffusion",
+    "Models",
+    "Sampling",
+    "Unconditional generation"
+  ],
+  "summary": "The slide presents Denoising Diffusion Models, illustrating the process of transforming an unknown data distribution into a known distribution through sampling and unconditional generation."
+}

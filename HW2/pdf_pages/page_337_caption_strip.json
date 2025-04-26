@@ -1,0 +1,17 @@
+{
+  "title": "Racing Search Tree",
+  "definitions": {
+    "expectimax": "A decision-making algorithm used in game theory and artificial intelligence for minimizing the maximum possible loss in a game."
+  },
+  "formulas": [
+    "γ < 1"
+  ],
+  "keywords": [
+    "Racing Search Tree",
+    "expectimax",
+    "States",
+    "Lookup table",
+    "Depth-limited computation"
+  ],
+  "summary": "The slide discusses the concept of a Racing Search Tree in artificial intelligence, highlighting the problems of repeated states and infinite tree growth. It suggests solutions like using a lookup table for repeated states and depth-limited computation to prevent infinite growth. The slide also includes a visual representation of a Racing Search Tree and a note on the significance of the variable gamma (γ) being less than 1."
+}

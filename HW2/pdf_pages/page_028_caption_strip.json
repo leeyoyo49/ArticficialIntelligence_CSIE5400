@@ -1,0 +1,19 @@
+{
+  "title": "Multi-Head Self-Attention Layer",
+  "definitions": {
+    "Multi-Head Self-Attention": "Multiple self-attention heads in parallel"
+  },
+  "formulas": [
+    "Concatenate"
+  ],
+  "keywords": [
+    "Self-attention",
+    "Heads",
+    "Parallel",
+    "Split",
+    "X0",
+    "X1",
+    "X2"
+  ],
+  "summary": "The slide presents the concept of a Multi-Head Self-Attention Layer in artificial intelligence, explaining that it involves multiple self-attention heads operating in parallel. The process includes concatenating outputs from these heads and then splitting the result. The diagram illustrates the structure with multiple heads, each performing self-attention on inputs X0, X1, and X2, and the final output is split into three parts."
+}

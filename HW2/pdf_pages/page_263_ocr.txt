@@ -1,0 +1,10 @@
+MLLM Pretraining with Event Semantic Structures
+
+ 
+
+Independence Square
+
+Event Level Alignment
+
+89                                                                                                 Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

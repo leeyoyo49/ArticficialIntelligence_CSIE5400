@@ -1,0 +1,56 @@
+A Running Example (4/4)
+
+  
+
+Automatic Curriculum                              Iterative Prompting Mechanism                                    Skill Library
+
+ 
+
+async function combatZombie(bot) {
+// Equip a weapon                                             Mine Wood Log
+const sword = bot.inventory.findInventoryItem(
+mcData. itemsByName["stone_sword"].id);                                         Make Crafting Table
+if (sword) {
+M                                           await bot.equip(sword, "“hand");}                                    Craft Stone Sword
+
+else {                                               有
+New      await craftStoneSword(bot);} .--------. a   Skill        x   Make Furnace
+@
+
+ake Crafting Table
+
+Combat
+
+Task     // Craft and equip a shield                   Retrieval
+:                                                                                                                                     Craft Shield
+Zombie
+
+await craftShield(bot);  .--------------+- i  4
+Cook Steak
+
+  
+
+Mine Wood Log                                                                                                                                                     Combat Zombie
+
+                                                                                                                            
+ 
+
+ 
+
+Env Feedback            Code as                  Refine Program
+和                          Execution Errors            Actions
+圖|                                          中      定
+
+Mine Diamond
+
+ 
+
+Exploration
+Progress
+
+ 
+
+Environment            Self-Verification
+
+92
+

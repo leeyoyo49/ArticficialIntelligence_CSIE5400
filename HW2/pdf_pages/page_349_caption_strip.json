@@ -1,0 +1,20 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "k": "1",
+    "set rewards": "set rewards"
+  },
+  "formulas": [
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "k",
+    "set rewards",
+    "Noise",
+    "Discount",
+    "Living reward"
+  ],
+  "summary": "The slide presents a gridworld display with values after one iteration. The grid has different colored squares indicating rewards or penalties. The noise level is set to 0.2, the discount factor is 0.9, and the living reward is 0."
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Example: Grid World",
+  "definitions": {
+    "Maze-like problem": "The agent lives in a grid. Walls block the agent's path.",
+    "Noisy movement": "Actions do not always go as planned. 80% of the time, the action North takes the agent North (if there is no wall there). 10% of the time, North takes the agent West; 10% East. If there is a wall in the direction the agent would have been taken, the agent stays put.",
+    "The agent receives rewards each time step": "Small 'living' reward each step (can be negative). Big rewards come at the end (good or bad).",
+    "Goal": "maximize sum of rewards"
+  },
+  "formulas": [
+    "80% of the time, the action North takes the agent North (if there is no wall there)",
+    "10% of the time, North takes the agent West; 10% East",
+    "If there is a wall in the direction the agent would have been taken, the agent stays put",
+    "Small 'living' reward each step (can be negative)",
+    "Big rewards come at the end (good or bad)"
+  ],
+  "keywords": [
+    "agent",
+    "grid",
+    "walls",
+    "actions",
+    "rewards"
+  ],
+  "summary": "The slide presents an example of a maze-like problem in a grid world where an agent navigates through a grid. The agent receives small 'living' rewards each step and aims to maximize the sum of rewards. The agent's movement is noisy, with a 80% chance of moving North if there is no wall, and a 10% chance of moving West or East. The agent receives big rewards at the end, which can be good or bad."
+}

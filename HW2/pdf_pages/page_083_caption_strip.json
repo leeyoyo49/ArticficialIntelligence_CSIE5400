@@ -1,0 +1,16 @@
+{
+  "title": "A decision-making example",
+  "definitions": {
+    "Environment": "You are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1."
+  },
+  "formulas": [],
+  "keywords": [
+    "decision-making",
+    "example",
+    "environment",
+    "task",
+    "mug",
+    "desklamp"
+  ],
+  "summary": "The slide presents a decision-making scenario where the task is to examine a mug with a desk lamp. The environment is described with various objects in a room."
+}

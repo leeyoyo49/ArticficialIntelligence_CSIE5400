@@ -1,0 +1,19 @@
+{
+  "title": "Grid World Actions",
+  "definitions": {
+    "Deterministic Grid World": "A grid world where the outcome of an action is always the same.",
+    "Stochastic Grid World": "A grid world where the outcome of an action can vary and is probabilistic."
+  },
+  "formulas": [
+    "0.1",
+    "0.8"
+  ],
+  "keywords": [
+    "Deterministic",
+    "Stochastic",
+    "Grid World",
+    "Actions",
+    "Probabilistic"
+  ],
+  "summary": "The slide compares deterministic and stochastic grid worlds. In a deterministic grid world, actions lead to predictable outcomes. In a stochastic grid world, actions have probabilities associated with different outcomes."
+}

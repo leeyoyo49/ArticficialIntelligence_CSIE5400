@@ -1,0 +1,35 @@
+Entity
+
+Object
+
+ 
+
+:         Relation
+centric
+
+Relation
+
+ 
+
+Entity-Relation Graph
+
+Verb
+Event-
+
+Scene Graph
+
+Activity
+
+ 
+
+centric
+Event Structure
+
+ 
+
+ 
+
+Image Event Graph
+
+79                                                                                        Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

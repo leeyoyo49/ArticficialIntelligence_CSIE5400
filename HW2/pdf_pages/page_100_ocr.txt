@@ -1,0 +1,29 @@
+iY    Stanford Al Village [UIST 2023]
+mm
+
+ 
+
+Episodic memory of experience
+
+The agent architecture
+
+    
+   
+  
+
+Memory Stream                                               Retrieved Memories
+
+100                                                                                              Source: “Generative Agents: Interactive Simulacra of Human Behavior,” UIST, 2023.
+
+ 
+                                                                                                                                                                                                                                                                  
+ 
+
+ 
+                                                                                                                                                                                                                                                                  
+ 
+
+Generative Agent Memory
+
+Perceive                                                                        Retrieve
+

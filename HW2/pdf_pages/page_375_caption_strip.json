@@ -1,0 +1,17 @@
+{
+  "title": "Policy Iteration",
+  "definitions": {
+    "Policy Iteration": "A method used in reinforcement learning where the policy is iteratively improved. The agent evaluates the current policy and then updates it to maximize the expected return."
+  },
+  "formulas": [
+    "V(s) = \sum_{a \in A} \pi(a|s) \cdot R(s, a) + \gamma \sum_{s' \in S} P(s'|s, a) \cdot V(s')"
+  ],
+  "keywords": [
+    "Policy Iteration",
+    "reinforcement learning",
+    "agent",
+    "policy",
+    "expected return"
+  ],
+  "summary": "The slide presents the concept of Policy Iteration in reinforcement learning, where an agent iteratively improves its policy to maximize the expected return. It includes a formula for calculating the value function V(s) based on the current policy \pi(a|s), the reward function R(s, a), and the discount factor \gamma."
+}

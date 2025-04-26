@@ -1,0 +1,19 @@
+{
+  "title": "k=11",
+  "definitions": {
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=11"
+  ],
+  "keywords": [
+    "Noise",
+    "Discount",
+    "Living reward",
+    "k=11",
+    "Gridworld Display"
+  ],
+  "summary": "The slide presents a grid with numerical values after 11 iterations, indicating a simulation or model output. The values are color-coded, with green for positive values, red for a negative value, and grey for a neutral value. The slide also includes definitions for 'Noise', 'Discount', and 'Living reward'."
+}

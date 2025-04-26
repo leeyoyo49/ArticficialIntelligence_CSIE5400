@@ -1,0 +1,25 @@
+Regret
+
+ 
+
+m Evenif you learn the optimal policy,
+you still make mistakes along the way
+
+m Regret is ameasure of your total
+mistake cost:
+
+u Difference between all your (expected)
+rewards, including youthful suboptimality,
+and optimal (expected) rewards
+
+mw Minimizing regret goes beyond
+learning to be optimal — it requires
+optimally learning to be optimal
+
+= For example: random exploration and
+exploration functions both end up
+optimal, but random exploration has
+higher regret
+
+ 
+

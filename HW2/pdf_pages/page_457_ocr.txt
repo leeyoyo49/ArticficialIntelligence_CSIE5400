@@ -1,0 +1,20 @@
+iY  Self-evaluation as the Reward                    (
+ys
+
+=m RLC uses two types of prompts for evaluating the self-
+generated text:
+
+e (1) Correctness Evaluation Prompt (CEP)
+
+¢ "Is the answer to the question correct? The question is: [Q]. The
+answer is: [A]”
+
+¢ The reward is a 0-1 value based on the evaluation result.
+e (2) Quality Evaluation Prompt (QEP)
+
+¢ "Please evaluate the answer to the question and give me an
+evaluation score from 1 to 10. The question is: [Q]. The answer is
+[A]".
+
+172
+

@@ -1,0 +1,23 @@
+Ay
+
+177
+
+Remarks
+
+ 
+
+Reinforcement learning is an Al area concerned with how an intelligent agent ought to take
+actions in a dynamic environment in order to maximize the cumulative reward.
+
+Different from supervised learning in not needing labelled input/output pairs to be presented,
+reinforcement learning focuses on finding a balance between exploration (of uncharted
+territory) and exploitation (of current knowledge) with the goal of maximizing the long term
+
+reward.
+machine learning
+
+unsupervised               supervised            reinforcement
+learning                     learning                   learning
+
+ 
+

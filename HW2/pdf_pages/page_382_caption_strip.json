@@ -1,0 +1,17 @@
+{
+  "title": "A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning",
+  "definitions": {
+    "Model-Free Reinforcement Learning": "A type of reinforcement learning that does not use a model of the environment to make decisions."
+  },
+  "formulas": [
+    "Q-learning formula: Q(s, a) = Q(s, a) + \alpha [R + \gamma \max_a Q(s', a) - Q(s, a)]"
+  ],
+  "keywords": [
+    "Model-Free Reinforcement Learning",
+    "Q-learning",
+    "Reinforcement Learning",
+    "Learning",
+    "Park"
+  ],
+  "summary": "The slide presents a study on learning to walk in 20 minutes using model-free reinforcement learning. It includes a Q-learning formula and keywords related to the topic."
+}

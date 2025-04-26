@@ -1,0 +1,20 @@
+{
+  "title": "BERTScore Architecture",
+  "definitions": {
+    "BERTScore": "A metric used to evaluate the quality of text by comparing the similarity of embeddings between a reference and a candidate sentence using BERT embeddings."
+  },
+  "formulas": [
+    "R_BERT = (R_REF × R_CAND) / (1 - b)",
+    "R_BERT = (0.713 × 1.27) / (1.27 + 7.94 + 1.82 + 7.90 + 8.88)"
+  ],
+  "keywords": [
+    "BERTScore",
+    "Architecture",
+    "Baseline Rescaling",
+    "Contextual Embedding",
+    "Pairwise Cosine Similarity",
+    "Maximum Similarity",
+    "Importance Weighting"
+  ],
+  "summary": "The slide presents the BERTScore architecture, a metric for evaluating text quality using BERT embeddings. It includes a step-by-step process of baseline rescaling, contextual embedding, pairwise cosine similarity, and maximum similarity. An optional importance weighting is also mentioned, with a formula for calculating the BERT score."
+}

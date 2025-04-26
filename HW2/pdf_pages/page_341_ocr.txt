@@ -1,0 +1,14 @@
+Value Iteration
+
+ 
+
+m Start with Vo(s) = 0: no time steps left means an expected reward sum of zero
+
+m Given vector of V(s) values, do one step of expectimax from each state:
+
+Vet10s) — max) T(s,a, s') [R(s, a, s/) + 7 Vics’) |
+
+m Repeat until convergence, which yields V*
+
+ 
+

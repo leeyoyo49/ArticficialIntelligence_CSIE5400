@@ -1,0 +1,103 @@
+Al Weekly
+
+Observation
+
+    
+  
+
+ 
+
+  
+ 
+
+Take the book in living room
+to the desk in office, then take
+the clock in the office to the
+kitchen counter in kitchen.
+
+ 
+   
+   
+ 
+  
+  
+ 
+ 
+ 
+ 
+
+Subtask finished
+& Few steps
+
+CoT Feedback
+
+ 
+
+eee                 GPT-4
+Instruction: <ins>
+CoT: <cot>
+Observation: <obs>
+Memory: <hist>
+
+ 
+ 
+
+Vision Encoder
+
+Multi-     |
+en
+
+eS
+
+Short-Term Memory
+
+hy
+
+hz hg hg
+
+Avg Pool
+
+t
+Min(- >" ¢ log(ci))
+
+t
+eo
+
+Avg Pool
+
+  
+
+   
+  
+   
+ 
+                                                                                                                                                                  
+
+Long-Term
+=                                                               Memory
+SG Dataset
+Q Target
+S1
+Obs                                                     {
+8    Match
+S2
+S3
+Weight
+Append
+
+|  Memory
+
+   
+
+n
+
+                                                                                                                                               
+
+Prompt_3
+
+                                                                                                                                             
+   
+ 
+
+Vector
+

@@ -1,0 +1,20 @@
+{
+  "title": "Hard negatives via manipulating event structures",
+  "definitions": {
+    "Hard negatives": "Negative examples that are difficult to identify or classify correctly.",
+    "Event structures": "A structured representation of events, including the entities involved and the actions performed."
+  },
+  "formulas": [
+    "Event Type: Arrest (arrest)",
+    "Event Type: Transport (carry)",
+    "Event Type: Transport (carry)"
+  ],
+  "keywords": [
+    "Hard negatives",
+    "manipulating",
+    "event structures",
+    "arrest",
+    "transport"
+  ],
+  "summary": "The slide discusses the concept of 'Hard negatives' in the context of manipulating event structures. It provides definitions for key terms and lists event types with their respective agents, entities, and instruments. The slide also includes an image with labeled elements to illustrate the concept."
+}

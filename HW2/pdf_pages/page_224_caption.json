@@ -1,0 +1,63 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>iY   Multimodal CoT Reasoning
+mm
+
+¢ Multimodal-CoT is a proposed mechanism to incorporate language (text)
+and vision (images) modalities into a two-stage framework that
+
+separates rationale generation and answer inference.
+¢ Both stages share the same model structure but differ in the input and output.
+
+me                                                           Look at each object. For each
+f°                                       object, decide if it has that
+property. Potato chips have a
+
+=       =                                 salty taste. Both objects are
+
+Rationale                     i                    Answer
+.         salty. A soft object changes                         The answer
+       Generation       shape when you squeeze it.         Inference        is (B).
+
+The fries are soft, but the
+
+Question: Which property do these two                           cracker is not. The property
+objects have in common?                              that both objects have in
+Context: Select the better answer.                                                   common is salty.
+
+Options:  |    (A) soft             (B) salty
+
+ 
+
+50                                                              Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Multimodal-CoT": "a proposed mechanism to incorporate language (text) and vision (images) modalities into a two-stage framework that separates rationale generation and answer inference.",
+    "Rationale Generation": "a stage in the Multimodal CoT framework where the rationale for the answer is generated.",
+    "Answer Inference": "a stage in the Multimodal CoT framework where the final answer is inferred based on the rationale generated."
+  },
+  "formulas": [
+    "Multimodal-CoT = Language (text) + Vision (images) + Rationale Generation + Answer Inference"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT",
+    "Reasoning",
+    "Language",
+    "Vision"
+  ],
+  "summary": "The slide presents the concept of Multimodal CoT Reasoning, a mechanism that integrates text and image modalities into a two-stage framework. The first stage involves rationale generation, and the second stage involves answer inference. Both stages share the same model structure but differ in input and output. The slide also includes a visual representation of the process and a question-answer example."
+}

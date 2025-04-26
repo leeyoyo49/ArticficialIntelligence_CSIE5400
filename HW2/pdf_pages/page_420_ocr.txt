@@ -1,0 +1,33 @@
+Example: Pacman
+
+ 
+
+Let's say we discover             In naive g-learning,
+through experience                we know nothing
+that this state is bad:                  about this state:
+
+章
+章
+
+章
+
+_ ae |
+*
+
+【
+re讓六 讓六 讓
+
+*
+*
+*
+*
+*
+*
+*
+*
+.
+
+章
+
+ 
+

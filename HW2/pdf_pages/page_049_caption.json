@@ -1,0 +1,41 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Multimodal Embedding Spaces",
+  "definitions": {
+    "Multimodal embedding spaces": "Multimodal embedding spaces are typically learned by collecting large amounts of paired multimodal data from the Internet, often images and text, and learning encoders for each modality using a pairwise similarity objective."
+  },
+  "formulas": [
+    "LAION-5B: A NEW ERA OF OPEN LARGE-SCALE MULTI-MODAL Datasets"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Embedding",
+    "Spaces",
+    "Data",
+    "Internet"
+  ],
+  "summary": "The slide discusses multimodal embedding spaces, which are learned by collecting paired multimodal data from the Internet, often including images and text. It introduces LAION-5B, a new era of open large-scale multi-modal datasets."
+}
+```

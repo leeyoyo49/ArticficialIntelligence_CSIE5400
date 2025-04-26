@@ -1,0 +1,19 @@
+iY    BERTScore                                                         (
+ys
+
+= BertScore is a method used to measure the quality of text
+summarization. This method measures how similar the text
+summary is to the original text.
+
+=m BertScore addresses two common issues that n-gram-based
+metrics often encounter.
+
+e First, n-gram models tend to incorrectly match paraphrases because
+semantically accurate expressions may differ from the surface form of the
+reference text, which can lead to incorrect performance estimation.
+
+e Second, n-gram models cannot capture long-range dependencies and
+penalize semantically significant reordering.
+
+162
+

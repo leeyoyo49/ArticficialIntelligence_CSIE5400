@@ -1,0 +1,12 @@
+Example: Value Iteration
+
+  
+
+Overheated
+
+  
+
+Assume no discount!
+
+Vet10s) — max) T(s, a, s’)  [R(s, a,s’) + 7 Vi(s’)|
+

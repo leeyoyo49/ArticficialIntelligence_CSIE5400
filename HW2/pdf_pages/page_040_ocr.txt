@@ -1,0 +1,22 @@
+ 
+
+with Diffusion Based Models
+
+iY   Text to Image Generation
+
+ 
+
+m= Diffusion Process
+
+e Just as we viewed the molecule’s motion as a Gaussian-distributed noise
+
+AIA,               .
+e +     AN     =
+Molecule          Noise          Movement
+movement
+e We add a Gaussian-distributed noise to the pixel
+e +         C        - e
+Pixel            Noise             Pixel
+
+40                                                               Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

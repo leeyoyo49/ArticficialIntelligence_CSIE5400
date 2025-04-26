@@ -1,0 +1,19 @@
+Model-Based Learning
+
+ 
+
+m= Model-Based Idea:
+m Leam an approximate model based on experiences
+m Solve for values as if the learned model were correct
+
+m Step 1: Leam empirical MDP model
+= Count outcomes s’ for each s, a
+= Normalize to give an estimate of T'(s, a, s’)
+m Discover each R(s, a, s’) when we experience (s, a, s’)
+
+ 
+
+m Step 2: Solve the learned MDP
+
+= For example, use value iteration, as before
+

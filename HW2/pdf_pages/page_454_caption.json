@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Overall Training Procedure of RLC",
+  "definitions": {
+    "RLC": "Reinforcement Learning Classifier",
+    "LM": "Language Model",
+    "Evaluation prompt": "A prompt used to evaluate the language model's output",
+    "Reward": "The feedback given to the language model to improve its performance"
+  },
+  "formulas": [
+    "The solid lines represent the data flow, while the dashed line represents the update of LM parameters."
+  ],
+  "keywords": [
+    "Training Procedure",
+    "RLC",
+    "Language Model",
+    "Evaluation",
+    "Reinforcement Learning"
+  ],
+  "summary": "The slide outlines the three-step training procedure of the Reinforcement Learning Classifier (RLC). It involves generating answers to unlabeled questions, self-evaluating the language model using an evaluation prompt, and updating the language model to maximize the reward using reinforcement learning algorithms. The slide also includes a diagram illustrating the data flow and the update process of the language model parameters."
+}
+```

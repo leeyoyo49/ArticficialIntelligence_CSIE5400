@@ -1,0 +1,41 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "An Example of Coding (Codeforces task) (2/3)",
+  "definitions": {
+    "prefix product algorithm": "The core algorithm for solving this problem is the prefix product algorithm. The algorithm works by initializing a variable 'prefix' to 1, and then iterating through the array from left to right. At each iteration, the current element is multiplied with the prefix, and the result is stored in the prefix variable. This way, the prefix variable keeps track of the product of all the elements in the prefix of the array. The time complexity of this algorithm is O(n), where n is the size of the input array."
+  },
+  "formulas": [
+    "O(n)"
+  ],
+  "keywords": [
+    "prefix product algorithm",
+    "algorithm",
+    "prefix",
+    "product",
+    "time complexity"
+  ],
+  "summary": "The slide provides an example of a coding task from Codeforces, focusing on the prefix product algorithm. It explains the algorithm's operation and time complexity, and presents three problems related to finding products of subarrays in an array of integers."
+}
+```

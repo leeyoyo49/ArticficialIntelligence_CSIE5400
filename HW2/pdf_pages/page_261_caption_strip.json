@@ -1,0 +1,20 @@
+{
+  "title": "Contrastive Learning on Event Semantics",
+  "definitions": {
+    "Contrastive Learning": "A type of machine learning where the model learns to distinguish between two different concepts or classes by comparing them directly.",
+    "Event Semantics": "The study of the meaning of events, which are occurrences that have a beginning and an end."
+  },
+  "formulas": [
+    "s(t0, v)",
+    "s(t1, v)",
+    "s(t2, v)"
+  ],
+  "keywords": [
+    "Contrastive Learning",
+    "Event Semantics",
+    "Protesters",
+    "Injured man",
+    "Stretcher"
+  ],
+  "summary": "The slide presents the concept of Contrastive Learning on Event Semantics, explaining how it is used to differentiate between positive and negative events in images. It includes a diagram showing the process of encoding text and images, and a flowchart illustrating the learning process. The slide also provides definitions for key terms and formulas used in the process."
+}

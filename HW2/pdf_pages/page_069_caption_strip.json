@@ -1,0 +1,20 @@
+{
+  "title": "Example: RT-2: Vision-Language-Action Models [PLMR 2023]",
+  "definitions": {
+    "Transfer Web Knowledge to Robotic Control": "Co-Fine-Tune",
+    "Vision-Language-Action Models for Robot Control": "RT-2",
+    "Closed-Loop Robot Control": "Deploy"
+  },
+  "formulas": [
+    "Translation = [0.1, -0.2, 0]",
+    "Rotation = [10º, 25º, -7º]"
+  ],
+  "keywords": [
+    "Vision-Language-Action Models",
+    "Robot Control",
+    "Transfer Web Knowledge",
+    "Closed-Loop Robot Control",
+    "Co-Fine-Tune"
+  ],
+  "summary": "The slide presents an example of Vision-Language-Action Models (RT-2) for robot control, demonstrating the transfer of web knowledge to robotic control through a process called Co-Fine-Tuning. It includes a diagram showing the flow from 'Transfer Web Knowledge to Robotic Control' to 'Closed-Loop Robot Control' and 'Deploy'. Additionally, it provides a translation and rotation example for a robot's action."
+}

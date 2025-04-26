@@ -1,0 +1,24 @@
+{
+  "title": "The Transformer Decoder Block (2)",
+  "definitions": {
+    "Transformer": "A type of neural network architecture that relies on self-attention mechanisms to process sequential data.",
+    "Decoder": "A component of the Transformer model that processes input data to generate output sequences.",
+    "FC": "Fully Connected layer, a type of neural network layer where each neuron is connected to every neuron in the previous layer.",
+    "C_0,0": "Initial state of the decoder's hidden state.",
+    "C_0,1": "State of the decoder's hidden state after processing the first input token.",
+    "C_0,2": "State of the decoder's hidden state after processing the second input token.",
+    "C_2,2": "State of the decoder's hidden state after processing the third input token."
+  },
+  "formulas": [
+    "y0, y1, y2, y3 = Transformer Decoder Block",
+    "C_0,0, C_0,1, C_0,2, C_2,2 = States of the decoder's hidden state"
+  ],
+  "keywords": [
+    "Transformer",
+    "Decoder",
+    "FC",
+    "State",
+    "Hidden state"
+  ],
+  "summary": "The slide presents the second part of a series on the Transformer Decoder Block, focusing on the internal structure and state transitions within the decoder component of the Transformer model."
+}

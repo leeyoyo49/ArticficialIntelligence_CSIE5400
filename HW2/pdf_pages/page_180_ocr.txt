@@ -1,0 +1,22 @@
+Probing “Visible” Physical Commonsense Knowledge L6G OO Lil
+
+Visually accessible knowledge representing color, size and space
+
+Zero-shot results (R-Acc) across all tasks
+
+ 
+
+Model                       Color              Size              Spatial
+
+hh H玫一一        Relaxed Accuracy (R-Acc) — The prediction (P;)
+BERTharge                 48. 39             44.61                20.96               is accurate if the most probable label (/;) belongs
+RoBERTAatarge          0. 5 9               47. 01                17. 52              to the set of ground-truth labels (T;).
+UnifiedQAtage 51.00 51.76           63.04             naa yy BOTALS memes 20)
+VisualBERT            9.06               24.91                 9.57                              éeD
+
+ 
+
+Human                      97.45              90.12               88.24
+
+Source: “VIPHY: Probing “Visible” Physical Commonsense Knowledge,” EMNLP 2023.
+

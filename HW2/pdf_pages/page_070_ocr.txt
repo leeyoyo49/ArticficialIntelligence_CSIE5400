@@ -1,0 +1,25 @@
+iY     Agent Architecture                                               (
+加
+
+Level 2: Using MLLM to reason to act      Level 1: Using MLLM to act
+(reasoning)                                   (acting)
+
+Action €L
+
+ 
+  
+ 
+
+OO
+Pritt     <_—_
+Observation €L
+
+*
+N Tool Use
+
+70                                                                                                                           Source: https://rdi.berkeley.edu/Ilm-agents/f24
+
+ 
+
+ 
+

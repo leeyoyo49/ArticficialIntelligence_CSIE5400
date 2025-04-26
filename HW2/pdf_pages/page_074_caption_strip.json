@@ -1,0 +1,21 @@
+{
+  "title": "Example Predictions of Toolformer",
+  "definitions": {
+    "New England Journal of Medicine": "The New England Journal of Medicine is a registered trademark of [QA(\"Who is the publisher of The New England Journal of Medicine?\")] -> Massachusetts Medical Society] the MMS.",
+    "Calculator": "Calculator(400 / 1400) -> 0.29",
+    "la tortuga": "la tortuga",
+    "tortuga": "turtle",
+    "Brown Act": "The Brown Act is California's law [WikiSearch(\"Brown Act\") -> The Ralph M. Brown Act is an act of the California State Legislature that guarantees the public's right to attend and participate in meetings of local legislative bodies.] that requires legislative bodies, like city councils, to hold their meetings open to the public."
+  },
+  "formulas": [
+    "Calculator(400 / 1400) -> 0.29"
+  ],
+  "keywords": [
+    "New England Journal of Medicine",
+    "Calculator",
+    "la tortuga",
+    "tortuga",
+    "Brown Act"
+  ],
+  "summary": "The slide provides examples of predictions made by Toolformer, including the publisher of the New England Journal of Medicine, a calculation of a percentage, the Spanish word for turtle, and a description of the Brown Act in California."
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Positional Encoding",
+  "definitions": {
+    "self-attention": "A mechanism in neural networks that allows the model to weigh the importance of different parts of the input data.",
+    "position encoding": "A method used in neural networks to give the model information about the position of words in a sentence."
+  },
+  "formulas": [
+    "p_j = pos(j)"
+  ],
+  "keywords": [
+    "self-attention",
+    "position encoding",
+    "input vector",
+    "d-dimensional vector",
+    "function"
+  ],
+  "summary": "The slide explains positional encoding in the context of self-attention in neural networks. It describes how a special positional encoding is concatenated to each input vector to process the position of the vector into a d-dimensional vector using a function."
+}

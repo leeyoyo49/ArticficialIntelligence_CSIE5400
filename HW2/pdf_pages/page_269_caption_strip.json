@@ -1,0 +1,18 @@
+{
+  "title": "Visual Event Extraction",
+  "definitions": {
+    "Supporting Zero-shot Vision Event Extraction": "A method that allows the identification of events in images without prior training on specific event types."
+  },
+  "formulas": [
+    "Event Extraction",
+    "Zero-shot Vision Event Extraction"
+  ],
+  "keywords": [
+    "Visual Event",
+    "Extraction",
+    "Supporting",
+    "Zero-shot",
+    "Vision"
+  ],
+  "summary": "The slide presents the concept of 'Supporting Zero-shot Vision Event Extraction' as a method for identifying events in images without prior training. It includes examples of events such as vaccination, arrest, protest, and celebration, with corresponding images and labels."
+}

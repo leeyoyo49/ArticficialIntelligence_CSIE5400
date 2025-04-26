@@ -1,0 +1,15 @@
+k=0 (initialize)
+
+ 
+
+ 
+
+VALUES AFTER O ITERATIONS              Noise = 0.2
+Discount = 0.9
+
+Living reward =0
+
+ 
+
+ 
+

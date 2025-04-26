@@ -1,0 +1,22 @@
+{
+  "title": "Existing object-centric info miss situational understanding",
+  "definitions": {
+    "Vision": "Object",
+    "Text": "Entity",
+    "Entity-centric": "Relation",
+    "Scene Graph": "Entity-Relation Graph"
+  },
+  "formulas": [],
+  "keywords": [
+    "object-centric",
+    "information",
+    "situational understanding",
+    "vision",
+    "text",
+    "entity-centric",
+    "relation",
+    "scene graph",
+    "entity-relation graph"
+  ],
+  "summary": "The slide discusses the limitations of object-centric information in understanding situational contexts, suggesting the need for entity-centric approaches that consider relations and graphs for better comprehension."
+}

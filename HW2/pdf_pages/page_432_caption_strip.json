@@ -1,0 +1,18 @@
+{
+  "title": "A Case Study",
+  "definitions": {
+    "LMSI": "Language Model Self-Improvement (LMSI) is to improve language models without requiring external supervision, in an unsupervised training manner."
+  },
+  "formulas": [
+    "RLCAI (arXiv 2022)",
+    "RLAIF (arXiv 2023)"
+  ],
+  "keywords": [
+    "Language Model",
+    "Self-Improvement",
+    "LMSI",
+    "RLCAI",
+    "RLAIF"
+  ],
+  "summary": "The slide discusses a case study on Language Model Self-Improvement (LMSI), which aims to enhance language models without external supervision. It highlights two notable works: RLCAI and RLAIF, which use different methods to improve AI models."
+}

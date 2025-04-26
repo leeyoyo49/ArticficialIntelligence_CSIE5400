@@ -1,0 +1,41 @@
+ 
+
+iY  An Example of Coding (Codeforces task) (
+mm
+
+## Python3 code to solve the original problem:
+Explanation of the solution:
+- Initialize prefix and suffix variables to 1, and k to -1.
+- Calculate the product of all the elements in the sequence using the prefix product algorithm.
+- Iterate through the sequence from right to left.
+- Update the prefix and suffix variables.
+- If the prefix is equal to the suffix, update k to the current index.
+Print the value of k.
+
+intCinputQ)
+
+_ in range(t):
+
+n = int(input())
+
+arr = list(map(int, input().split()))
+
+prefix, suffix = 1, 1
+
+k = -1
+
+for i in range(n):
+prefix = prefix * arr[i]
+
+for i in range(n-1, 0, -1):
+prefix = prefix // arr[i]
+suffix = suffix * arr[i]
+if prefix == suffix:
+
+k=i
+print(k)
+
+ 
+
+25
+

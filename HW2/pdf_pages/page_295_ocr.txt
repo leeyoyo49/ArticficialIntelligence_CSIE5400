@@ -1,0 +1,24 @@
+DM: feature point matching methods
+
+¢ Early methods primarily employed Mean Squared Error (MSE) to
+compare point-wise features, which operates in Euclidean space, Zp.
+
+@ Synthetic Data y¥ Real Data
+
+了
+
+/wsg 二Bevps~2 (2) 一(2)|
+
+| min L(D, D,|Zp)   1    L(D, D2|Zp                                           -
+       es    -            “~V~    !       where f denotes the feature extractor network, D and D
+      /           |               «       represent the real and synthetic data distributions, respec-
+                or  it              ae       tively, x and & are samples drawn from D and D.
+
+2k                       !
+Go         de]                女/ !
+I                       it                       1
+
+= 80 ee ee ee ee ee eee
+
+(a) Previous paradigm: optimize D to minimize the distance within Z.
+

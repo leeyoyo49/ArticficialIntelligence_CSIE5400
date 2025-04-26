@@ -1,0 +1,17 @@
+Multi-Head Self-Attention Layer
+
+  
+
+¢ Multiple self-attention heads in parallel
+
+Concatenate
+
+  
+   
+
+Self-attention of Head,      Self-attention of Head, Self-attention of Heady ...
+
+ 
+
+28                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

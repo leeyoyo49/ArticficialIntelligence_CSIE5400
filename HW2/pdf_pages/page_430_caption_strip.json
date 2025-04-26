@@ -1,0 +1,27 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "Q": "Prediction Network",
+    "Q'": "Target Network",
+    "Input": "The data fed into the networks",
+    "Target": "The desired output of the target network",
+    "Prediction": "The output of the prediction network",
+    "Parameter update": "The process of adjusting the network parameters"
+  },
+  "formulas": [
+    "Q(s', a'; θi^-1) = r + γ max Q(s', a'; θi^-1)",
+    "Q(s, a; θi) = Q(s, a; θi)"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "Q",
+    "Q'",
+    "Prediction Network",
+    "Target Network",
+    "Input",
+    "Target",
+    "Prediction",
+    "Parameter update"
+  ],
+  "summary": "The slide presents a diagram of a Deep Q-Network (DQN) algorithm, which is a reinforcement learning technique. It shows the flow of data from input to the prediction network, which predicts the Q-value for a given state and action. The target network's Q-value is calculated using the Bellman equation, and the difference between the target and prediction Q-values is used to update the parameters of the prediction network."
+}

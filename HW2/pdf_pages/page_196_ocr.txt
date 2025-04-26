@@ -1,0 +1,10 @@
+iY    Analogical Prompting                                  (
+和
+
+Goal: adaptively generate relevant examples and
+knowledge, rather than just using a fix set of examples
+
+An example of coding (Codeforces task)
+
+22                                                                                     Source: “Large Language Models as Analogical Reasoners,” ICLR, 2024.
+

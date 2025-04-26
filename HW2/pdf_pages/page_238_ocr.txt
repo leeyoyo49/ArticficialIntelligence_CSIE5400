@@ -1,0 +1,22 @@
+64
+
+ 
+
+What happened?
+
+ae A
+rad
+
+5 。
+了
+
+Yes! A protest.
+
+What are they protesting for?
+
+ 
+
+ 
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

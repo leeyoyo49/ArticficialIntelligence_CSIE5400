@@ -1,0 +1,91 @@
+51
+
+Multimodal Embedding Spaces
+
+ 
+
+ 
+
+¢ Multimodal learning: Generalization across any-to-any modalities
+
+RGB modalities                       Edge modalities
+RGB             Color palette              SAM edges       Canny edges
+
+Any-to-any model
+
+   
+                                                                                                                                                                                                                                                                  
+
+Text modalities
+Caption
+
+Z
+Getting ready for
+一區
+
+Geometric modalities
+
+Surface                                                                                                                                                                                                                                                               TS-XXL
+
+tttttt tttttt
+
+a      國 ra |
+a ra |
+
+ 
+
+Semantic modalities                                   AA                     Metadata modalities
+erates                                               口口口圖圖                       eet
+
+ 
+
+ 
+
+ 
+
+boxes
+# Humans: 7
+# Instances: 12
+
+plexity: 559%
+
+complexity:
+
+40% |_| Occlusion score:
+全    25%
+
+Objectness:
+Walkability: 40%
+Clutter score: 75
+
+Global feature modalities
+
+Feature map modalities
+
+pine)             ImageBind                     DINOva             ImageBind
+ee                       features             features        features
+
+(dense)            feaenasy            (dense)                  (global)            (global)
+
+ae
+
+  
+
+   
+                
+
+[NeurlPS 2024]
+
+Web text
+
+Albany
+人 International
+
+Crig. res.: 512x512|
+|Colorfulness: 35% |
+Contrast: 45%
+Brightness: 60%
+Saturation: 40%
+
+Source: “4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities,” NeurlPS, 2024.
+

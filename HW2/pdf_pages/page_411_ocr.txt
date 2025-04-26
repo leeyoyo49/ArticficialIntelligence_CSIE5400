@@ -1,0 +1,7 @@
+Active Reinforcement Learning
+
+ 
+
+Acting according to policy x*(s) = argmax Q(s,a)
+a
+

@@ -1,0 +1,23 @@
+{
+  "title": "Computing Time-Limited Values",
+  "definitions": {
+    "V0": "Initial value",
+    "V1": "First value",
+    "V2": "Second value",
+    "V3": "Third value",
+    "V4": "Fourth value"
+  },
+  "formulas": [
+    "V4 = V3 + V2 + V1 + V0"
+  ],
+  "keywords": [
+    "Time-Limited Values",
+    "Computing",
+    "Initial Value",
+    "First Value",
+    "Second Value",
+    "Third Value",
+    "Fourth Value"
+  ],
+  "summary": "The slide presents a method for computing time-limited values using a series of initial values. The process involves adding the initial values to compute the final value, represented by V4. The slide includes a visual representation of the computation process, with arrows indicating the flow of values and a diagram showing the progression of values over time."
+}

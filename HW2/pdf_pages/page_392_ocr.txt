@@ -1,0 +1,24 @@
+Example: Model-Based Learning
+
+Observed (s, a, S, R) Transitions       Leamed Model
+
+Input Policy zz
+Episode 1                Episode 2                      T(s,a, 8’)
+
+T(B, east, C) = 1.00
+T(C, east, D) = 0.75
+
+B, east, C, -1               B, east, C, -1
+C, east, D, -1              C, east, D, -1
+
+D, exit, x, +10          D, exit, x, +10              T(C.north, A) =0.25
+
+ 
+
+Episode 3                Episode 4                      R(s, a, 8’)
+E, north, C, -1            E, north, C, -1                RC eas Dat
+C, east,   D, -|              C, north, A, -1                  RO, exit, x) = +10
+Assume: y = 1                     D, exit, x, +10          A, exit, x,-10                             .
+
+                                                                                                            
+

@@ -1,0 +1,20 @@
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Gold Rationale": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force. Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same. So, the magnitude of the magnetic force is the same in both pairs.",
+    "Baseline": "Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller. There is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1.",
+    "+ Vision Features": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force. Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same. So, the magnitude of the magnetic force is the same in both pairs."
+  },
+  "formulas": [
+    "Coulomb's Law of Electrostatics: F = k * |q1 * q2| / r^2",
+    "Magnetic Force: F = (μ0 * m1 * m2) / (4 * π * r^2) * (1 - (v^2/c^2))"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT Reasoning",
+    "Gold Rationale",
+    "Baseline",
+    "Vision Features"
+  ],
+  "summary": "The slide presents a problem about the magnetic force between magnets in different pairs, with a question and multiple-choice answers. It includes a 'Gold Rationale' explaining the correct answer, a 'Baseline' reasoning, and a '+ Vision Features' reasoning. The slide also contains a diagram of two pairs of magnets and their respective magnetic forces."
+}

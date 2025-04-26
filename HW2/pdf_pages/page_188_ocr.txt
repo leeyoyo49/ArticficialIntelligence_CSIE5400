@@ -1,0 +1,23 @@
+ 
+
+iY    Few-shot chain-of-thought (CoT)
+mm
+
+Let’s revisit the “Last Letter Concatenation” problem
+using LLMs.
+
+: Q: “Elon Musk”
+:   : “nk”
+
+Q
+A
+ Q: ‘Bill Gates”
+A: “Is”
+Q
+
+ 
+
+: “Barack Obama”
+
+14                                                                                          Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

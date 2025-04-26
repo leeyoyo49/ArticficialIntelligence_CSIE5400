@@ -1,0 +1,24 @@
+{
+  "title": "Goal: Entity-Centric -> Event-Centric",
+  "definitions": {
+    "Entity": "Object",
+    "Relation": "Relation",
+    "Entity-Relation Graph": "Scene Graph",
+    "Verb": "Activity",
+    "Event Structure": "Image Event Graph"
+  },
+  "formulas": [
+    "Entity-Centric",
+    "Event-Centric"
+  ],
+  "keywords": [
+    "Entity-Centric",
+    "Event-Centric",
+    "Object",
+    "Relation",
+    "Scene Graph",
+    "Activity",
+    "Image Event Graph"
+  ],
+  "summary": "The slide presents a goal to transition from an entity-centric to an event-centric approach in AI. It includes a table comparing terms from entity-centric to vision, and a list of definitions and formulas related to the topic."
+}

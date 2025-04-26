@@ -1,0 +1,27 @@
+iY    MLLMs as Agent Models                           (
+『
+
+Level 1: Using MLLM to act
+(acting)
+
+                                                                                                                                                                                                                                                                   
+ 
+ 
+ 
+  
+
+Level 2: Using MLLM to reason to act
+(reasoning)
+
+Action EL
+
+ 
+
+Observation €L
+A
+Explored in the later lectures     人        人
+
+Memory om  N Tool Use
+
+62                                                                                                                           Source: https://rdi.berkeley.edu/Ilm-agents/f24
+

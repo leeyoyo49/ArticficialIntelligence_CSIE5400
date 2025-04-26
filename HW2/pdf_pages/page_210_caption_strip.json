@@ -1,0 +1,19 @@
+{
+  "title": "Example: Exploring LoT in MLLM with Creative Humor Generation",
+  "definitions": {
+    "Oogiri": "Players are required to make surprising and creative humorous responses to the given multimodal information e.g., images, text, or both."
+  },
+  "formulas": [
+    "Image&Text to Text (IT2T)",
+    "Image to Text (I2T)",
+    "Text to Text (T2T)"
+  ],
+  "keywords": [
+    "Oogiri",
+    "Humor Generation",
+    "Multimodal Information",
+    "Image to Text",
+    "Text to Text"
+  ],
+  "summary": "The slide presents an example of the Oogiri game, which involves players making humorous responses to multimodal information. It also lists three types of translation processes: Image&Text to Text (IT2T), Image to Text (I2T), and Text to Text (T2T)."
+}

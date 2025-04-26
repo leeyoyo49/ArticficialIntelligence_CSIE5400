@@ -1,0 +1,12 @@
+iY    MLLMs as Agent Models                           (
+『
+
+‧ MLLMS predict model-specific tokensS
+wiw2,...,W) 一 Mr+1
+¢ Al Agents predict observation-action sequences
+¢ Policy model: (0,, 41,02, a2,...,0¢) — a
+¢ World model: (01,41, 02,42, ..-,O¢,A¢) 一 Or+1
+¢ MLLMs are agent models if we can
+¢ Tokenize observations
+¢ Tokenize actions
+

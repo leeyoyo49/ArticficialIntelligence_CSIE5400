@@ -1,0 +1,22 @@
+The Story So Far: MDPs and RL
+
+ 
+
+Known MDP: Offline Solution
+
+Goal                                     Technique
+
+Compute V*, Q*, 7*                       Value / policy iteration
+
+Evaluate a fixed policy zr                         Policy evaluation
+
+ 
+
+Unknown MDP: Model-Based              Unknown MDP: Model-Free
+
+Goal                          Technique                      Goal                          Technique
+
+Compute V*, Q*, 7:*                 VI/PI on approx. MDP                     Compute V*, Q®, 7c"                  Qlearning
+
+ 
+

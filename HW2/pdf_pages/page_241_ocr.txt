@@ -1,0 +1,6 @@
+67
+
+ 
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

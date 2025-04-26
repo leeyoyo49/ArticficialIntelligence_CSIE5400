@@ -1,0 +1,24 @@
+{
+  "title": "k=1",
+  "definitions": {
+    "k": "The number of iterations in the algorithm",
+    "a↓": "The action taken at each state",
+    "a↓↓": "The action taken at the next state",
+    "a↓↓↓": "The action taken at the next next state",
+    "a↓↓↓↓": "The action taken at the next next next state"
+  },
+  "formulas": [
+    "0.9(0.8*0+0.1*1+0.1*0)=0.09",
+    "0.9(0.8*0+0.1*1+0.1*0)=0.09",
+    "0.9(0.8*1+0.1*0+0.1*0)=0.72",
+    "0.9(0.8*1+0.1*0+0.1*0)=0.72"
+  ],
+  "keywords": [
+    "k",
+    "iteration",
+    "action",
+    "state",
+    "reward"
+  ],
+  "summary": "The slide presents a gridworld display with values after 1 iteration. It includes formulas for calculating the values of actions at different states and the noise, discount, and living reward parameters."
+}

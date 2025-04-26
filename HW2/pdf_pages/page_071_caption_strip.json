@@ -1,0 +1,21 @@
+{
+  "title": "Tool Use",
+  "definitions": {
+    "MLMs": "predict model-specific tokens",
+    "tool calls": "invoke 'tool calls' to accomplish the 'prediction' task",
+    "special tokens": "invoke tool calls for search engine, calculator, etc.",
+    "task-specific models": "translation",
+    "APIs": "invoke tool calls for search engine, calculator, etc."
+  },
+  "formulas": [
+    "(W1, W2, ..., Wt) -> Wt+1"
+  ],
+  "keywords": [
+    "MLMs",
+    "tool calls",
+    "special tokens",
+    "task-specific models",
+    "APIs"
+  ],
+  "summary": "The slide discusses the use of tool calls in machine learning models, specifically in the context of predicting model-specific tokens. It highlights the necessity of invoking tool calls to accomplish the prediction task and provides examples of special tokens that can be used to invoke tool calls for search engines, calculators, and task-specific models like translation."
+}

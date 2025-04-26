@@ -1,0 +1,21 @@
+Markov Decision Processes
+
+ 
+
+mg An MDP is defined by:
+= Asetof statesseES
+a Asetof actionsac A
+= Atransition function T(s, a, s’)
+
+= Probability that a from sleads to s’, i.e., P(s’| s, a)
+= Also called the model or the dynamics
+
+= Areward function R(s, a, s’)
+= Sometimes just R(s) or R(s’)
+
+= Astart state
+
+m Maybe a terminal state
+
+ 
+

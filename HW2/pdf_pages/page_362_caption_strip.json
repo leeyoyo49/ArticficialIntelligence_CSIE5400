@@ -1,0 +1,19 @@
+{
+  "title": "k=12",
+  "definitions": {
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=12"
+  ],
+  "keywords": [
+    "Noise",
+    "Discount",
+    "Living reward",
+    "k",
+    "Iterations"
+  ],
+  "summary": "The slide presents a grid with numerical values after 12 iterations, highlighting a specific value in red. It also includes definitions for 'Noise', 'Discount', and 'Living reward' with their respective values."
+}

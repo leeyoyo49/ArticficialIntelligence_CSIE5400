@@ -1,0 +1,17 @@
+iY  Problem Formulation (3/3)                      (
+mm
+
+m Here, the LLM M acts as a policy mapping from state
+space to the probability space over action space. The
+objective of reinforcement learning is to train the policy to
+maximize the expected return:
+
+| 4° 9)|@ ~ do, o% ~ MCs)
+
+t=0
+
+m= With the evaluation reward, the LLM M can be updated
+using any RL algorithm to maximize the reward.
+
+173
+

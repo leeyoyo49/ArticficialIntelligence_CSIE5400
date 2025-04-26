@@ -1,0 +1,19 @@
+{
+  "title": "Reinforcement Learning with Neural Network",
+  "definitions": {
+    "Deep Q-Learning": "a reinforcement learning technique that combines Q-Learning with deep neural networks."
+  },
+  "formulas": [
+    "Q-Learning"
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "Neural Network",
+    "Deep Q-Learning",
+    "Q-Learning",
+    "State",
+    "Action",
+    "Q-Value"
+  ],
+  "summary": "The slide discusses Deep Q-Learning, a technique that merges Q-Learning with deep neural networks. It explains the rationale behind Deep Q-Learning by illustrating a scenario with 10,000 states and 1,000 actions per state, resulting in a table of 10 million cells. The slide also includes a diagram showing the relationship between state, action, and Q-Value in Q-Learning."
+}

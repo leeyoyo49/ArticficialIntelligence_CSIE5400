@@ -1,0 +1,22 @@
+{
+  "title": "The Story So Far: Reinforcement Learning",
+  "definitions": {
+    "MDP": "Markov Decision Process",
+    "s": "set of states",
+    "A": "set of actions (per state)",
+    "T": "model",
+    "R": "reward function"
+  },
+  "formulas": [
+    "T(s,a,s')",
+    "R(s,a,s')"
+  ],
+  "keywords": [
+    "MDP",
+    "states",
+    "actions",
+    "model",
+    "reward function"
+  ],
+  "summary": "The slide discusses the concept of Reinforcement Learning, focusing on the Markov Decision Process (MDP). It outlines the components of an MDP, including states, actions, a model, and a reward function. The slide also introduces the challenge of not knowing the transition and reward functions, suggesting the need to try out actions. The key idea presented is to compute all averages over the model using sample outcomes."
+}

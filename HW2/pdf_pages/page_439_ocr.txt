@@ -1,0 +1,26 @@
+iY   Potential for Self-Improvement
+_
+
+  
+
+m We compare two answer generation strategies:
+
+e (1) w/o SE: the answer is a directly deterministic output of the LLM.
+
+e (2) w/ SE: LLM generates an answer and evaluates its correctness. If the
+evaluation indicates the answer is incorrect, LLM re-generates an answer
+as the final output.
+
+Reasoning about Logical Tracking Shuffled Object
+
+ 
+
+Tracking Shuffled Geometric
+Colored Objects Deduction (7)      Objects (5)        Counting        Objects (3)       Shapes
+w/o SE            43.2%                    30.3%                     13.7%                    22.6%                    25.7%                  9.6%
+w/ SE               44.7%                       34.5%                         10.6%                       22.5%                       28.5%                    10.5%
+.              Sports               Logical             Logical           Penguins in             .
+|    Web of Lies     Understanding Deduction (3) Deduction (5)         a Table          Navigate
+w/o SE          50.5%                 55.1%                  50.7%                  29.7%                  30.8%               51.1%
+1           w/ SE              51.0%                      55.1%                       57.2%                       34.8%                       34.0%                   49.9%
+

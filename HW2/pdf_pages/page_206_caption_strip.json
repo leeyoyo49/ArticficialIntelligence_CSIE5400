@@ -1,0 +1,21 @@
+{
+  "title": "LLaVA-CoT",
+  "definitions": {
+    "Summary": "A brief outline in which the model summarizes the forthcoming task.",
+    "Caption": "A description of the relevant parts of an image (if present), focusing on elements related to the question.",
+    "Reasoning": "A detailed analysis in which the model systematically considers the question.",
+    "Conclusion": "A concise summary of the answer, providing a final response based on the preceding reasoning."
+  },
+  "formulas": [],
+  "keywords": [
+    "LLaVA-CoT",
+    "VLM",
+    "autonomous",
+    "multistage reasoning",
+    "summary",
+    "caption",
+    "reasoning",
+    "conclusion"
+  ],
+  "summary": "LLaVA-CoT is a novel VLM designed to conduct autonomous multistage reasoning, capable of generating four distinct stages: summary, caption, reasoning, and conclusion. The model summarizes the forthcoming task, describes relevant parts of an image, systematically considers the question, and provides a final response based on the preceding reasoning."
+}

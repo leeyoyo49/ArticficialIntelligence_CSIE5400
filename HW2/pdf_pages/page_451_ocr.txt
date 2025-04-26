@@ -1,0 +1,34 @@
+iY    BERTScore                                                         (
+ys
+
+= BERTScore Architecture
+
+Step 3: Token Matching for Precision and Recall:
+Each token in the candidate sentence is matched to the most similar token in the reference sentence,
+and vice versa, to compute Recall and Precision, which are then combined to calculate the F1 score.
+
+1                                         1                                           Peert : Rperr
+R.      三一     maxx; %; , P,     = —      maxx) %; , 五     = 2
+eet     |x| Xu aj;e@ 7        BER     \2| dX aiez 7        BERT      77pERT 十 及BERT
+Contextual          Pairwise Cosine              Maximum Similarity             Importance Weighting
+Embedding             Similarity                                                                  (Optional)
+
+Reference 7
+the weather is         一人                   一人
+cold today
+Candidate 7
+
+一                   一
+it is freezing today          含|
+
+166
+
+二 (0.713x1.27)十(0.515x7.94)十,.
+—> Reertr =
+
+1.27+7.94+1.82+7.90+8.88
+
+Reference
+
+  
+

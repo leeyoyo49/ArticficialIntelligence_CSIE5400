@@ -1,0 +1,23 @@
+{
+  "title": "BLEU (4/4)",
+  "definitions": {
+    "BLEU": "Brevity Penalty (BP) * Mean_BLEU",
+    "BP": "To add a penalty for a candidate whose length is less than the reference",
+    "MEAN_BLEU": "The final BLEU score is calculated by multiplying the Brevity Penalty (BP) with the mean BLEU score"
+  },
+  "formulas": [
+    "BLEU = BP * MEAN_BLEU",
+    "BP = {1 if c > r, e(1-r/c) if c <= r}",
+    "c: the length of the candidate",
+    "r: the length of the reference"
+  ],
+  "keywords": [
+    "BLEU",
+    "Brevity Penalty",
+    "BP",
+    "MEAN_BLEU",
+    "c",
+    "r"
+  ],
+  "summary": "The slide explains the BLEU score calculation, which includes the Brevity Penalty (BP) and the mean BLEU score. The BP is added to a candidate's length if it is less than the reference length, and the final BLEU score is the product of BP and the mean BLEU score."
+}

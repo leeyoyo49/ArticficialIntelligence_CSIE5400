@@ -1,0 +1,13 @@
+Quiz: Discounting
+
+mw Given: | 1
+a b Cc d e
+
+= Actions: East, West, and Exit (only available in exit states a, e)
+m Transitions: deterministic
+
+m Quiz 1: For y = 1, what is the optimal policy?          to} | | |.
+m Quiz 2: Fory=0.1, what is the optimal policy?         to} | | |.
+
+m Quiz 3: For which y are West and East equally good when in state d?
+

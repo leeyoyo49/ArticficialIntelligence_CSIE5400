@@ -1,0 +1,24 @@
+Problems with Direct Evaluation
+
+ 
+
+g What's good about direct evaluation?                        Output Values
+m It's easy to understand
+m It doesn’t require any knowledge of T,R
+
+a It eventually computes the correct average values,
+using just sample transitions
+
+a What bad about it?
+
+a It wastes information about state connections
+
+= Need to have all episodes ahead of time (cannot
+“stream” in transitions)
+
+ 
+
+lf Band Eboth go to C
+under this policy, how can
+their values be different?
+

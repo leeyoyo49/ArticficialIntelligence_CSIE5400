@@ -1,0 +1,19 @@
+{
+  "title": "Analogical Reasoning: An Example",
+  "definitions": {
+    "distance formula": "d = √((x2-x1)^2 + (y2-y1)^2)",
+    "area of a square": "Area = side^2"
+  },
+  "formulas": [
+    "d = √((x2-x1)^2 + (y2-y1)^2)",
+    "Area = side^2"
+  ],
+  "keywords": [
+    "Analogical Reasoning",
+    "distance formula",
+    "area of a square",
+    "related problem",
+    "coordinate plane"
+  ],
+  "summary": "The slide provides an example of analogical reasoning by solving a geometry problem. It explains how to find the distance between two points on a coordinate plane using the distance formula and then uses this distance to calculate the area of a square."
+}

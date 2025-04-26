@@ -1,0 +1,19 @@
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "Structured Alignment": "via Optimal Transport",
+    "Text Event Graph": "Image Event Graph",
+    "cost matrix C": "embedding similarity"
+  },
+  "formulas": [
+    "Define cost matrix C (embedding similarity)"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Structured Alignment",
+    "Optimal Transport"
+  ],
+  "summary": "The slide discusses MLLM Pretraining with Event Semantic Structures, focusing on Structured Alignment via Optimal Transport. It introduces the concept of defining a cost matrix C based on embedding similarity and illustrates the alignment between Text Event Graph and Image Event Graph with a diagram."
+}

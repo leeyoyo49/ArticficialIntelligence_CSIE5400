@@ -1,0 +1,18 @@
+{
+  "title": "Solve it by Machine Learning (ML)?",
+  "definitions": {
+    "ML": "Machine Learning"
+  },
+  "formulas": [
+    "Encoder",
+    "Decoder"
+  ],
+  "keywords": [
+    "Machine Learning",
+    "Encoder",
+    "Decoder",
+    "Tons of labeled data",
+    "Bill Gates"
+  ],
+  "summary": "The slide discusses the requirement of large amounts of labeled data for Machine Learning to solve tasks, questioning if it should still be referred to as AI when it requires such data. It includes a diagram of an Encoder and Decoder, and a reference to Bill Gates."
+}

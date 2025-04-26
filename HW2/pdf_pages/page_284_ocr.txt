@@ -1,0 +1,185 @@
+Ay
+
+110
+
+Various reasoning benchmarks are emerging
+
+HallusionBench [CVPR 2024]
+
+Visual Dependent
+
+Illusion
+
+eet: &
+
+Is the right orange circle the same size as the
+left orange circle?
+
+Is the right orange circle larger than the left
+orange circle?
+
+Is the right orange circle smaller than the left
+orange circle?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Poster
+Lats tg
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Question:
+
+Does the image show "Beijing Roast Duck"?
+Does the image show "Guangxi Roast
+Duck"?
+
+Question:
+
+According to the positive sequence images, does Homer Simpson disappear into the bushes?
+
+Math
+
+an mae
+
+Question:
+
+According to parallel lines theorem, is angle 1 +
+angle 2> 180?
+
+According to parallel lines theorem, is angle 1 +
+angle 2 = 180?
+
+According to parallel lines theorem, is angle 1 +
+angle 2 < 180?
+
+Figure / Other
+rg        jae. vz
+
+ 
+
+                                                                                                                                                                                         
+ 
+
+ 
+ 
+   
+
+Question:
+
+Are all the characters in this figure from the
+manga series One Piece?
+
+Are there any characters in this figure from the
+manga series Detective Conan?
+
+ 
+
+According to the positive sequence images, does Homer Simpson come out of the bushes?
+Homer Simpson disappears into the bushes. According to the positive sequence, are they in the correct order?
+Homer Simpson comes out of the bushes. According to the positive sequence, are they in the correct order?
+
+ 
+
+ 
+
+Visual Supplement
+
+Table
+
+Chart
+
+ 
+
+ 
+
+No Visual
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Question:                                                                               Question:
+Does China have the most gold medals in                        In 2017, was Tencent the company with the
+2008 beijing olympic?                        ‘                             highest revenue from video games, with Sony as
+Does USA have the most gold medals in                       the second-highest earner?
+Fe eee OU                                             In 2017, did Appl           iz higher:
+Does Russia have the most gold medals in                       同   er Beers Semen
+2008 beijing olympic?                                                  from video games compared to Google?
+OCR
+No Visual
+G~6.67428 «10° mi kg" s~?
+No Visual
+Question:
+According to the image, does the value of
+Question:                                                                   Gravity constant 'G' range from 6.66 *
+
+Based on the map, did the Democratic Party
+win Texas in the 2020 elections?
+Based on the map, did the Republican Party
+win Texas in the 2020 elections?
+
+10*-11 to 6.68 * 10*-11?
+
+According to the image, does the value of
+Gravity constant 'G' range from 6.68 *
+10*-11 to 6.70 * 10*-11?
+

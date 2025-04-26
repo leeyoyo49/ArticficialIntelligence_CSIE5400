@@ -1,0 +1,24 @@
+sample-Based Policy Evaluation?
+
+m We want to improve our estimate of V by computing these averages:
+Vigi(s) — SOT, 2(s), 8) [R(s, 7(s), 81) + Vi (89]
+
+s’ However, T is not available!
+
+m Idea: Take samples of outcomes s’ (by doing the action!) and average
+
+sample, = R(s,7(s), s1) + Ve (81)                Known P(A):
+
+samplez = R(s,7(s), 8) + Vi (s9)                     B[A] = $7 Pla) -a
+
+samplen = R(s,7(s), Sn) i VE (Sp)
+
+Unknown P(A): “Model Free”
+1
+
+ 
+
+1
+Veri(s) — > S— sample;
+a
+

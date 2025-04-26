@@ -1,0 +1,16 @@
+Ne <
+
+original block                                        block with DyT
+
+Attention / FFN
+
+  
+
+inference                        training
+LLaMA 7B          layer          model          layer          model
+
+RMSNorm         2.1s         14.1s         8.3s         42.6s
+DyT              1.0s         13.0s         4.8s         39.1s
+
+reduction {52.4% J|7.8% J|42.2% [8.2%
+

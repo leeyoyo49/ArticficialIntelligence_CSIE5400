@@ -1,0 +1,19 @@
+{
+    "title": "Self-evaluation as the Reward",
+    "definitions": {
+      "RLC": "Reinforcement Learning and Control",
+      "CEP": "Correctness Evaluation Prompt",
+      "QEP": "Quality Evaluation Prompt"
+    },
+    "formulas": [
+      "The reward is a 0-1 value based on the evaluation result."
+    ],
+    "keywords": [
+      "Self-evaluation",
+      "Reward",
+      "Reinforcement Learning",
+      "Control",
+      "Evaluation"
+    ],
+    "summary": "The slide discusses the use of two types of prompts, Correctness Evaluation Prompt (CEP) and Quality Evaluation Prompt (QEP), in Reinforcement Learning and Control (RLC) for self-evaluating self-generated text. The reward is a 0-1 value based on the evaluation result."
+}

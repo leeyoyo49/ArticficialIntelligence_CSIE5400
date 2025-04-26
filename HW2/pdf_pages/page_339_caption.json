@@ -1,0 +1,47 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Computing Time-Limited Values",
+  "definitions": {
+    "V0": "Initial value",
+    "V1": "First value",
+    "V2": "Second value",
+    "V3": "Third value",
+    "V4": "Fourth value"
+  },
+  "formulas": [
+    "V4 = V3 + V2 + V1 + V0"
+  ],
+  "keywords": [
+    "Time-Limited Values",
+    "Computing",
+    "Initial Value",
+    "First Value",
+    "Second Value",
+    "Third Value",
+    "Fourth Value"
+  ],
+  "summary": "The slide presents a method for computing time-limited values using a series of initial values. The process involves adding the initial values to compute the final value, represented by V4. The slide includes a visual representation of the computation process, with arrows indicating the flow of values and a diagram showing the progression of values over time."
+}
+```

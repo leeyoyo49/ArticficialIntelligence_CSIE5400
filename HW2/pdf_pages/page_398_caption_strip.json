@@ -1,0 +1,27 @@
+{
+  "title": "Example: Direct Evaluation",
+  "definitions": {
+    "Input Policy π": "Input Policy π",
+    "Observed (s, a, s', R)": "Observed (s, a, s', R)",
+    "Transitions": "Transitions",
+    "Output Values": "Output Values",
+    "Episode": "Episode",
+    "Assume": "Assume: y = 1"
+  },
+  "formulas": [
+    "V(s) is sum of discounted rewards from until the end, averaged over all encounters of s"
+  ],
+  "keywords": [
+    "Direct Evaluation",
+    "Input Policy",
+    "Observed",
+    "Transitions",
+    "Output Values",
+    "Episode",
+    "Assume",
+    "Discounted Rewards",
+    "Sum",
+    "Averaged"
+  ],
+  "summary": "The slide presents an example of direct evaluation in AI, detailing an input policy, observed transitions, and output values across four episodes. It defines the value function V(s) as the sum of discounted rewards from the start state until the end, averaged over all encounters of the state s."
+}

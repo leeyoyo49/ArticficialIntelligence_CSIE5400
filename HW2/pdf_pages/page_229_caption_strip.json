@@ -1,0 +1,15 @@
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Error Analysis": "The most prevalent error type is commonsense mistakes, accounting for 80% of the errors. These mistakes occur when the model is faced with questions that require commonsense knowledge, such as interpreting maps, counting objects in images, or utilizing the alphabet."
+  },
+  "formulas": [],
+  "keywords": [
+    "Multimodal",
+    "CoT",
+    "Reasoning",
+    "Error Analysis",
+    "Commonsense"
+  ],
+  "summary": "The slide discusses 'Multimodal CoT Reasoning' and focuses on 'Error Analysis'. It explains that the most common errors in models are commonsense mistakes, which make up 80% of errors. These errors occur when models are asked questions requiring commonsense knowledge, such as interpreting maps, counting objects in images, or using the alphabet. A pie chart illustrates that 80% of errors are commonsense mistakes, 14% are logical, and 6% are others."
+}

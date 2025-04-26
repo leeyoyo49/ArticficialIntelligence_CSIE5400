@@ -1,0 +1,15 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "ECCV 2024"
+  },
+  "formulas": [],
+  "keywords": [
+    "Artificial Intelligence",
+    "Coarse Perception",
+    "Image Style",
+    "Image Topic",
+    "Reasoning Benchmarks"
+  ],
+  "summary": "The slide discusses the emergence of various reasoning benchmarks in the field of Artificial Intelligence, specifically mentioning the MMBench [ECCV 2024] and the concept of Coarse Perception. It includes examples of image style and image topic questions with multiple-choice answers."
+}

@@ -1,0 +1,34 @@
+{
+  "title": "Direct Evaluation",
+  "definitions": {
+    "Goal": "Compute values for each state under π",
+    "Idea": "Average together observed sample values",
+    "Act according to π": "Write down the sum of discounted rewards turned out to be from that state until the end of the episode",
+    "Expected reward-to-go": "samplei(s) = R(s) + γR(s') + γ^2R(s'') + ...",
+    "Average those samples": "V(s) = 1/N Σ samplei(s)",
+    "Direct or Monte-Carlo evaluation": "This is called direct or Monte-Carlo evaluation"
+  },
+  "formulas": [
+    "samplei(s) = R(s) + γR(s') + γ^2R(s'') + ...",
+    "V(s) = 1/N Σ samplei(s)"
+  ],
+  "keywords": [
+    "Direct Evaluation",
+    "Goal",
+    "Compute",
+    "Values",
+    "State",
+    "π",
+    "Average",
+    "Sample values",
+    "Act",
+    "Discounted rewards",
+    "Expected reward-to-go",
+    "samplei(s)",
+    "V(s)",
+    "Direct",
+    "Monte-Carlo",
+    "Evaluation"
+  ],
+  "summary": "The slide discusses the concept of Direct Evaluation in the context of computing values for each state under π. It explains the idea of averaging observed sample values and provides a formula for calculating the expected reward-to-go. The slide also introduces the concept of direct or Monte-Carlo evaluation."
+}

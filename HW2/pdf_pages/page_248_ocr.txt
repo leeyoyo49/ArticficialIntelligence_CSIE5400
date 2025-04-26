@@ -1,0 +1,31 @@
+74
+
+    
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+ 
+                                                                                                                                                                                                                                                                  
+
+Object                                         Entity
+
+ 
+
+Relation                                      Relation
+
+centric
+
+ 
+
+Scene Graph              Entity-Relation Graph
+
+State-of-the-art Captioner
+
+Answer
+
+a woman holding a sign in front of a group of people.
+a woman holding a sign while standing in a park.
+
+a woman holding a sign in front of a crowd.
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

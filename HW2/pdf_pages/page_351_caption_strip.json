@@ -1,0 +1,20 @@
+{
+  "title": "Gridworld Display",
+  "definitions": {
+    "k": "2"
+  },
+  "formulas": [
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "Gridworld",
+    "Display",
+    "k",
+    "Noise",
+    "Discount",
+    "Living reward"
+  ],
+  "summary": "The slide presents a Gridworld Display with a 2x2 grid. Each cell has a value after 2 iterations, with green cells indicating positive values and a red cell indicating a negative value. The noise level is 0.2, the discount factor is 0.9, and the living reward is 0."
+}

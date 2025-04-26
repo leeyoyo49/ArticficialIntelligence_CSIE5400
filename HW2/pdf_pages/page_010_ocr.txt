@@ -1,0 +1,28 @@
+iY   Transformer Based Models                     (
+mm
+
+‧ Transformer is an encoder-decoder architecture with a core
+component — attention mechanism.
+¢ Attention allows the model to focus on the most relevant parts of the
+input sequence when generating the output.
+
+ 
+
+YV 4 ™
+
+ 
+
+La casa e
+rossa
+
+  
+
+\
+
+The house is red
+—_—_—_—                               Context Vectors
+
+ 
+
+Source: https://huggingface.co/blog/encoder-decoder
+

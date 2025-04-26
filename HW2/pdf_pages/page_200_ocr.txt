@@ -1,0 +1,81 @@
+Ay
+
+* Generic guidance reasoning
+
+ 
+
+e
+4
+4
+
+26
+
+ 
+
+of reasoning
+Few-shot CoT
+
+iQ: Roger has 5 tennis balls. He
+
+; buys 2 more cans of tennis balls.
+
+0-shot
+
+Q: What is the area of the square
+with the four vertices at (-2, 2), (2,
+-2), (-2, -6), and (-6, -2)?
+
+; A: Roger started with 5 balls. 2
+| cans of 3 balls each is 6 balls.
+| The answer is 5 + 6 = 11.
+
+0-shot CoT
+
+Q: What is the area of the square
+with the four vertices at (-2, 2), (2,
+
+2), (-2, -6), and (-6, -2)?                   Q: What is the area of the square
+
+with the four vertices at (-2, 2), (2,
+-2), (-2, -6), and (-6, -2)?
+
+Overview of Different Reasoning Methods
+
+ 
+
+* Need labeled exemplars
+
+| Each can has 3 tennis balls. How:
+many tennis balls does he have?!
+
+ 
+
+* Exemplars are automatically generated
+and tailored to each problem
+
+Analogical Prompting
+
+Q: What is the area of the square with the four vertices at
+(-2, 2), (2, -2), (-2, -6), and (-6, -2)?
+
+# Instruction:
+## Recall relevant exemplars:
+## Solve the initial problem:
+
+Model Output
+
+# Relevant exemplars:
+
+Q: What is the area of the square with a side length of 5?
+
+A: The area of a square is found by squaring the length of its
+side. So, the area of this square is 542 = 25. ...
+
+# Solve the initial problem:
+
+To find the area of the square, we need to find the side
+length. The length is ... \sqrt{(2 - (-2))42 + (-2 - 2)*2} =
+\sqrt{32}. So, the area of the square is (\sqrt{32})42 = 32.
+
+ 
+

@@ -1,0 +1,18 @@
+iY   The Reflexion process                          (
+mm
+
+¢ Initialization
+‧ The Actor produces a trajectory tT, by interacting with the
+environment.
+‧ The Evaluator then produces a score rg which is computed as tT; =
+M.(T.), where tT; is only a scalar reward for trial t.
+¢ The Self-Reflection model analyzes the set of {t), 79} to produce a
+summary sro which is stored in the memory mem, where sy; is a
+verbal experience feedback for trial t.
+‧ Repeat
+¢ The Actor, Evaluator, and Self-Reflection model work together
+through trials in a loop until the Evaluator deems sr; to be correct.
+Note that after each trial t, sr;,, is appended mem.
+
+80
+

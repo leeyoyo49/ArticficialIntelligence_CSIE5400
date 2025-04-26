@@ -1,0 +1,32 @@
+  
+
+iY    Multimodal Reasoning
+mm
+
+Example Problem: Spatial
+
+                                                                                                                                                                                                                                                                  
+
+i   Please describe the information of
+I   一
+
+I           Ea , especially the relationship
+between  eT and ,  :
+
+A man is seen walking down a street
+with a large orange cat. The cat is
+sitting on the man's head, and it seems
+
+i
+i
+i
+i
+i
+i
+i
+|              to be enjoying the walk.
+
+mw EE SS SS SS eS oe
+
+39                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

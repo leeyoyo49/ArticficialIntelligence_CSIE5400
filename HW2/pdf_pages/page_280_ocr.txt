@@ -1,0 +1,60 @@
+¢ MMBench [ECCV 2024]      Relation Reasoning
+
+Social_Relation
+
+Q: What can be the relationship
+between the two persons in this image?
+A. Father and daughter
+
+B. Mother and son
+
+C. Brother and sister
+
+D. Husband and wife
+
+GT: D
+
+Q: What can be the relationship
+between the two persons in this image?
+A. Father and daughter
+
+B. Grandfather and granddaughter
+
+C. Brother and sister
+
+D. Husband and wife
+
+GT: B
+
+ 
+
+Q: In nature, what's the relationship
+between these two creatures?
+
+A. Predatory relationshi
+
+B. Competitive relationships
+
+C. Parasitic relationships
+
+D. Symbiotic relationship
+
+GT: B
+
+Q: In nature, what's the relationship
+between these two creatures?
+
+A. Predatory relationships
+
+B. Competitive relationships
+
+C. Parasitic relationships
+
+D. Symbiotic relationship
+
+GT: D
+
+  
+
+106
+

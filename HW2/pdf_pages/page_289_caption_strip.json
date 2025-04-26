@@ -1,0 +1,22 @@
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Attention / FFN": "A type of neural network layer that combines attention mechanisms with feedforward neural networks.",
+    "Layer Norm": "A type of layer normalization applied to the output of a neural network layer.",
+    "scale & shift": "Operations that scale and shift the output of a neural network layer.",
+    "normalize": "The process of adjusting the values of a data set to a common scale.",
+    "DyT": "A type of neural network layer that uses a different activation function."
+  },
+  "formulas": [
+    "RMSNorm",
+    "tanh(αx)"
+  ],
+  "keywords": [
+    "Attention",
+    "Feedforward Neural Network",
+    "Layer Normalization",
+    "Scale and Shift",
+    "Normalization"
+  ],
+  "summary": "The slide presents a comparison between the original block and the block with DyT in a neural network architecture. It includes diagrams of the architecture and a table showing the inference and training times for different models. The table also shows the reduction in time for the RMSNorm and DyT models."
+}

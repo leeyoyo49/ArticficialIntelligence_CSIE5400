@@ -1,0 +1,20 @@
+{
+  "title": "Example: RT-2: Vision-Language-Action Models [PLMR 2023]",
+  "definitions": {
+    "RT-2": "Vision-Language-Action Models",
+    "PLMR": "Proceedings of the 2023 Conference on Machine Learning Research"
+  },
+  "formulas": [
+    "A: = 132 114 128 5 25 156",
+    "ΔT = [0.1, -0.2, 0]",
+    "ΔR = [10º, 25º, -7º]"
+  ],
+  "keywords": [
+    "Vision-Language-Action Models",
+    "RT-2",
+    "PLMR",
+    "Google DeepMind",
+    "De-tokenize"
+  ],
+  "summary": "The slide presents an example of RT-2 Vision-Language-Action Models by Google DeepMind. It includes a question about a robot's task, a diagram of a large language model, and a de-tokenization process with numerical values and angle changes."
+}

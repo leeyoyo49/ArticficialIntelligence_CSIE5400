@@ -1,0 +1,24 @@
+{
+  "title": "Multimodal Reasoning",
+  "definitions": {
+    "MLLMs": "Multimodal Language Models",
+    "Image Declaration": "A proposed solution to establish the reference between image and text.",
+    "Visual Question Answering": "A task where a model answers questions based on visual content.",
+    "Image Captioning": "A task where a model generates a descriptive caption for an image.",
+    "Unified Multi-modal-in-context Format": "A format that combines visual, textual, and contextual information for multimodal understanding."
+  },
+  "formulas": [
+    "Q: Are the men and women are quarreling?",
+    "A: Yes",
+    "Q: The image 0 is [IMG0]",
+    "A: An airplane flying in the sky."
+  ],
+  "keywords": [
+    "Multimodal",
+    "Reasoning",
+    "MLLMs",
+    "Image Declaration",
+    "Visual Question Answering"
+  ],
+  "summary": "The slide discusses Multimodal Reasoning, focusing on how Multimodal Language Models (MLLMs) can understand text-to-image references. It introduces the concept of Image Declaration as a solution to establish these references. The slide also presents examples of Visual Question Answering and Image Captioning tasks, and introduces a Unified Multi-modal-in-context Format for multimodal understanding."
+}

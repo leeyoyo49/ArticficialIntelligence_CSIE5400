@@ -1,0 +1,24 @@
+{
+  "title": "Example: Language Translation with Transformers",
+  "definitions": {
+    "Transformers": "Transformers utilize an autoregressive approach for output generation."
+  },
+  "formulas": [
+    "x1=I",
+    "x2=want",
+    "x3=to",
+    "x4=buy",
+    "x5=a",
+    "x6=car",
+    "x7=EOS"
+  ],
+  "keywords": [
+    "Language Translation",
+    "Transformers",
+    "Autoregressive",
+    "Output Generation",
+    "Encoder Block",
+    "Decoder Block"
+  ],
+  "summary": "The slide provides an example of language translation using transformers, which utilize an autoregressive approach for output generation. It includes a diagram showing the encoder and decoder blocks and a list of example words."
+}

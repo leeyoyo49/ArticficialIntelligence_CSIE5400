@@ -1,0 +1,20 @@
+ 
+
+iY    Tricks for handling a constantly changing input and output
+_
+
+ 
+
+m Experience Replay
+
+e Instead of running Q-learning on state/action pairs as they occur during
+simulation or the actual experience, we ‘replay’ the stored data [state,
+action, reward, next_state].
+
+e For example, suppose we are trying to build a video game bot where each
+frame of the game represents a different state. During training, we could
+sample a random batch of 64 frames from the last 100,000 frames to train
+our network.
+
+146
+

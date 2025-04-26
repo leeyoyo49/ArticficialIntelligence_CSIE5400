@@ -1,0 +1,21 @@
+{
+  "title": "The scope of this course",
+  "definitions": {
+    "MLLM Agent": "Multi-Layered Learning Machine",
+    "Single Agent": "An agent that operates independently",
+    "Agent-Agent": "Interaction between two or more agents",
+    "Agent-Human": "Interaction between an agent and a human",
+    "Symbolic Agent": "An agent that uses symbols to represent information",
+    "Deep Reinforcement Learning Agent": "An agent that uses deep learning techniques to learn from its environment"
+  },
+  "formulas": [],
+  "keywords": [
+    "MLLM Agent",
+    "Single Agent",
+    "Agent-Agent",
+    "Agent-Human",
+    "Symbolic Agent",
+    "Deep Reinforcement Learning Agent"
+  ],
+  "summary": "The course covers the scope of artificial intelligence, focusing on different types of agents such as MLLM, Symbolic, and Deep Reinforcement Learning Agents. It also discusses their applications in various environments and interactions with humans."
+}

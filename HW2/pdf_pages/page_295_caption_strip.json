@@ -1,0 +1,21 @@
+{
+  "title": "DM: feature point matching methods",
+  "definitions": {
+    "MSE": "Mean Squared Error",
+    "Euclidean space": "Euclidean space",
+    "Z_R": "Euclidean space",
+    "D_1": "Real data distribution",
+    "D_2": "Synthetic data distribution"
+  },
+  "formulas": [
+    "L_MSE = E[||f(x) - f(x̃)||^2]"
+  ],
+  "keywords": [
+    "DM",
+    "feature point matching methods",
+    "Mean Squared Error",
+    "Euclidean space",
+    "Real Data"
+  ],
+  "summary": "The slide discusses the use of Mean Squared Error (MSE) for comparing point-wise features in Euclidean space, specifically in the context of feature point matching methods. It includes a diagram illustrating the comparison between synthetic and real data, and a formula for calculating MSE."
+}

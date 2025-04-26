@@ -1,0 +1,19 @@
+{
+  "title": "Generalizing Across States",
+  "definitions": {
+    "Q-Learning": "Basic Q-Learning keeps a table of all q-values",
+    "Realistic Situations": "In realistic situations, we cannot possibly learn about every single state!",
+    "Generalize": "Instead, we want to generalize: Learn about some small number of training states from experience, Generalize that experience to new, similar situations, This is a fundamental idea in machine learning, and we'll see it over and over again"
+  },
+  "formulas": [
+    "Q-Learning keeps a table of all q-values"
+  ],
+  "keywords": [
+    "Q-Learning",
+    "Realistic Situations",
+    "Generalize",
+    "Training States",
+    "Experience"
+  ],
+  "summary": "The slide discusses the concept of Q-Learning in machine learning, highlighting the limitations of learning about every single state in realistic situations. It suggests that instead of learning about all states, we should generalize from a small number of training states to new, similar situations, which is a fundamental idea in machine learning."
+}

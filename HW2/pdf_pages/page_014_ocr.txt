@@ -1,0 +1,21 @@
+Example:
+
+ 
+
+Image Captioning with Transformers
+
+ 
+
+Input: Image |                                                 person wearing      hat [END]
+Output: Sequence y = y,, y,,..., Vz
+
+   
+
+ 
+
+ 
+
+[START] person wearing _ hat
+
+Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

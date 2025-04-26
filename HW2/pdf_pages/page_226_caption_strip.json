@@ -1,0 +1,17 @@
+{
+   "title": "Multimodal CoT Reasoning",
+   "definitions": {
+      "Multimodal CoT Reasoning": "In addition, multimodality contributes to effective rationales"
+   },
+   "formulas": [
+      "Accuracy (%)"
+   ],
+   "keywords": [
+      "Multimodal",
+      "CoT",
+      "Reasoning",
+      "Accuracy",
+      "Epoch"
+   ],
+   "summary": "The slide discusses the impact of multimodality on effective rationales in the context of Multimodal Chain-of-Thought Reasoning. It includes a graph showing the accuracy of different models over epochs and a bar chart comparing the accuracy of models with and without vision features."
+}

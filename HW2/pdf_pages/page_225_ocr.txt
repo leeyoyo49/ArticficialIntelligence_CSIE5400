@@ -1,0 +1,13 @@
+Paradigms to achieve Multimodal CoT
+
+                                                                                                                                                                                                                                                                  
+
+Caption
+Model
+
+   
+
+(a) Caption-based Reasoning                                     (b) CoT-based Reasoning
+
+51                                                                  Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

@@ -1,0 +1,21 @@
+ 
+
+ 
+
+iY    The Transformer Encoder Block (5/5)
+yi
+
+      
+
+ 
+
+MLP: Multilayer Perceptron
+
+Attention attends over
+all the vectors
+Add positional encoding
+
+Transformer encoder
+
+29                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

@@ -1,0 +1,17 @@
+{
+  "title": "Multimodal Embedding Spaces",
+  "definitions": {
+    "Multimodal embedding spaces": "Multimodal embedding spaces are typically learned by collecting large amounts of paired multimodal data from the Internet, often images and text, and learning encoders for each modality using a pairwise similarity objective."
+  },
+  "formulas": [
+    "LAION-5B: A NEW ERA OF OPEN LARGE-SCALE MULTI-MODAL Datasets"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Embedding",
+    "Spaces",
+    "Data",
+    "Internet"
+  ],
+  "summary": "The slide discusses multimodal embedding spaces, which are learned by collecting paired multimodal data from the Internet, often including images and text. It introduces LAION-5B, a new era of open large-scale multi-modal datasets."
+}

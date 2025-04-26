@@ -1,0 +1,17 @@
+Temporal Difference Learning
+
+ 
+
+m Big idea: learn from every experience!
+m Update V(s) each time we experience a transition (Ss, a, s’, r)
+m Likely outcomes s' will contribute updates more often
+
+= Temporal difference learning of values
+m Policy still fixed, still doing evaluation!
+= Move values toward value of whatever successor occurs: running average
+
+Sample of Vs):     sample = R(s,7(s), s’) + yV7(s’)
+Update to V(s):     V"(s) + (1 —a)V“(s) + (a) sample           O<a<1
+
+Same update:      V"(s) — V“(s) + a(sample — V"(s))
+

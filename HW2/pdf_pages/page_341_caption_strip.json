@@ -1,0 +1,23 @@
+{
+  "title": "Value Iteration",
+  "definitions": {
+    "V0(s)": "no time steps left means an expected reward sum of zero",
+    "Vk(s)": "vector of Vk(s) values",
+    "T(s,a,s')": "transition function",
+    "R(s,a,s')": "reward function",
+    "V*": "converged value function"
+  },
+  "formulas": [
+    "Vk+1(s) <= max_a [T(s,a,s') * R(s,a,s') + gamma * Vk(s')]"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "V0(s)",
+    "Vk(s)",
+    "T(s,a,s')",
+    "R(s,a,s')",
+    "V*",
+    "gamma"
+  ],
+  "summary": "The slide explains the concept of Value Iteration in AI, starting with an initial value of zero for no time steps left, then performing one step of the expectimax algorithm from each state using a given vector of Vk(s) values. This process is repeated until convergence, yielding the converged value function V*."
+}

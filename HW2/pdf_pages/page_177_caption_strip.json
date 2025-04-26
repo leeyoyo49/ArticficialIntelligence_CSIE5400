@@ -1,0 +1,27 @@
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "CoT Feedback": "Instruction comprehension, Task positioning, CoT generation",
+    "GPT-4": "Generative Pre-trained Transformer 4",
+    "Instruction": "<ins>",
+    "CoT": "<cot>",
+    "Observation": "<obs>",
+    "Memory": "<hist>"
+  },
+  "formulas": [
+    "Min(-∑c_i log(c_i))"
+  ],
+  "keywords": [
+    "AI",
+    "Weekly",
+    "CoT Feedback",
+    "GPT-4",
+    "Instruction",
+    "CoT",
+    "Observation",
+    "Memory",
+    "Formula",
+    "AI Weekly"
+  ],
+  "summary": "The slide presents an overview of AI, focusing on the integration of CoT Feedback and GPT-4 in AI applications. It includes a diagram illustrating the process of AI in action, with components like Vision Encoder, Long-Term Memory, and Short-Term Memory. The slide also provides a task example and explains the role of CoT Feedback in AI."
+}

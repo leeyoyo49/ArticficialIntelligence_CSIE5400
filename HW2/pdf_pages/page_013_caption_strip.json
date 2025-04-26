@@ -1,0 +1,15 @@
+{
+  "title": "Example: Image Captioning with Transformers",
+  "definitions": {
+    "Image Captioning": "The task of describing the content of an image in words."
+  },
+  "formulas": [],
+  "keywords": [
+    "Image Captioning",
+    "Transformers",
+    "Captioning Model",
+    "Content",
+    "Words"
+  ],
+  "summary": "The slide provides an example of image captioning using transformers. It defines image captioning as the task of describing an image's content in words. A captioning model is then shown, which has generated the caption 'A happy dog is standing in the ocean' for the image of a dog with a red collar in the ocean."
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Values of States",
+  "definitions": {
+    "V*(s)": "max sum T(s, a, s') [R(s, a, s') + γV*(s')]",
+    "Q*(s, a)": "sum T(s, a, s') [R(s, a, s') + γV*(s')]"
+  },
+  "formulas": [
+    "V*(s) = max Q*(s, a)",
+    "Q*(s, a) = sum T(s, a, s') [R(s, a, s') + γV*(s')]",
+    "V*(s) = max sum T(s, a, s') [R(s, a, s') + γV*(s')]"
+  ],
+  "keywords": [
+    "Recursive definition",
+    "value",
+    "expectimax",
+    "Q*(s, a)",
+    "T(s, a, s')"
+  ],
+  "summary": "The slide presents the recursive definition of value in a manner similar to the expectimax algorithm. It includes formulas for calculating the value of a state (V*(s)) and the action-value function (Q*(s, a)). A diagram illustrates the relationship between states, actions, and transitions, highlighting the recursive nature of the value calculation."
+}

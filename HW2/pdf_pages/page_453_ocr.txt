@@ -1,0 +1,33 @@
+iY    BERTScore                                                         (
+ys
+
+= BERTScore Architecture
+
+Reference 7
+the weather is
+cold today
+
+Candidate 7
+it is freezing today
+
+168
+
+Step 5: Baseline Rescaling:
+
+BERTScore values are linearly rescaled to      和            /QBERT — b
+improve human readability, ensuring they     Rgert =     1—b
+fall within a more intuitive range.
+
+Contextual          Pairwise Cosine              Maximum Similarity             Importance Weighting
+Embedding               Similarity                                                                             (Optional)
+
+一>   &   一>
+— (0.713x1.27)+(0.515x7.94)+...
+—> Reerr =
+
+1.27+7.94+1.82+7.90+8.88
+
+Reference
+
+  
+

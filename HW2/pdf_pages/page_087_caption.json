@@ -1,0 +1,35 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Voyager [TMLR 2024] A procedural memory of skills",
+  "definitions": {
+    "MLLMs": "Machine Learning Models",
+    "OpenAI's APIs": "OpenAI's Application Programming Interfaces"
+  },
+  "formulas": [],
+  "keywords": ["Voyager", "TMLR 2024", "procedural memory", "skills", "MLLMs", "OpenAI's APIs"],
+  "summary": "The slide discusses Voyager, a procedural memory of skills, and its innovative features. It leverages MLLMs (i.e., OpenAI's APIs) for improved game mechanics understanding. The innovative features include an automatic curriculum and skill library, where the curriculum proposes increasingly complex tasks and the skill library serves as a learning and evolution basis. An iterative prompting mechanism refines the program and incorporates it into the skill library as a new skill."
+  }
+}
+```

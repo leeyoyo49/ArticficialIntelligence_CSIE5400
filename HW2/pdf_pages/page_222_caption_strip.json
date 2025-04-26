@@ -1,0 +1,17 @@
+{
+  "title": "Performance on 'RAVEN'",
+  "definitions": {
+    "RAVEN": "A dataset for relational and analogical visual reasoning."
+  },
+  "formulas": [
+    "Task: Each question has 3 or 8 images as input and 6 candidate images with a unique answer, and the goal is to predict the right image."
+  ],
+  "keywords": [
+    "RAVEN",
+    "dataset",
+    "relational",
+    "analogical",
+    "visual reasoning"
+  ],
+  "summary": "The slide presents the RAVEN dataset, which is used for relational and analogical visual reasoning tasks. It includes a task description and a table showing the performance of different models on the Raven IQ test."
+}

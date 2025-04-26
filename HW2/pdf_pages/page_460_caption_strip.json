@@ -1,0 +1,32 @@
+{
+  "title": "Evaluations",
+  "definitions": {
+    "BLEU score": "A metric for evaluating the quality of text which measures the similarity between the machine's output and a set of reference translations."
+  },
+  "formulas": [
+    "BLEU score = (Sum of n-gram matches / Sum of n-gram counts in reference)"
+  ],
+  "keywords": [
+    "Model output",
+    "summarization task",
+    "text",
+    "David Meyer",
+    "Kyle Naughton",
+    "Hull midfielder",
+    "Ligament damage",
+    "Ankle ligament damage",
+    "Fracture",
+    "Ligament damage",
+    "January signing",
+    "Spurs",
+    "Swansea",
+    "Angel Rangel",
+    "Everton",
+    "Manager",
+    "Pitch",
+    "Swansea team physios",
+    "Referee",
+    "Andre Marriner"
+  ],
+  "summary": "The slide presents an example of a model's output on a summarization task, comparing the quality of text before and after training using BLEU scores. It discusses a sports-related incident involving players Kyle Naughton and David Meyer, highlighting the impact of a red card challenge and subsequent injuries. The slide also mentions a player's return to the team and a decision by a referee."
+}

@@ -1,0 +1,70 @@
+Various reasoning benchmarks are emerging
+
+ 
+
+- MMBench [ECCV 2024]
+
+Future Prediction
+
+Q: What will happen next?
+
+A. this person is gonna cry
+
+B. this person is gonna laugh
+
+C. this person is gonna get mad
+D. both A,B, and C
+
+GT: A
+
+ 
+
+Structuralized Image-text Understanding
+Kid's Favourte Fruits                   Q: According to this ii      時 which
+
+5                               fruit did the most kids like?
+4          上   A. Orange
+’                   B. Banana
+
+圖           C. Pear
+
+D. Apple
+GT: A
+
+107
+
+ 
+
+ 
+
+Logic Reasoning
+
+- What will happen next?
+
+the motorcyle is gonna go forward
+the motorcyle is gonna crash
+
+the motorcyle is gonna go
+backward
+
+both A,B, and C
+
+> B
+
+QY OM>E
+
+‘Sarah ashed her fends to vote on thenver ob           A      fin        to this i ii          b  t
+aa is liked the least?
+
+A. Reading
+
+B. Singing
+
+C. Painting
+
+D. Dancing
+
+GT: C
+
+ 
+

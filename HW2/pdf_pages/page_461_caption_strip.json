@@ -1,0 +1,25 @@
+{
+  "title": "Evaluations",
+  "definitions": {
+    "RLFT": "Reinforcement Learning from Images",
+    "DG": "Deep Graph",
+    "SC": "Self-Contained",
+    "Self-train": "Self-training",
+    "Self-refine": "Self-refinement",
+    "Best-of-N": "Best-of-N",
+    "RLAIF": "Reinforcement Learning from Images and Text",
+    "RLC": "Reinforcement Learning from Context"
+  },
+  "formulas": [
+    "Performance on BigBench-hard",
+    "Performance on summarization task"
+  ],
+  "keywords": [
+    "Reinforcement Learning",
+    "BigBench",
+    "Summarization",
+    "Performance",
+    "Evaluation"
+  ],
+  "summary": "The slide presents evaluations of different AI models on various tasks, including reasoning about colored objects, logical deduction, tracking shuffled objects, object counting, tracking shuffled geometric objects, and performance on BigBench-hard. It also includes a bar chart showing the performance of these models on a summarization task."
+}

@@ -1,0 +1,14 @@
+Discounting
+
+m It’s reasonable to maximize the sum of rewards
+m It’s also reasonable to prefer rewards now to rewards later
+m One solution: values of rewards decay exponentially
+
+SC                      “4
+GQ UV ee.
+
+1           Y         7)
+Worth Now                     Worth Next Step               Worth In Two Steps
+
+  
+

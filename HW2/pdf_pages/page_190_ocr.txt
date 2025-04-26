@@ -1,0 +1,29 @@
+  
+
+iY    Few-shot chain-of-thought (CoT)
+mm
+
+Let’s add “reasoning process” before “answer”
+
+Q: “Elon Musk”
+A: the last letter of "Elon" is "n". the last letter of "Musk" is "k". Concatenating "n", "k"
+
+ so the output is "nk".
+
+Q: “Bill Gates”
+A: the last letter of "Bill" is "I". the last letter of "Gates" is "s". Concatenating "I", "s" leads
+
+reasoning process
+
+to "Is". so the output is "Is".
+
+Q: “Barack Obama"
+
+A: the last letter of "Barack" is "k’ the last letter of "Obama" is "a". Concatenating "k", "a"
+
+ 
+
+100% accuracy with demonstration examples
+
+16                                                                                          Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

@@ -1,0 +1,19 @@
+{
+  "title": "The Reflexion process",
+  "definitions": {
+    "Actor": "produces a trajectory π0 by interacting with the environment",
+    "Evaluator": "produces a score r0 which is computed as πt = Me(π0), where πt is only a scalar reward for trial t",
+    "Self-Reflection model": "analyzes the set of { π0, r0 } to produce a summary sr0 which is stored in the memory mem, where sr_t is a verbal experience feedback for trial t"
+  },
+  "formulas": [
+    "πt = Me(π0)"
+  ],
+  "keywords": [
+    "Actor",
+    "Evaluator",
+    "Self-Reflection model",
+    "trajectory",
+    "environment"
+  ],
+  "summary": "The slide explains the Reflexion process, detailing the roles of the Actor, Evaluator, and Self-Reflection model in producing and evaluating a trajectory. The process involves the Actor interacting with the environment, the Evaluator computing a score, and the Self-Reflection model analyzing the set of trajectory and score to produce a summary. This summary is stored in memory and serves as verbal feedback for each trial."
+}

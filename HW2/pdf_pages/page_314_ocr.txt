@@ -1,0 +1,18 @@
+Policies
+
+ 
+
+m In deterministic single-agent search problems,
+we wanted an optimal plan, or sequence of
+actions, from start to a goal
+
+m= For MDPs, we want an optimal policy 7*: SA
+m Apolicy gives an action for each state
+
+ms Anoptimal policy is one that maximizes
+expected utility if followed
+
+= Anexpilicit policy defines a reflex agent
+
+ 
+

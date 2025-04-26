@@ -1,0 +1,19 @@
+{
+  "title": "Remarks",
+  "definitions": {
+    "Reasoning": "one of the fundamental intelligent behaviors of human beings, which requires understanding and analyzing given conditions and background knowledge to derive a new conclusion logically and rationally."
+  },
+  "formulas": [],
+  "keywords": [
+    "Reasoning",
+    "MLLM",
+    "Architectures",
+    "Efficiency",
+    "Scalability",
+    "Long-context Support",
+    "Instruction Fine-tuning (IFT) Data",
+    "Reinforcement Learning",
+    "Evaluation Benchmarks"
+  ],
+  "summary": "The slide discusses the concept of reasoning as a fundamental intelligent behavior in humans and outlines ongoing research directions in the field of artificial intelligence, including MLLM architectures, efficiency and scalability of MLLM training recipes, long-context support, instruction fine-tuning data, reinforcement learning for multimodal reasoning, and evaluation benchmarks."
+}

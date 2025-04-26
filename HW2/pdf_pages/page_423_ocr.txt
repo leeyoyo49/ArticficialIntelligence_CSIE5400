@@ -1,0 +1,20 @@
+ 
+
+iY   Reinforcement Learning with Neural Network
+和
+
+= Deep Q-Learning is a reinforcement learning technique
+that combines Q-Learning with deep neural networks.
+m Why Deep Q-Learning?
+
+= Imagine an environment with 10,000 states and 1,000 actions per state.
+This would create a table of 10 million cells.
+
+State-Action | Value |
+
+ 
+
+Q Learning
+
+138
+

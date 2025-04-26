@@ -1,0 +1,37 @@
+82
+
+ 
+
+ 
+
+You are in the middle of a room. Looking quickly around you, you see a drawer 2,
+a shelf 5, a drawer 1, a shelf 4, a sidetable 1, a drawer 5, a shelf 6, a shelf
+1, a shelf 9, a cabinet 2, a sofa 1, a cabinet 1, a shelf 3, a cabinet 3, a
+drawer 3, a shelf 11, a shelf 2, a shelf 10, a dresser 1, a shelf 12, a
+garbagecan 1, a armchair 1, a cabinet 4, a shelf 7, a shelf 8, a safe 1, and a
+drawer 4.
+
+Your task is to: put some vase in safe.
+
+> go to shelf 6
+You arrive at loc 4. On the shelf 6, you see a vase 2.
+
+> take vase 2 from shelf 6
+You pick up the vase 2 from the shelf 6.
+
+> go to safe 1
+You arrive at loc 3. The safe 1 is closed.
+
+> open safe 1
+You open the safe 1. The safe 1 is open. In it, you see a keychain 3.
+
+> put vase 2 in/on safe 1
+
+You won!
+
+ 
+
+ 
+
+Source: https://alfworld.github.io/
+

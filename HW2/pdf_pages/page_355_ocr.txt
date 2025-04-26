@@ -1,0 +1,13 @@
+k=5
+
+ 
+
+VALUES AFTER 5 ITERATIONS                            Noise =0.2
+Discount = 0.9
+
+Living reward = 0
+
+ 
+
+ 
+

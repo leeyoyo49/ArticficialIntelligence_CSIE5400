@@ -1,0 +1,25 @@
+{
+  "title": "Problems with Direct Evaluation",
+  "definitions": {
+    "s": "state",
+    "a": "action",
+    "s'": "next state",
+    "R": "reward"
+  },
+  "formulas": [
+    "E, north, C, 0",
+    "C, east, D, 0",
+    "D, exit, x, +10",
+    "B, east, C, 0",
+    "C, east, A, 0",
+    "A, exit, x, -10"
+  ],
+  "keywords": [
+    "state",
+    "action",
+    "next state",
+    "reward",
+    "evaluation"
+  ],
+  "summary": "The slide discusses issues with direct evaluation in AI, using a grid-based environment to illustrate observed transitions and rewards. It questions whether a specific state is a bad state."
+}

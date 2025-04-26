@@ -1,0 +1,39 @@
+Dataset Distillation with NCFM
+
+¢ Real and synthetic data points are sampled and embedded through a feature
+extractor network. The synthetic data is optimized by minimizing the
+distributional discrepancy between real and synthetic data, measured via the
+Neural Characteristic Function Discrepancy (NCFD) in the complex plane.
+Additionally, an auxiliary network learns an optimal sampling distribution for the
+frequency arguments of the characteristic function.
+
+Real Dataset D                                                               Complex Plane
+
+Feature Network                                                     sso
+x                                                   180
+Wo             ‘ f(x) +          :
+
+Synthetic Dataset D  一
+
+©,(t) = E,x_p[e/* | Sampling Network
+
+ 
+
+  
+
+ 
+
+  
+
+x             yr
+|           還                                3    =           f® +                                                                                    Maximize L to learn a
+Minimize L to match the                                           =                                                       _..,, distribution which samples
+real dataset distribution                                                               ° O3(t) = Eyple!’ | frequency arguments t
+— —> V5 £ Gradient for Synthetic Dataset           :             a 一                                                  ~~
+ares         2                 min L(f (x), f(%); t = We(e))                   max L(f (x), f@;t = Wo(e))
+
+ 
+
+— —> Vg £ Gradient for Sampling Network
+18
+

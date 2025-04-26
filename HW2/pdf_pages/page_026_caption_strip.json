@@ -1,0 +1,30 @@
+{
+  "title": "Self-Attention Layer",
+  "definitions": {
+    "Context vectors": "y (shape: N x D)",
+    "Query vectors": "q = xWq",
+    "Key vectors": "k = xWk",
+    "Value vectors": "v = xWv",
+    "Alignment": "ei,j = qj . ki / D",
+    "Attention": "a = softmax(e)",
+    "Output": "yj = Sum(i ai,j . vi)"
+  },
+  "formulas": [
+    "mul(->) + add (t)",
+    "softmax (^)",
+    "ei,j = qj . ki / D",
+    "a = softmax(e)",
+    "yj = Sum(i ai,j . vi)"
+  ],
+  "keywords": [
+    "Self-Attention Layer",
+    "Context vectors",
+    "Query vectors",
+    "Key vectors",
+    "Value vectors",
+    "Alignment",
+    "Attention",
+    "Output"
+  ],
+  "summary": "The slide presents the concept of a Self-Attention Layer in AI, detailing its operations, including the calculation of query, key, and value vectors, alignment, attention, and output. It also includes a diagram illustrating the flow of data through the layer and the mathematical operations involved."
+}

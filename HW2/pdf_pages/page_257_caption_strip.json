@@ -1,0 +1,24 @@
+{
+  "title": "Hard negatives via manipulating event structures",
+  "definitions": {
+    "Event Type": "Type of event being analyzed",
+    "Transport (carry)": "Type of event where an agent is carrying something",
+    "Arrest (arrest)": "Type of event where an agent is detaining a target",
+    "Person": "Label for individuals in the image",
+    "Instrument": "Label for objects used by individuals in the image",
+    "Bench": "Label for a specific object in the image"
+  },
+  "formulas": [
+    "Event Type",
+    "Transport (carry)",
+    "Arrest (arrest)"
+  ],
+  "keywords": [
+    "Event Type",
+    "Transport (carry)",
+    "Arrest (arrest)",
+    "Person",
+    "Instrument"
+  ],
+  "summary": "The slide discusses the concept of 'Hard negatives' in the context of manipulating event structures in images. It categorizes events into 'Transport (carry)' and 'Arrest (arrest)' and provides labels for different elements in the image such as 'Person', 'Instrument', and 'Bench'. The source of the information is a 'Knowledge-Driven Vision-Language Encoding' tutorial by CVPR, 2023."
+}

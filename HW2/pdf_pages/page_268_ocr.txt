@@ -1,0 +1,16 @@
+Visual Event Extraction
+
+   
+
+Supporting Zero-shot Vision Event Extraction
+
+ 
+
+Vaccination
+
+agent       target
+agent
+| are    和 oF   L
+
+                                                                                                                                                                                                                     
+

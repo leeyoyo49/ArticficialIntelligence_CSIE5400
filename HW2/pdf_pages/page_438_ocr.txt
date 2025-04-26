@@ -1,0 +1,17 @@
+  
+
+iY  Sample Task: Reasoning about Colored Objects (3/3)
+和
+
+= Question types (cont.):
+
+e 5. How many objects of a type remain when some objects are
+removed?
+
+¢ EX: On the nightstand, you see three grey mugs, one burgundy jug,
+two gold mugs, one burgundy mug, two brown mugs, three brown
+jugs, and two gold jugs. If | remove all the jugs from the nightstand,
+how many brown things remain on it?
+
+153
+

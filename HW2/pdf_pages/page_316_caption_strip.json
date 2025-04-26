@@ -1,0 +1,23 @@
+{
+  "title": "MDP Search Trees",
+  "definitions": {
+    "MDP": "A Markov Decision Process, a framework for decision-making in situations where outcomes are partly random and partly under the control of a decision-maker.",
+    "expectimax": "A decision-making algorithm that is used in game theory and artificial intelligence to determine the best move in a game.",
+    "state": "A condition or situation that exists at a particular time, especially one that is determined by the past history of the system.",
+    "transition": "A change of state that occurs as a result of an action.",
+    "T(s,a,s')": "The probability of transitioning from state s to state s' by taking action a.",
+    "R(s,a,s')": "The reward received after transitioning from state s to state s' by taking action a."
+  },
+  "formulas": [
+    "T(s,a,s') = P(s'|s,a)",
+    "R(s,a,s')"
+  ],
+  "keywords": [
+    "Markov Decision Process",
+    "MDP",
+    "expectimax",
+    "state",
+    "transition"
+  ],
+  "summary": "The slide presents the concept of MDP Search Trees, explaining that each MDP state projects an expectimax-like search tree. It defines MDP and expectimax, and introduces the terms state, transition, and the formulas for transition probability and reward."
+}

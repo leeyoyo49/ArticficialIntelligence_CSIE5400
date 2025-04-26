@@ -1,0 +1,41 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>What happened?
+Who?
+
+Protest
+
+      
+
+parent
+
+child @
+
+8 child
+
+  
+
+Event               Protest
+
+                                                                                                                                                    
+
+parent
+child
+banner
+
+No vaccine
+
+mandate for kids
+                                        Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.<|im_end|><|im_start|>assistant<|im_sep|>{"title": "Definition of \"Event\"", "definitions": {"Event": "A protest against the mandate for kids to get vaccinated.", "parent": "A person who is protesting against the vaccine mandate for kids.", "child": "A person who is protesting against the vaccine mandate for kids.", "banner": "A sign or placard used in the protest.", "No vaccine mandate for kids": "The main message of the protest."}, "formulas": [], "keywords": ["Event", "Protest", "parent", "child", "banner", "No vaccine mandate for kids"], "summary": "The slide defines an event as a protest against the vaccine mandate for kids. The protest involves parents and children, and they use banners to express their message. The main message of the protest is 'No vaccine mandate for kids'."}

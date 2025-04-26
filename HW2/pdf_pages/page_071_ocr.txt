@@ -1,0 +1,18 @@
+| SD €
+mm
+
+¢ MLLMs predict model-specific tokens
+(Wy, Wo, -)We) > Wea
+
+fe
+
+Sometimes, invoking ‘tool calls’ is necessary to
+accomplish the ‘prediction’ task.
+
+Special tokens can be exploited to invoke tool calls for
+¢ Search engine, calculator, etc.
+
+‧ Task-specific models (translation)
+
+* APIs
+

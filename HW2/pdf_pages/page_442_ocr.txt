@@ -1,0 +1,15 @@
+  
+
+iY  Evaluation Metrics for Text Summarization
+mm
+
+=» BLEU: Word-Level Similarity Measurement
+= ROUGE: Word-Level Similarity Measurement
+= BERTScore: Measuring Semantic Similarity
+
+Reference#1: “BLEU: a method for automatic evaluation of machine translation,” ACL 2002.
+Reference#2: “ROUGE: A package for automatic evaluation of summaries,” TSBO 2004.
+Reference#3: “Bertscore: Evaluating text generation with BERT,” ICLR 2020.
+
+157
+

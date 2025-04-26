@@ -1,0 +1,24 @@
+{
+  "title": "Recall: Racing",
+  "definitions": {
+    "Arobot car": "wants to travel far, quickly",
+    "Three states": "Cool, Warm, Overheated",
+    "Two actions": "Slow, Fast",
+    "Going faster gets double reward": "Going faster gets double reward"
+  },
+  "formulas": [
+    "Slow",
+    "Fast",
+    "Cool",
+    "Warm",
+    "Overheated"
+  ],
+  "keywords": [
+    "Arobot car",
+    "Travel",
+    "Quickly",
+    "States",
+    "Actions"
+  ],
+  "summary": "The slide presents a racing scenario where an 'Arobot car' aims to travel far quickly. It describes three states of the car: Cool, Warm, and Overheated, and two actions: Slow and Fast. The slide also mentions that going faster results in double reward."
+}

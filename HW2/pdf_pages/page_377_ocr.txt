@@ -1,0 +1,20 @@
+Comparison
+
+ 
+
+= Both value iteration and policy iteration compute the same thing (all optimal values)
+
+m In value iteration:
+m Every iteration updates both the values and (implicitly) the policy
+mw We don't track the policy, but taking the max over actions implicitly recomputes it
+
+m In policy iteration:
+
+m We do several passes that update utilities with fixed policy (each pass is fast because we
+consider only one action, not all of them)
+
+m After the policy is evaluated, a new policy is chosen (slow like a value iteration pass)
+m Thenew policy will be better (or we’re done)
+
+= Both are dynamic programs for solving MDPs
+

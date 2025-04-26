@@ -1,0 +1,42 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "The RECAP Framework",
+  "definitions": {
+    "RECAP": "A framework for improving image captions using a custom image-to-text model to increase sample efficiency and enhance the understanding of the relations between captions and images."
+  },
+  "formulas": [
+    "No formulas present in the image."
+  ],
+  "keywords": [
+    "RECAP",
+    "Framework",
+    "Image-to-text model",
+    "Sample efficiency",
+    "Vision-language model"
+  ],
+  "summary": "The RECAP Framework aims to enhance image captions by using a custom image-to-text model to improve sample efficiency and the understanding of the relationship between captions and images. The process involves fine-tuning an image-to-text captioning model with human captions, using this model to recapitulate images in a training dataset, and then training an image generation model with the recaptured dataset."
+  }
+}
+```

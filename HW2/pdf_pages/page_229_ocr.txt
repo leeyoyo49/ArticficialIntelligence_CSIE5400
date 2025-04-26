@@ -1,0 +1,22 @@
+iY   Multimodal CoT Reasoning
+mm
+
+  
+
+¢ Error Analysis
+
+¢ The most prevalent error type is commonsense mistakes, accounting for 80% of the
+errors. These mistakes occur when the model is faced with questions that require
+commonsense knowledge, such as interpreting maps, counting objects in images,
+
+or utilizing the alphabet.
+
+= Commonsense
+= Logical
+
+= Others
+
+ 
+
+55                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

@@ -1,0 +1,42 @@
+DM: moment matching methods
+
+¢ MMD-based methods align feature moments in the embedded
+domain but may not effectively align the overall distributions.
+
+ 
+
+ 
+
+ 
+
+ 
+
+(a) From Real to Complex             (b) Distribution Matching (DM)                       Real            Synthetic
+
+Frequenc                          cae CI                     5         :                     ee       aa
+Sees  : y                  minimizing MMD doesn’t effectively make the distributions similar
+
+Real
+—> eit f(x))               . 90°
+
+x~D=-=
+
+  
+
+X~D —>        — elit f@)
+
+Euler’s Formula
+ex = cos(a,(t)) + j sin(a,(t))
+
+Complex Plane
+
+ 
+
+©, (t) = Ey-ple*’!] = lO, (Ole
+
+Iteration 10000
+
+amplitude  pliake                Iteration 0                Iteration 5000
+
+14
+

@@ -1,0 +1,20 @@
+What happened?
+Who?
+
+Protest
+
+Event               Protest
+
+     
+
+Protester         parent
+Protester        child
+banner
+
+No vaccine
+
+mandate for kids
+rr                                        Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+
+ 
+

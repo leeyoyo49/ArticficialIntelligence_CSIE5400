@@ -1,0 +1,21 @@
+{
+  "title": "The Transformer Encoder Block (1/5)",
+  "definitions": {
+    "Transformer encoder": "A component of the Transformer model in machine learning that processes input data through multiple encoder blocks."
+  },
+  "formulas": [
+    "z_0,0",
+    "z_0,1",
+    "z_0,2",
+    "...",
+    "z_2,2"
+  ],
+  "keywords": [
+    "Transformer",
+    "Encoder",
+    "Block",
+    "N",
+    "Encoder blocks"
+  ],
+  "summary": "The slide presents the Transformer Encoder Block, which is a part of the Transformer model. It consists of multiple encoder blocks, each processing input data. The diagram shows the flow of data through these blocks, with specific focus on the output of the first encoder block."
+}

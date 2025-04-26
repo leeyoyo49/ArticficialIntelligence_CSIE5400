@@ -1,0 +1,98 @@
+Episodic memory of experience
+
+A reflection tree for Klaus Mueller. The agent’s observations of the world, represented in the leaf nodes,
+are recursively synthesized to derive Klaus’s self-notion that he is highly dedicated to his research.
+
+iY    Stanford Al Village [UIST 2023]
+ps
+
+  
+
+[Reflection] Klaus
+Mueller is highly
+dedicated to research
+
+ 
+                                                                                                                                                                                                                                                                    
+
+[Reflection] Klaus            [Reflection] Klaus
+Mueller is engaging in           Mueller is dedicated to
+research activities                research
+
+[Reflection] Klaus
+Mueller is dedicated to
+research
+
+ 
+   
+  
+
+ 
+
+[Plan] For Wednesda:                          4
+February 13: wake = and:            [Observation] Klaus
+complete the morning routine         Mueller is making
+at 7:00 am, read and take            connections between
+notes for research paper at             5
+
+8:00 am, have lunch at 12:00         the articles
+pm, write down ideas or
+brainstorm potential
+solutions at 1:00 pm, [...]
+
+[Observation] Klaus Mueller is
+reading about gentrification
+
+[Observation] Klaus         [Observation] Klaus
+Mueller is reading and        Mueller is searching for
+taking notes on the           relevant articles with
+articles                      the help of a librarian
+
+  
+ 
+     
+ 
+ 
+
+[Observation] Klaus
+Mueller is engaging with
+a librarian to further
+his research
+
+[Observation] library table      [Observation] Klaus
+
+is being used to research                   加        2
+material and make connections     Mueller is reading the
+
+between the articles             assigned material
+
+ 
+
+ 
+  
+
+[Observation] Klaus
+Mueller is discussing
+his research with a
+librarian
+
+  
+ 
+
+[Reflection] Klaus
+Mueller spends many
+hours reading
+
+[Observation] library
+table is being used to
+discuss research material
+
+                                                                                                                                                                                                                                                                 
+
+[Observation] Klaus Mueller
+is reading about urban design
+
+    
+
+102
+

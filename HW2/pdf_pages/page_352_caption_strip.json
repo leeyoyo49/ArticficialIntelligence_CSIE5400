@@ -1,0 +1,21 @@
+{
+  "title": "k=2",
+  "definitions": {
+    "k": "The number of iterations or steps in the algorithm."
+  },
+  "formulas": [
+    "0.9(0.8*0.72+0.1*(-1)+0.1*0.72)=0.06",
+    "0.9(0.8*(-1)+0.1*0.72+0.1*0)=-0.66",
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "k",
+    "iterations",
+    "algorithm",
+    "Noise",
+    "Discount"
+  ],
+  "summary": "The slide presents a gridworld display with values after 2 iterations. It includes formulas for calculating values based on different actions and states, and defines key terms such as 'k', 'Noise', and 'Discount'."
+}

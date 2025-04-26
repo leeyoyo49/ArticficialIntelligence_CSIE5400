@@ -1,0 +1,18 @@
+ 
+
+iY  Sample Task: Reasoning about Colored Objects (2/3) (
+和
+
+= Question types (cont.):
+
+e 3. How many objects are not particular colors?
+¢ EX: On the table, there is a purple plate and a brown textbook. How
+many objects are neither purple nor brown?
+e 4. How are the objects ordered on the surface?
+¢ EX: On the floor, you see the following items arranged in a row: a
+purple stuffed bear, a silver pair of sunglasses, a burgundy plate, a
+blue puzzle, and a mauve pencil. What is the color of the item
+directly to the right of the pair of sunglasses?
+
+152
+

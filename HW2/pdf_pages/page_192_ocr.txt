@@ -1,0 +1,37 @@
+iY   How to perform step by step reasoning
+=     without using demonstration examples?
+
+  
+
+“Let’s think step by step” (Zero-shot CoT)
+
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls,
+and half of the golf balls are blue. How many blue golf balls are
+there?
+
+A: The answer (arabic numerals) is
+
+(Output) 8 X
+
+ 
+
+ 
+
+一 一
+
+Q: A juggler can juggle 16 balls. Half of the balls are golf balls,
+
+                                                                                                                                                                                                                                                                  
+
+and half of the golf balls are blue. How many blue golf balls are
+there?
+A: Let’s think step by step.
+
+(Output) There are 16 balls in total. Half of the balls are golf
+balls. That means that there are 8 golf balls. Half of the golf balls
+are blue. That means that there are 4 blue golf balls. /
+
+However, zero-shot is usually significantly worse than few-shot ...
+
+18                                                                                       Source: “Large Language Models are Zero-Shot Reasoners,” NeurlPS, 2022.
+

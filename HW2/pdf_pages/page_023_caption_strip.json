@@ -1,0 +1,19 @@
+{
+  "title": "The Transformer Encoder Block (4/5)",
+  "definitions": {
+    "Transformer encoder": "A component of the Transformer model that processes input data to generate a continuous representation.",
+    "Multi-head self-attention": "A mechanism in the Transformer model that allows the model to jointly attend to information from different representation subspaces at different positions.",
+    "Positional encoding": "A method used in the Transformer model to give the model information about the position of the words in the sentence."
+  },
+  "formulas": [
+    "Attention(Q, K, V) = softmax(QK^T / sqrt(d_k) * V"
+  ],
+  "keywords": [
+    "Transformer",
+    "Encoder",
+    "Multi-head self-attention",
+    "Positional encoding",
+    "Attention mechanism"
+  ],
+  "summary": "The slide presents the Transformer Encoder Block, a part of the Transformer model. It explains the role of the Transformer encoder, the concept of multi-head self-attention, and the use of positional encoding. The slide also includes a formula for the attention mechanism."
+}

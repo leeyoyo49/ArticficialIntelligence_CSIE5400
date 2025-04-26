@@ -1,0 +1,86 @@
+- MMBench [ECCV 2024]
+
+Image Style
+
+Image Topic
+
+   
+
+i / fa
+
+*
+
+了  <9,  +
+AA
+SV Pie
+
+102
+
+ 
+
+Q: Which category does this
+image belong to?
+
+A. Oil Paiting
+
+B. Sketch
+
+C. Digital art
+
+D. Photo
+
+GT: A
+
+Q: Which of the following
+
+captions best describes this
+
+image?
+
+A. A group of people playing
+soccer in a field
+
+B. A woman walking her dog on
+a beach
+
+Cc. Aman riding a bicycle ona
+mountain trail
+
+D. A child playing with a ball in
+
+Coarse Perception
+
+ 
+
+ 
+
+Q: Which category does this
+image belong to?
+
+A. Oil Paiting
+
+B. Sketch
+
+C. Digital art
+
+D. Photo
+
+GT: B
+
+Q: Which of the following
+
+captions best describes this
+
+image?
+
+A. A group of people playing
+soccer in a field
+
+B. A woman walking her dog on
+a beach
+
+C. Aman riding a bicycle on a
+mountain trail
+
+D. A child playing with a ball in
+

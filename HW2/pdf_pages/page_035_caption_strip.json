@@ -1,0 +1,19 @@
+{
+  "title": "The Transformer Decoder Block (4)",
+  "definitions": {
+    "Multi-head attention": "block is NOT self-attention. It attends over encoder outputs.",
+    "Masked Multi-head self-attention": "For image captions, this is how we inject image features into the decoder."
+  },
+  "formulas": [
+    "Multi-head attention",
+    "Masked Multi-head self-attention"
+  ],
+  "keywords": [
+    "Transformer",
+    "Decoder",
+    "Multi-head attention",
+    "Masked Multi-head self-attention",
+    "encoder outputs"
+  ],
+  "summary": "The slide presents the fourth block of the Transformer Decoder, focusing on the Multi-head attention mechanism. It explains that this block is not self-attention and instead attends over encoder outputs. For image captions, the slide illustrates how image features are injected into the decoder using Masked Multi-head self-attention."
+}

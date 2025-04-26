@@ -1,0 +1,15 @@
+{
+  "title": "BERTScore",
+  "definitions": {
+    "BERTScore": "a method used to measure the quality of text summarization. This method measures how similar the text summary is to the original text."
+  },
+  "formulas": [],
+  "keywords": [
+    "BERTScore",
+    "text summarization",
+    "n-gram-based metrics",
+    "paraphrases",
+    "long-range dependencies"
+  ],
+  "summary": "The slide discusses BERTScore, a method for measuring text summarization quality. It highlights issues with n-gram-based metrics, such as incorrect paraphrase matching and inability to capture long-range dependencies."
+}

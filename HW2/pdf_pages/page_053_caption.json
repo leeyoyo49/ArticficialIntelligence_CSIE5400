@@ -1,0 +1,57 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Alttext Examples (1/2)",
+  "definitions": {
+    "Alttext": "A feature that allows users to add text to images, often used for captions or descriptions."
+  },
+  "formulas": [],
+  "keywords": [
+    "Alttext",
+    "2013",
+    "ducati",
+    "monster",
+    "1100",
+    "evo",
+    "diesel",
+    "motorcycle",
+    "photos",
+    "specifications",
+    "Black Bedroom Furniture",
+    "Sets",
+    "Home Design Ideas",
+    "Oregon",
+    "Wine Press",
+    "February",
+    "2019",
+    "spice",
+    "up",
+    "Indian fare",
+    "fine",
+    "up",
+    "heavenly hot pursuit"
+  ],
+  "summary": "The slide provides examples of Alttext usage, showcasing a 2013 Ducati Monster 1100 evo diesel motorcycle and the cover of Oregon Wine Press February 2019. It includes images with Alttext captions and descriptions."
+}
+```

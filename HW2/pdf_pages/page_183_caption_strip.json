@@ -1,0 +1,21 @@
+{
+  "title": "This Lecture – Agenda",
+  "definitions": {
+    "Chain-of-Thought": "A logical sequence of thoughts or steps to reach a conclusion.",
+    "Zero-shot reasoner": "A type of AI model that can reason without prior examples.",
+    "Few-shot reasoner": "A type of AI model that requires a few examples to reason."
+  },
+  "formulas": [],
+  "keywords": [
+    "Reasoning Basics",
+    "Chain-of-Thought",
+    "Zero-shot reasoner",
+    "Few-shot reasoner",
+    "Analogical Reasoning",
+    "Multimodal Reasoning",
+    "Multimodal CoT",
+    "Commonsense Knowledge",
+    "Reasoning Benchmarks"
+  ],
+  "summary": "The lecture agenda includes topics on reasoning basics, chain-of-thought, zero-shot and few-shot reasoners, analogical reasoning, multimodal reasoning, multimodal chain-of-thought, commonsense knowledge, and reasoning benchmarks."
+}

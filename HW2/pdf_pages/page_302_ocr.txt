@@ -1,0 +1,22 @@
+Distribution Matching with NCFD
+
+¢ CF-based methods directly compare distributions by balancing the
+amplitude and phase in the complex plane, enhancing distributional
+similarity.
+
+ 
+
+Characteristic Function Matching (Ours)             Real            Synthetic
+
+ 
+
+ 
+
+ 
+
+minimizing CF makes the distributions similar
+
+ 
+
+Iteration 0                  Iteration 5000               Iteration 10000
+

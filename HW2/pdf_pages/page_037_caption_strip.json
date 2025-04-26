@@ -1,0 +1,18 @@
+{
+  "title": "Text to Image Generation with Diffusion Based Models",
+  "definitions": {
+    "Text to Image Generation": "Generating realistic images from text descriptions",
+    "Diffusion Based Models": "A type of model used in AI for generating images"
+  },
+  "formulas": [
+    "Hierarchical Text-Conditional Image Generation with CLIP Latents"
+  ],
+  "keywords": [
+    "Text to Image Generation",
+    "Diffusion Based Models",
+    "Hierarchical Text-Conditional Image Generation",
+    "CLIP Latents",
+    "AI"
+  ],
+  "summary": "The slide discusses the concept of Text to Image Generation using Diffusion Based Models. It explains how these models can generate realistic images from text descriptions. The slide also provides examples of generated images, including a dolphin in an astronaut suit on Saturn, a cat dressed as a French emperor, and a teddy bear on a skateboard in Times Square."
+}

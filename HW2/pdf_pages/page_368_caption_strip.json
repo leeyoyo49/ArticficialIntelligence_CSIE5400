@@ -1,0 +1,19 @@
+{
+  "title": "Utilities for a Fixed Policy",
+  "definitions": {
+    "utility": "expected total discounted rewards starting in s and following π",
+    "recursive_relation": "V*(s) = max_a Σ T(s, a, s') [R(s, a, s') + γV*(s')]",
+    "answer": "V^π(s) = Σ T(s, π(s), s') [R(s, π(s), s') + γV^π(s')]"
+  },
+  "formulas": [
+    "V^π(s) = Σ T(s, π(s), s') [R(s, π(s), s') + γV^π(s')]"
+  ],
+  "keywords": [
+    "utility",
+    "state",
+    "fixed policy",
+    "recursive relation",
+    "discounted rewards"
+  ],
+  "summary": "The slide defines the utility of a state under a fixed policy and presents the recursive relation for calculating it. It also provides the answer to the recursive relation."
+}

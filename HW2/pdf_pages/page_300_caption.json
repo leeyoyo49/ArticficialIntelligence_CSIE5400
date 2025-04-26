@@ -1,0 +1,42 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Adversarial Distribution Matching",
+  "definitions": {
+    "adversarial": "A novel approach that reformulates distribution matching as an adversarial minimax optimization problem.",
+    "minimax": "A framework that seeks the optimal synthetic data distribution D~ that minimizes L while network ψ maximizes L to establish a robust metric."
+  },
+  "formulas": [
+    "min max L(D~, D, f, ψ)"
+  ],
+  "keywords": [
+    "adversarial",
+    "distribution",
+    "matching",
+    "optimization",
+    "minimax"
+  ],
+  "summary": "The slide discusses a novel approach to distribution matching by reformulating it as an adversarial minimax optimization problem. It involves maximizing a discrepancy measure to define a robust metric, parameterized by a neural network, and minimizing the discrepancy between synthetic and real datasets by optimizing the synthetic data distribution. The formal expression of this optimization problem is given as 'min max L(D~, D, f, ψ)'."
+}
+```

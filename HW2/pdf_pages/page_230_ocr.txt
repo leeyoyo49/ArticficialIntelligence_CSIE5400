@@ -1,0 +1,44 @@
+ 
+
+iY   Multimodal CoT Reasoning
+mm
+
+ 
+
+¢ Examples of commonsense mistakes: About maps
+
+Question: Which of these cities is marked on the map?
+Context: N/A
+Options:        (A) Las Vegas              (B) San Francisco               (C) Phoenix                (D) Salt Lake City
+
+Rationale : The city is Las Vegas, Nevada. Salt Lake City, Phoenix, and San Francisco are marked with gray circles on
+the map below.
+Answer: The answer is (A).
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Rationale: The city is San Francisco, California. Salt Lake City, Las Vegas, and Phoenix are marked with gray circles on the map below.
+Answer: The answer is (B).
+
+56                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

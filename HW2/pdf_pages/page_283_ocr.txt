@@ -1,0 +1,144 @@
+Ay
+
+109
+
+Various reasoning benchmarks are emerging
+
+MathVista [ICLR 2024]
+
+Question: Find the missing value
+in this math puzzle.
+
+Solution:
+
+(5-43 =1
+
+(7-38 = 64
+
+(8 - 2 =216
+
+Similarly, (11 - 8)3 = 27.
+
+So the missing value is 27.
+Answer: 27
+
+Category: Math-targeted
+
+Task: Figure question answering
+Context: Puzzle test
+
+Grade: Elementary school
+Math: Logical reasoning
+
+(a) IQTest
+
+“iy        —3       =2        =I         0         1         2         3         4
+
+Question: Which function is monotonic
+in range [0, pi]?
+
+Choices:
+
+(A) the red one (B) the blue one
+
+(C) both (D) none of them
+
+Answer: (B) the blue one
+
+Category: Math-targeted
+
+Task: Textbook question answering
+
+Context: Function plot
+Grade: College
+Math: Algebraic reasoning
+
+(b) FunctionQA
+
+ 
+
+ 
+
+ 
+                                                  
+                                                                                                                                                                     
+                                                                                                                                                                     
+  
+
+gpt-4
+claude
+gpt-3.5-turbo
+text-davinci-003
+claude-instant
+text-davinci-002
+text-bison-001
+
+  
+ 
+                                                                                                                                                                         
+                                                                                                                                                                     
+                                                                                                                                                                     
+                                                                                                                                                                     
+                                                                                                                                                                      
+                                                                                                                                                                                                                                            
+ 
+
+ 
+
+API-based
+LLMs
+
+chatglm2
+openchat-13b
+wizardim-30b
+vicuna-13b
+
+wizardlm-13b                                    Open-sourced
+LLMs
+
+    
+
+wizardcoder-15b
+dolly-v2-12b 400.35
+oasst-sft-4-12b   0.07
+
+ 
+
+ 
+
+  
+  
+   
+                                                                                                                                                                                                
+   
+
+   
+
+1                2                3               4
+AgentBench Overall Score
+
+Question: What is the performance gap in
+the AgentBench Overall Score between
+the worst API-based LLM and the best
+open-sourced LLM?
+
+Answer: 0.16
+Category: Math-targeted
+Task: Figure question answering
+Context: Scientific figure
+Grade: College
+
+Math: Scientific reasoning
+
+(c) PaperQA
+
+ 
+
+ 
+ 
+                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                 
+
+ 
+

@@ -1,0 +1,14 @@
+{
+  "title": "The system prompt for automatic curriculum (2/3)",
+  "definitions": {},
+  "formulas": [],
+  "keywords": [
+    "system prompt",
+    "automatic curriculum",
+    "mentor",
+    "task",
+    "resources",
+    "skills"
+  ],
+  "summary": "The slide provides a list of eight criteria for a system prompt designed to guide an AI in its learning process. These criteria emphasize the need for specific guidance, appropriate difficulty level, novelty, and exploration in tasks, as well as the avoidance of tasks requiring visual confirmation or starting with certain keywords."
+}

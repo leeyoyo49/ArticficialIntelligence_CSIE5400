@@ -1,0 +1,72 @@
+ 
+
+iY  Overall Training Procedure of RLC
+和
+
+ 
+
+m Three steps:
+e (1) Answer generation to the unlabeled questions.
+e (2) Self-evaluation by asking LM using evaluation prompt, with the evaluation results as the reward.
+e (3) Update the language model to maximize the reward using reinforcement learning algorithms.
+
+e Note that the solid lines represent the data flow, while the dashed line represents the update of LLM parameters.
+
+Unlabeled questions
+
+Q1: Given a movie review, your
+
+Wye                             Evaluation prompt
+1) Generate
+
+一一一一>                                        Is the answer to the
+question correct? The
+
+question is: [Q]. The
+answer is: [A].
+
+                                                                                                                                                                                                                                                                 
+      
+ 
+
+task is to classify it as positive,
+
+negative, or neutral based on the
+
+text: The movie is so interesting ...
+
+Q2: Sort the following list of words
+alphabetically: The word list: oven |——>
+costume counterpart.
+
+Q3: Today is Christmas Eve of 1937.
+
+  
+ 
+
+Evaluation
+prompt
+
+Language                             Ai
+guag                              Please evaluate the
+
+answer to the question
+and give me an
+
+全一一一
+
+model
+
+What is the date 10 days ago?                                           (2) Evaluate                                     evaluation score from 1
+
+Options: (A) 12/14/2026 (B)                                                                                         to 10. The question is:
+“xr                                                           .
+
+12/14/2007 (C) 12/14/1937.                                            <q---=         Reward                [Q]. The answer is [A].
+
+(3) Improve
+
+ 
+
+169
+

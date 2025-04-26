@@ -1,0 +1,15 @@
+Problems with Direct Evaluation
+
+Observed (s, a, S, R) Transitions:
+
+Episode 1
+E, north, C,0
+C,east, D,0O
+D, exit, x, +10
+
+Episode 2
+
+                                                                                                                                                                                                                                                                 
+
+ls Babad state?
+

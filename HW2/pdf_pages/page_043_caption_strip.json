@@ -1,0 +1,17 @@
+{
+  "title": "Denoising Diffusion Models",
+  "definitions": {
+    "Diffusion": "A process of gradually adding noise to a signal or data to create a distribution of possible outcomes."
+  },
+  "formulas": [
+    "No explicit formulas provided in the image."
+  ],
+  "keywords": [
+    "Denoising",
+    "Diffusion Models",
+    "Noise",
+    "Signal",
+    "Data"
+  ],
+  "summary": "The slide presents the concept of Denoising Diffusion Models, explaining that it involves the process of adding noise to a signal or data to create a distribution of possible outcomes. The slide includes a visual representation of the diffusion process and a collage of images that may be related to the topic."
+}

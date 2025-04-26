@@ -1,0 +1,13 @@
+{
+  "title": "Example - Gridworld V* Values",
+  "definitions": {},
+  "formulas": [],
+  "keywords": [
+    "Gridworld",
+    "V*",
+    "Values",
+    "Iterations",
+    "100"
+  ],
+  "summary": "The slide presents a gridworld with values after 100 iterations, showing positive and negative values in different colors."
+}

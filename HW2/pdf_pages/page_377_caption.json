@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Comparison",
+  "definitions": {
+    "value iteration": "Both value iteration and policy iteration compute the same thing (all optimal values).",
+    "policy iteration": "We do several passes that update utilities with fixed policy (each pass is fast because we consider only one action, not all of them). After the policy is evaluated, a new policy is chosen (slow like a value iteration pass). The new policy will be better (or we're done)."
+  },
+  "formulas": [
+    "Both value iteration and policy iteration compute the same thing (all optimal values).",
+    "In value iteration: Every iteration updates both the values and (implicitly) the policy. We don't track the policy, but taking the max over actions implicitly recomputes it.",
+    "In policy iteration: We do several passes that update utilities with fixed policy (each pass is fast because we consider only one action, not all of them). After the policy is evaluated, a new policy is chosen (slow like a value iteration pass). The new policy will be better (or we're done)."
+  ],
+  "keywords": [
+    "value iteration",
+    "policy iteration",
+    "iteration",
+    "utilities",
+    "policy"
+  ],
+  "summary": "The slide compares value iteration and policy iteration, two methods for solving Markov Decision Processes (MDPs). Both methods compute the same optimal values, but differ in their approach. Value iteration updates both values and policy implicitly, while policy iteration updates utilities with a fixed policy and chooses a new policy after evaluation."
+}
+```

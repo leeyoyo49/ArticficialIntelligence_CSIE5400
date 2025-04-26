@@ -1,0 +1,24 @@
+{
+  "title": "Policy Evaluation",
+  "definitions": {
+    "V\u0305": "Value function for a fixed policy \u03c0",
+    "T": "Transition function",
+    "R": "Reward function",
+    "s':": "Next state",
+    "s": "Current state",
+    "\u03b7": "Discount factor"
+  },
+  "formulas": [
+    "V\u0305\u2080 (s) = 0",
+    "V\u0305\u2081 (s) \u2192 \u222a T(s, \u03c0(s), s') [R(s, \u03c0(s), s')] + \u03b7V\u0305 (s')",
+    "V\u0305 (s) = \u222x V\u0305 (s1) V\u0305 (s2) ..."
+  ],
+  "keywords": [
+    "Policy Evaluation",
+    "Value Function",
+    "Fixed Policy",
+    "Recursive Equations",
+    "Linear System"
+  ],
+  "summary": "The slide discusses how to calculate the value function for a fixed policy in reinforcement learning. It introduces two ideas: turning recursive equations into updates, similar to value iteration, and solving the equations as a linear system without the maxes. A diagram illustrates the transition from one state to another under a policy, and a matrix equation represents the linear system approach."
+}

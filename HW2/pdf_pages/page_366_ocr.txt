@@ -1,0 +1,19 @@
+Fixed Policies
+
+ 
+
+Do the optimal action                          Do what zr says to do
+
+ 
+
+“Sas
+
+ 
+
+As.
+
+m Expectimax trees max over all actions to compute the optimal values
+
+m If we fixed some policy z(s), then the tree would be simpler — only one action per state
+- ,,,though the tree’s value would depend on which policy we fixed
+

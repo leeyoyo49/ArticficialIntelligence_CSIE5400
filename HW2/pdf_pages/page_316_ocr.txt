@@ -1,0 +1,28 @@
+MDP Search Trees
+
+ 
+
+m Each MDP state projects an expectimax-like search tree
+
+In expectimax, or a general MDP. it forms a computation
+tree that considers all of the possible actions so that you
+can max over them and thereby choose the best one.
+
+                                                                                                                                                                                                                                                                  
+ 
+
+                                                                                                                                                          
+ 
+
+2 (s,a)isa
+q-state
+
+UX                          (s,a,s’) called a transition
+a                                T(
+uv T(S,a,8’)       ,
+-                          .
+
+S,a,S’) = P(s’|s,a)
+
+R(s,a,$’)              QO
+

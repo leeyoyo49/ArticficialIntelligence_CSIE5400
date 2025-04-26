@@ -1,0 +1,17 @@
+{
+  "title": "Model-Free Learning",
+  "definitions": {
+    "Model-Free Learning": "A type of machine learning where the algorithm learns to make decisions based on the current state and the reward received, without building a model of the environment."
+  },
+  "formulas": [
+    "Q-learning formula: Q(s, a) = Q(s, a) + alpha * (reward + gamma * max(Q(s', a)) - Q(s, a))"
+  ],
+  "keywords": [
+    "Model-Free Learning",
+    "machine learning",
+    "algorithm",
+    "state",
+    "reward"
+  ],
+  "summary": "The slide presents the concept of Model-Free Learning, a machine learning approach where decisions are made based on the current state and received rewards, without constructing a predictive model of the environment. It includes the Q-learning formula, which is central to this learning method."
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Multimodal Reasoning",
+  "definitions": {
+    "Multimodal Reasoning": "The ability of a system to reason and make decisions based on multiple types of input, such as text, images, and audio."
+  },
+  "formulas": [],
+  "keywords": [
+    "Multimodal",
+    "Reasoning",
+    "Temporal",
+    "Example Problem",
+    "Temporal"
+  ],
+  "summary": "The slide presents an example problem related to temporal multimodal reasoning. It features a sequence of images showing a man playing golf and falling to the ground. The problem asks what happens to the man after hitting the ball, with the answer provided in a text box."
+}

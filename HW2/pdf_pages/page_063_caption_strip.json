@@ -1,0 +1,20 @@
+{
+  "title": "Agent Architecture",
+  "definitions": {
+    "Level 2": "Using MLLM to reason to act (reasoning)",
+    "Level 1": "Using MLLM to act (acting)"
+  },
+  "formulas": [
+    "Action − L",
+    "Observation − L"
+  ],
+  "keywords": [
+    "Agent Architecture",
+    "Level 2",
+    "Level 1",
+    "MLLM",
+    "reasoning",
+    "acting"
+  ],
+  "summary": "The slide presents the concept of Agent Architecture, focusing on two levels of using MLLM. Level 2 involves reasoning to act, while Level 1 involves acting. The slide also illustrates the relationship between action, observation, memory, and tool use in the context of MLLM."
+}

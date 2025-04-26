@@ -1,0 +1,25 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMS": "NeurIPS 2024",
+    "LLM": "Language Model",
+    "LVM": "Language Vision Model",
+    "SEED-Bench": "Benchmark",
+    "MathVista": "Benchmark"
+  },
+  "formulas": [
+    "Total Training TPUv3-days",
+    "Total Training ExaFLOP"
+  ],
+  "keywords": [
+    "MMS",
+    "NeurIPS",
+    "2024",
+    "LLM",
+    "LVM",
+    "SEED-Bench",
+    "MathVista",
+    "Benchmark"
+  ],
+  "summary": "The slide presents various reasoning benchmarks emerging in the field of artificial intelligence, specifically focusing on the MMS model at NeurIPS 2024. It includes examples of questions and answers related to geography, image recognition, and cell types, demonstrating the capabilities of different language models in answering these questions."
+}

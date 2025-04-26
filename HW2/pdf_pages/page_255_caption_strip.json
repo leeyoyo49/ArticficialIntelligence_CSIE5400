@@ -1,0 +1,17 @@
+{
+  "title": "Event-Driven Vision-Language Pretraining",
+  "definitions": {
+    "Caption Text": "Antigovernment protesters carry an injured man on a stretcher after clashes with riot police on Independence Square in Kyiv on February 20, 2014."
+  },
+  "formulas": [
+    "Text Information Extraction"
+  ],
+  "keywords": [
+    "Event-Driven",
+    "Vision-Language",
+    "Pretraining",
+    "Caption Text",
+    "Text Information Extraction"
+  ],
+  "summary": "The slide discusses Event-Driven Vision-Language Pretraining, focusing on the process of extracting text information from a given caption text related to a specific event."
+}

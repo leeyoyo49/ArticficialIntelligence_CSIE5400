@@ -1,0 +1,19 @@
+{
+  "title": "Image Declaration",
+  "definitions": {
+    "image proxy": "a unique identifier for MLLMs to index and distinguish between visual and text embeddings",
+    "natural language prompts": "used to establish references between text and image",
+    "text-to-image reference": "assists the model in correlating the text with the appropriate image"
+  },
+  "formulas": [
+    "IMGj"
+  ],
+  "keywords": [
+    "image proxy",
+    "natural language prompts",
+    "text-to-image reference",
+    "MLLMs",
+    "visual embedding"
+  ],
+  "summary": "The slide discusses the process of image declaration in the context of MLLMs, highlighting the allocation of a unique image proxy, the use of natural language prompts to establish text-image references, and the incorporation of these references in the image declaration to aid in correlating text with the appropriate image."
+}

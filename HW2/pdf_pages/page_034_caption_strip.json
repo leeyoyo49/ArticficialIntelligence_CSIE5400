@@ -1,0 +1,19 @@
+{
+  "title": "Masked Self-Attention Layer",
+  "definitions": {
+    "Attention": "A mechanism in neural networks that selectively focuses on certain parts of the input data.",
+    "Alignment": "A matrix that represents the alignment between input and output sequences in attention mechanisms."
+  },
+  "formulas": [
+    "y0 = mul(-> + add(1))",
+    "softmax"
+  ],
+  "keywords": [
+    "Attention",
+    "Masked Self-Attention",
+    "Vectors",
+    "Alignment",
+    "Neural Networks"
+  ],
+  "summary": "The slide presents the concept of a Masked Self-Attention Layer in neural networks, which prevents vectors from looking at future vectors and sets future alignment scores to -infinity. It includes a diagram illustrating the process and a formula for calculating the output."
+}

@@ -1,0 +1,57 @@
+Example:
+
+RT-2: Vision-Language-Action Models [PLMR 2023]
+
+  
+
+ 
+
+ 
+
+|             Transfer Web Knowledge to Robotic Control
+
+Internet-Scale VQA + Robot Action Data
+
+Co-Fine-Tune
+Q: What is happening
+
+in the image?
+A grey donkey walks
+down the street
+
+Q: Que puis-je faire
+avec ces objets?
+
+RT-2
+Faire cuire un
+gatea
+
+Q: What should the
+robot do to <task>?
+
+Vision-Language-
+Action Models for
+Robot Control
+
+  
+
+A Translation = (0.1, -0.2, 0]                       Deploy
+
+A Rotation = [10°, 25°, -7°]
+
+  
+
+ 
+
+Closed-Loop Robot Control
+
+ 
+                                                                                                                                                                                                                                                                   
+
+Put the strawberry into    Pick the nearly falling    Pick object that is
+the correct bowl           bag                      different
+
+69
+
+ 
+

@@ -1,0 +1,19 @@
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "MLLM": "Multi-Modal Learning Model",
+    "Pretraining": "Initial training phase of a model",
+    "Event Semantic Structures": "Framework for understanding events in a structured manner"
+  },
+  "formulas": [
+    "Structured Alignment via Optimal Transport"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Structured Alignment",
+    "Optimal Transport"
+  ],
+  "summary": "The slide presents the concept of MLLM Pretraining with Event Semantic Structures, focusing on the structured alignment of text and image event graphs. It includes a diagram illustrating the alignment of events in a scene, with entities like 'person', 'agent', and 'place' connected by relationships such as 'carry' and 'clashes'. The slide also references a source for further information."
+}

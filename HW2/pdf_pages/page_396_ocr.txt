@@ -1,0 +1,30 @@
+Example: Direct Evaluation
+
+Observed (s, a, $, R) Transitions          Output Values
+
+Episode 1                Episode 2
+B, east, C, -1
+C, east, D, -1
+D, exit, x, +10
+
+Input Policy zr
+
+B, east, C, -1
+C, east, D, -1
+
+D, exit, x, +10
+
+ 
+
+Episode 3
+
+E north, C,-1
+C, east, D, -1
+Assume: y = 1      D, exit, x, +10
+
+E north, C, -1
+C,east, A, -1
+A, exit, x,-10
+
+   
+

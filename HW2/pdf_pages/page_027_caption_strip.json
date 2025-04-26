@@ -1,0 +1,21 @@
+{
+  "title": "Self-Attention Layer",
+  "definitions": {
+    "Permutation equivariant": "Permutation equivariant",
+    "Self-attention": "Self-attention",
+    "Positional encoding": "Positional encoding"
+  },
+  "formulas": [
+    "Self-attention layer doesn’t care about the orders of the inputs!",
+    "Problem: How can we encode ordered sequences like language or spatially ordered image features?",
+    "That’s why we need positional encoding!"
+  ],
+  "keywords": [
+    "Self-Attention Layer",
+    "Permutation equivariant",
+    "Self-attention",
+    "Positional encoding",
+    "Ordered sequences"
+  ],
+  "summary": "The slide discusses the concept of the Self-Attention Layer in the context of Artificial Intelligence. It highlights the problem of encoding ordered sequences like language or spatially ordered image features, and introduces the solution of using positional encoding. The slide also includes diagrams illustrating the concept of permutation equivariance in self-attention layers."
+}

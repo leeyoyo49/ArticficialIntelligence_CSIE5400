@@ -1,0 +1,17 @@
+人
+
+= Computing unigrams precision
+e To count how many words in a candidate text C are present in the
+reference text R, and divide the result by the number of words in C to get a
+percentage.
+* Therefore, a perfect score is 1.0, whereas the worst score is 0.0.
+e Example:
+‧ R: The cat is on the mat.
+¢ C: The cat and the dog.
+¢ In C, there are three words (“the”, “cat”, “the”) that appear on the reference R, thus:
+BLEU*(C) = 3/5 = 0.6
+e The problem with repeating unigrams
+* Consider C: “The The The The The”, BLEU*(C) = 5/5 = 1!
+
+158
+

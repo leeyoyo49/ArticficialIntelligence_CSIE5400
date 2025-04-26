@@ -1,0 +1,19 @@
+{
+  "title": "k=4",
+  "definitions": {
+    "Gridworld Display": "A visual representation of a grid used in reinforcement learning to illustrate the environment in which an agent learns to navigate."
+  },
+  "formulas": [
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "Gridworld",
+    "Display",
+    "Noise",
+    "Discount",
+    "Living reward"
+  ],
+  "summary": "The slide presents a gridworld display used in reinforcement learning, showing the values after 4 iterations. It includes parameters such as noise, discount, and living reward."
+}

@@ -1,0 +1,47 @@
+Ay
+
+148
+
+Reinforcement Learning Contemplation (RLC)
+
+ 
+
+RLC is a novel LMSI
+method, which is
+grounded on the
+observation that it is
+simpler for a
+language model to
+evaluate a sentence
+than to generate it.
+
+Text generation task
+
+Write a mystery that leaves
+the reader unable to predict
+the ending. The answer is:
+
+Language model
+
+The answer is: Detective James
+had been working on the case
+for weeks, but he couldn‘t
+seem to make any headway ...
+
+Text generation
+
+[ICLR 2024]
+
+Self-evaluation task
+
+Is the following article a
+mystery that leaves the
+reader unable to predict the
+ending? [TEXT]. Answer:
+
+Language model
+
+Text evaluation
+
+ 
+

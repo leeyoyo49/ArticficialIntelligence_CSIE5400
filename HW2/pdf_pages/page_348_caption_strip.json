@@ -1,0 +1,23 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "k": "0 (initialize)",
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=0 (initialize)",
+    "Noise = 0.2",
+    "Discount = 0.9",
+    "Living reward = 0"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "k",
+    "Noise",
+    "Discount",
+    "Living reward"
+  ],
+  "summary": "The slide presents an initialization of a variable 'k' to 0, with a noise value of 0.2, a discount factor of 0.9, and a living reward of 0. It also includes a grid with values after 0 iterations."
+}

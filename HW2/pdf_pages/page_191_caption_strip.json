@@ -1,0 +1,19 @@
+{
+  "title": "Key Idea: Derive the Final Answer through Intermediate Steps",
+  "definitions": {
+    "Key Idea": "Derive the final answer through a series of small steps.",
+    "Problem 1": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+    "Rationale": "Let the speeds of the two trains be x m/sec and y m/sec respectively. Then, length of the first train = 27x meters, and length of the second train = 17 y meters. (27x + 17y)/(x + y) = 23 -> 27x + 17y = 23x + 23y -> 4x = 6y -> x/y = 3/2."
+  },
+  "formulas": [
+    "(27x + 17y)/(x + y) = 23 -> 27x + 17y = 23x + 23y -> 4x = 6y -> x/y = 3/2"
+  ],
+  "keywords": [
+    "Key Idea",
+    "Derive",
+    "Final Answer",
+    "Intermediate Steps",
+    "Math Problems"
+  ],
+  "summary": "The slide presents a study where a model is proposed to jointly learn to generate the text in the rationale and to perform the math operations required to solve the problem. The problem involves two trains crossing each other and the ratio of their speeds is derived through a series of small steps."
+}

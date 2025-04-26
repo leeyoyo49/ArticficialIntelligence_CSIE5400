@@ -1,0 +1,17 @@
+Al Weekly
+
+Agent Robotics: Learning-from-observation (LfO)
+一
+
+Task model
+
+   
+
+(Minsky’s frame)
+
+Wow-to-do
+
+  
+
+Source: https://multimodalagentai.github.io/files/Katsushilkeuchi_Talk3_CVPR2024_Tutorial_GeneralistAgentAl.pdf
+

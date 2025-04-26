@@ -1,0 +1,80 @@
+iY   Masked Self-Attention Layer                    (
+ml
+
+Output
+Probabilities
+
+¢ Masked self-attention is used
+to ensure that the model
+doesn’t attend to some of the
+tokens in the input sequence
+during training or generation.
+
+ 
+  
+ 
+
+The architecture of
+Vision Transformer (ViT)
+
+Feed
+Forward
+
+Add & Norm
+Multi-Head
+Attention
+
+                                                                                                                                                                                             
+
+Add & Norm
+
+Feed
+Forward
+
+                                                                                                                                                 
+ 
+
+  
+
+                                                                                                                                                                                            
+
+Add & Norm
+
+Multi-Head
+Attention
+
+Add & Norm
+Masked
+Multi-Head
+Attention
+Ct
+
+   
+  
+
+     
+ 
+
+                                                                                                                                             
+                                                                                                                                                                                                                                            
+    
+
+  
+
+Nx
+
+  
+    
+   
+                                                                                                                     
+
+                                                                                                                                                                                                                                                                                                 
+
+Positional                                          Positional
+Encoding  @   ©                    0   EY  Encoding
+Input                 Output
+Embedding            Embedding
+33                             Inputs               Outputs                                            Source: “Attention is All You Need,” NIPS. 2017.
+
+(shifted right)
+

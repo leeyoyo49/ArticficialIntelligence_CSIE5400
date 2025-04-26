@@ -1,0 +1,43 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "BLEU (1/4)",
+  "definitions": {
+    "BLEU": "To count how many words in a candidate text C are present in the reference text R, and divide the result by the number of words in C to get a percentage."
+  },
+  "formulas": [
+    "BLEU*(C) = 3/5 = 0.6",
+    "BLEU*(C) = 5/5 = 1!"
+  ],
+  "keywords": [
+    "BLEU",
+    "unigrams",
+    "precision",
+    "candidate text",
+    "reference text"
+  ],
+  "summary": "The slide explains the BLEU score, a metric for evaluating machine translation quality by comparing a candidate text to a reference text. It includes an example calculation and highlights the issue of repeating unigrams."
+  }
+}
+```

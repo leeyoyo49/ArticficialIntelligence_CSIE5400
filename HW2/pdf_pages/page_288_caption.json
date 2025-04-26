@@ -1,0 +1,45 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Attention / FFN": "A type of neural network architecture that includes an attention mechanism and a feedforward neural network.",
+    "Layer Norm": "A type of layer normalization used in neural networks to stabilize the learning process.",
+    "scale & shift": "A process in neural networks that involves scaling and shifting the output of a layer.",
+    "normalize": "The process of adjusting the values of a dataset to a common scale, without distorting the ranges of values.",
+    "Dynamic Tanh (DyT)": "A function that applies the hyperbolic tangent (tanh) activation function to its input."
+  },
+  "formulas": [
+    "DyT(x) = tanh(ax)"
+  ],
+  "keywords": [
+    "Attention",
+    "Feedforward Neural Network",
+    "Layer Normalization",
+    "Scale and Shift",
+    "Normalization"
+  ],
+  "summary": "The slide presents an overview of a neural network architecture that includes an attention mechanism and a feedforward neural network. It also introduces the concept of Dynamic Tanh (DyT) and shows the output of different layers in a neural network using various activation functions."
+}
+```

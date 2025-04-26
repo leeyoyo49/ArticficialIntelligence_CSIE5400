@@ -1,0 +1,73 @@
+ 
+
+85
+
+ 
+
+Hard negatives via manipulating event structures
+
+Agent ptetes
+Target eden
+nsruneat [svother
+
+Positive
+Labels
+
+Negative
+Labels
+(events)
+
+as  al
+
+Person
+
+Bench
+Negative
+Labels
+
+(arguments)
+
+ 
+
+ 
+
+Agent
+
+protesters
+
+injured man
+
+ 
+
+1]duuoJd                      1]duuoJd
+
+1]duuoJd
+
+  
+ 
+ 
+
+  
+
+Protesters
+transported
+injured man
+using a
+stretcher.
+
+Protesters
+arrested
+
+injured man
++
+
+using a
+stretcher.
+
+Injured man
+transported a
+stretcher with
+protesters.
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

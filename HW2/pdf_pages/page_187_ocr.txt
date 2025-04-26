@@ -1,0 +1,11 @@
+iY    What is reasoning?                                        (
+mm
+
+Humans can learn from just a few examples
+because humans can reason
+
+Al should be able to learn from just a few examples, like
+what humans usually do
+
+Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

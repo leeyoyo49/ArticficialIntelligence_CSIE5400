@@ -1,0 +1,46 @@
+DM: moment matching methods
+
+While distributional equivalence implies moment equivalence, the
+converse is not necessarily true: aligning moments alone does not
+guarantee full distributional matching.
+
+@ Synthetic Data  * RealData Z:LatentSpace w: Parameterized Network
+
+a      =      i      =
+min £(D, D, |Z)  i. L(D,D,
+
+Zoe
+
+6 :
+*
+
+*
+Sle
+
+See wwewee ween = =
+
+ee
+
+! min L(D, D,|Zp)   it    L(D, Da |Z
+a        hm |
+          ne           io
+
+=
+
+8
+                              次
+
+weeee ewe eee eS
+
+%
+
+a
+x
+
+/
+er ease aaeae team                                        a
+
+re i
+
+(a) Previous paradigm: optimize D to minimize the distance within Z.
+

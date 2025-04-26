@@ -1,0 +1,25 @@
+{
+  "title": "Example: Value Iteration",
+  "definitions": {
+    "V0": "0",
+    "V1": "2",
+    "V2": "1",
+    "Vk+1(s)": "max [Σ T(s, a, s') [R(s, a, s') + γVk(s')] ]",
+    "R(s, a, s')": "Reward function",
+    "γ": "Discount factor",
+    "Vk(s)": "Value function at state s"
+  },
+  "formulas": [
+    "Vk+1(s) < max [Σ T(s, a, s') [R(s, a, s') + γVk(s')] ]",
+    "a=slow: 1(1 + 2) = 3",
+    "a=fast: 0.5(2 + 2) + 0.5(2 + 1) = 3.5"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "Vk+1(s)",
+    "R(s, a, s')",
+    "γ",
+    "Vk(s)"
+  ],
+  "summary": "The slide provides an example of Value Iteration in AI, showing the calculation of value functions at different states and the decision-making process based on speed (slow or fast). It includes a diagram illustrating the transition of states with rewards and a formula for calculating the value function."
+}

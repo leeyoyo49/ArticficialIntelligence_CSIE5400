@@ -1,0 +1,19 @@
+{
+  "title": "Self-Attention Layer",
+  "definitions": {
+    "Context vectors": "y (shape: N x D)",
+    "Input vectors": "x (shape: N x D)"
+  },
+  "formulas": [
+    "Context vectors: y (shape: N x D)",
+    "Input vectors: x (shape: N x D)"
+  ],
+  "keywords": [
+    "Self-Attention Layer",
+    "Context vectors",
+    "Input vectors",
+    "N x D",
+    "Shape"
+  ],
+  "summary": "The slide presents the concept of a Self-Attention Layer in artificial intelligence. It explains that the layer outputs context vectors 'y' with a shape of N x D, and takes input vectors 'x' also with a shape of N x D. The slide includes a diagram illustrating the transformation of input vectors 'x' through a self-attention mechanism to produce context vectors 'y'."
+}

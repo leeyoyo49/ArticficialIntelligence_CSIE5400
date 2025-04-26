@@ -1,0 +1,20 @@
+  
+
+iY    Example:
+=       Image Captioning with Transformers
+
+¢ Image Captioning is the task of describing the content
+of an image in words.
+
+ 
+  
+ 
+ 
+ 
+
+Captioning Model
+
+A happy dog is standing in the ocean
+
+Source: https://eman-lotfy-elrefai.medium.com/5-models-to-use-for-image-captioning-task-59 143fb2df6d
+

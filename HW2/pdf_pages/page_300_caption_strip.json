@@ -1,0 +1,18 @@
+{
+  "title": "Adversarial Distribution Matching",
+  "definitions": {
+    "adversarial": "A novel approach that reformulates distribution matching as an adversarial minimax optimization problem.",
+    "minimax": "A framework that seeks the optimal synthetic data distribution D~ that minimizes L while network ψ maximizes L to establish a robust metric."
+  },
+  "formulas": [
+    "min max L(D~, D, f, ψ)"
+  ],
+  "keywords": [
+    "adversarial",
+    "distribution",
+    "matching",
+    "optimization",
+    "minimax"
+  ],
+  "summary": "The slide discusses a novel approach to distribution matching by reformulating it as an adversarial minimax optimization problem. It involves maximizing a discrepancy measure to define a robust metric, parameterized by a neural network, and minimizing the discrepancy between synthetic and real datasets by optimizing the synthetic data distribution. The formal expression of this optimization problem is given as 'min max L(D~, D, f, ψ)'."
+}

@@ -1,0 +1,57 @@
+ 
+
+84
+
+Hard negatives via manipulating event structures
+
+as
+
+Person
+
+Bench
+
+a
+
+ 
+
+  
+ 
+ 
+  
+
+Positive
+Labels
+
+Negative
+Labels
+(events)
+
+Negative
+Labels
+(arguments)
+
+ 
+
+   
+
+Agent ptetes
+Terget eden
+nsruneat [svoher
+
+  
+
+  
+
+ Arres
+
+=
+Target [inweaiman
+Instrument |stether
+
+Event Type | Transport (carry)
+
+Role
+Switching
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

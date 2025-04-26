@@ -1,0 +1,33 @@
+26
+
+aN     Self-Attention Layer                                            (
+
+Input vectors
+
+ 
+
+mul(—) + add (t)
+
+ 
+   
+
+Attention
+
+Alignment
+
+Outputs:
+Context vectors: y (shape: N x D)
+
+Operations:
+
+Query vectors: q = xW,
+Key vectors: k = xW
+Value vectors: v = x\V\V,
+Alignment: e;; = 9; ° k/ND
+Attention: a = softmax(e)
+Output: y; = >i aij * Vv)
+
+Inputs:
+Input vectors: x (shape: N x D)
+Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

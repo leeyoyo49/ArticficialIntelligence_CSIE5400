@@ -1,0 +1,43 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Remarks",
+  "definitions": {
+    "Reinforcement learning": "an AI area concerned with how an intelligent agent ought to take actions in a dynamic environment in order to maximize the cumulative reward.",
+    "Supervised learning": "not needing labelled input/output pairs to be presented, reinforcement learning focuses on finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge) with the goal of maximizing the long term reward."
+  },
+  "formulas": [
+    "R = R + 1",
+    "R = R - 5"
+  ],
+  "keywords": [
+    "Reinforcement learning",
+    "Supervised learning",
+    "machine learning",
+    "exploration",
+    "exploitation"
+  ],
+  "summary": "The slide discusses reinforcement learning, a subset of machine learning, which differs from supervised learning by not requiring labeled input/output pairs. It emphasizes the balance between exploration and exploitation to maximize long-term rewards. Visual examples of unsupervised, supervised, and reinforcement learning are provided."
+}
+```

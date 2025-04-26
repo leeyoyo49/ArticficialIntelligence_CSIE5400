@@ -1,0 +1,22 @@
+{
+  "title": "A Running Example (3/4)",
+  "definitions": {
+    "Automatic Curriculum": "A system that provides a structured learning path for a player in a game.",
+    "Iterative Prompting Mechanism": "A process that guides a player through a series of tasks and challenges.",
+    "Skill Library": "A collection of skills or actions that a player can perform in a game."
+  },
+  "formulas": [
+    "bot.equip(sword, \"hand\");",
+    "await bot.equip(sword, \"hand\");",
+    "await craftStoneSword(bot);",
+    "await craftShield(bot);"
+  ],
+  "keywords": [
+    "Automatic Curriculum",
+    "Iterative Prompting Mechanism",
+    "Skill Library",
+    "Combat Zombie",
+    "Mine Wood Log"
+  ],
+  "summary": "The slide presents a running example of an automatic curriculum and iterative prompting mechanism in a game. It includes a diagram showing the process of mining wood, crafting a sword, and combat with a zombie. The slide also lists the skills available in the skill library."
+}

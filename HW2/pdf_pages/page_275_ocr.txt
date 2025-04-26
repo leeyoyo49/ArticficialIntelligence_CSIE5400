@@ -1,0 +1,83 @@
+¢ MMStar [NeurlIPS 2024]
+
+ 
+
+ 
+
+Experts Choice
+‘Tokens Choice
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10!                   10                  10!
+
+Demse
+w     10°
+Total Training TPUv3-days     ‘Total Training ExaFLOP" &   ap
+(b) ImageNet 10-shot Accuracy     W   @)
+
+at is the capital of Nebraska?  :
+
+ 
+
+A: Providence
+
+B: Saint Paul
+
+C: Lincoin
+
+D: Kansas City
+The image does nothing,
+it‘s the same as asking
+me with a text question
+directly.
+
+Which model can achieve the best
+ImageNet 10-shot Accuracy score?
+
+B: Experts Choice
+C: Tokens Choice
+D: Dense
+
+MathVista: question-565 Answer:A LLM
+
+#Correct LLMs : 16/22 (72.7%)
+101
+
+=
+
+SEED-Benchimage: question-75500 :
+
+#LLM-LVLM™* Pairs : 9/16 (56.3%)
+
+What is the shape of the round dirt
+
+A: Square
+B:  riangle
+
+D: Diamond
+@)
+LLM Be |
+
+Which cell type is pictured?
+A: Eosinophil
+
+B: Thrombocyte
+
+C: Lymphocyte
+
+D: Monocyte
+: Neutrophil
+
+@
+
+ 
+

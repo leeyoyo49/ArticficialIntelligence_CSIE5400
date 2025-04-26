@@ -1,0 +1,19 @@
+Example:
+
+ 
+
+RT-2: Vision-Language-Action Models [PLMR 2023]
+© Google DeepMind
+
+Q: What should
+the robot do to
+<task>? At...
+
+ 
+ 
+    
+
+Robot action
+
+67
+

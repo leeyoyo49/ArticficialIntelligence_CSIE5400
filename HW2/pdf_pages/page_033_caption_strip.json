@@ -1,0 +1,21 @@
+{
+  "title": "Masked Self-Attention Layer",
+  "definitions": {
+    "Masked Self-Attention": "Masked self-attention is used to ensure that the model doesn't attend to some of the tokens in the input sequence during training or generation."
+  },
+  "formulas": [
+    "Softmax",
+    "Linear",
+    "Add & Norm",
+    "Feed Forward",
+    "Multi-Head Attention"
+  ],
+  "keywords": [
+    "Vision Transformer",
+    "Architecture",
+    "Self-Attention",
+    "Masked",
+    "Training"
+  ],
+  "summary": "The slide presents the architecture of the Vision Transformer (ViT) with a focus on the Masked Self-Attention Layer. It explains that this layer is used to prevent the model from attending to certain tokens during training or generation. The slide includes a diagram of the ViT architecture and a brief explanation of the purpose of masked self-attention."
+}

@@ -1,0 +1,41 @@
+ 
+
+iY   Multimodal Embedding Spaces
+mm
+
+ 
+
+¢ Multimodal learning
+
+  
+   
+  
+
+ 
+
+"                 .
+Text encoder                                            an clethovrt in the
+r!                                                            erengeti
+'          一   1
+“mountain landscape’,                了                  '            11.24, 0.76, ...J,
+“astronaut riding a horse; ——————                ——> L.21, 2.91, «J,
+“wtergalactic goldfish"                '                   '            L241, -.03, ...J
+1 |                                                                     0
+!                  4
+7771
+|       LL21 0.81, ...J,
+Up L.31, 2.75, ..J,
+1       £2.04, -.11, ...J
+
+“two dogs running across
+
+加 o<+—      a Frosty Fielel"
+
+ 
+
+The multi-modal nature of MLLMs is powered by
+two encoder models (Text encoder and Image
+encoder) trained to “speak the same language”.
+
+50
+

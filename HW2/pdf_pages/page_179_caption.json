@@ -1,0 +1,46 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Probing 'Visible' Physical Commonsense Knowledge",
+  "definitions": {
+    "Visually accessible knowledge": "representing color, size and space"
+  },
+  "formulas": [
+    "O is of [MASK] color",
+    "[CLS] color of O",
+    "O1 is [MASK] than O2 in size",
+    "[CLS] size of O1 in comparison to O2",
+    "in a S, the O1 is located [MASK] the O2",
+    "[CLS] in a S, the O1 is located in com-parison to O2"
+  ],
+  "keywords": [
+    "color",
+    "size",
+    "space",
+    "VISPHY",
+    "EMNLP"
+  ],
+  "summary": "The slide presents a study on probing 'Visible' Physical Commonsense Knowledge, focusing on visually accessible knowledge representing color, size, and space. It includes tasks, settings, and prompts for color, size, and spatial relationships, with examples of how to fill in the blanks with appropriate terms."
+}
+```

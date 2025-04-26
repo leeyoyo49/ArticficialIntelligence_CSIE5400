@@ -1,0 +1,17 @@
+Adversarial Distribution Matching
+
+( mse |  3 (   wae}    ; min L(D, Di |Zy,)    Aan DalZ,)
+!     — R\   77 RN | eR mt        ar
+!          wi)區 !           xh |!           ale          *
+I        +    tt          or  I   I          +  !        人
+
+        真/         a         ot        *
+
+Meee eee ew ew ew ew ew ew Me XS Me ee ew ew ew ew ew ew ew ew ew we OlllUlUlUlClCClCU Cc ee ee ee ee
+
+(b) Our minmax paradigm: first optimize w to maximize the distance in
+parameterized space Zy,, then optimize D to minimize the distance within Zy,.
+
+4
+~——_— eae
+

@@ -1,0 +1,16 @@
+{
+  "title": "Leap-of-Thought (LoT)",
+  "definitions": {
+    "Chain-of-Thought (CoT)": "CoT guides MLLM to reason step-by-step, and can motivate their logical reasoning ability. While effective for logical tasks, CoT is not conducive to creative problem-solving which often requires out-of-box thoughts and is crucial for innovation advancements.",
+    "CoT is a non-sequential, creative paradigm involving strong associations and knowledge leaps.": ""
+  },
+  "formulas": [],
+  "keywords": [
+    "Chain-of-Thought (CoT)",
+    "Leap-of-Thought (LoT)",
+    "MLLM",
+    "logical reasoning ability",
+    "creative problem-solving"
+  ],
+  "summary": "The slide discusses the concept of Chain-of-Thought (CoT) and Leap-of-Thought (LoT) in the context of Large Language Models (LLLM). CoT is described as a step-by-step reasoning process that is effective for logical tasks but not for creative problem-solving. LoT is presented as a non-sequential, creative paradigm that involves strong associations and knowledge leaps, which is crucial for innovation advancements."
+}

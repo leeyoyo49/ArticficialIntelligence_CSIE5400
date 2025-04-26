@@ -1,0 +1,38 @@
+  
+
+iY   Performance on ‘Winoground’
+ml
+
+A task of correctly matching two given images and captions
+
+Cl: Some plants surrounding a lightbulb.
+
+C2: A lightbulb surrounding some plants.
+
+Q1: Is the Caption! matches the image1?              Table 2: Results on Winoground across text, image
+
++
+3
+
+ 
+
+ 
+
+ 
+
+Q2: Is the Caption! matches the image2?            and group score metrics.
+Q3: Is the Caption2 matches the image1?              Model                       Text Image Group
+Q4: Is the Caption2 matches the image2?              MTurk Human               89.50 88.50 85.50
+
+ 
+
+VQ2 (Yarom et al.,2023) 47.00 42.20 30.50
+PALI (Chen et al., 2022)        46.50 38.00 28.75
+Blip-2 (Li et al., 2023d)        44.00 26.00 23.50
+GPT4-V (Wu et al., 2023) 69.25 46.25 39.25
+
+ES a a a aE TS a                    MMICL (FLAN-T5-XXL) 45.00 45.00         43.00
+s(Co, Ip)      s(Co, 1)      s(Cy, Ip)    s(Cy, FD)             _MMICL (FLAN-TS-XXL) 45.00 45.00 43.00 _
+
+47                                                        Source: “Winoground: Probing Vision and Language Models for Visio-Linguistic Compositionality,” CVPR, 2022.
+

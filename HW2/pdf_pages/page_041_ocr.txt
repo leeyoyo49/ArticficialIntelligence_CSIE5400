@@ -1,0 +1,15 @@
+=m Denoising diffusion models consist of two processes:
+
+e Forward diffusion process that gradually adds noise to input
+e Reverse denoising process that learns to generate data by denoising
+
+Forward diffusion process (fixed)
+
+Data                                                                                                                                                                  Noise
+
+ 
+
+Reverse denoising process (generative)
+
+41                                                           Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

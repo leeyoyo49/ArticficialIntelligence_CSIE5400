@@ -1,0 +1,13 @@
+iY  Problem Formulation (1/3)                      (
+mm
+
+m Given a vocabulary 2, and
+
+m an LLM M which takes a token sequence of the question
+g = {Qo; ---; J,} as input and predicts the next token using
+autoregressive modeling:
+
+On4, = M(q, {09, . . . , OF), where g € 2” and o,€ 2
+
+170
+

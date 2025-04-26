@@ -1,0 +1,18 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "shear modulus": "A measure of a material's ability to resist shear stress, defined as the ratio of shear stress to shear strain."
+  },
+  "formulas": [
+    "Shear modulus (G) = Shear stress (F) / Shear strain (gamma)",
+    "Shear modulus (G) = Applied force (F) / (Area of block's top surface (A) * Shear strain (gamma))"
+  ],
+  "keywords": [
+    "shear modulus",
+    "applied force",
+    "shear stress",
+    "shear strain",
+    "acetal polymer block"
+  ],
+  "summary": "The slide presents two examples of reasoning problems related to artificial intelligence. The first example involves counting objects after subtracting specific types, while the second example calculates the shear modulus of an acetal polymer block using given dimensions and applied force. Both examples include step-by-step reasoning and conclusion stages."
+}

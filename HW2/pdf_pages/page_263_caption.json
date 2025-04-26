@@ -1,0 +1,43 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "MLLM": "Multi-Label Learning Model",
+    "Pretraining": "The process of training a model on a large dataset before using it for a specific task",
+    "Event Semantic Structures": "A framework for understanding and representing events in a structured manner"
+  },
+  "formulas": [
+    "No formulas present"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Multi-Label Learning",
+    "Vision-Language Encoding"
+  ],
+  "summary": "The slide presents the concept of MLLM Pretraining with Event Semantic Structures, explaining the process and its components. It includes a diagram illustrating the relationships between entities, agents, and actions in an event context."
+}
+```

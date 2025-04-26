@@ -1,0 +1,16 @@
+{
+  "title": "The system prompt for automatic curriculum (3/3)",
+  "definitions": {
+    "RESPONSE FORMAT": "A format for responding to a system prompt, including 'Reasoning' and 'Task'.",
+    "Example Response": "A provided example of how to respond to the system prompt."
+  },
+  "formulas": [],
+  "keywords": [
+    "system prompt",
+    "automatic curriculum",
+    "RESPONSE FORMAT",
+    "Reasoning",
+    "Task"
+  ],
+  "summary": "The slide provides a format for responding to a system prompt in the context of an automatic curriculum, including an example response."
+}

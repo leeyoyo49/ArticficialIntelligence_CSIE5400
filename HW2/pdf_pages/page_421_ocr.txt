@@ -1,0 +1,20 @@
+Feature-Based Representations
+
+ 
+
+m Solution: describe a state using a vector of
+features (properties) f;, fa, ...
+= Features are functions from states to real numbers
+(often 0/1) that capture important properties of the
+state
+m= Example features:
+m Distance to closest ghost
+= Distance to closest dot
+= Number of ghosts
+m 1/ (dist to dot)2
+= Is Pacman in a tunnel? (0/1)
+m Canalso describe a q-state (s, a) with features (e.g.
+action moves closer to food)
+
+ 
+

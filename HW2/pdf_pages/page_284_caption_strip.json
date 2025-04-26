@@ -1,0 +1,21 @@
+{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "HallucinationBench": "CVPR 2024"
+  },
+  "formulas": [
+    "G=6.67428 x 10^-11 m^3 kg^-1 s^-2",
+    "G=6.6 9428 x 10^-11 m^3 kg^-1 s^-2"
+  ],
+  "keywords": [
+    "HallucinationBench",
+    "CVPR 2024",
+    "Visual Dependent",
+    "Visual Supplement",
+    "Table",
+    "Chart",
+    "OCR",
+    "Video"
+  ],
+  "summary": "The slide presents various reasoning benchmarks emerging in the field of Artificial Intelligence, specifically focusing on HallucinationBench for CVPR 2024. It categorizes reasoning into Visual Dependent and Visual Supplement, with examples of each. Visual Dependent includes Illusion, Math, Poster, Figure/Other, and Video. Visual Supplement includes Table, Chart, and OCR. The slide also provides examples of questions related to each category."
+}

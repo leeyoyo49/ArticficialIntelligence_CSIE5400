@@ -1,0 +1,17 @@
+{
+  "title": "Example: Policy Evaluation",
+  "definitions": {
+    "Policy Evaluation": "The process of assessing the effectiveness of a policy or strategy."
+  },
+  "formulas": [
+    "Q(s) = \sum_{s' \in S} P(s' | s) \cdot R(s, s')"
+  ],
+  "keywords": [
+    "Policy Evaluation",
+    "Always Go Right",
+    "Always Go Forward",
+    "State",
+    "Action"
+  ],
+  "summary": "The slide presents a visual example of policy evaluation in AI, contrasting two strategies: 'Always Go Right' and 'Always Go Forward'. It includes a formula for calculating the value of a state in policy evaluation."
+}

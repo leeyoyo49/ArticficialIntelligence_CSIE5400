@@ -1,0 +1,21 @@
+{
+  "title": "BLEU (2/4)",
+  "definitions": {
+    "BLEU**1": "the score that considers only 1-grams",
+    "BLEU**2": "the score that considers only 2-grams"
+  },
+  "formulas": [
+    "BLEU**1(C1) = 7/7 = 1.0",
+    "BLEU**2(C1) = 6/6 = 1.0",
+    "BLEU**1(C2) = 7/7 = 1.0",
+    "BLEU**2(C2) = 0/6 = 0.0"
+  ],
+  "keywords": [
+    "BLEU",
+    "n-grams",
+    "precision",
+    "1-grams",
+    "2-grams"
+  ],
+  "summary": "The slide discusses the BLEU metric for evaluating the quality of text by considering 1-grams and 2-grams. It provides an example of how BLEU scores are computed for two sentences, C1 and C2, using the reference sentence R. The example shows that C1 has a BLEU score of 1.0 for both 1-grams and 2-grams, while C2 has a BLEU score of 1.0 for 1-grams but 0.0 for 2-grams."
+}

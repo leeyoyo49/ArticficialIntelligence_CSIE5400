@@ -1,0 +1,71 @@
+‧。 MMBench [ECCV 2024]
+
+Object Localization
+
+ 
+
+OCR
+
+ 
+
+103
+
+(single-instance)
+
+Q: How many apples are there in
+
+the image? And how many
+bananas are there?
+
+A. 4 apples and 2 bananas
+B. 3 apples and 3 banana
+C. 2 apples and 4 bananas
+D. 4 apples and 1 bananas
+GT: A
+
+Q: What does this outdoor
+billboard mean?
+
+A. Smoking is prohibited here.
+
+B. Something is on sale.
+
+C. No photography allowed
+D. Take care of your speed.
+GT: B
+
+ 
+
+ 
+
+Fine-grained Perception
+
+Q: Which corner is the juice?
+A. Up
+
+B. Down
+
+Cc. Left
+
+D. Right
+
+Gi:.p
+
+Q: What does this picture want
+
+to express?
+
+A. We are expected to care for
+green plants.
+
+B. We ave expected to cave for
+the earth.
+
+C. We are expected to stay
+positive.
+
+D. We ave expected to work
+hard.
+
+GT: D
+

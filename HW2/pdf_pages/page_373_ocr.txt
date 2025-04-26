@@ -1,0 +1,14 @@
+Computing Actions from Values
+
+am Let's imagine we have the optimal values V*(s)
+mg It's not obvious!
+m Ve need to do amini-expectimax (one step)                                     :
+
+ex
+m*(s) = ar max  T     R   :   V*(s'  max (0.5, 1.7, 1.2] = 1.7
+(s) = arg   x (s,a,s')[R(s,a, 8‘) + yV*(s')]  Oey ant
+
+ 
+
+m This is called policy extraction, since it gets the policy implied by the values
+

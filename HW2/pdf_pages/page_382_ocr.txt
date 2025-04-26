@@ -1,0 +1,13 @@
+A Walk in the Park: Learning to Walk in 20 Minutes
+With Model-Free Reinforcement Learning
+
+Laura Smith" ', Ilya Kostrikov"!, Sergey Levine!
+“Equal contribution ‘Berkeley AI Research, UC Berkeley
+{smithlaura, kostrikov}@berkeley.edu, svlevine@eecs.berkeley.edu
+
+ 
+
+16 Aug 2022
+
+https://arxiv.org/pdf/2208.07860.pdf
+

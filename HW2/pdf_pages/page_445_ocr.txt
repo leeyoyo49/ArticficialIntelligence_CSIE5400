@@ -1,0 +1,19 @@
+人
+
+160
+
+In the literature, it has been found that the geometric mean of the
+BLEU**, scores with n between one and four has the best
+correlation with human evaluation, therefore it’s the score more
+commonly adopted, called MEAN _BLEU**.
+
+Penalizing short candidate translations
+
+e Consider
+¢ R: There is a cat on the mat.
+¢ C: There is a cat.
+* The scores are: BLEU**,(C) = 4/4 = 1.0 & BLEU**,(C) = 3/3= 1.0
+
+¢ Looks like C achieves a perfect BLEU**, score for each n, even though the
+candidate is missing a piece of text with respect to the reference.
+

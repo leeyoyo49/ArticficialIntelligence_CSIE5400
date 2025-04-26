@@ -1,0 +1,19 @@
+{
+  "title": "k=7",
+  "definitions": {
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "VALUES AFTER 7 ITERATIONS"
+  ],
+  "keywords": [
+    "k=7",
+    "Noise",
+    "Discount",
+    "Living reward",
+    "VALUES AFTER 7 ITERATIONS"
+  ],
+  "summary": "The slide presents a grid with numerical values after 7 iterations, with a noise value of 0.2, a discount rate of 0.9, and a living reward of 0. The grid is color-coded, with green indicating positive values and red indicating a negative value."
+}

@@ -1,0 +1,37 @@
+  
+
+iY   Multimodal CoT Reasoning
+mm
+
+¢ In addition, multimodality contributes to effective rationales
+
+—— One-stage Baseline —*— One-stage Multimodal    Baseline: without vision features
+—6- Two-Stage Baseline -G— Two-Stage Multimodal                   ,
+
+90
+
+56 oS eee               A w/o Vision Modality SN w/ Vision Modality
+80
+
+ 
+
+ 
+
+ 
+
+ 
+
+Accuracy
+~I]
+Oo
+Accuracy (%)
+
+ 
+
+base                  large
+
+1 2 3 4 5 6 7 8 9 10     (200M) (700M)
+Epoch
+
+52                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

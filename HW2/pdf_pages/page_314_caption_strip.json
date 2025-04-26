@@ -1,0 +1,21 @@
+{
+  "title": "Policies",
+  "definitions": {
+    "optimal plan": "In deterministic single-agent search problems, we wanted an optimal plan, or sequence of actions, from start to a goal",
+    "optimal policy": "For MDPs, we want an optimal policy π*: S→A",
+    "policy": "A policy π gives an action for each state",
+    "expected utility": "An optimal policy is one that maximizes expected utility if followed",
+    "explicit policy": "An explicit policy defines a reflex agent"
+  },
+  "formulas": [
+    "π*: S→A"
+  ],
+  "keywords": [
+    "optimal plan",
+    "optimal policy",
+    "policy",
+    "expected utility",
+    "explicit policy"
+  ],
+  "summary": "The slide discusses the concept of policies in deterministic single-agent search problems and Markov Decision Processes (MDPs). It defines an optimal plan and policy, and explains that an optimal policy maximizes expected utility. It also mentions that an explicit policy defines a reflex agent."
+}

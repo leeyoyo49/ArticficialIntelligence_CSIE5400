@@ -1,0 +1,24 @@
+Direct Evaluation
+
+ 
+
+m Goal: Compute values for each state under zz
+
+m Idea: Average together observed sample values
+= Act according to z
+
+m Every time you visit a state, write down what the
+sum of discounted rewards turned out to be from
+that state until the end of the episode (called
+the expected reward-to-go):
+
+samplei(s) = R(s)+yR(s')+y?R(s )+.
+
+DOvBLE
+
+ 
+
+m Average those samples: vV(s) =< —). sample,(s)
+
+m This is called direct or Monte-Cano evaluation
+

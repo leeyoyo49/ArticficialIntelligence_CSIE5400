@@ -1,0 +1,27 @@
+  
+
+iY   Training DOQNs
+mm
+
+m= With the neural network taking the place of the Q-table, we can
+simplify the Q-learning algorithm.
+
+* The learning rate is no longer
+needed, as our back-propagating
+optimizer will already have that.
+
+ 
+
+|
+
+Reward                                           * Once the learning rate is removed,
+you realize that you can also
+Discount                                                remove the two Q(s, a) terms, as
+
+they cancel each other out after
+Estimated reward from our next action      getting rid of the learning rate.
+
+JI
+
+142
+

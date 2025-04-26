@@ -1,0 +1,19 @@
+Values of States
+
+m Recursive definition of value (similar to expectimax):
+
+V*(s) = max Q"(s, a)                                                  sisa
+
+State
+
++                                      2                                         (s, a)isa
+Q*(s,a) = 5) T(s, a, 8’) [R(s, a, 8’) +7V (s')|                                     g-state
+(s,a,s’) isa
+transition
+
+V*(s)= max) T(s, a, s’) [R(s, a, 9/) 十 yVv*(s')|
+
+ 
+
+= But how do we solve these equations?
+

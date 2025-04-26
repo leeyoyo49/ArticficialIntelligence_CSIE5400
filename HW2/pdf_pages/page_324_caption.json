@@ -1,0 +1,52 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Recap: Defining MDPs",
+  "definitions": {
+    "Markov decision processes": "A framework for decision-making in a stochastic environment where the outcome is partly under the control of a decision maker and partly random.",
+    "Set of states S": "A collection of all possible states in the environment.",
+    "Start state s0": "The initial state from which the decision process begins.",
+    "Set of actions A": "A collection of all possible actions that can be taken in each state.",
+    "Transitions P(s'|s,a)": "The probability of transitioning from state s to state s' given action a.",
+    "Rewards R(s,a,s')": "The reward received after taking action a in state s and ending in state s'.",
+    "Discount γ": "A factor that determines the present value of future rewards."
+  },
+  "formulas": [
+    "Policy = Choice of action for each state",
+    "Utility = sum of (discounted) rewards"
+  ],
+  "keywords": [
+    "Markov",
+    "decision processes",
+    "states",
+    "actions",
+    "transitions",
+    "rewards",
+    "discount",
+    "utility",
+    "policy"
+  ],
+  "summary": "The slide recaps the definition of Markov decision processes (MDPs), detailing the components such as states, actions, transitions, and rewards. It also introduces the concepts of policy and utility in the context of MDPs."
+}
+```

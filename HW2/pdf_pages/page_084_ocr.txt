@@ -1,0 +1,60 @@
+ 
+
+MISSION | FAILED
+
+ 
+
+Trial #1
+
+> think: To solve the task, I need to find and take a mug, then find and use a desklamp.
+
+> think: First I need to find a mug. A mug is more likely to appear in drawer (1-6), desk (1-2), shelf
+(1-6), garbagecan (1), laundryhamper (1). I can check one by one, starting with drawer 1.
+
+> go to drawer 1
+
+The drawer 1 is closed.
+
+> open drawer 6
+
+You open the drawer 6. The drawer 6 is open. In it, you see a keychain 2.
+
+> go to desk 1
+
+On the desk 1, you see a creditcard 3, a desklamp 1, a laptop 2, a mug 1, a pen 1, and a pencil 1.
+
+> think: Now I find a mug (1). Next, I need to take it.
+
+> take mug 1 from desk 1
+
+You pick up the mug 1 from the desk 1.
+
+> think: Now I take a mug (1). Next, I need to find a desklamp. A desklamp is more likely to appear
+in desk (1-2), sidetable (1-2), shelf (1-6), bed (1), drawer (1-6). I can check one by one, starting with
+desk 1.
+
+> go to desk 1
+
+Nothing happens.
+
+> go to desk 2
+
+On the desk 2, you see a alarmclock 1, a bowl 1, a mug 3, a pencil 3, and a pencil 2.
+
+> think: Now I find a desklamp (1). Next, I need to use it.
+
+> use desklamp 1
+
+Nothing happens.
+
+> use desklamp 1
+
+Nothing happens.
+
+Status: Fail
+
+Reflection: In this environment, my plan was to find a mug then find and use a desklamp. However,
+the task says to examine the mug with the desklamp. I should have looked for the desklamp first, then
+looked for the mug. I noticed that the desklamp was found on desk 1. In the next trial, I will go to
+desk 1, find the lamp, then look for the mug and examine it with the desklamp.
+

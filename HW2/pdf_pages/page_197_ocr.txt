@@ -1,0 +1,31 @@
+An Example of Coding (Codeforces task) (1/3)
+
+Our Prompt: Self-generate Exemplars + Knowledge
+
+Your goal is to write Python3 code to solve competitive programming problems. Given a problem, explain the core concepts in it and provide
+other relevant problems. Then solve the original problem.
+
+# Problem:
+You are given a sequence a_l, a_2, .., a_n. Each element of a is 1 or 2. Find out if an integer k exists so that the following conditions are
+met. 1 < k <n-1, and al - a_2... a_k = a_{kt1} .. a_n. If there exist multiple k that satisfy the given condition, print the smallest.
+
+# Instruction:
+
+## Algorithms:
+Identify the core concepts or algorithms used to solve the problem.
+
+## Tutorial:
+Write a tutorial about these algorithms.
+
+## Example Problems:
+Provide three examples of relevant competitive programming problems that involve these algorithms. For each problem, describe the problem,
+explain the solution in detail, and then write the correct Python3 code.
+
+## Python3 code to solve the original problem:
+- Explanation of the solution:
+- Python3 code to solve the problem:
+
+ 
+
+23
+

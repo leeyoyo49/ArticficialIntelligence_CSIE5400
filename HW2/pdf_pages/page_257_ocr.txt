@@ -1,0 +1,47 @@
+ 
+
+                                                                                                                                                                                                                                                                   
+
+Hard negatives via manipulating event structures
+
+Positive
+Labels
+
+Negative
+Labels
+(events)
+
+w V   a
+
+Person
+
+Bench
+
+ 
+
+   
+
+Event Type | Transport (carry)
+
+   
+
+ 
+
+protesters
+
+   
+     
+   
+
+Target        injured man
+
+stretcher
+
+Event Type | Arrest (arrest)
+‘Agent protesters
+
+Target [rived |
+Instrument | stretcher
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

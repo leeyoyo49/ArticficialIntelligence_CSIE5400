@@ -1,0 +1,44 @@
+86
+
+~  More Reflection, Greater Success           (
+
+ALFWorld Success Rate
+
+Proportion of Solved Environments
+
+人
+io
+
+人
+0
+
+2°
+N
+
+人
+a
+
+人
+u
+
+--- ReAct only
+—e ReAct + Reflexion (Heuristic)
+—e ReAct + Reflexion (GPT)
+
+0       2       4       6
+Trial Number
+
+ae
+
+   
+
+AlfWorld performance
+across 134 tasks showing
+cumulative proportions of
+solved tasks using self-
+evaluation techniques of
+(Heuristic) and (GPT) for
+binary classification.
+
+ReAct [ICLR 2023]
+

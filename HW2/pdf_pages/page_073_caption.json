@@ -1,0 +1,51 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "definitions": {
+    "LM Dataset": "A dataset used for training language models.",
+    "Sample API Calls": "The process of selecting API calls to be executed based on a given position in the input text.",
+    "Execute API Calls": "The process of running the selected API calls to modify the input text.",
+    "Filter API Calls": "The process of removing API calls that do not reduce the loss over the next tokens.",
+    "x*": "The new text obtained after executing and filtering API calls."
+  },
+  "formulas": [
+    "x1:i-1 = Pittsburgh is also known as",
+    "x1:i = the Steel City",
+    "c1 = What other name is Pittsburgh known by?",
+    "r1 = Steel City",
+    "c2 = Which country is Pittsburgh in?",
+    "r2 = United States",
+    "L(ci -> r) < min(L(ci -> e), L(e))"
+  ],
+  "keywords": [
+    "Toolformer",
+    "Language Models",
+    "API Calls",
+    "Pittsburgh",
+    "Steel City"
+  ],
+  "summary": "The slide explains the Toolformer concept, where language models can teach themselves to use tools. It outlines the key steps of sampling API calls, executing them, and filtering based on loss reduction. The process results in a new text, x*, which is the modified input text."
+}
+```

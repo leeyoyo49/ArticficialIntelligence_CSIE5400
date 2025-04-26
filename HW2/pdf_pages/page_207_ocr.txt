@@ -1,0 +1,30 @@
+iY    LLaVA-CoT
+ys
+
+ 
+
+Briefly explain what steps you'll take ...
+Question
+<SUMMARY> ... </SUMMARY>                            |
+i                       f the i         a
+Describe the contents of the image             pro                 Summary
+
+<CAPTION> ... </CAPTION>
+
+Outline a step-by-step thought process ...
+
+<REASONING? ... </REASONING>
+
+State the final answer in a clear format ...
+<CONCLUSION? ... </(CONCLUSION>                          Answer
+
+33                                                                                   Source: “LLaVA-CoT: Let Vision Language Models Reason Step-by-Step,” arXiv, 2025.
+
+ 
+
+| |  @
+i@ 3@
+
+3
+5
+

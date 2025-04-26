@@ -1,0 +1,13 @@
+iY    The Transformer Encoder Block (3/5)            (
+yi
+
+[on | ssn] ~ [Be]
+
+                                                                                                                                                                                                      
+
+Transformer encoder
+
+~    aan        Add positional encoding
+
+17                                                                                                                                                                               Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

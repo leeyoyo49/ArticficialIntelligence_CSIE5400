@@ -1,0 +1,33 @@
+Analogy: Expected Age
+
+ 
+
+Goal: Compute expected age of current students in NTU CSIE
+
+Known P(A)
+
+(a)-a =0.85 x 20+...
+
+ 
+
+ 
+ 
+   
+ 
+ 
+
+   
+ 
+ 
+ 
+  
+
+ 
+
+Why does this             (a) =                                                                                  Why does this
+work? Because                  N                                         1                work? Because
+eventually you                                                                          ae  N 2- vs            samples appear
+leam the right                   2                                                                       ‘                   with the right
+
+model.                                                                                                                                frequencies.
+

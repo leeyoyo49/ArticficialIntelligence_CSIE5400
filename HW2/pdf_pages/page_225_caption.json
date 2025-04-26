@@ -1,0 +1,46 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Paradigms to achieve Multimodal CoT",
+  "definitions": {
+    "Caption": "A short text description or label for an image.",
+    "Prompted Text": "Text input that is used to guide a model's response.",
+    "LLM": "Language Model, a type of AI that processes and generates human-like text.",
+    "Rationale": "Explanation or reasoning behind a model's answer.",
+    "Answer": "The final output or conclusion of a model's reasoning process."
+  },
+  "formulas": [
+    "Caption-based Reasoning",
+    "CoT-based Reasoning"
+  ],
+  "keywords": [
+    "Caption",
+    "Prompted Text",
+    "LLM",
+    "Rationale",
+    "Answer"
+  ],
+  "summary": "The slide presents two paradigms for achieving multimodal chain-of-thought reasoning in AI models. The first paradigm involves using a caption model to generate a caption from an image, which is then used as prompted text for an LLM to produce an answer. The second paradigm uses a model to generate a rationale, which is then used as prompted text for another model to produce an answer."
+}
+```

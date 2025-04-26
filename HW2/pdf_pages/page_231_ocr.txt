@@ -1,0 +1,41 @@
+iY   Multimodal CoT Reasoning
+mm
+
+57
+
+   
+
+  
+
+¢ Examples of commonsense mistakes: Counting numbers in the image
+
+Question: Complete the text to describe the diagram. Solute particles moved in both directions across the permeable
+
+membrane. But more solute particles moved across the membrane (). When there was an equal concentration on both sides, -~~""~"  WtON =
+the particles reached equilibrium.
+
+Context: The diagram below shows a solution with one solute. Each solute particle is represented by a green ball. The
+
+solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is
+
+permeable to the solute particles. The diagram shows how the solution can change over time during the process of diffusion.
+
+Options: (A) to the left than to the right   |  (B) to the right than to the left
+
+Rationale : (extract) It shows you how the solution changed during the process of diffusion. Before the solute particles
+reached equilibrium, there were 3 solute particles on the left side of the membrane and 5 solute particles on the right side
+of the membrane. When the solute particles reached equilibrium, there were 4 solute particles on each side of the
+membrane. There was 1 more solute particle on the left side of the membrane than before. So, for the solute particles to
+reach equilibrium, more solute particles must have moved across the membrane to the left than to the right.
+
+Answer: The answer is (A).
+
+Rationale: (extract) It shows you how the solution changed during the process of diffusion. Before the solute particles reached equilibrium, there were
+5 solute particles on the left side of the membrane and 4 solute particles on the right side of the membrane. When the solute particles reached
+equilibrium, there were 5 solute particles on each side of the membrane. There was 1 more solute particle on the right side of the membrane than
+
+before. So, for the solute particles to reach equilibrium, more solute particles must have moved across the membrane to the right than to the right.
+Answer: The answer is (B).
+
+Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

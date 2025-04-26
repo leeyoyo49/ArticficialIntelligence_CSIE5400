@@ -1,0 +1,21 @@
+{
+  "title": "Fixed Policies",
+  "definitions": {
+    "s": "state",
+    "a": "action",
+    "s'": "next state",
+    "π(s)": "policy π applied to state s",
+    "sas'": "state transition from s to s' with action a"
+  },
+  "formulas": [
+    "sas'"
+  ],
+  "keywords": [
+    "Fixed Policies",
+    "Optimal action",
+    "Policy π",
+    "State s",
+    "Action a"
+  ],
+  "summary": "The slide discusses fixed policies in the context of computing optimal values using expectimax trees. It explains that if a policy π(s) is fixed, the tree simplifies to one action per state, but the tree's value depends on the fixed policy."
+}

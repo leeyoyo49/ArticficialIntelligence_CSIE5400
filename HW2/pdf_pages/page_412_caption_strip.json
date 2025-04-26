@@ -1,0 +1,16 @@
+{
+  "title": "Exploration vs. Exploitation",
+  "definitions": {
+    "Exploration": "The process of searching for new knowledge or resources.",
+    "Exploitation": "The use of something for one's own advantage, often without regard for others."
+  },
+  "formulas": [],
+  "keywords": [
+    "Exploration",
+    "Exploitation",
+    "Knowledge",
+    "Resources",
+    "Advantage"
+  ],
+  "summary": "The slide compares two concepts, Exploration and Exploitation, using a visual metaphor of a robot at a crossroads between 'The Usual Place' and 'Grand Opening'. The robot's indecision represents the choice between exploring new possibilities or exploiting existing ones."
+}

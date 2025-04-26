@@ -1,0 +1,26 @@
+iY  MLLM Pretraining with Event Semantic Structures
+和
+
+H         .      .                Transport a
+Structured Alignment via Optimal Transport Bggaeg
+9g
+
+Text Event Graph
+
+   
+                                                                                                                                                                                            
+  
+   
+
+ 
+
+Image Event Graph
+
+                                                                                                                                                                                                                                                                 
+
+Independence Square               buildifig
+
+Event Level Alignment
+
+90                                                                                             Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

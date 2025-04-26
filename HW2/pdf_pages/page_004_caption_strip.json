@@ -1,0 +1,23 @@
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Agent": "The entity that interacts with the environment to achieve a goal.",
+    "State s": "The current situation or status of the environment.",
+    "Policy π": "A strategy that defines the action to be taken in each state.",
+    "Action a": "The action taken by the agent.",
+    "Deep Neural network": "A type of artificial neural network with multiple layers.",
+    "Reward": "The feedback received by the agent from the environment."
+  },
+  "formulas": [
+    "The agent's policy π is a function of the state s, which maps the state to an action a."
+  ],
+  "keywords": [
+    "Agent",
+    "State",
+    "Policy",
+    "Action",
+    "Deep Neural network",
+    "Reward"
+  ],
+  "summary": "The slide presents the basic principle of deep reinforcement learning, illustrating the interaction between an agent, its environment, and the feedback loop of actions and rewards. It includes a diagram of a deep neural network as part of the agent's policy."
+}

@@ -1,0 +1,34 @@
+Output ( Output by GPT3.5-turbo GPT3.5-turbo
+
+「 Algorithms: The core algorithm for solving this problem is the prefix product algorithm.
+
+| Ht Tutorial: The prefix product algorithm is used to calculate the product of all the elements in a prefix of an array. The algorithm works
+| by initializing a variable "prefix" to 1, and then iterating through the array from left to right. At each iteration, the current element is
+multiplied with the prefix, and the result is stored in the prefix variable. This way, the prefix variable keeps track of the product of all
+the elements in the prefix of the array. The time complexity of this algorithm is O(n), where n is the size of the input array.
+
+## Example Problems:
+1. Problem: Given an array of integers, find the product of all the elements in each subarray of size k.
+
+Solution: We can use the prefix product algorithm to solve this problem. We initialize a prefix variable to 1, and then iterate through
+the array from left to right. At each iteration, we multiply the current element with the prefix,
+
+def product_of_subarrays(arr, k):
+prefix = 1
+result = []
+for i in range(len(arr)):
+prefix = prefix * arr[i]
+if i >= k-1:
+result. append(prefix)
+prefix = prefix // arr[i-k+1]
+return result
+
+2. Problem: Given an array of integers, find the longest subarray with a product less than or equal to a given target.
+Solution:
+
+3. Problem: Given an array of integers, find the smallest k such that the product of all the elements in the prefix of the array is equal to
+the product of all the elements in the suffix of the array.
+Solution:
+
+ 
+

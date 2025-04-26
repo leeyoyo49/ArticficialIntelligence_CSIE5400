@@ -1,0 +1,21 @@
+{
+  "title": "Utilities of Sequences",
+  "definitions": {
+    "agent": "A software entity that can perform actions and make decisions",
+    "reward sequences": "A series of rewards an agent receives over time"
+  },
+  "formulas": [
+    "[1, 2, 2]",
+    "[2, 3, 4]",
+    "[0, 0, 1]",
+    "[1, 0, 0]"
+  ],
+  "keywords": [
+    "agent",
+    "preferences",
+    "reward sequences",
+    "more or less",
+    "now or later"
+  ],
+  "summary": "The slide discusses the preferences an agent should have over reward sequences, with examples of sequences and a visual representation of a robot balancing rewards."
+}

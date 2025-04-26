@@ -1,0 +1,21 @@
+{
+  "title": "Overview of Different Reasoning Methods",
+  "definitions": {
+    "Generic guidance reasoning": "Need labeled exemplars of reasoning",
+    "0-shot CoT": "Exemplars are automatically generated and tailored to each problem",
+    "Analogical Prompting": "Exemplars are automatically generated and tailored to each problem"
+  },
+  "formulas": [
+    "5 + 6 = 11",
+    "5^2 = 25",
+    "32"
+  ],
+  "keywords": [
+    "Generic guidance reasoning",
+    "0-shot CoT",
+    "Analogical Prompting",
+    "Exemplars",
+    "Tailored"
+  ],
+  "summary": "The slide provides an overview of different reasoning methods in AI, including generic guidance reasoning, 0-shot CoT, and analogical prompting. It explains the need for labeled exemplars in reasoning and how exemplars are automatically generated and tailored to each problem. The slide also includes examples of model inputs and outputs for each method."
+}

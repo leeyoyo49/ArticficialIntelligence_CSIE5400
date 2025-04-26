@@ -1,0 +1,50 @@
+ 
+
+86
+
+Hard negatives via manipulating event structures
+
+w V
+
+Person
+
+Bench
+
+ 
+
+a
+
+  
+
+Positive
+Labels
+
+Negative
+Labels
+(events)
+
+Negative
+Labels
+(arguments)
+
+ 
+
+Protesters
+transported
+injured man
+using a
+stretcher.
+
+Protesters
+arrested
+injured man
+using a
+stretcher.
+
+Injured man
+transported a
+stretcher with
+protesters.
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

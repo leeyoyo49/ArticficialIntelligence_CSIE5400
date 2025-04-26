@@ -1,0 +1,21 @@
+{
+  "title": "Example: Direct Evaluation",
+  "definitions": {
+    "Input Policy": "π",
+    "Observed Transitions": "(s, a, s', R)",
+    "Output Values": "x"
+  },
+  "formulas": [
+    "Avg(π) = +8",
+    "Avg(π) = -12",
+    "Avg(π) = -2"
+  ],
+  "keywords": [
+    "Direct Evaluation",
+    "Input Policy",
+    "Observed Transitions",
+    "Output Values",
+    "Episodes"
+  ],
+  "summary": "The slide presents an example of direct evaluation in AI, showing input policy, observed transitions, and output values across different episodes. It includes a table with input policy, observed transitions, and output values, and calculates the average output values for each episode."
+}

@@ -1,0 +1,55 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>iY   Multimodal CoT Reasoning
+mm
+
+ 
+
+¢ Examples of commonsense mistakes: About maps
+
+Question: Which of these cities is marked on the map?
+Context: N/A
+Options:        (A) Las Vegas              (B) San Francisco               (C) Phoenix                (D) Salt Lake City
+
+Rationale : The city is Las Vegas, Nevada. Salt Lake City, Phoenix, and San Francisco are marked with gray circles on
+the map below.
+Answer: The answer is (A).
+
+   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Rationale: The city is San Francisco, California. Salt Lake City, Las Vegas, and Phoenix are marked with gray circles on the map below.
+Answer: The answer is (B).
+
+56                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.<|im_end|><|im_start|>assistant<|im_sep|>{"title": "Multimodal CoT Reasoning", "definitions": {"Multimodal CoT Reasoning": "A method of reasoning that involves multiple modes of input, such as text, images, and audio, to make decisions or solve problems."}, "formulas": ["N/A"], "keywords": ["Multimodal", "CoT", "Reasoning", "Commonsense", "Mistakes"], "summary": "The slide discusses Multimodal CoT Reasoning, providing examples of commonsense mistakes about maps. It includes a problem statement about identifying a city marked on a map, with options and rationale for the correct answer."

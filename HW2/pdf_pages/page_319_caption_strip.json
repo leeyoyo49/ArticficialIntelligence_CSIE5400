@@ -1,0 +1,20 @@
+{
+  "title": "Discounting",
+  "definitions": {
+    "Discounting": "It's reasonable to maximize the sum of rewards",
+    "Solution": "values of rewards decay exponentially"
+  },
+  "formulas": [
+    "1",
+    "γ",
+    "γ^2"
+  ],
+  "keywords": [
+    "Discounting",
+    "sum of rewards",
+    "rewards",
+    "exponentially",
+    "values"
+  ],
+  "summary": "The slide discusses the concept of discounting in the context of maximizing rewards. It suggests that it's reasonable to prefer rewards now over later rewards and proposes a solution where the values of rewards decay exponentially. The slide also includes three images with numbers 1, γ, and γ^2, possibly representing different stages or values in the discounting process."
+}

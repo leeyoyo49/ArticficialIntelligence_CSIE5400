@@ -1,0 +1,23 @@
+{
+  "title": "Why Not Use Policy Evaluation?",
+  "definitions": {
+    "V": "Value function",
+    "π": "Policy",
+    "s": "State",
+    "s'": "Next state",
+    "T": "Transition function",
+    "R": "Reward function"
+  },
+  "formulas": [
+    "V_0(s) = 0",
+    "V_k+1(s) <= SUM over s' of T(s, π(s), s') * [R(s, π(s), s') + γV_π(s')] + γV_π(s')"
+  ],
+  "keywords": [
+    "Policy Evaluation",
+    "Value Function",
+    "State",
+    "Next State",
+    "Transition Function"
+  ],
+  "summary": "The slide discusses the limitations of using policy evaluation in reinforcement learning, specifically the need for transition and reward functions to update the value function. It poses a key question about how to update the value function without knowing these functions."
+}

@@ -1,0 +1,33 @@
+156
+
+Sample Data of CNN/Daily Mail
+
+ 
+
+ 
+
+Source Document
+
+( @entityO ) wanted : film director , must be eager to shoot footage of golden lassos and invisible
+jets . <eos> @entityO confirms that @entity5 is leaving the upcoming " @entity9 " movie ( the
+hollywood reporter first broke the story ) . <eos> @entity5 was announced as director of the movie
+in november . <eos> @entity0 obtained a statement from @entity13 that says , " given creative
+differences , @entity13 and @entity5 have decided not to move forward with plans to develop and
+direct ’ @entity9 ’ together . <eos> " ( @entityO and @entity13 are both owned by @entity16
+. <eos> ) the movie , starring @entity18 in the title role of the @entity21 princess , is still set
+
+for release on june 00 , 0000 . <eos> it ’s the first theatrical movie centering around the most
+popular female superhero . <eos> @entity18 will appear beforehand in " @entity25 v. @entity26
+: @entity27 , " due out march 00 , 0000 . <eos> in the meantime , @entity13 will need to find
+someone new for the director ’s chair . <eos>
+
+ 
+
+Ground truth Summary
+@entity5 is no longer set to direct the first " @entity9 " theatrical movie <eos> @entity5 left the
+project over " creative differences " <eos> movie is currently set for 0000
+
+ 
+
+ 
+

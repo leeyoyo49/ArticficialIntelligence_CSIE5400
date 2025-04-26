@@ -1,0 +1,17 @@
+Why Not Use Policy Evaluation?
+
+ 
+
+g Simplified updates calculate V for a fixed policy:
+m Each round, replace V with a one-step-look-ahead layer over V
+
+Vo (s) =0
+
+Viti (s) + S_T(s, m(s), 8’) [R(s, 7(s), 8’) + VV (s')]
+
+m This approach fully exploited the connections between the states
+m Unfortunately, we need T and Rto do it!
+
+m Key question: how can we do this update to V without knowing T and R?
+a In other words, how to we take a weighted average without knowing the weights?
+

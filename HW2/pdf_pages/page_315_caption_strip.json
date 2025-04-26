@@ -1,0 +1,20 @@
+{
+  "title": "Optimal Policies",
+  "definitions": {
+    "R(s)": "Return or reward function for state s"
+  },
+  "formulas": [
+    "R(s) = -0.01",
+    "R(s) = -0.03",
+    "R(s) = -0.4",
+    "R(s) = -2.0"
+  ],
+  "keywords": [
+    "Optimal Policies",
+    "Return",
+    "State",
+    "Reward Function",
+    "Negative"
+  ],
+  "summary": "The slide presents four different optimal policies, each with a corresponding return value. The return values are negative, indicating a decrease in reward or performance. The policies are represented by grids with arrows and symbols, and the return values are labeled below each grid."
+}

@@ -1,0 +1,19 @@
+sample-Based Policy Evaluation?
+m We want to improve our estimate of V by computing these averages:
+Ve1(s) — a T(s,7(s), s’)[R(s, 7(s), 8°) + Vi (s')]
+m idea: Take samples of outcomes s’ (by doing the action!) and average
+
+sample; = R(s,7(s), 51 ) 十 Ve (81)
+sampleng = R(s,7(s), 85) + Vik (89)
+
+samplen = R(s,7(s), Sn) i VE (Sp)
+
+  
+
+1
+Viy1(s) + > 2. sample;
+a
+Unfortunately, “n samples” here are not always available!
+
+SS
+

@@ -1,0 +1,38 @@
+  
+
+iY   Multimodal CoT Reasoning
+mm
+
+¢« Examples of commonsense mistakes: About utilizing alphabet
+
+Question: Which word would you find on a dictionary page with the following guide words? helping - hunter
+
+Context: The diagram below shows a solution with one solute. Each solute particle is represented by a green ball. The
+solution fills a closed container that is divided in half by a membrane. The membrane, represented by a dotted line, is
+permeable to the solute particles. The diagram shows how the solution can change over time during the process of diffusion.
+
+Options:       (A) hospital                                      (B) hardship
+
+Rationale : Put the words in alphabetical order. Since hospital is between the guide words helping - hunter, it would be found on that page.
+Answer: The answer is (A).
+
+Rationale: Put the words in alphabetical order. Since hardship is between the guide words helping - hunter, it would be found on that page.
+Answer: The answer is (B).
+
+   
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+58                                                               Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

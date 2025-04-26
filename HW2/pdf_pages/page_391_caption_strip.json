@@ -1,0 +1,19 @@
+{
+  "title": "Model-Based Learning",
+  "definitions": {
+    "Model-Based Idea": "Learn an approximate model based on experiences",
+    "Solve for values": "Solve for values as if the learned model were correct"
+  },
+  "formulas": [
+    "T̃(s, a, s')",
+    "R̃(s, a, s')"
+  ],
+  "keywords": [
+    "Model-Based Learning",
+    "Model-Based Idea",
+    "Empirical MDP model",
+    "Normalize",
+    "Estimate"
+  ],
+  "summary": "The slide discusses the concept of Model-Based Learning, which involves learning an approximate model based on experiences and solving for values as if the model were correct. It outlines two steps: learning an empirical MDP model by counting outcomes and normalizing them, and solving the learned MDP, possibly using value iteration."
+}

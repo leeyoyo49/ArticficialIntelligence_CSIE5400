@@ -1,0 +1,22 @@
+{
+  "title": "DM: moment matching methods",
+  "definitions": {
+    "MMD": "minimum mean discrepancy",
+    "Feature Net": "a neural network used for feature extraction",
+    "Euler's Formula": "e^jax(t) = cos(ax(t)) + j sin(ax(t))",
+    "Complex Plane": "a graphical representation of complex numbers",
+    "Amplitude Phase": "a representation of a complex number in terms of its magnitude and phase"
+  },
+  "formulas": [
+    "e^jax(t) = cos(ax(t)) + j sin(ax(t))",
+    "Φx(t) = Ex~D[e^jT f(x)] = |Φx(t)|e^jax(t)"
+  ],
+  "keywords": [
+    "MMD",
+    "Feature Net",
+    "Euler's Formula",
+    "Complex Plane",
+    "Amplitude Phase"
+  ],
+  "summary": "The slide discusses moment matching methods, specifically MMD-based methods, which align feature moments in the embedded domain but may not effectively align the overall distributions. It includes a diagram showing the transition from real to complex feature space and a graph illustrating the distribution matching process over iterations."
+}

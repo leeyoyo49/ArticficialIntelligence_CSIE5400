@@ -1,0 +1,16 @@
+DM: moment matching methods
+¢ Later methods employ Maximum Mean Discrepancy (MMD), aligning
+moments of distributions in a latent Hilbert space, Z,,.
+
+@ Synthetic Data  * Real Data Z: vant Do   wy: Parameterized Network
+
+' min £(D, D,|Zp)   6  = D2|Zp    of   { ie: 還   3   ae DalZo¢    a
+1 PRR @       GR\ Pe 條人 'e       me, |
+!           a          welts           at          |
+:          yx              1   I          x   1 (ee         w
+!         女 1        oe |         ¥ 1G)        x  }
+
+Smee ee ee ee ee ee
+
+(a) Previous ipa  optimize D to minimize the distance within Z.
+

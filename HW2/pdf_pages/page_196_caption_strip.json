@@ -1,0 +1,21 @@
+{
+  "title": "Analogical Prompting",
+  "definitions": {
+    "Goal": "adaptively generate relevant examples and knowledge, rather than just using a fix set of examples"
+  },
+  "formulas": [
+    "An example of coding (Codeforces task)"
+  ],
+  "keywords": [
+    "Analogical Prompting",
+    "Goal",
+    "adaptively",
+    "generate",
+    "relevant examples",
+    "knowledge",
+    "fix set of examples",
+    "coding",
+    "Codeforces task"
+  ],
+  "summary": "The slide discusses 'Analogical Prompting' with the goal of adaptively generating relevant examples and knowledge. It provides an example of coding related to a Codeforces task."
+}

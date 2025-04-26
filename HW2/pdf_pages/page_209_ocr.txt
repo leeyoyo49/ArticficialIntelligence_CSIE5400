@@ -1,0 +1,18 @@
+  
+
+iY  Leap-of-Thought (LoT)
+mm
+
+¢ CoT guides MLLM to reason step-by-step, and can motivate their logical
+reasoning ability. While effective for logical tasks, CoT is not conducive
+to creative problem-solving which often requires out-of-box thoughts and
+is crucial for innovation advancements.
+
+¢ CoT is a non-sequential, creative paradigm involving strong associations
+and knowledge leaps.
+
+Think step by step                   Think outside the box
+Chain-of-Thought (CoT)                  Leap-of-Thought (LoT)
+
+35                      Source: “Let’s Think Outside the Box: Exploring Leap-of-Thought in Large Language Models with Creative Humor Generation,” CVPR, 2024.
+

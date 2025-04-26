@@ -1,0 +1,22 @@
+{
+  "title": "Existing object-centric info miss situational understanding",
+  "definitions": {
+    "Vision": "Object-entity recognition",
+    "Text": "Handwritten text on signs",
+    "Entity": "People and objects in the image",
+    "Relation": "Spatial relationships between entities",
+    "Scene Graph": "Structured representation of the scene"
+  },
+  "formulas": [
+    "Object-entity recognition",
+    "Spatial relationship identification"
+  ],
+  "keywords": [
+    "Object-entity recognition",
+    "Spatial relationships",
+    "Situational understanding",
+    "Scene Graph",
+    "Vision-Language Encoding"
+  ],
+  "summary": "The slide discusses the limitations of object-centric information in understanding situational context, highlighting the need for vision-language encoding to improve situational understanding."
+}

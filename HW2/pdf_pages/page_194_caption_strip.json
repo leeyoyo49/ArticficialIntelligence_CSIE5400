@@ -1,0 +1,16 @@
+{
+  "title": "How to perform step by step reasoning without using demonstration examples?",
+  "definitions": {
+    "Analogical Prompting": "The inspiration comes from analogical reasoning in psychology, a concept where humans draw from relevant past experiences to tackle new problems.",
+    "Analogical Reasoning": "A concept where humans draw from relevant past experiences to tackle new problems."
+  },
+  "formulas": [],
+  "keywords": [
+    "Analogical Prompting",
+    "Analogical Reasoning",
+    "psychology",
+    "past experiences",
+    "new problems"
+  ],
+  "summary": "The slide discusses Analogical Prompting, a concept in psychology where humans use past experiences to solve new problems. It provides an example of how humans approach a new math problem by recalling how they solved similar problems in the past."
+}

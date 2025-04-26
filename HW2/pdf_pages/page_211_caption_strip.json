@@ -1,0 +1,20 @@
+{
+  "title": "Example: Exploring LoT in MLLM with Creative Humor Generation",
+  "definitions": {
+    "LoT": "Language of Thought",
+    "MLLM": "Multimodal Language Learning Model",
+    "Humor Generation": "The process of creating humorous content"
+  },
+  "formulas": [
+    "Qwen-VL",
+    "Qwen-VL+CLoT (Ours)"
+  ],
+  "keywords": [
+    "Visual Language Model",
+    "Image to Text",
+    "Text to Text",
+    "Humor",
+    "Language Models"
+  ],
+  "summary": "The slide presents an example of exploring the Language of Thought in Multimodal Language Learning Models with a focus on creative humor generation. It compares two models, Qwen-VL and Qwen-VL+CLoT, and shows their outputs in image to text and text to text translation tasks. The slide also includes a source citation for the content."
+}

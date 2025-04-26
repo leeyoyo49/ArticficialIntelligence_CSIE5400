@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "MLLMs as Agent Models",
+  "definitions": {
+    "MLLMs": "Multi-Layer Language Models",
+    "Agent Models": "Models that predict sequences of actions or tokens"
+  },
+  "formulas": [
+    "(w1, w2, ..., wt) -> wt+1",
+    "(o1, a1, o2, a2, ..., ot) -> at",
+    "(o1, a1, o2, a2, ..., ot, at) -> ot+1"
+  ],
+  "keywords": [
+    "MLLMs",
+    "Agent Models",
+    "Policy model",
+    "World model",
+    "Observation-action sequences"
+  ],
+  "summary": "The slide discusses how Multi-Layer Language Models (MLLMs) are used as agent models in AI. It explains that MLLMs predict model-specific tokens and AI agents predict observation-action sequences. The slide also introduces the policy model and world model with their respective formulas."
+}
+```

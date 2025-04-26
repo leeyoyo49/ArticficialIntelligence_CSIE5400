@@ -1,0 +1,41 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. If the slide shows a plot, describe the plot.
+
+5. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "summary": string,
+     "definitions": { term: definition },
+     "keywords": [ string ],
+     "formulas": [ string ]
+   }
+
+6. Output ONLY the JSON object as a string—no extra text or formatting.
+
+7. Don't stuff numbers into the formulas json field.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Example: Racing",
+  "summary": "The slide presents a scenario where an autonomous car aims to travel far quickly. It outlines three states of the car: Cool, Warm, and Overheated, and two actions: Slow and Fast. Going faster results in double the reward.",
+  "definitions": {
+    "Cool": "The car is in a cool state.",
+    "Warm": "The car is in a warm state.",
+    "Overheated": "The car is in an overheated state.",
+    "Slow": "The action of slowing down the car.",
+    "Fast": "The action of speeding up the car."
+  },
+  "keywords": ["Autonomous car", "Travel", "Quickly", "Cool", "Warm", "Overheated", "Slow", "Fast", "Reward"],
+  "formulas": [
+    "Going faster gets double reward"
+  ]
+}
+```

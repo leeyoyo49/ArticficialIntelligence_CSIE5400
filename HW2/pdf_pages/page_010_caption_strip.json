@@ -1,0 +1,15 @@
+{
+  "title": "Transformer Based Models",
+  "definitions": {
+    "Transformer": "an encoder-decoder architecture with a core component — attention mechanism."
+  },
+  "formulas": [],
+  "keywords": [
+    "Transformer",
+    "encoder-decoder architecture",
+    "attention mechanism",
+    "encoder",
+    "decoder"
+  ],
+  "summary": "The slide presents an overview of Transformer-based models, highlighting their encoder-decoder architecture and the role of the attention mechanism in focusing on relevant parts of the input sequence for output generation."
+}

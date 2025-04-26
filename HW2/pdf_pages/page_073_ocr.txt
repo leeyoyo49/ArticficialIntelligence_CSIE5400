@@ -1,0 +1,25 @@
+iY   Toolformer: Language Models Can Teach
+mm
+
+  
+
+Themselves to Use Tools      [NeurlPS 2023]
+
+Key steps: Given an input text x, we first sample a position / and
+corresponding API call candidates c’,, c?,,..., ck. We then execute these
+API calls and filter out all calls which do not reduce the loss L; over the next
+tokens. All remaining API calls are interleaved with the original text,
+
+resulting in a new text x*.
+
+1                                         2                                         3                                        LM Dataset
+2               Sample APl Calls                ” Execute APl Calls               ” Filter APl Calls                ~ with API Calls
+X,.;.. = Pittsburgh is    c; = What other name is              r;' = Steel City                  Lc, > Steel City)              x* = Pittsburgh is
+~~ also known as         Pittsburgh known by?                                               < min(L.(c1— &), L(e))            also known as
+_                  [QA(What ...?
+X;,,, = the Steel City    c= Which country is                 r2 = United States             L,(c,? > United States)               — Steel City)]
+
+73
+
+Pittsburgh in?                                                           > min(L,(c? > €), L,(e))            the Steel City.
+

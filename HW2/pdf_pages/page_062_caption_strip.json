@@ -1,0 +1,19 @@
+{
+  "title": "MLLMs as Agent Models",
+  "definitions": {
+    "Level 1": "Using MLLM to act",
+    "Level 2": "Using MLLM to reason to act"
+  },
+  "formulas": [
+    "Action − L",
+    "Observation − L"
+  ],
+  "keywords": [
+    "MLLM",
+    "Agent Models",
+    "Reasoning",
+    "Acting",
+    "Memory"
+  ],
+  "summary": "The slide discusses two levels of using MLLM as agent models. Level 1 involves using MLLM to act, while Level 2 involves using MLLM to reason to act. The slide also includes a diagram illustrating the relationship between action, observation, memory, and tool use in the context of MLLM."
+}

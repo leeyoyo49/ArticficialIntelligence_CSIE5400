@@ -1,0 +1,6 @@
+                                                                                                                                                                                                                                                                      
+
+denoising step crossattention switch Skip connection concat
+
+47                                                                 Source: “High-Resolution Image Synthesis with Latent Diffusion Models,” CVPR, 2022.
+

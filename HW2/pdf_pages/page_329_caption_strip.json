@@ -1,0 +1,22 @@
+{
+  "title": "Values of States",
+  "definitions": {
+    "V*(s)": "Recursive definition of value (similar to expectimax)",
+    "Q*(s,a)": "q-state",
+    "T(s,a,s')": "transition",
+    "s": "state",
+    "s'": "next state",
+    "a": "action"
+  },
+  "formulas": [
+    "V*(s) = Q*(s,a) + T(s,a,s') * V*(s')"
+  ],
+  "keywords": [
+    "Recursive",
+    "definition",
+    "value",
+    "expectimax",
+    "q-state"
+  ],
+  "summary": "The slide presents the recursive definition of value in artificial intelligence, similar to expectimax, with a formula and a diagram illustrating the concept of states, actions, and transitions."
+}

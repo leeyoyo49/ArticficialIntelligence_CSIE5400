@@ -1,0 +1,15 @@
+{
+  "title": "Transforming Experience into Long-Term Memory",
+  "definitions": {
+    "long-term memory": "A type of memory that can store information for extended periods."
+  },
+  "formulas": [],
+  "keywords": [
+    "experience",
+    "long-term memory",
+    "agents",
+    "reflective feedback",
+    "model mistakes"
+  ],
+  "summary": "The slide discusses the challenge of generating useful reflective feedback for agents, which requires understanding where the model made mistakes and the ability to generate a summary with actionable insights for improvement."
+}

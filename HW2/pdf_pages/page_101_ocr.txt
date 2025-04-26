@@ -1,0 +1,140 @@
+Ay
+
+101
+
+Episodic memor
+
+Stanford Al Village [UIST 2023]
+
+ 
+
+of experience
+
+ 
+
+The memory stream comprises a large number of observations that are relevant and irrelevant to the
+agent’s current situation. Retrieval identifies a subset of these observations that should be passed to the
+
+language model to condition its response to the situation.
+
+ 
+
+Memory Stream
+
+2023-02-13 22:48:20:
+2023-02-13 22:48:20:
+2023-02-13 22:48:10:
+2023-02-13 22:48:10:
+2023-02-13 22:48:10:
+2023-02-13 22:33:30:
+2023-02-13 22:33:30:
+2023-02-13 22:33:10:
+2023-02-13 22:18:10:
+2023-02-13 22:18:10:
+2023-02-13 21:49:00:
+2023-02-13 21:48:50:
+
+kitchen
+
+2023-02-13 21:48:50:
+2023-02-13 21:48:50:
+2023-02-13 21:48:10:
+2023-02-13 21:48:10:
+2023-02-13 21:19:10:
+2023-02-13 21:18:10:
+2023-02-13 21:18:10:
+2023-02-13 21:03:40:
+2023-02-13 21:03:30:
+2023-02-13 21:03:30:
+
+on it
+
+desk is idle
+bed is idle
+
+closet is idle
+
+refrigerator is idle
+
+Isabella Rodriguez is stretching
+
+shelf is idle
+
+desk is neat and organized
+
+Isabella Rodriguez is writing in her journal
+desk is idle
+
+Isabella Rodriguez is taking a break
+
+bed is idle
+
+Isabella Rodriguez is cleaning up the
+
+refrigerator is idle
+bed is being used
+
+shelf is idle
+
+Isabella Rodriguez is watching a movie
+shelf is organized and tidy
+
+desk is idle
+
+Isabella Rodriguez is reading a book
+bed is idle
+
+refrigerator is idle
+
+desk is in use with a laptop and some papers
+
+ 
+
+ 
+
+Q. What are you looking forward to
+the most right now?
+
+Isabella Rodriguez is excited to be planning a
+Valentine's Day party at Hobbs Cafe on
+February 14th from 5pm and is eager to invite
+everyone to attend the party.
+
+retrieval                      recency importance relevance
+
+ 
+
+2.34              =              0.91         ~        0.63        *        0.80
+
+ 
+
+ordering decorations for the party
+
+ 
+
+2.21                 =                  0.87          .         063 +         0.71
+
+ 
+
+researching ideas for the party
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2.20                 =                 0.85          人         0.73          s         0.62
+
+ 
+
+I'm looking forward to the
+Valentine's Day party that       @
+Isabella
+
+I'm planning at Hobbs Cafe!
+

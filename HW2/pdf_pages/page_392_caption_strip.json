@@ -1,0 +1,25 @@
+{
+  "title": "Example: Model-Based Learning",
+  "definitions": {
+    "Input Policy": "π",
+    "Observed Transitions": "(s, a, s', R)",
+    "Learned Model": "T(s, a, s')",
+    "Reward Function": "R(s, a, s')"
+  },
+  "formulas": [
+    "T(B, east, C) = 1.00",
+    "T(C, east, D) = 0.75",
+    "T(C, north, A) = 0.25",
+    "R(B, east, C) = -1",
+    "R(C, east, D) = -1",
+    "R(D, exit, x) = +10"
+  ],
+  "keywords": [
+    "Model-Based Learning",
+    "Input Policy",
+    "Observed Transitions",
+    "Learned Model",
+    "Reward Function"
+  ],
+  "summary": "The slide presents an example of model-based learning in AI, showing how an input policy is used to observe transitions and learn a model with a reward function. The example includes a grid layout with states and actions, and the learned model and reward function are defined with specific values."
+}

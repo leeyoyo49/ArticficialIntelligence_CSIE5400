@@ -1,0 +1,22 @@
+iY   How to perform step by step reasoning
+『
+
+20
+
+ 
+
+without using demonstration examples?
+
+Analogical Prompting
+
+The inspiration comes from analogical reasoning in
+psychology, a concept where humans draw from relevant past
+experiences to tackle new problems.
+
+For instance, when faced with a new math problem, humans
+often think about “do | know a related problem?” and recall how
+they solved related problems in the past to derive insights for
+solving the new problem.
+
+Source: “Large Language Models as Analogical Reasoners,” ICLR, 2024.
+

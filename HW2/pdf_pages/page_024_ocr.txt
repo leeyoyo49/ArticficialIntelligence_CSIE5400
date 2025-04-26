@@ -1,0 +1,22 @@
+ 
+
+24
+
+Self-Attention Layer
+
+ 
+
+Outputs:
+Context vectors: y (shape: N x D)
+
+ 
+ 
+
+self-attention
+
+                                                                                                                                                                                                                                                                 
+
+Inputs:
+Input vectors: x (shape: N x D)
+Source: https://cs231n.stanford.edu/slides/2022/lecture_11_ruohan.pdf
+

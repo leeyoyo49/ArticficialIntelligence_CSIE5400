@@ -1,0 +1,22 @@
+iY    Voyager [TMLR 2024]
+mm
+
+ 
+
+ 
+
+A procedural memory of skills
+
+Objective:
+¢ Leveraging MLLMs (i.e., OpenAl’s APIs) for improved game
+mechanics understanding
+
+Innovative Features:
+¢ Introduction of automatic curriculum and skill library
+¢ Automatic curriculum proposes increasingly complex tasks
+¢ Skill library serves as a learning and evolution basis
+¢ Iterative prompting mechanism refines the program and
+incorporates it into the skill library as a new skill
+
+87                   Source: “Voyager: An Open-Ended Embodied Agent with Large Language Models,” Transactions on Machine Learning Research (TMLR), 2024.
+

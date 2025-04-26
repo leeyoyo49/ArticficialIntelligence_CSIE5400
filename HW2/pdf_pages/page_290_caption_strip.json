@@ -1,0 +1,21 @@
+{
+  "title": "CVPR 2025 (Rating: 555)",
+  "definitions": {
+    "CVPR": "Conference on Computer Vision and Pattern Recognition",
+    "Rating": "A numerical value indicating the quality or importance of the presentation"
+  },
+  "formulas": [],
+  "keywords": [
+    "Dataset Distillation",
+    "Neural Characteristic Function",
+    "Minmax Perspective",
+    "Shaobo Wang",
+    "Yicun Yang",
+    "Zhiyuan Liu",
+    "Chenghao Sun",
+    "Xuming Hu",
+    "Conghui He",
+    "Linfeng Zhang"
+  ],
+  "summary": "The slide is from a presentation at CVPR 2025, discussing 'Dataset Distillation with Neural Characteristic Function: A Minmax Perspective'. It includes the authors' names, their affiliations, and contact information."
+}

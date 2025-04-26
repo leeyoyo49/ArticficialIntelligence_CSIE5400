@@ -1,0 +1,43 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Example: Value Iteration",
+  "definitions": {
+    "V0": "0",
+    "V1": "0",
+    "V2": "0"
+  },
+  "formulas": [
+    "V_k+1(s) <- max { sum T(s, a, s') [R(s, a, s') + γV_k(s')] }"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "V0",
+    "V1",
+    "V2",
+    "T(s, a, s')"
+  ],
+  "summary": "The slide presents an example of Value Iteration in AI, showing the iterative process of updating value functions V0, V1, and V2. It includes a diagram illustrating the transition of states with associated rewards and discount factors, and a formula for calculating the next value function."
+}
+```

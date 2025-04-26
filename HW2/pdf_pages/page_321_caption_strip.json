@@ -1,0 +1,21 @@
+{
+  "title": "Quiz: Discounting",
+  "definitions": {
+    "Given": "10 1",
+    "Actions": "East, West, and Exit (only available in exit states a, e)",
+    "Transitions": "deterministic"
+  },
+  "formulas": [
+    "For γ = 1, what is the optimal policy?",
+    "For γ = 0.1, what is the optimal policy?",
+    "For which γ are West and East equally good when in state d?"
+  ],
+  "keywords": [
+    "Discounting",
+    "Optimal policy",
+    "γ",
+    "State",
+    "Deterministic"
+  ],
+  "summary": "The slide presents a quiz on discounting in a deterministic environment with given states and actions. It includes questions about the optimal policy for different values of γ and a scenario where West and East actions are equally good in a specific state."
+}

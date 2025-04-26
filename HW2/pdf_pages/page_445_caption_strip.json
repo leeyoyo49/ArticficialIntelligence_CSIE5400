@@ -1,0 +1,18 @@
+{
+  "title": "BLEU (3/4)",
+  "definitions": {
+    "BLEU": "In the literature, it has been found that the geometric mean of the BLEU* scores with n between one and four has the best correlation with human evaluation, therefore it's the score more commonly adopted, called MEAN_BLEU**."
+  },
+  "formulas": [
+    "BLEU**1(C) = 4/4 = 1.0",
+    "BLEU**2(C) = 3/3 = 1.0"
+  ],
+  "keywords": [
+    "BLEU",
+    "geometric mean",
+    "human evaluation",
+    "MEAN_BLEU",
+    "candidate translations"
+  ],
+  "summary": "The slide discusses the BLEU score, specifically the geometric mean of BLEU* scores, and its correlation with human evaluation. It also introduces the concept of penalizing short candidate translations and provides an example with scores."
+}

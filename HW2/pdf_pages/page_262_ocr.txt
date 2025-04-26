@@ -1,0 +1,32 @@
+MLLM Pretraining with Event Semantic Structures
+
+  
+
+Challenge: Structured Encoding
+
+ 
+
+   
+
+Transport                  PER
+Person                 injured man
+carry                    protesters
+
+PER
+
+Event Structure
+
+Independence Square
+
+Antigovernment protesters carry an             ote
+injured man on a stretcher after
+clashes with riot police on
+Independence Square in Kyiv on
+February 20, 2014.
+
+Image & Caption
+
+  
+
+88                                                                                                Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

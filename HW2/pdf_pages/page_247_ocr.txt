@@ -1,0 +1,19 @@
+73
+
+ 
+
+Entity
+
+ 
+
+Stat AY
+
+:         Relation                                      Relation
+centric
+
+ 
+
+Scene Graph              Entity-Relation Graph
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

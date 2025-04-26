@@ -1,0 +1,38 @@
+ 
+
+87
+
+  
+
+ 
+
+Negative
+
+Anchor       LEARNING
+Contrastive Learning on Event Semantics {ij —" amie
+
+ 
+
+Positive            Positive
+transported
+Positive       injured man
+Labels          ae 人                                             Contrastive
+stretcher.                                             :
+~      —  — s(tov)  Learning
+.       Protesters      m
+Negative = arrested     5 a!
+Labels       injured mana» & X —» 石 —»S(tiV)
+(events)        using a           @
+stretcher.
+    Negative     Injured man =      — bh     S(t2,v)
+i    Labels        transported a
+poison                         i                           t        stretcher with
+-                 _ (arguments)  protesters.
+
+Bench
+
+Jepoouy
+ebeu|
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

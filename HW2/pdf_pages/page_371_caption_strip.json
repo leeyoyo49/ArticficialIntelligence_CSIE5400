@@ -1,0 +1,18 @@
+{
+  "title": "Example: Policy Evaluation",
+  "definitions": {
+    "Always Go Right": "A policy where the agent always chooses the right action in each state.",
+    "Always Go Forward": "A policy where the agent always chooses the forward action in each state."
+  },
+  "formulas": [
+    "Value of a state under a policy is the sum of the immediate reward and the discounted value of the next state."
+  ],
+  "keywords": [
+    "Policy Evaluation",
+    "Always Go Right",
+    "Always Go Forward",
+    "State",
+    "Reward"
+  ],
+  "summary": "The slide presents a comparison of two policies, 'Always Go Right' and 'Always Go Forward', using a grid of states with rewards. The 'Always Go Right' policy shows a higher reward in one state, while the 'Always Go Forward' policy shows a higher reward in another state."
+}

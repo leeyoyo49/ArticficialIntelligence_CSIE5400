@@ -1,0 +1,18 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "Artificial Intelligence": "The simulation of human intelligence processes by computer systems",
+    "Learning to Act": "The ability of a system to take actions based on its learning"
+  },
+  "formulas": [
+    "The formula for calculating the accuracy of a model is: Accuracy = (True Positives + True Negatives) / (True Positives + True Negatives + False Positives + False Negatives)"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "Learning to Act",
+    "Simulation",
+    "Computer Systems",
+    "Human Intelligence"
+  ],
+  "summary": "The slide presents the concept of Artificial Intelligence, focusing on the 'Learning to Act' aspect. It includes a definition of Artificial Intelligence and a formula for calculating model accuracy. The keywords are Artificial Intelligence, Learning to Act, Simulation, Computer Systems, and Human Intelligence."
+}

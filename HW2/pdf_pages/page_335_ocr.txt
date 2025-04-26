@@ -1,0 +1,20 @@
+Recall: Racing
+
+ 
+
+ms Arobot car wants to travel far, quickly
+m Three states: Cool, Warm, Overheated
+= Twoactions: Slow, Fast
+
+m Going faster gets double reward
+
+   
+
+0.5
+
+Slow
+
+Overheated
+
+1.0           “1
+

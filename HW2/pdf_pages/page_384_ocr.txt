@@ -1,0 +1,15 @@
+Reinforcement Learning: Overview
+
+ 
+
+m Passive Reinforcement Leaming: how to learn from already given experiences
+= Model-based: learn the MDP model from experiences, then solve the MDP
+= Model-free: forego learning the MDP model, directly learn V or Q
+= Value learning: learns value of a fixed policy
+m 2 approaches: Direct Evaluation & TD Learning
+= Qlearning: learns Q values of the optimal policy (Q version of TD Learning)
+
+= Active Reinforcement Leaming: how to collect new experiences
+
+ms Approximate Reinforcement Leaming: to handle large state spaces
+

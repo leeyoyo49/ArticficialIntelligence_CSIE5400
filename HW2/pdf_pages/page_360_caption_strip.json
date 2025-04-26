@@ -1,0 +1,19 @@
+{
+  "title": "k=10",
+  "definitions": {
+    "Noise": "0.2",
+    "Discount": "0.9",
+    "Living reward": "0"
+  },
+  "formulas": [
+    "k=10"
+  ],
+  "keywords": [
+    "Noise",
+    "Discount",
+    "Living reward",
+    "k=10",
+    "VALUES AFTER 10 ITERATIONS"
+  ],
+  "summary": "The slide presents a grid with numerical values, indicating the state of a system after 10 iterations. The values are color-coded, with green representing positive values and red indicating a negative value. The slide also includes definitions for 'Noise', 'Discount', and 'Living reward'."
+}

@@ -1,0 +1,8 @@
+Utilities of Sequences
+mg What preferences should an agent have over reward sequences?
+= Moreorless? [1,2,2] or [2,3,4]
+
+m Nowor later? [0,0,1] or [1,0,0]     @
+
+ 
+

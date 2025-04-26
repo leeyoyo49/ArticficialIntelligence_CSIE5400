@@ -1,0 +1,60 @@
+54
+
+Multimodal CoT Reasoning
+
+Question: Think about the magnetic force between the magnets in each pair. Which of the
+
+following statements is true?
+
+Context: The images below show two pairs of magnets. The magnets in different pairs do
+
+not affect each other. All the magnets shown are made of the same material.
+
+ 
+
+Options:   |  (A) The magnitude of the magnetic force is smaller in Pair 2.
+
+ 
+
+ 
+
+(B) The magnitude of the magnetic force is smaller in Pair 1.
+
+ 
+
+ 
+
+|  (C) The magnitude of the magnetic force is the same in both pairs.
+
+ 
+
+Gold Rationale: The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of
+the magnetic force. It does not affect the magnitude of the magnetic force. Both magnet sizes and distance affect the magnitude of the magnetic
+force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same. So, the magnitude of the
+
+magnetic force is the same in both pairs.
+Answer: The answer is (C).
+
+Baseline
+
+Rationale: Distance affects the magnitude of the magnetic force.
+When there is a greater distance between magnets, the magnitude of
+the magnetic force between them is smaller. There is a greater
+distance between the magnets in Pair 2 than in Pair 1. So, the
+magnitude of the magnetic force is smaller in Pair 2 than in Pair 1.
+Answer: The answer is (B).
+
+Rationale: The magnets in Pair 1 attract. The magnets in Pair 2 repel.
+But whether the magnets attract or repel affects only the direction of
+the magnetic force. It does not affect the magnitude of the magnetic
+force. Both magnet sizes and distance affect the magnitude of the
+magnetic force. The sizes of the magnets in Pair 1 are the same as in
+Pair 2. The distance between the magnets is also the same. So, the
+magnitude of the magnetic force is the same in both pairs.
+
+Answer: The answer is (C).
+
+ 
+
+Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

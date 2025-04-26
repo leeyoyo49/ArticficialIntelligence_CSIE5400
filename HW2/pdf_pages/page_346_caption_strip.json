@@ -1,0 +1,21 @@
+{
+  "title": "Example: Value Iteration",
+  "definitions": {
+    "V0": "0",
+    "V1": "0",
+    "V2": "0"
+  },
+  "formulas": [
+    "V_k+1(s) < max Σ T(s, a, s') [ R(s, a, s') + γ V_k(s') ]",
+    "V_k+1(s) = 0.5(1 + 2) + 0.5(1 + 1) = 2.5",
+    "V_k+1(s) = (-10 + 0) = -10"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "V_k+1(s)",
+    "max",
+    "Σ",
+    "T(s, a, s')"
+  ],
+  "summary": "The slide presents an example of Value Iteration in AI, showing the process of updating state values V0, V1, and V2. It includes a diagram with cars in different states and actions, and formulas to calculate the next state value V_k+1(s) based on the maximum expected return."
+}

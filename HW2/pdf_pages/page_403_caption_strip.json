@@ -1,0 +1,21 @@
+{
+  "title": "Sample-Based Policy Evaluation?",
+  "definitions": {
+    "V_k+1(s)": "The value function for the next state s' after taking action a in state s."
+  },
+  "formulas": [
+    "V_k+1(s) = ∪_(s, Σ) [R(s, Σ(s), s') + γV_k(s')]",
+    "sample1 = R(s, Σ(s), s'1) + γV_k(s'1)",
+    "sample2 = R(s, Σ(s), s'2) + γV_k(s'2)",
+    "sampleen = R(s, Σ(s), s'n) + γV_k(s'n)",
+    "V_k+1(s) = 1/n ∑_(i=1)^n samplei"
+  ],
+  "keywords": [
+    "Sample-Based Policy Evaluation",
+    "Value Function",
+    "State",
+    "Action",
+    "Outcome"
+  ],
+  "summary": "The slide discusses improving the estimate of a value function V by computing averages of outcomes s' from taking an action. It presents a formula for calculating the next state value function V_k+1(s) and suggests taking samples of outcomes to average them. However, it notes that not all samples are available."
+}

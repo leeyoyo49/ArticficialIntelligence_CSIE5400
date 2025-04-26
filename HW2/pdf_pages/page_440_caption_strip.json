@@ -1,0 +1,23 @@
+{
+  "title": "Potential for Self-Improvement",
+  "definitions": {
+    "NLP": "Natural Language Processing",
+    "CNN": "Convolutional Neural Network",
+    "Daily Mail": "A British daily newspaper",
+    "BBC": "British Broadcasting Corporation",
+    "summarization": "The process of condensing a text to its main points"
+  },
+  "formulas": [
+    "NLP benchmarks",
+    "CNN/Daily Mail (2016)",
+    "BBC (2021)"
+  ],
+  "keywords": [
+    "NLP",
+    "CNN",
+    "Daily Mail",
+    "BBC",
+    "summarization"
+  ],
+  "summary": "The slide discusses experiments conducted on NLP benchmarks, specifically focusing on summarization. It details the use of CNN/Daily Mail and BBC datasets for these experiments, highlighting the number of training, validation, and test pairs used in the CNN/Daily Mail dataset, and the number of documents and topical areas in the BBC dataset."
+}

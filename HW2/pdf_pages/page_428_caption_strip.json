@@ -1,0 +1,17 @@
+{
+  "title": "Challenges in Deep Reinforcement Learning",
+  "definitions": {
+    "Non-stationary or unstable learning target": "The learning target is continuously changing with each iteration. In deep learning, the target variable does not change and hence the training is stable, which is just not true for reinforcement learning."
+  },
+  "formulas": [
+    "Q(s_t, a_t) <- Q(s_t, a_t) + α[η_t+1] + λmax Q(s_t+1, a) - Q(s_t, a_t)"
+  ],
+  "keywords": [
+    "Deep Reinforcement Learning",
+    "Non-stationary",
+    "unstable",
+    "learning target",
+    "deep learning"
+  ],
+  "summary": "The slide discusses the challenges in deep reinforcement learning, focusing on the non-stationary or unstable learning target. It explains that unlike in deep learning, the target variable in reinforcement learning changes with each iteration, making the training unstable. A formula is presented to illustrate this concept."
+}

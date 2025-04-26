@@ -1,0 +1,23 @@
+  
+
+iY    Example:
+=        Language Translation with Transformers
+
+Transformers utilize an autoregressive
+approach for output generation.
+
+CEE
+
+   
+
+1
+1
+|  |  |   |
+tot ft ft t t t ft Pot ot ot ot.
+es ee ee ee |  Bib jf jt lb ja qa
+yo=BOS  yislch  yo=will  yssein yi-Auto ys-kaufen yo-EOS
+
+x;=I x.=want x3=to x,=buy X5=a Xg—Car x;=EOS
+
+Source: https://huggingface.co/blog/encoder-decoder
+

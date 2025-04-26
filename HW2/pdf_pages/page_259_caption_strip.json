@@ -1,0 +1,23 @@
+{
+  "title": "Hard negatives via manipulating event structures",
+  "definitions": {
+    "Event Type": "Type of event being analyzed",
+    "Agent": "Entity performing the action",
+    "Target": "Entity being acted upon",
+    "Instrument": "Tool or means used to perform the action"
+  },
+  "formulas": [
+    "Event Type",
+    "Agent",
+    "Target",
+    "Instrument"
+  ],
+  "keywords": [
+    "Event Type",
+    "Agent",
+    "Target",
+    "Instrument",
+    "Hard negatives"
+  ],
+  "summary": "The slide discusses the concept of 'Hard negatives' in the context of manipulating event structures in images. It provides definitions for 'Event Type', 'Agent', 'Target', and 'Instrument'. It also includes a table with examples of positive and negative labels for different event types, such as 'Transport (carry)' and 'Arrest (arrest)'. The slide is part of a presentation on 'Knowledge-Driven Vision-Language Encoding'."
+}

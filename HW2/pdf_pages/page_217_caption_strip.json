@@ -1,0 +1,15 @@
+{
+  "title": "Multimodal Reasoning",
+  "definitions": {
+    "Example Problem": "Text-to-image reference"
+  },
+  "formulas": [],
+  "keywords": [
+    "Multimodal",
+    "Reasoning",
+    "Text-to-image",
+    "Reference",
+    "LMICL"
+  ],
+  "summary": "The slide presents an example problem of text-to-image reference in the context of multimodal reasoning. It includes a visual representation of a tree's growth phases and corresponding descriptions to illustrate the concept."
+}

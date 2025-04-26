@@ -1,0 +1,19 @@
+Exponential Moving Average
+
+ 
+
+a Traditional Average: ava(x) ==Yy xn
+
+m Need to have all N samples at once (cannot “stream” in samples)
+
+= Exponential moving average
+gw Therunning interpolation update: Zz, = (1 —a)-Z%n_1 +Q-2n        O0<a<1
+
+m Makes recent samples more important:
+In + (1—a):a%p_1+(1—a@)?-apn_o4+...
+
+1+(1-—a)+(1-a)*+...
+= Forgets about the past samples (how quickly depends on a)
+
+Lyn =
+

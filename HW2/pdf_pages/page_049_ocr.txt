@@ -1,0 +1,18 @@
+49
+
+ 
+
+Multimodal embedding spaces are typically learned by
+collecting large amounts of paired multimodal data from the
+Internet, often images and text, and learning encoders for
+each modality using a pairwise similarity objective.
+
+EV Rea a               ee | ee
+0PEN LARUDE-SCALE MULTT-         % ,         -
+
+WEES
+
+t, 10 Oct, 2022
+
+ 
+

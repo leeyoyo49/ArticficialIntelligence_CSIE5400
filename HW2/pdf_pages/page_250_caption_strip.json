@@ -1,0 +1,20 @@
+{
+  "title": "Definition of \"Event\"",
+  "definitions": {
+    "Event": "A protest against the mandate for kids to get vaccinated.",
+    "parent": "A person who is protesting against the vaccine mandate for kids.",
+    "child": "A person who is protesting against the vaccine mandate for kids.",
+    "banner": "A sign or placard used in the protest.",
+    "No vaccine mandate for kids": "The main message of the protest."
+  },
+  "formulas": [],
+  "keywords": [
+    "Event",
+    "Protest",
+    "parent",
+    "child",
+    "banner",
+    "No vaccine mandate for kids"
+  ],
+  "summary": "The slide defines an event as a protest against the vaccine mandate for kids. The protest involves parents and children, and they use banners to express their message. The main message of the protest is 'No vaccine mandate for kids'."
+}

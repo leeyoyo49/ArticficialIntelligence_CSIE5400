@@ -1,0 +1,19 @@
+{
+  "title": "Text to Image Generation with Diffusion Based Models",
+  "definitions": {
+    "Diffusion Process": "Just as we viewed the molecule's motion as a Gaussian-distributed noise",
+    "Gaussian-distributed noise": "We add a Gaussian-distributed noise to the pixel"
+  },
+  "formulas": [
+    "Molecule + Noise movement = Movement",
+    "Pixel + Gaussian-distributed noise = Pixel"
+  ],
+  "keywords": [
+    "Diffusion",
+    "Process",
+    "Molecule",
+    "Gaussian-distributed noise",
+    "Pixel"
+  ],
+  "summary": "The slide explains the diffusion process in text to image generation using diffusion-based models. It describes how a molecule's motion is viewed as Gaussian-distributed noise and how this noise is added to a pixel to create movement in the image."
+}

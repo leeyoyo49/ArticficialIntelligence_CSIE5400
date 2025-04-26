@@ -1,0 +1,20 @@
+Q-Leaming
+
+mg Q-Learning: sample-based Q-value iteration
+Qn41(s.a) — EO T(s,a,5!) [R(s,a,s!) +7 maxQx(s',a’)]
+
+= Leam Q(s,a) values as you go
+m Receive a sample (s,a,$’,r)
+= Consider your old estimate: Q(s, a)
+= Consider your new sample estimate:
+
+no longer policy
+
+sample = R(s,a,s’) + y max Q(s‘,a’)    evaluation!
+
+m Incorporate the new estimate into arunning average:
+
+Q(s,a) — (1 — a)Q(s, a) + (a) [sample]
+
+ 
+

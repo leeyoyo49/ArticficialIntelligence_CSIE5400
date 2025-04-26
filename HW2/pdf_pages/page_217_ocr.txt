@@ -1,0 +1,21 @@
+  
+
+iY    Multimodal Reasoning
+mm
+
+Example Problem: Text-to-image reference
+
+  
+                                                                                                                                                                                                                                                                  
+
+S222 SB BB BBB BPBBtettsett Bt eBtBt Bt Bt Bt Bt ttt tt ett tsteast ett sete tstt2t2t22F\
+4                                                                                                                                                                                                                                                 i
+|全)                                            We O        These images illustrate the growth                       The image 0 is just germinating, the image | is               I
+1 Gey                                             3                  (2        phases of the tree, please describe the                    only a bare trunk, the image 2 is luxuriant, and      @ i
+                                   1.           iu                           contents of each image carefully.                          the image 3 is a growing plant.                                     \
+
+                                                                                                                                                                               
+ 
+
+43                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

@@ -1,0 +1,19 @@
+{
+  "title": "Positional Encoding Visualization",
+  "definitions": {
+    "p(t)": "p(t) = sin(ω1.t) + cos(ω1.t) + sin(ω2.t) + cos(ω2.t) + sin(ωd/2.t) + cos(ωd/2.t)",
+    "ωk": "ωk = 1 / (10000 * 2k/d)"
+  },
+  "formulas": [
+    "p(t) = sin(ω1.t) + cos(ω1.t) + sin(ω2.t) + cos(ω2.t) + sin(ωd/2.t) + cos(ωd/2.t)",
+    "ωk = 1 / (10000 * 2k/d)"
+  ],
+  "keywords": [
+    "Positional Encoding",
+    "Visualization",
+    "sin",
+    "cos",
+    "ωk"
+  ],
+  "summary": "The slide presents a visualization of positional encoding in neural networks, showing how different frequencies are encoded. It includes a graph with multiple sinusoidal functions and a table with probabilities for different frequencies. The formula for positional encoding is also provided."
+}

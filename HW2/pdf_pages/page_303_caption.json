@@ -1,0 +1,49 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Dataset Distillation with NCFM",
+  "definitions": {
+    "Real Dataset": "Real and synthetic data points are sampled and embedded through a feature extractor network.",
+    "Synthetic Dataset": "Synthetic data is optimized by minimizing the distributive discrepancy between real and synthetic data, measured via the Neural Characteristic Function Discrepancy (NCFD) in the complex plane.",
+    "Feature Network": "A network that extracts features from data points.",
+    "Complex Plane": "A two-dimensional plane used to represent complex numbers.",
+    "Sampling Network": "A network that learns an optimal sampling distribution for the frequency arguments of the characteristic function."
+  },
+  "formulas": [
+    "L = (Φ_x(t) - Φ_x(t))(Φ_x(t) - Φ_x(t))",
+    "Φ_x(t) = E_x~D [e^(it) f(x)]",
+    "min f(x), f(ŷ): t = arg min L(f(x), f(ŷ), t = Φθ(ε))",
+    "max L(f(x), f(x); t = Φθ(ε))"
+  ],
+  "keywords": [
+    "Dataset Distillation",
+    "NCFM",
+    "Real Dataset",
+    "Synthetic Dataset",
+    "Feature Network"
+  ],
+  "summary": "The slide discusses Dataset Distillation with NCFM, explaining how real and synthetic data points are processed through a feature extractor network. It details the optimization of synthetic data by minimizing the discrepancy between real and synthetic data, measured by the Neural Characteristic Function Discrepancy (NCFD) in the complex plane. An auxiliary network learns an optimal sampling distribution for the frequency arguments of the characteristic function. The slide includes a diagram illustrating the process and formulas related to the optimization."
+  }
+}
+```

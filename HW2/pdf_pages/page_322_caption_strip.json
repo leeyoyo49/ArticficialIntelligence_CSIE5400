@@ -1,0 +1,19 @@
+{
+  "title": "Infinite Utilities?!",
+  "definitions": {
+    "Finite horizon": "similar to depth-limited search"
+  },
+  "formulas": [
+    "Terminate episodes after a fixed T steps (e.g. life)"
+  ],
+  "keywords": [
+    "Problem",
+    "game",
+    "infinite rewards",
+    "finite horizon",
+    "depth-limited search",
+    "nonstationary policies",
+    "time left"
+  ],
+  "summary": "The slide discusses the problem of infinite rewards in a game that lasts forever and proposes a solution using a finite horizon approach, similar to depth-limited search. It suggests terminating episodes after a fixed number of steps and using nonstationary policies that depend on the time left."
+}

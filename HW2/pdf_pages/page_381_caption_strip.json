@@ -1,0 +1,18 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "AI": "Artificial Intelligence is the simulation of human intelligence processes by computer systems.",
+    "Machine Learning": "A type of AI that allows a system to learn from data without being explicitly programmed."
+  },
+  "formulas": [
+    "AI = Intelligence + Learning"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Intelligence",
+    "Simulation",
+    "Computer Systems"
+  ],
+  "summary": "The slide defines Artificial Intelligence and introduces Machine Learning as a subset of AI, emphasizing the combination of intelligence and learning in AI systems."
+}

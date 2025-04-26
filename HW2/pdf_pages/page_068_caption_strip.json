@@ -1,0 +1,19 @@
+{
+  "title": "Artificial Intelligence",
+  "definitions": {
+    "Artificial Intelligence": "AI is the simulation of human intelligence processes by computer systems.",
+    "Machine Learning": "A method of data analysis that automates analytical model building.",
+    "Deep Learning": "A subset of machine learning that uses neural networks with multiple layers."
+  },
+  "formulas": [
+    "AI = Machine Learning + Deep Learning"
+  ],
+  "keywords": [
+    "Artificial Intelligence",
+    "Machine Learning",
+    "Deep Learning",
+    "Simulation",
+    "Computer Systems"
+  ],
+  "summary": "The slide presents an overview of Artificial Intelligence, including its definition, and the relationship between Machine Learning and Deep Learning. It also includes a formula that represents the combination of these concepts."
+}

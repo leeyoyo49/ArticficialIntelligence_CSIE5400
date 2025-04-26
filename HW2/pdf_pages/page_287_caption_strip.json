@@ -1,0 +1,21 @@
+{
+  "title": "Transformers without Normalization",
+  "definitions": {
+    "AI": "Artificial Intelligence",
+    "CVPR": "Conference on Computer Vision and Pattern Recognition",
+    "NYU": "New York University",
+    "MIT": "Massachusetts Institute of Technology",
+    "Princeton University": "Princeton University"
+  },
+  "formulas": [
+    "Transformer models without normalization"
+  ],
+  "keywords": [
+    "AI",
+    "CVPR",
+    "NYU",
+    "MIT",
+    "Princeton University"
+  ],
+  "summary": "The slide presents the topic 'Transformers without Normalization' and lists the authors and their affiliations. It also mentions the event 'CVPR 2025'."
+}

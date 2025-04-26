@@ -1,0 +1,27 @@
+iY   Visual Commonsense Knowledge
+和
+
+ 
+
+¢ VisualCOMET: Cognitive Image Understanding via Visual Commonsense Graphs
+
+‘
+
+Event: [Person2] is holding onto a bronze statue
+while waves of water crash around him.
+Place: Inside a sinking ship
+
+Se
+Before Person2                                  Because Person2                                 DN ead
+needed to ...                                     wanted to ...                                 wil mostlikely
+Swim towards               Sense his                           Wait for help                Hold on for                               Gasp tore:            S         f
+the statute.               own death.                            to arrive.                     his life.                                      P             “help.  Sr
+Notice water                                                        Save himself from                                                             Per
+washing in.                                                       drowning.                                                  Belwasned away.
+
+62                                                                 Source: “VisualCOMET: Reasoning About the Dynamic Context of a Still Image,” ECCV, 2020.
+
+ 
+
+                
+

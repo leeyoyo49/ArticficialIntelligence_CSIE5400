@@ -1,0 +1,22 @@
+{
+  "title": "Agent Architecture",
+  "definitions": {
+    "MLLM": "Multi-Layer Perceptron",
+    "Reasoning": "The process of thinking about a problem in a logical and systematic way",
+    "Acting": "The process of taking action based on reasoning",
+    "Observation": "The process of perceiving the environment",
+    "Memory": "The process of storing and retrieving information"
+  },
+  "formulas": [
+    "Action −∞ L",
+    "Observation −∞ L"
+  ],
+  "keywords": [
+    "Agent",
+    "Architecture",
+    "MLLM",
+    "Reasoning",
+    "Acting"
+  ],
+  "summary": "The slide presents the concept of Agent Architecture, focusing on the use of MLLM for reasoning and acting. It illustrates the flow of information from memory and tool use to action and observation, emphasizing the importance of logical and systematic thinking in decision-making processes."
+}

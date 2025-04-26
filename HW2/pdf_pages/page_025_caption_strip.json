@@ -1,0 +1,18 @@
+{
+  "title": "Self-Attention Layer",
+  "definitions": {
+    "Context vectors": "y (shape: N x D)",
+    "Query vectors": "q = xWq"
+  },
+  "formulas": [
+    "y = xWq"
+  ],
+  "keywords": [
+    "Self-Attention Layer",
+    "Context vectors",
+    "Query vectors",
+    "N x D",
+    "xWq"
+  ],
+  "summary": "The slide presents the concept of a Self-Attention Layer in AI, explaining the operations and the flow of input and output vectors. It includes a diagram showing the transformation of input vectors x into query vectors q through a matrix Wq, and the resulting context vectors y."
+}

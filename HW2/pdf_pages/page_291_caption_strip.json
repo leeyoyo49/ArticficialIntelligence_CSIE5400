@@ -1,0 +1,15 @@
+{
+  "title": "Dataset Distillation",
+  "definitions": {
+    "Dataset Distillation": "Dataset distillation has emerged as a powerful approach for reducing data requirements in deep learning. i.e., condensing a large, real dataset into a smaller, synthetic one"
+  },
+  "formulas": [],
+  "keywords": [
+    "Dataset Distillation",
+    "Deep Learning",
+    "Data Requirements",
+    "Condensing",
+    "Synthetic Dataset"
+  ],
+  "summary": "The slide discusses Dataset Distillation, a method in deep learning that reduces data requirements by condensing a large, real dataset into a smaller, synthetic one. It includes a diagram showing the process of dataset distillation, where a large dataset is reduced to a smaller synthetic dataset, and both datasets are used to train a neural network, resulting in similar test performance."
+}

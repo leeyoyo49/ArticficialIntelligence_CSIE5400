@@ -1,0 +1,22 @@
+{
+  "title": "Paradigms to achieve Multimodal CoT",
+  "definitions": {
+    "Caption": "A short text description or label for an image.",
+    "Prompted Text": "Text input that is used to guide a model's response.",
+    "LLM": "Language Model, a type of AI that processes and generates human-like text.",
+    "Rationale": "Explanation or reasoning behind a model's answer.",
+    "Answer": "The final output or conclusion of a model's reasoning process."
+  },
+  "formulas": [
+    "Caption-based Reasoning",
+    "CoT-based Reasoning"
+  ],
+  "keywords": [
+    "Caption",
+    "Prompted Text",
+    "LLM",
+    "Rationale",
+    "Answer"
+  ],
+  "summary": "The slide presents two paradigms for achieving multimodal chain-of-thought reasoning in AI models. The first paradigm involves using a caption model to generate a caption from an image, which is then used as prompted text for an LLM to produce an answer. The second paradigm uses a model to generate a rationale, which is then used as prompted text for another model to produce an answer."
+}

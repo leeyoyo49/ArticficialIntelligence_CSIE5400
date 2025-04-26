@@ -1,0 +1,23 @@
+{
+  "title": "Trial #1",
+  "definitions": {
+    "GO": "The action to start the task.",
+    "think": "The action to plan the next step.",
+    "go to drawer 1": "The action to move to drawer 1.",
+    "open drawer 6": "The action to open drawer 6.",
+    "go to desk 1": "The action to move to desk 1.",
+    "take mug 1 from desk 1": "The action to take mug 1 from desk 1.",
+    "use desklamp 1": "The action to use desklamp 1."
+  },
+  "formulas": [
+    "The task is to find a mug, then find and use a desklamp."
+  ],
+  "keywords": [
+    "mug",
+    "desklamp",
+    "drawer",
+    "desk",
+    "failure"
+  ],
+  "summary": "The slide presents a trial of a task where the goal is to find a mug and then use a desklamp. The trial failed as the desklamp could not be used. The reflection suggests that the plan was to find the mug first and then examine it with the desklamp, but the desklamp was found on the same desk as the mug. The next trial will involve finding the desklamp first, then the mug, and examining the mug with the desklamp."
+}

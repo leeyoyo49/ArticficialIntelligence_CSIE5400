@@ -1,0 +1,17 @@
+{
+  "title": "Model-Based Learning",
+  "definitions": {
+    "Model-Based Learning": "A type of machine learning where a model is created to represent the data and then used to make predictions or decisions."
+  },
+  "formulas": [
+    "The formula for calculating the accuracy of a model is: Accuracy = (True Positives + True Negatives) / (True Positives + True Negatives + False Positives + False Negatives)"
+  ],
+  "keywords": [
+    "Machine Learning",
+    "Model",
+    "Data",
+    "Predictions",
+    "Decisions"
+  ],
+  "summary": "The slide introduces Model-Based Learning, a machine learning approach where a model is built to represent data for making predictions or decisions. It includes a formula for calculating model accuracy."
+}

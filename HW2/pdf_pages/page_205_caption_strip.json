@@ -1,0 +1,17 @@
+{
+  "title": "Inference Approaches",
+  "definitions": {
+    "Best-of-N search": "generates N complete responses and selects the best one among them.",
+    "Sentence-level Beam Search": "generates multiple candidate options for each sentence and chooses the best one.",
+    "Stage-level Beam Search": "generates candidates for each reasoning stage (e.g., summary, caption, reasoning, and conclusion) and selects the best option at each stage."
+  },
+  "formulas": [],
+  "keywords": [
+    "Best-of-N search",
+    "Sentence-level Beam Search",
+    "Stage-level Beam Search",
+    "Inference Approaches",
+    "AI"
+  ],
+  "summary": "The slide presents three inference approaches in AI: Best-of-N search, Sentence-level Beam Search, and Stage-level Beam Search. Each approach is explained with a brief description and illustrated with diagrams showing the process of generating and selecting responses."
+}

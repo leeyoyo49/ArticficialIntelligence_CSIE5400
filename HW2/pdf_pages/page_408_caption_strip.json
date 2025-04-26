@@ -1,0 +1,20 @@
+{
+  "title": "Q-Learning",
+  "definitions": {
+    "Q-Learning": "sample-based Q-value iteration"
+  },
+  "formulas": [
+    "Qk+1(s, a) <- ∑T(s, a, s') [R(s, a, s') + η max Q(s', a')]",
+    "sample <- R(s, a, s') + η max Q(s', a')",
+    "Q(s, a) <- (1 - γ)Q(s, a) + γ [sample]",
+    "Q-values after 1000 episodes"
+  ],
+  "keywords": [
+    "Q-Learning",
+    "sample-based",
+    "Q-value iteration",
+    "sample",
+    "estimate"
+  ],
+  "summary": "The slide presents the Q-Learning algorithm, a sample-based Q-value iteration method. It explains the process of learning Q(s,a) values as you go, which includes receiving a sample, considering old and new estimates, and incorporating the new estimate into a running average. A visual representation of Q-values after 1000 episodes is also shown."
+}

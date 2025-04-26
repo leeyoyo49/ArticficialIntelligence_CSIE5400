@@ -1,0 +1,18 @@
+{
+  "title": "Example: Temporal Difference Learning",
+  "definitions": {
+    "γ": "Gamma",
+    "α": "Alpha"
+  },
+  "formulas": [
+    "Vπ(s) <- (1 - α)Vπ(s) + α[R(s, π(s), s') + γVπ(s')]"
+  ],
+  "keywords": [
+    "Temporal Difference Learning",
+    "States",
+    "Observed Transitions",
+    "Gamma",
+    "Alpha"
+  ],
+  "summary": "The slide provides an example of Temporal Difference Learning, showing states and observed transitions with a formula for updating the value function Vπ(s)."
+}

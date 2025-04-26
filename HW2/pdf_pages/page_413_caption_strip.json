@@ -1,0 +1,20 @@
+{
+  "title": "How to Explore?",
+  "definitions": {
+    "random actions": "Every time step, flip a coin",
+    "small probability": "act randomly",
+    "large probability": "act on current policy"
+  },
+  "formulas": [
+    "With (small) probability ε, act randomly",
+    "With (large) probability 1-ε, act on current policy"
+  ],
+  "keywords": [
+    "exploration",
+    "random actions",
+    "probability",
+    "policy",
+    "learning"
+  ],
+  "summary": "The slide discusses several schemes for forcing exploration in AI, focusing on random actions with varying probabilities. It highlights the problems with random actions, such as the potential for thrashing around once learning is done, and suggests solutions like lowering the probability over time or using exploration functions."
+}

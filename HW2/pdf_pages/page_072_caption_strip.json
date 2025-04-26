@@ -1,0 +1,19 @@
+{
+  "title": "Tool Use: Example",
+  "definitions": {
+    "Language Model": "A model that processes input to generate output.",
+    "Tool Augmented Language Model": "A model that incorporates tool input to generate tool result before producing output."
+  },
+  "formulas": [
+    "task input text |tool-call tool input text |result tool output text"
+  ],
+  "keywords": [
+    "Language Model",
+    "Tool Augmented Language Model",
+    "input",
+    "output",
+    "tool input",
+    "tool result"
+  ],
+  "summary": "The slide presents an example of a Tool Augmented Language Model, which integrates tool input to generate a tool result before producing the final output. It includes a diagram illustrating the process and examples of an abstract task and a weather task."
+}

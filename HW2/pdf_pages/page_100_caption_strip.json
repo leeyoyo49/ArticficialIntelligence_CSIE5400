@@ -1,0 +1,19 @@
+{
+  "title": "Stanford AI Village [UIST 2023] Episodic memory of experience",
+  "definitions": {
+    "Agent architecture": "The structure and organization of an artificial intelligence agent"
+  },
+  "formulas": [
+    "Plan",
+    "Retrieve",
+    "Act"
+  ],
+  "keywords": [
+    "Stanford AI Village",
+    "UIST 2023",
+    "Episodic memory",
+    "Experience",
+    "Agent architecture"
+  ],
+  "summary": "The slide presents the agent architecture for episodic memory of experience, detailing the process flow from perception to action, including the roles of memory stream, generative agent memory, and the retrieval of memories."
+}

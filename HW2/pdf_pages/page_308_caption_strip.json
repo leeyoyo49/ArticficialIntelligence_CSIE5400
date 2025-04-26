@@ -1,0 +1,17 @@
+{
+  "title": "Example: Racing",
+  "definitions": {
+    "Racing": "A competitive event where participants compete against each other to reach a finish line or achieve a specific goal."
+  },
+  "formulas": [
+    "Speed = Distance / Time"
+  ],
+  "keywords": [
+    "Racing",
+    "Competitive",
+    "Event",
+    "Finish line",
+    "Goal"
+  ],
+  "summary": "The slide provides an example of racing, defining it as a competitive event and illustrating it with a cartoon image of a car racing on a track."
+}

@@ -1,0 +1,8 @@
+iY    This Lecture — Agenda                               (
+mm
+
+=m Reasoning Basics
+m Chain-of-Thought (CoT)
+m Zero-shot reasoner
+m™ Few-shot reasoner
+

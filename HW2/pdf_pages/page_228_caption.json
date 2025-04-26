@@ -1,0 +1,44 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Gold Rationale": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force. Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same. So, the magnitude of the magnetic force is the same in both pairs.",
+    "Baseline": "Distance affects the magnitude of the magnetic force. When there is a greater distance between magnets, the magnitude of the magnetic force between them is smaller. There is a greater distance between the magnets in Pair 2 than in Pair 1. So, the magnitude of the magnetic force is smaller in Pair 2 than in Pair 1.",
+    "+ Vision Features": "The magnets in Pair 1 attract. The magnets in Pair 2 repel. But whether the magnets attract or repel affects only the direction of the magnetic force. It does not affect the magnitude of the magnetic force. Both magnet sizes and distance affect the magnitude of the magnetic force. The sizes of the magnets in Pair 1 are the same as in Pair 2. The distance between the magnets is also the same. So, the magnitude of the magnetic force is the same in both pairs."
+  },
+  "formulas": [
+    "Coulomb's Law of Electrostatics: F = k * |q1 * q2| / r^2",
+    "Magnetic Force: F = (μ0 * m1 * m2) / (4 * π * r^2) * (1 - (v^2/c^2))"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT Reasoning",
+    "Gold Rationale",
+    "Baseline",
+    "Vision Features"
+  ],
+  "summary": "The slide presents a problem about the magnetic force between magnets in different pairs, with a question and multiple-choice answers. It includes a 'Gold Rationale' explaining the correct answer, a 'Baseline' reasoning, and a '+ Vision Features' reasoning. The slide also contains a diagram of two pairs of magnets and their respective magnetic forces."
+}
+```

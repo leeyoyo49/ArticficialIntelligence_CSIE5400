@@ -1,0 +1,14 @@
+Example: Temporal Difference Learning
+
+ 
+
+States                                             Observed Transitions
+B, east, [ B, east, C,-2 | -2          [C.east, D,-2 | east, D, -2
+
+a 過 a oan oon
+
+Assumery 1,05 12    Vs) + (1—a)V"(s) +a [R(s, x(s), 8’) + V7(s')|
+
+ 
+ 
+

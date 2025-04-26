@@ -1,0 +1,17 @@
+iY  Reinforcement Learning Contemplation (RLC)
+和
+
+  
+
+[ICLR 2024]
+
+m Given an unlabelled question set, the language model
+generates answers to unlabeled samples and directly
+evaluates the quality of these answers.
+
+=m RLC employs self-evaluation results as rewards and
+utilizes reinforcement learning to optimize the language
+model.
+
+149
+

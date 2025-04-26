@@ -1,0 +1,15 @@
+iY   This Lecture — Agenda                           (
+mm
+
+= Preliminaries
+
+m Generative Models
+= Transformers
+= Diffusion Models
+
+= Multimodal Embedding Spaces
+= Al Agent Basics
+e Acting
+e Tool Use
+e Memory
+

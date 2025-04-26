@@ -1,0 +1,54 @@
+ 
+
+ 
+
+96
+
+Sample tasks proposed by the automatic curriculum
+
+Inventory (5/36): {'oak_planks': 3, 'stick':
+4, 'crafting_table’: 1, ‘stone’: 3,
+‘wooden_pickaxe': 1}
+
+Biome: river
+Inventory (4/36): {'sugar_cane': 3, ‘paper':
+3, ‘fishing_rod': 1, 'wooden_pickaxe': 1}
+
+Nearby entities: pig, cat, villager
+Health: 12/20
+Hunger: 0/20
+
+Inventory (6/36): {‘furnace’: 1,
+‘stone_pickaxe': 1, 'oak_planks': 7,
+‘crafting_table': 1, 'raw_iron': 4, 'coal': 1}
+
+Time: night
+Nearby entities: zombie
+Equipment: ‘stone_sword, 'shield'
+
+ 
+
+eaeen
+
+ 
+
+Reasoning: Since you have a wooden pickaxe and some stones, it would be
+beneficial to upgrade your pickaxe to a stone pickaxe for better efficiency.
+Task: Craft 1 stone pickaxe.
+
+Reasoning: Since you have a fishing rod in your inventory and you are near a river
+biome, it would be a good opportunity to catch some fish for food and experience.
+Task: Catch 1 fish.
+
+Reasoning: Your hunger is at 0, which means you need to find food to replenish
+your hunger. Since there are pigs nearby, you can kill one to obtain raw porkchops.
+Task: Kill 1 pig.
+
+Reasoning: You have raw iron and coal, and you have a furnace. It's time to smelt
+the iron to make iron ingots, which can be used to craft better tools and armor.
+Task: Smelt 4 raw iron.
+
+Reasoning: Since it's night and there's a zombie nearby, it's a good opportunity to
+try killing the zombie now that you have a stone sword and a shield equipped.
+Task: Kill 1 zombie.
+

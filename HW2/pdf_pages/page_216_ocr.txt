@@ -1,0 +1,47 @@
+42
+
+Multimodal Reasoning
+
+Example Problem: Text-to-image reference
+
+e= wees se se es es Ss Ss Sw Ss SP Ss SP SS SS eS SS
+
+ 
+
+Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+
+ 
+ 
+  
+    
+
+A    7
+>  Carefully analyze the given images             i
+>       and answer the question:                            H    &P Tell me, is there a horse i or
+What differences does                                  1 |
+|
+it                    It is not possible to tell from the
+it                     image a horse is in the image.
+ii
+   EF   Here are some examples.
+Sporty car on one side of road vs. off-          ll
+road jeep with mountainous terrain in          it            There is a horse in    ons  同
+the background on the other hand.                 Hi
+ii
+ii            while there is no horse in ER :
+‘On   What similarities does the first and               ii
+<       second image have?                                    i            Therefore, please refer to a
+i |
+d tell me if there is a horse in th
+They has similarity in size and shape            ll             ame?
+of vehicle. One is on the road and the           it                  BE:
+other has mountainous terrain with                ii
+snow capped mountains in the                      it                 Yes, there is a horse in the image and           I
+foreground.                                                it                 it's standing on a grassy field.
+「
+ee ee ee ee ee ee ee ee ee ee ee ee ee ee            s  上
+
+ 
+
+ 
+

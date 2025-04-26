@@ -1,0 +1,17 @@
+{
+  "title": "Time-Limited Values",
+  "definitions": {
+    "Vk(s)": "the optimal value of s if the game ends in k more time steps"
+  },
+  "formulas": [
+    "Vk(s) = the optimal value of s if the game ends in k more time steps"
+  ],
+  "keywords": [
+    "time-limited values",
+    "optimal value",
+    "game",
+    "time steps",
+    "depth-k expectimax"
+  ],
+  "summary": "The slide discusses the concept of time-limited values in the context of a game, defining Vk(s) as the optimal value of s if the game ends in k more time steps. It also relates this to a depth-k expectimax algorithm."
+}

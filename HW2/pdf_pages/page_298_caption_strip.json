@@ -1,0 +1,29 @@
+{
+  "title": "DM: moment matching methods",
+  "definitions": {
+    "DM": "moment matching methods",
+    "MSE": "Mean Squared Error",
+    "MMD": "Maximum Mean Discrepancy",
+    "Synthetic Data": "Synthetic Data",
+    "Real Data": "Real Data",
+    "Latent Space": "Latent Space",
+    "Parameterized Network": "Parameterized Network"
+  },
+  "formulas": [
+    "min L(D, D1|Z_R)",
+    "min L(D, D2|Z_R)",
+    "min L(D, D1|Z_H)",
+    "min L(D, D2|Z_H)"
+  ],
+  "keywords": [
+    "moment matching",
+    "distributional equivalence",
+    "moment equivalence",
+    "distributional matching",
+    "synthetic data",
+    "real data",
+    "latent space",
+    "parameterized network"
+  ],
+  "summary": "The slide discusses moment matching methods in the context of aligning synthetic and real data. It highlights that while aligning moments can imply distributional equivalence, it does not guarantee full distributional matching. The slide also introduces the concepts of MSE and MMD, and presents a comparison between the previous paradigm of minimizing distance within a latent space and the new approach of minimizing MMD between distributions."
+}

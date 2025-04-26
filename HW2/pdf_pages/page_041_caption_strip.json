@@ -1,0 +1,19 @@
+{
+  "title": "Denoising Diffusion Models",
+  "definitions": {
+    "Forward diffusion process": "gradually adds noise to input",
+    "Reverse denoising process": "learns to generate data by denoising"
+  },
+  "formulas": [
+    "Forward diffusion process (fixed)",
+    "Reverse denoising process (generative)"
+  ],
+  "keywords": [
+    "Denoising diffusion models",
+    "Forward diffusion process",
+    "Reverse denoising process",
+    "Noise",
+    "Data"
+  ],
+  "summary": "The slide discusses Denoising Diffusion Models, which consist of two processes: the Forward diffusion process that gradually adds noise to input, and the Reverse denoising process that learns to generate data by denoising. The slide includes a visual representation of the Forward diffusion process and the Reverse denoising process, showing the progression from data to noise and back to data."
+}

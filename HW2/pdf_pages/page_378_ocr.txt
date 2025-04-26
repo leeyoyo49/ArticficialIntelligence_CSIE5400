@@ -1,0 +1,15 @@
+Summary: MDP Algorithms
+
+ 
+
+mg Soyou want to....
+= Compute optimal values: use value iteration or policy iteration
+
+Value Iteration            @       or         Policy Iteration           @
+= Compute values for a particular policy: use policy evaluation
+Policy Evaluation
+
+= Tur your values into a policy: use policy extraction (one-step lookahead)
+
+(v)           Policy Extraction            ()
+

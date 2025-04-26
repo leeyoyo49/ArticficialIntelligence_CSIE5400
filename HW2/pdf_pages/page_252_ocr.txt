@@ -1,0 +1,27 @@
+What happened?
+Who?
+
+Protest
+
+ 
+   
+
+ome,   ester
+protester
+
+Event               Protest
+
+     
+
+Protester         parent
+Protester        child
+Tool                 banner
+
+No vaccine
+
+Topic                                      ,
+P               mandate for kids
+                                        Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+
+ 
+

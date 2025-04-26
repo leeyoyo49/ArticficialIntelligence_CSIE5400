@@ -1,0 +1,51 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Problem": "The question is: Which solution has a higher concentration of yellow particles?",
+    "Context": "The diagram below is a model of two solutions. Each yellow ball represents one particle of solute.",
+    "Options": "(A) Solution B (B) Solution A (C) neither; their concentrations are the same",
+    "Gold Rationale": "In Solution A and Solution B, the yellow particles represent the solute. To figure out which solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume of the solvent in each container. Use the concentration formula to find the number of yellow particles per milliliter. Solution B has more yellow particles per milliliter. So, Solution B has a higher concentration of yellow particles.",
+    "Answer": "The answer is (A).",
+    "Baseline": "In Solution A and Solution B, the yellow particles represent the solute. To figure out which solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume of the solvent in each container. Use the concentration formula to find the number of yellow particles per milliliter. Solution A has more yellow particles per milliliter. So, Solution A has a higher concentration of yellow particles.",
+    "Vision Features": "In Solution A and Solution B, the yellow particles represent the solute. To figure out which solution has a higher concentration of yellow particles, look at both the number of yellow particles and the volume of the solvent in each container. Use the concentration formula to find the number of yellow particles per milliliter. Solution B has more yellow particles per milliliter. So, Solution B has a higher concentration of yellow particles.",
+    "Source": "Multimodal Chain-of-Thought Reasoning in Language Models, TMLR, 2024."
+  },
+  "formulas": [
+    "concentration formula"
+  ],
+  "keywords": [
+    "Problem",
+    "Context",
+    "Options",
+    "Gold Rationale",
+    "Answer",
+    "Baseline",
+    "Vision Features",
+    "Source"
+  ],
+  "summary": "The slide presents a problem about determining which solution has a higher concentration of yellow particles. It provides a context with a diagram of two solutions, each containing yellow particles representing solute. The slide offers three options for the answer and provides a 'Gold Rationale' explaining the reasoning behind the answer. It also includes a 'Baseline' and 'Vision Features' section that outlines the thought process for solving the problem. The source of the content is cited at the bottom of the slide."
+}
+```

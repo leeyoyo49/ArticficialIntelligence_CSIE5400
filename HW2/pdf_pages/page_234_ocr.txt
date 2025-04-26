@@ -1,0 +1,54 @@
+‧ Visual Commonsense Reasoning (VCR): From Recognition to Cognition
+
+Why is [persona fal] polatiig at [person1 @
+a) He is telling that [person1 @ ordered the pancakes.
+
+b) He just told airy
+c) He is feeling accusatory towards [person1 @).
+
+d) Heis giving [person1 ei directions.
+
+a) [person1 @}] has the pancakes in front of him.
+! Cho             b)   aaa  3   ] is taking everyone’s order and asked for clarification.
+Lec.  Se gy       c)        rson3 44)] is looking at the pancakes and both she and
+Use.            [pe je ie are smiling slightly.
+
+persol         }] is delivering food to the table, and she might not
+know mines order i is whose.
+
+ 
+
+ 
+
+d)
+
+How did  [person2 fq] get the money that’s in front of her?
+
+a) [person2 ka ] is selling things on the street.
+
+b) [person2 Kal ] earned this money playing music.
+c) She may work jobs for the mafia.
+
+d) She won money playing poker.
+
+   
+ 
+
+a) She is playing guitar for money.
+
+b) [person2     ] is a professional musician in an orchestra.
+
+c) [person2 fq] and [person1 [§@ Jare both holding instruments,
+and were probably busking for that money.
+
+d) [person1 [f@] is putting money in [person2 [fq ]’s tip jar, while
+she plays music.
+
+/ Ch
+0.
+ss 4)
+
+   
+
+60                                                            Source: “From Recognition to Cognition: Visual Commonsense Reasoning,” CVPR, 2019.
+

@@ -1,0 +1,19 @@
+{
+  "title": "Few-shot chain-of-thought (CoT)",
+  "definitions": {
+    "reasoning process": "The process of thinking through a problem or question to arrive at an answer."
+  },
+  "formulas": [
+    "Concatenating 'n', 'k' leads to 'nk'.",
+    "Concatenating 'I', 's' leads to 'Is'.",
+    "Concatenating 'k', 'a' leads to 'ka'."
+  ],
+  "keywords": [
+    "Few-shot",
+    "chain-of-thought",
+    "CoT",
+    "reasoning process",
+    "concatenation"
+  ],
+  "summary": "The slide presents the concept of Few-shot chain-of-thought (CoT) in artificial intelligence, demonstrating a reasoning process with examples of concatenating the last letters of words to form new words. It highlights the 100% accuracy of this method with demonstration examples."
+}

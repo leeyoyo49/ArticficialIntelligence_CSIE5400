@@ -1,0 +1,21 @@
+{
+  "title": "Problem Formulation (2/3)",
+  "definitions": {
+    "State space S": "the space of input token sequences",
+    "Action space A": "the space of tokens",
+    "Reward function R(q, {o0, ..., ot})": "a score that reflects the quality of the generated answer to the question",
+    "Transition P": "St+1 = St U Ot+1",
+    "Initial distribution d0": "the distribution of question q"
+  },
+  "formulas": [
+    "St+1 = St U Ot+1"
+  ],
+  "keywords": [
+    "State space",
+    "Action space",
+    "Reward function",
+    "Transition",
+    "Initial distribution"
+  ],
+  "summary": "The slide discusses the problem formulation for fine-tuning a language model with reinforcement learning using Markov Decision Process (MDP). It defines key components such as state space, action space, reward function, transition, and initial distribution."
+}

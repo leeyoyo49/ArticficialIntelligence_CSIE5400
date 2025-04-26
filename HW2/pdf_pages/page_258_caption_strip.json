@@ -1,0 +1,28 @@
+{
+  "title": "Hard negatives via manipulating event structures",
+  "definitions": {
+    "Event Type": "Type of event being analyzed",
+    "Transport (carry)": "Event type where an agent carries an entity",
+    "Arrest (arrest)": "Event type where an agent arrests a target",
+    "Negative Labels (events)": "Labels indicating negative events",
+    "Negative Labels (arguments)": "Labels indicating negative arguments",
+    "Role Switching": "Technique used to manipulate event structures"
+  },
+  "formulas": [
+    "Event Type",
+    "Transport (carry)",
+    "Arrest (arrest)",
+    "Negative Labels (events)",
+    "Negative Labels (arguments)",
+    "Role Switching"
+  ],
+  "keywords": [
+    "Event Type",
+    "Transport (carry)",
+    "Arrest (arrest)",
+    "Negative Labels (events)",
+    "Negative Labels (arguments)",
+    "Role Switching"
+  ],
+  "summary": "The slide discusses the concept of 'Hard negatives' in the context of manipulating event structures in AI. It explains different event types such as 'Transport (carry)' and 'Arrest (arrest)', and introduces the idea of 'Negative Labels (events)' and 'Negative Labels (arguments)'. The slide also mentions 'Role Switching' as a technique used in this process. An image is used to illustrate the concept, and a table is provided to further explain the event types and their associated roles."
+}

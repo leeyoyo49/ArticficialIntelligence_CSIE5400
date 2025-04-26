@@ -1,0 +1,22 @@
+{
+  "title": "Achieved performances of this paper",
+  "definitions": {
+    "Full Dataset": "The complete set of data used in the study",
+    "NCFM": "Neural Compute Framework",
+    "GPU Memory": "The amount of memory available on a Graphics Processing Unit",
+    "DATM": "Data Throughput Model",
+    "IPC": "Instructions Per Cycle"
+  },
+  "formulas": [
+    "Test Accuracy (%) = Function of Image Per Class (IPC)",
+    "Speedup (second / iteration) = Function of IPC"
+  ],
+  "keywords": [
+    "Performance",
+    "Accuracy",
+    "Neural Compute Framework",
+    "GPU",
+    "Data Throughput"
+  ],
+  "summary": "The slide presents a graph showing the relationship between test accuracy and image per class (IPC) for different models and configurations. It also includes a table comparing the speedup of NCFM and DATM across different IPC values."
+}

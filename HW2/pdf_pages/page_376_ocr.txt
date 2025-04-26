@@ -1,0 +1,17 @@
+Policy Iteration
+
+ 
+
+m Evaluation: For fixed current policy zz, find values with policy evaluation:
+- |terate until values converge:
+
+Vii Cs) — 2 T(s, mi(s), 8’) [RCs mi(s), 8) + V8)
+
+- Endup with value function V“
+= Improvement: For fixed values, get a better policy using policy extraction
+- QOne-step look-ahead:
+
+T™41(s) = arg max >_> T(s, a, s’) [R(s, a, s/) 十 yv7i(s')|
+
+m Repeat steps until policy converges
+

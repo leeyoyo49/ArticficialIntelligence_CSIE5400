@@ -1,0 +1,27 @@
+{
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "definitions": {
+    "LM Dataset": "A dataset used for training language models.",
+    "Sample API Calls": "The process of selecting API calls to be executed based on a given position in the input text.",
+    "Execute API Calls": "The process of running the selected API calls to modify the input text.",
+    "Filter API Calls": "The process of removing API calls that do not reduce the loss over the next tokens.",
+    "x*": "The new text obtained after executing and filtering API calls."
+  },
+  "formulas": [
+    "x1:i-1 = Pittsburgh is also known as",
+    "x1:i = the Steel City",
+    "c1 = What other name is Pittsburgh known by?",
+    "r1 = Steel City",
+    "c2 = Which country is Pittsburgh in?",
+    "r2 = United States",
+    "L(ci -> r) < min(L(ci -> e), L(e))"
+  ],
+  "keywords": [
+    "Toolformer",
+    "Language Models",
+    "API Calls",
+    "Pittsburgh",
+    "Steel City"
+  ],
+  "summary": "The slide explains the Toolformer concept, where language models can teach themselves to use tools. It outlines the key steps of sampling API calls, executing them, and filtering based on loss reduction. The process results in a new text, x*, which is the modified input text."
+}

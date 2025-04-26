@@ -1,0 +1,17 @@
+{
+  "title": "Existing object-centric info miss situational understanding",
+  "definitions": {
+    "Vision": "Object",
+    "Object": "Reason",
+    "Reason": "Scene Graph"
+  },
+  "formulas": [],
+  "keywords": [
+    "object-centric",
+    "info",
+    "situational",
+    "understanding",
+    "Vision"
+  ],
+  "summary": "The slide discusses the limitations of object-centric information in understanding situational contexts, highlighting the need for a more comprehensive approach that includes reasoning and scene graph analysis."
+}

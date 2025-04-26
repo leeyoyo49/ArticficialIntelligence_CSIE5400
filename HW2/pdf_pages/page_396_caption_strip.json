@@ -1,0 +1,19 @@
+{
+  "title": "Example: Direct Evaluation",
+  "definitions": {
+    "Input Policy \u03c0": "The initial state and actions in a grid environment",
+    "Observed (s, a, s', R)": "The tuple of the current state, action taken, next state, and reward received",
+    "Output Values": "The estimated values of each state in the grid"
+  },
+  "formulas": [
+    "The value of a state is the sum of the values of the possible next states, weighted by the probability of taking each action and the reward received"
+  ],
+  "keywords": [
+    "Direct Evaluation",
+    "Input Policy",
+    "Observed Transitions",
+    "Output Values",
+    "Grid Environment"
+  ],
+  "summary": "The slide presents an example of direct evaluation in a grid environment. It shows the input policy, observed transitions, and output values for different episodes. The value of a state is calculated as the sum of the values of the possible next states, weighted by the probability of taking each action and the reward received."
+}

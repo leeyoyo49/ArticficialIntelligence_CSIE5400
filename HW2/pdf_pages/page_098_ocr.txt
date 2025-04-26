@@ -1,0 +1,57 @@
+Ay
+
+Inventory (8/36): {'oak_planks': 5, 'cobblestone': 2,
+‘porkchop': 2, 'wooden_sword': 1, ‘coal’: 5, 'wooden_pickaxe':
+1, 'oak_log': 3, ‘dirt': 9}
+
+Task: Mine 5 coal ores
+
+Inventory (10/36): {‘raw_copper': 9, ‘copper_ingot': 3,
+‘acacia_planks': 1, 'raw_iron’: 1, ‘stick’: 1, ‘iron_sword': 1,
+‘iron_pickaxe': 1, ‘iron_ingot': 3, 'crafting_table'’: 1, ‘furnace’: 1}
+Task: Craft a spyglass
+
+Inventory (7/36): {'oak_log': 5, ‘oak_planks': 1,
+‘wooden_pickaxe': 1, 'wooden_sword': 1, 'porkchop': 2,
+‘white_wool': 2, 'mutton': 6}
+
+Task: Kill 3 sheep
+
+Inventory (9/36): {‘string': 4, ‘coal’: 1, 'rotten_flesh': 1,
+‘iron_sword': 1, ‘furnace’: 1, ‘dirt': 6, ‘stone_shovel': 1,
+'‘wooden_pickaxe': 1, ‘granite’: 5}
+
+Task: Kill 1 Zombie
+
+98
+
+Examples of Self-Verification
+
+ 
+
+hoe 8
+
+ 
+
+Reasoning: Mining coal_ore in Minecraft will get coal. You have 5 coal in your
+inventory.
+Success: True
+
+Reasoning: To craft a spyglass, you need 2 copper ingots and 1 amethyst shard.
+You have 3 copper ingots, but you don't have any amethyst shards.
+
+Success: False
+
+Critique: Find and mine an amethyst shard underground.
+
+Reasoning: You have 2 white_wool and 6 mutton in your inventory, which indicates
+that you killed 2 sheep. You needed to kill 3 sheep.
+
+Success: False
+
+Critique: Find and kill one more sheep to complete the task.
+
+Reasoning: You have 1 rotten_flesh in your inventory, which means you have killed
+at least 1 zombie.
+Success: True
+

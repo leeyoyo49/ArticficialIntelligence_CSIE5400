@@ -1,0 +1,43 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Goal: Entity-Centric -> Event-Centric",
+  "definitions": {
+    "State-of-the-art Captioner": "An advanced system for generating captions for images.",
+    "Entity-centric": "A method of focusing on the entities within an image.",
+    "Event-centric": "A method of focusing on the events or actions within an image."
+  },
+  "formulas": [
+    "Knowledge-Driven Vision-Language Encoding"
+  ],
+  "keywords": [
+    "Entity-Centric",
+    "Event-Centric",
+    "Captioner",
+    "State-of-the-art",
+    "Protest"
+  ],
+  "summary": "The slide presents a goal to shift from an entity-centric to an event-centric approach in image captioning. It includes a definition of a state-of-the-art captioner and a diagram illustrating the transition from entity-centric to event-centric methods. The slide also features a photograph of a protest, with a captioner example and a diagram showing the entities and events in the image."
+}
+```

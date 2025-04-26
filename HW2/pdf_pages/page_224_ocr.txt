@@ -1,0 +1,33 @@
+  
+
+iY   Multimodal CoT Reasoning
+mm
+
+¢ Multimodal-CoT is a proposed mechanism to incorporate language (text)
+and vision (images) modalities into a two-stage framework that
+
+separates rationale generation and answer inference.
+¢ Both stages share the same model structure but differ in the input and output.
+
+me                                                           Look at each object. For each
+f°                                       object, decide if it has that
+property. Potato chips have a
+
+=       =                                 salty taste. Both objects are
+
+Rationale                     i                    Answer
+.         salty. A soft object changes                         The answer
+       Generation       shape when you squeeze it.         Inference        is (B).
+
+The fries are soft, but the
+
+Question: Which property do these two                           cracker is not. The property
+objects have in common?                              that both objects have in
+Context: Select the better answer.                                                   common is salty.
+
+Options:  |    (A) soft             (B) salty
+
+ 
+
+50                                                              Source: “Multimodal Chain-of-Thought Reasoning in Language Models,” TMLR, 2024.
+

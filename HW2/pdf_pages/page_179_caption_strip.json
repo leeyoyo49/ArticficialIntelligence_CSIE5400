@@ -1,0 +1,22 @@
+{
+  "title": "Probing 'Visible' Physical Commonsense Knowledge",
+  "definitions": {
+    "Visually accessible knowledge": "representing color, size and space"
+  },
+  "formulas": [
+    "O is of [MASK] color",
+    "[CLS] color of O",
+    "O1 is [MASK] than O2 in size",
+    "[CLS] size of O1 in comparison to O2",
+    "in a S, the O1 is located [MASK] the O2",
+    "[CLS] in a S, the O1 is located in com-parison to O2"
+  ],
+  "keywords": [
+    "color",
+    "size",
+    "space",
+    "VISPHY",
+    "EMNLP"
+  ],
+  "summary": "The slide presents a study on probing 'Visible' Physical Commonsense Knowledge, focusing on visually accessible knowledge representing color, size, and space. It includes tasks, settings, and prompts for color, size, and spatial relationships, with examples of how to fill in the blanks with appropriate terms."
+}

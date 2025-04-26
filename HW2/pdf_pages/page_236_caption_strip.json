@@ -1,0 +1,15 @@
+{
+  "title": "Visual Commonsense Knowledge",
+  "definitions": {
+    "VisualCOMET": "Cognitive Image Understanding via Visual Commonsense Graphs"
+  },
+  "formulas": [],
+  "keywords": [
+    "VisualCOMET",
+    "Cognitive Image Understanding",
+    "Visual Commonsense Graphs",
+    "Cognitive",
+    "Image"
+  ],
+  "summary": "The slide presents the concept of VisualCOMET, which stands for Cognitive Image Understanding via Visual Commonsense Graphs. It includes an image with a caption describing an event where a person is holding onto a statue in a sinking ship. The slide also features a flowchart with three columns detailing the actions and thoughts of the person before, during, and after the event, as well as the likely outcomes."
+}

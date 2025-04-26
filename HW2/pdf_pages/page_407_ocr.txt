@@ -1,0 +1,13 @@
+Problems with TD Value Learning
+
+m IDvalue leaning is a model-free way to do policy evaluation
+
+= However, if we want to turn values into a (new) policy, we’re stuck:
+
+m(s) = arg max Q(s, a)
+0(s,Q) 三 》 7了(2, Q, 9/) [R(s, a,s’) + 7V(s')|
+a What can we do?
+
+m= Leam Q-values, not values
+m= Makes action selection model-free too!
+

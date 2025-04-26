@@ -1,0 +1,17 @@
+{
+  "title": "SkillMimic: Concept",
+  "definitions": {
+    "SkillMimic": "A concept that involves capturing real-world skills and simulating them in a virtual environment for unified learning."
+  },
+  "formulas": [
+    "Real-World Skill -> HOI Motion Data -> Skill in Simulator"
+  ],
+  "keywords": [
+    "SkillMimic",
+    "Real-World Skill",
+    "HOI Motion Data",
+    "Skill in Simulator",
+    "Unified learning"
+  ],
+  "summary": "SkillMimic is a concept that captures real-world skills, processes them into HOI motion data, and simulates them in a virtual environment for unified learning of all basketball skills."
+}

@@ -1,0 +1,10 @@
+68
+
+ 
+
+Vision
+
+Object
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

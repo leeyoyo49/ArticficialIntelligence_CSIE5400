@@ -1,0 +1,18 @@
+{
+  "title": "Value Iteration",
+  "definitions": {
+    "Value Iteration": "A dynamic programming algorithm used in reinforcement learning to find the optimal policy for an agent in a Markov Decision Process."
+  },
+  "formulas": [
+    "V(s) = max_a [R(s, a) + γV(s')]",
+    "π*(s) = argmax_a [R(s, a) + γV*(s')]"
+  ],
+  "keywords": [
+    "Value Iteration",
+    "Dynamic Programming",
+    "Reinforcement Learning",
+    "Optimal Policy",
+    "Markov Decision Process"
+  ],
+  "summary": "The slide presents the concept of Value Iteration, a dynamic programming algorithm used in reinforcement learning to find the optimal policy for an agent in a Markov Decision Process. It includes the main formula for Value Iteration and the formula for finding the optimal policy."
+}

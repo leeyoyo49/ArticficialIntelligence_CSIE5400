@@ -1,0 +1,20 @@
+Policy Evaluation
+
+ 
+
+m How do we calculate the V's for a fixed policy zr?
+
+m Idea 1: Tum recursive equations into updates (like value iteration)                   1(S)
+
+ 
+ 
+
+Vg(s) =0                                                            p 78)
+
+Vipals) — OTs, 4(s), 891K, (5), 5") + Ves] SOS
+
+m Idea 2: Without the maxes, the equations are just a linear system
+- Solve with your favorite linear system solver
+
+ 
+

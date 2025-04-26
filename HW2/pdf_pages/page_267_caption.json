@@ -1,0 +1,49 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "Structured Alignment": "Aligning text and image event graphs to a common structure.",
+    "Cost Matrix": "C (embedding similarity)",
+    "Optimization Goal": "Minimize transport distance",
+    "Transport Plan": "T within k iterations",
+    "Sinkhorn Knopp algorithm": "A method for approximating optimal transport."
+  },
+  "formulas": [
+    "D(S,T) = min T * C",
+    "T = diag(p) exp(-C/γ) diag(q)",
+    "p^{i+1} = 1/Σ_{q} (Kq^{i})",
+    "q^{i+1} = 1/Σ_{p} (K^T_{p} q^{i})",
+    "T_k = diag(p^k) K diag(q^k)"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Structured Alignment",
+    "Optimal Transport"
+  ],
+  "summary": "The slide discusses MLLM Pretraining with Event Semantic Structures, focusing on Structured Alignment via Optimal Transport. It defines a cost matrix, sets an optimization goal to minimize transport distance, and describes the Sinkhorn Knopp algorithm for approximating optimal transport. The slide also includes a visual representation of event graphs and a mathematical formula for the optimization process."
+}
+```

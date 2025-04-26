@@ -1,0 +1,22 @@
+{
+  "title": "Reinforcement Learning",
+  "definitions": {
+    "Markov decision process": "A set of states s in S, a set of actions (per state) A, a model T(s,a,s'), a reward function R(s,a,s')",
+    "Policy": "Still looking for a policy π(s)"
+  },
+  "formulas": [
+    "T(s,a,s')",
+    "R(s,a,s')"
+  ],
+  "keywords": [
+    "Markov",
+    "decision process",
+    "states",
+    "actions",
+    "model",
+    "reward function",
+    "policy",
+    "π(s)"
+  ],
+  "summary": "The slide discusses Reinforcement Learning, focusing on the Markov decision process (MDP) which includes a set of states, actions, a model, and a reward function. It also mentions the ongoing search for a policy π(s). A diagram illustrates the process with a car's temperature states and actions, showing the impact of different actions on the car's temperature."
+}

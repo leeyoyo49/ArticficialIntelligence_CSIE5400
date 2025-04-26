@@ -1,0 +1,23 @@
+iY   Denoising Diffusion Models                    (
+和
+
+m Reverse denoising process: Removing noise
+
+e We can’t directly calculate q(x,_,;|x,) because it involves complex data-
+related calculations. Instead, we model the reverse process with a neural
+
+network to estimate q(x;_4|X;).
+
+Po(X+—1|Xz)
+人一
+
+Sa ee
+
+ 
+
+ 
+
+Model
+
+45                                                               Source: https://lilianweng.github.io/posts/202 1-07-11-diffusion-models/
+

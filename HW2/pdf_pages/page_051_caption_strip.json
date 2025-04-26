@@ -1,0 +1,18 @@
+{
+  "title": "Multimodal Embedding Spaces",
+  "definitions": {
+    "Multimodal learning": "Generalization across any-to-any modalities"
+  },
+  "formulas": [
+    "Transformer encoder",
+    "Transformer decoder"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Embedding",
+    "Spaces",
+    "Generalization",
+    "Any-to-any model"
+  ],
+  "summary": "The slide presents the concept of Multimodal learning, which is the generalization across any-to-any modalities. It features an 'Any-to-any model' with a 'Transformer encoder' and 'Transformer decoder'. The model is applied to various modalities such as RGB, Edge, Geometric, Semantic, Text, Metadata, Feature map, and Global feature modalities. Each modality is represented with an image and a brief description. The source of the information is cited as '4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities,' NeurIPS, 2024."
+}

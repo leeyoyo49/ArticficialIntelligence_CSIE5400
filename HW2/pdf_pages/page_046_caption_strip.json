@@ -1,0 +1,17 @@
+{
+  "title": "Text to Image Generation with Diffusion Based Models",
+  "definitions": {
+    "Conditional generation": "Generating photorealistic images given any text input"
+  },
+  "formulas": [
+    "X_t"
+  ],
+  "keywords": [
+    "Text",
+    "Image",
+    "Generation",
+    "Photorealistic",
+    "Conditional"
+  ],
+  "summary": "The slide discusses the concept of generating photorealistic images from any text input using diffusion-based models. It includes a diagram illustrating the process, where 'X_t' represents the text input and the transformation into an image."
+}

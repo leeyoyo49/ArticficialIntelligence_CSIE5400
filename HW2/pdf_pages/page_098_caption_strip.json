@@ -1,0 +1,21 @@
+{
+  "title": "Examples of Self-Verification",
+  "definitions": {
+    "Inventory": "A list of items and their quantities in a player's inventory.",
+    "GPT-4": "A hypothetical advanced version of the GPT language model."
+  },
+  "formulas": [
+    "Inventory (8/36): {oak_planks: 5, cobblestone: 2, porkchop: 2, wooden_sword: 1, coal: 5, wooden_pickaxe: 1, oak_log: 3, dirt: 9}",
+    "Inventory (10/36): {raw_copper: 9, copper_ingot: 3, acacia_planks: 1, raw_iron: 1, stick: 1, iron_sword: 1, iron_pickaxe: 1, crafting_table: 1, furnace: 1}",
+    "Inventory (7/36): {oak_igol: 5, oak_planks: 1, wooden_pickaxe: 1, wooden_sword: 1, porkchop: 2, white_wool: 2, mutton: 6}",
+    "Inventory (9/36): {string: 4, coal: 1, rotten_flesh: 1, iron_sword: 1, furnace: 1, dirt: 6, stone_shovel: 1, wooden_pickaxe: 1, granite: 5}"
+  ],
+  "keywords": [
+    "Self-Verification",
+    "Inventory",
+    "Mining",
+    "Crafting",
+    "Reasoning"
+  ],
+  "summary": "The slide provides examples of self-verification in a game context, where the inventory and tasks are analyzed by GPT-4 to determine the success or failure of tasks such as mining coal, crafting a spyglass, killing sheep, and killing a zombie."
+}

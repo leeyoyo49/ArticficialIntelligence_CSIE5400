@@ -1,0 +1,19 @@
+{
+  "title": "The Transformer Encoder Block (3/5)",
+  "definitions": {
+    "Transformer encoder": "A component of the Transformer model in machine learning that processes input data through multiple layers of self-attention and feed-forward neural networks.",
+    "Positional encoding": "A method used in the Transformer model to add information about the order of the input tokens to the model's processing."
+  },
+  "formulas": [
+    "x N",
+    "Z_0,0 to Z_2,2"
+  ],
+  "keywords": [
+    "Transformer",
+    "Encoder",
+    "Block",
+    "Machine Learning",
+    "Self-attention"
+  ],
+  "summary": "The slide presents the third part of a series on Transformer Encoder Blocks, focusing on the addition of positional encoding to the input data in the Transformer model."
+}

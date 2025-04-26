@@ -1,0 +1,20 @@
+{
+  "title": "More Reflection, Greater Success",
+  "definitions": {
+    "ReAct": "ReAct [ICLR 2023]",
+    "Reflexion (Heuristic)": "Reflexion (Heuristic)",
+    "Reflexion (GPT)": "Reflexion (GPT)"
+  },
+  "formulas": [
+    "ALFWorld Success Rate",
+    "Proportion of Solved Environments"
+  ],
+  "keywords": [
+    "ReAct",
+    "Reflexion",
+    "Heuristic",
+    "GPT",
+    "Success Rate"
+  ],
+  "summary": "The slide presents a comparison of the performance of ReAct with and without Reflexion, using heuristic and GPT self-evaluation techniques for binary classification. The graph shows that ReAct with Reflexion (GPT) has a higher success rate across 134 tasks."
+}

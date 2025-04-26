@@ -1,0 +1,19 @@
+{
+  "title": "BERTScore Architecture",
+  "definitions": {
+    "BERTScore": "A metric used to evaluate the quality of text by comparing the similarity of contextual embeddings between reference and candidate sentences."
+  },
+  "formulas": [
+    "R_BERT = (0.713 x 1.27) + (0.515 x 7.94) + ... / (1.27 + 7.94 + 1.82 + 7.90 + 8.88)",
+    "Pairwise Cosine Similarity"
+  ],
+  "keywords": [
+    "BERTScore",
+    "Architecture",
+    "Cosine Similarity",
+    "Contextual Embeddings",
+    "Reference",
+    "Candidate"
+  ],
+  "summary": "The slide presents the BERTScore architecture, explaining how it measures the similarity between the contextual embeddings of reference and candidate sentences using cosine similarity. It includes a visual representation of the process and a formula for calculating the BERTScore."
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Active Reinforcement Learning",
+  "definitions": {
+    "Active Reinforcement Learning": "A type of reinforcement learning where the agent is allowed to make decisions about when to explore or exploit."
+  },
+  "formulas": [
+    "π*(s) = argmax Q(s,a)"
+  ],
+  "keywords": [
+    "Active Reinforcement Learning",
+    "agent",
+    "explore",
+    "exploit",
+    "policy"
+  ],
+  "summary": "The slide presents the concept of Active Reinforcement Learning, where an agent decides to explore or exploit based on a policy. The policy is defined by the formula π*(s) = argmax Q(s,a), which maximizes the expected return."
+}

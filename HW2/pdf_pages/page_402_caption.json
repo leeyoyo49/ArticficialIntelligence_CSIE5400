@@ -1,0 +1,63 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Sample-Based Policy Evaluation?",
+  "definitions": {
+    "V_k+1(s)": "The value function at state s for the next time step k+1",
+    "T(s, \u03c0(s), s')": "The transition function from state s to state s' with action \u03c0(s)",
+    "R(s, \u03c0(s), s')": "The reward function for taking action \u03c0(s) in state s and resulting in state s'",
+    "\u03b7": "A discount factor",
+    "s'": "The next state after taking action \u03c0(s) in state s",
+    "sample1": "The first sample of outcomes",
+    "sample2": "The second sample of outcomes",
+    "samplen": "The nth sample of outcomes",
+    "Known P(A)": "The probability of action A",
+    "Unknown P(A)": "The probability of action A, which is model free",
+    "E[A]": "The expected value of action A",
+    "N": "The number of samples",
+    "ai": "The ith sample of action"
+  },
+  "formulas": [
+    "V_k+1(s) = \u222a T(s, \u03c0(s), s') [R(s, \u03c0(s), s') + \u03b7V_k(s')]",
+    "sample1 = R(s, \u03c0(s), s1) + \u03b7V_k(s1)",
+    "sample2 = R(s, \u03c0(s), s2) + \u03b7V_k(s2)",
+    "samplen = R(s, \u03c0(s), sn) + \u03b7V_k(sn)",
+    "V_k+1(s) = 1/N \u00b7 \u222a samplei",
+    "E[A] = \u222a P(a) \u00b7 a",
+    "E[A] \u2248 1/N \u00b7 \u222a ai"
+  ],
+  "keywords": [
+    "Sample-Based Policy Evaluation",
+    "Value Function",
+    "Transition Function",
+    "Reward Function",
+    "Discount Factor",
+    "State",
+    "Action",
+    "Probability",
+    "Expected Value",
+    "Model Free"
+  ],
+  "summary": "The slide discusses improving the estimate of a value function V by computing averages using samples of outcomes. It introduces the concept of taking samples of outcomes s' by performing an action \u03c0(s) and averaging them. The slide also presents formulas for calculating the value function V_k+1(s) and the expected value E[A]. It differentiates between known and unknown probabilities of action A."
+}

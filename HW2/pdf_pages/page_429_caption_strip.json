@@ -1,0 +1,17 @@
+{
+  "title": "Tricks for handling a constantly changing input and output",
+  "definitions": {
+    "Target Network": "A separate network used to estimate the target value, with the same architecture as the function approximator but with frozen parameters."
+  },
+  "formulas": [
+    "For every C iterations (a hyperparameter), the parameters from the prediction network are copied to the target network."
+  ],
+  "keywords": [
+    "Target Network",
+    "neural network",
+    "learning",
+    "function approximator",
+    "hyperparameter"
+  ],
+  "summary": "The slide discusses the use of a Target Network in neural networks to handle constant input and output changes. It suggests using a separate network with frozen parameters to estimate the target value, which leads to more stable training."
+}

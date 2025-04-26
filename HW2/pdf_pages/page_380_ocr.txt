@@ -1,0 +1,15 @@
+nature
+
+Article | Published: 30 October 2019
+
+Grandmaster level in StarCraft II using multi-agent
+reinforcement learning
+
+Actions limit ~22 per 5 s (*'7)Requested delay ~200 ms
+
+ 
+
+processing delay 30 ms
+
+ing delay 80 ms
+

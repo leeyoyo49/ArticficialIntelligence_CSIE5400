@@ -1,0 +1,45 @@
+Caption Text t
+
+   Antigovernment protesters carry an
+
+_ injured man on a stretcher after
+
+: Clashes with riot police on
+
+: Independence Square in Kyiv on
+February 20, 2014.
+
+ 
+
+w V  al
+
+Person
+
+Bench
+
+                                                                                                                                                                                                                                                                   
+                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                      
+  
+
+Agent ptetes
+Target nvedman
+nsruneat [svoher
+
+ 
+  
+ 
+
+   
+ 
+
+Extraction
+
+Weakly Supervision
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+
+ 
+
+  
+

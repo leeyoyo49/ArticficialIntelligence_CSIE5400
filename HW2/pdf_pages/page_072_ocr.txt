@@ -1,0 +1,36 @@
+iY   Tool Use: Example
+mm
+
+72
+
+  
+
+Language Model
+_ input ——— output
+
+Tool Augmented Language Model
+
+input — toolinput ~ tool result > output
+
+call            append
+external Lo Ly J) tool
+
+tool                        result            An abstract task:
+
+task input text |tool-call tool input text |result tool out-
+put text |output task output text
+
+ 
+
+ 
+
+A weather task:
+how hot will it get in NYC today? |weather lookup re-
+
+gion=NYC |result precipitation chance: 10, high temp:
+20c, low-temp: 12c |output today’s high will be 20C
+
+ 
+
+Source: “TALM: Tool Augmented Language Models,” arXiv, 2022.
+

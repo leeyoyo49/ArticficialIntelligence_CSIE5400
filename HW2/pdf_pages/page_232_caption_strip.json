@@ -1,0 +1,17 @@
+{
+  "title": "Multimodal CoT Reasoning",
+  "definitions": {
+    "Multimodal CoT Reasoning": "A method of reasoning that involves multiple modes of input and output, such as text, images, and speech."
+  },
+  "formulas": [
+    "N/A"
+  ],
+  "keywords": [
+    "Multimodal",
+    "CoT",
+    "Reasoning",
+    "Commonsense",
+    "Mistakes"
+  ],
+  "summary": "The slide discusses Multimodal CoT Reasoning and provides examples of commonsense mistakes about utilizing the alphabet. It also includes a problem and its solution related to finding a word on a dictionary page."
+}

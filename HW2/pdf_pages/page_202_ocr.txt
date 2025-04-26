@@ -1,0 +1,31 @@
+  
+
+iY   A Running Example
+mm
+
+Chain-of- Thought Decoding
+
+Was Nicolas Cage born in an even or odd year?
+
+Top-1: Nicolas       Nicolas Cage was born in an odd year.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Top-3: Odd          Odd.
+
+Top-4: 1964         1964, an even year.
+
+Top-5: He            He was born in an even year.
+
+Top-6: Cage         Cage was born in 1964, an even year.
+
+ 
+
+28                                                                                          Source: “Large Language Model Agents,” CS294/194-196, Berkeley University, 2024.
+

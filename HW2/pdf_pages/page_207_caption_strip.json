@@ -1,0 +1,15 @@
+{
+  "title": "LaVA-CoT",
+  "definitions": {
+    "LaVA-CoT": "Let Vision Language Models Reason Step-by-Step"
+  },
+  "formulas": [],
+  "keywords": [
+    "LaVA",
+    "CoT",
+    "Vision Language Models",
+    "Reasoning",
+    "Step-by-Step"
+  ],
+  "summary": "The slide presents the concept of LaVA-CoT, which stands for Let Vision Language Models Reason Step-by-Step. It outlines a process where a model first provides a summary, then a caption, followed by reasoning, and finally a conclusion. This process is depicted in a flowchart with corresponding colors for each step."
+}

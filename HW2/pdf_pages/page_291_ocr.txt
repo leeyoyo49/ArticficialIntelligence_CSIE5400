@@ -1,0 +1,22 @@
+50K Real Training Images
+
+Pa oe =
+
+                                                                                                                                                                                                                                                                  
+
+Dataset Distillation
+
+  
+  
+
+Beso A            Distillation
+¢ Dataset distillation has emerged as
+a powerful approach for reducing
+data requirements in deep learning jain                    10 Synthetic Training images
+
+* j.e., condensing a large, real dataset
+
+into a smaller, synthetic one
+
+Similar Test Performance
+

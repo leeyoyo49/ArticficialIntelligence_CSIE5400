@@ -1,0 +1,25 @@
+{
+  "title": "Values of States",
+  "definitions": {
+    "V*(s)": "max Q*(s,a)",
+    "Q*(s,a)": "q-state",
+    "s": "state",
+    "a": "action",
+    "s'": "next state",
+    "T(s,a,s')": "transition"
+  },
+  "formulas": [
+    "V*(s) = max Q*(s,a)"
+  ],
+  "keywords": [
+    "Recursive definition",
+    "value",
+    "expectimax",
+    "q-state",
+    "state",
+    "action",
+    "next state",
+    "transition"
+  ],
+  "summary": "The slide presents the recursive definition of value in a game theory context, similar to the expectimax algorithm. It includes a formula for calculating the value of a state and a diagram illustrating the concept of states, actions, and transitions."
+}

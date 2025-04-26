@@ -1,0 +1,22 @@
+{
+  "title": "How to perform step by step reasoning without using demonstration examples?",
+  "definitions": {
+    "juggler": "A person who performs the act of juggling.",
+    "balls": "Objects that are being juggled.",
+    "golf balls": "Small, hollow balls used in the sport of golf.",
+    "blue": "A color that is a lighter shade of blue."
+  },
+  "formulas": [
+    "16 balls in total",
+    "Half of the balls are golf balls",
+    "Half of the golf balls are blue"
+  ],
+  "keywords": [
+    "juggler",
+    "balls",
+    "golf balls",
+    "blue",
+    "16"
+  ],
+  "summary": "The slide explains how to perform step by step reasoning without using demonstration examples. It uses a juggler and balls as an example to illustrate the process. The juggler can juggle 16 balls, half of which are golf balls, and half of the golf balls are blue. The slide concludes that there are 8 golf balls and 4 blue golf balls."
+}

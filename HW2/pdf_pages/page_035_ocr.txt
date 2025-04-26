@@ -1,0 +1,143 @@
+35
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Layer norm
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+MLP
+
+   
+
+ 
+
+ 
+
+ 
+
+Layer norm
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+    
+
+spJouujoJsueJll
+
+ 
+
+ 
+
+Layer norm
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Positional encoding
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+[START] person wearing — hat
+
+ 
+
+Multi-head attention
+block is NOT self-
+attention. It attends
+over encoder outputs.
+
+For image captions,
+this is how we inject
+image features into
+the decoder.
+

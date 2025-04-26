@@ -1,0 +1,17 @@
+{
+  "title": "An Example of Coding (Codeforces task) (2/3)",
+  "definitions": {
+    "prefix product algorithm": "The core algorithm for solving this problem is the prefix product algorithm. The algorithm works by initializing a variable 'prefix' to 1, and then iterating through the array from left to right. At each iteration, the current element is multiplied with the prefix, and the result is stored in the prefix variable. This way, the prefix variable keeps track of the product of all the elements in the prefix of the array. The time complexity of this algorithm is O(n), where n is the size of the input array."
+  },
+  "formulas": [
+    "O(n)"
+  ],
+  "keywords": [
+    "prefix product algorithm",
+    "algorithm",
+    "prefix",
+    "product",
+    "time complexity"
+  ],
+  "summary": "The slide provides an example of a coding task from Codeforces, focusing on the prefix product algorithm. It explains the algorithm's operation and time complexity, and presents three problems related to finding products of subarrays in an array of integers."
+}

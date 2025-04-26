@@ -1,0 +1,23 @@
+  
+
+iY   Performance on ‘RAVEN’
+mm
+
+Task: Each question has 3 or 8 images as input and 6 candidate images
+with a unique answer, and the goal is to predict the right image
+
+       Q: Do you agree the following image is:
+, [|‧|| ](%)        vat
+Table 3: Zero-shot generalization on Raven IQ test.
+全   (+)  |? |     Correct? --- Correct? -.- Correct?         Model                             Accuracy
+Random Choice                                     17
+
+Answer: P {Yes|Q}                                                 InstructBlip (Dai et al., 2023)               10.00
+
+十    +)                                                                                                 Otter (Li et al., 2023a)                        22.00
+KOSMOS-1 (Huang et al., 2023a)       22.00
+
+MMICL (FLAN-T5-XXL)                 34.00
+
+48                                                                          Source: “Raven: A dataset for relational and analogical visual reasoning,” CVPR, 2019.
+

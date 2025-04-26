@@ -1,0 +1,13 @@
+Reinforcement Learning
+
+ 
+
+gm Still assume a Markov decision process (MDP):
+= Asetof statesseS
+= Aset of actions (per state) A
+= Amodel T(s,a,3’)
+= Areward function R(s,a,s’)
+gw Still looking for a policy z(s)
+
+ 
+

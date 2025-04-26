@@ -1,0 +1,37 @@
+   
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+State-of-the-art Captioner
+
+Answer
+
+a woman holding a sign in front of a group of people.
+
+man holding a sign while standing in a park.
+
+Entity-
+73和an holdingasigninfrontofacrowd.
+
+ 
+
+                                                                                                                                                                                                                                                                                                                                                                                  
+
+                                                                                              
+
+Protest
+aan                               @ banner
+Event-           child  e 多   e   @ onc:   i  fe
+centric          ;      :    banner  ha ids !   Ts
+
+aed
+
+ 
+
+Source: “Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

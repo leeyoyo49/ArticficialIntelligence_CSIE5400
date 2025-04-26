@@ -1,0 +1,18 @@
+{
+  "title": "Probing \"Visible\" Physical Commonsense Knowledge",
+  "definitions": {
+    "Visually accessible knowledge": "representing color, size and space"
+  },
+  "formulas": [
+    "Relaxed Accuracy (R-Acc) = ∑ [i ∃ Ti] ∤ [li = arg maxj Pj(l)] / |D|",
+    "R-Acc = ∑ [i ∃ Ti] ∤ [li = arg maxj Pj(l)]"
+  ],
+  "keywords": [
+    "Visually accessible knowledge",
+    "color",
+    "size",
+    "space",
+    "R-Acc"
+  ],
+  "summary": "The slide presents a study on probing 'Visible' physical commonsense knowledge, focusing on color, size, and spatial understanding. It includes a table comparing the performance of different models (BERT_large, RoBERTa_large, UnifiedQA_large, VisualBERT) and humans on zero-shot results across tasks. The concept of Relaxed Accuracy (R-Acc) is defined and explained."
+}

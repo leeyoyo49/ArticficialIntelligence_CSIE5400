@@ -1,0 +1,18 @@
+{
+  "title": "Denoising Diffusion Models",
+  "definitions": {
+    "Forward diffusion process": "Introducing noise",
+    "Gaussian noise": "In the forward diffusion process, the small Gaussian noise is incrementally added to the distribution over T steps, resulting in a series of increasingly noisy samples."
+  },
+  "formulas": [
+    "q(x_t|x_t-1) = N(x_t; sqrt(1 - beta_t * x_t-1), beta_t * I)"
+  ],
+  "keywords": [
+    "Denoising",
+    "Diffusion",
+    "Models",
+    "Forward diffusion process",
+    "Gaussian noise"
+  ],
+  "summary": "The slide discusses Denoising Diffusion Models, focusing on the forward diffusion process where Gaussian noise is incrementally added to a distribution over T steps, resulting in increasingly noisy samples. A formula is provided to represent this process."
+}

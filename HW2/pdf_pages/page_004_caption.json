@@ -1,0 +1,47 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "AI Weekly",
+  "definitions": {
+    "Agent": "The entity that interacts with the environment to achieve a goal.",
+    "State s": "The current situation or status of the environment.",
+    "Policy π": "A strategy that defines the action to be taken in each state.",
+    "Action a": "The action taken by the agent.",
+    "Deep Neural network": "A type of artificial neural network with multiple layers.",
+    "Reward": "The feedback received by the agent from the environment."
+  },
+  "formulas": [
+    "The agent's policy π is a function of the state s, which maps the state to an action a."
+  ],
+  "keywords": [
+    "Agent",
+    "State",
+    "Policy",
+    "Action",
+    "Deep Neural network",
+    "Reward"
+  ],
+  "summary": "The slide presents the basic principle of deep reinforcement learning, illustrating the interaction between an agent, its environment, and the feedback loop of actions and rewards. It includes a diagram of a deep neural network as part of the agent's policy."
+}
+```

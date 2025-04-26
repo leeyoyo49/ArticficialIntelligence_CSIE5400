@@ -1,0 +1,18 @@
+45
+
+aN     Image Declaration                                             (
+
+。「上irstly, we allocate a unique image proxy (IMGijj) to reference
+the visual embedding of image j, which provides a unique
+identifier for MLLMs to index and distinguish between visual
+and text embeddings.
+
+¢ Then, we utilize natural language prompts to establish
+references between text and image.
+
+¢ Incorporating the explicit text-to-image reference in the image
+declaration assists the model in correlating the text with the
+appropriate image.
+
+Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.
+

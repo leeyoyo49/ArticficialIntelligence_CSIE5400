@@ -1,0 +1,21 @@
+iY   Masked Self-Attention Layer                    (
+ml
+
+f f 1
+
+ 
+ 
+
+ 
+
+¢ Prevent vectors from looking
+at future vectors
+5 ¢ ‘Future’ alignment scores are
+:       set to -infinity
+
+ 
+
+Input vectors
+
+34                                                                                                       Source: “Attention is All You Need,” NIPS. 2017.
+

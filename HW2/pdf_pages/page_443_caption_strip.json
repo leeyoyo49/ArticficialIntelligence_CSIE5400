@@ -1,0 +1,18 @@
+{
+  "title": "BLEU (1/4)",
+  "definitions": {
+    "BLEU": "To count how many words in a candidate text C are present in the reference text R, and divide the result by the number of words in C to get a percentage."
+  },
+  "formulas": [
+    "BLEU*(C) = 3/5 = 0.6",
+    "BLEU*(C) = 5/5 = 1!"
+  ],
+  "keywords": [
+    "BLEU",
+    "unigrams",
+    "precision",
+    "candidate text",
+    "reference text"
+  ],
+  "summary": "The slide explains the BLEU score, a metric for evaluating machine translation quality by comparing a candidate text to a reference text. It includes an example calculation and highlights the issue of repeating unigrams."
+}

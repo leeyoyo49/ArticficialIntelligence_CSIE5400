@@ -1,0 +1,45 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Multimodal Embedding Spaces",
+  "definitions": {
+    "Multimodal learning": "The multi-modal nature of MLLMs is powered by two encoder models (Text encoder and Image encoder) trained to 'speak the same language'."
+  },
+  "formulas": [
+    "[1.29, 0.76, ...]",
+    "[2.41, -0.03, ...]",
+    "[1.21, 0.81, ...]",
+    "[2.04, -0.11, ...]"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Embedding",
+    "Spaces",
+    "Multimodal learning",
+    "Text encoder",
+    "Image encoder"
+  ],
+  "summary": "The slide discusses Multimodal Embedding Spaces, focusing on Multimodal learning. It explains that the multi-modal nature of Multimodal Machine Learning Models (MLLMs) is achieved through two encoder models, a Text encoder and an Image encoder, which are trained to 'speak the same language'. The slide also includes a diagram showing the flow from text to image encoders and the resulting embeddings."
+}
+```

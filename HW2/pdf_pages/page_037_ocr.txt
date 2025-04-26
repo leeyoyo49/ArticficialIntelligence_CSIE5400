@@ -1,0 +1,15 @@
+m= Text to Image Generation
+e Generating realistic images from text descriptions
+
+by OpenAl’s DALL:E 2
+
+ 
+
+a propaganda poster depicting a cat
+a dolphin in an astronaut                                                                 a teddy bear on a skateboard
+.                       .                    dressed as french emperor                      點時
+suit on saturn, artstation                              .        .                                  in times square
+napoleon holding a piece of cheese
+
+37                                                              Source: ’Hierarchical Text-Conditional Image Generation with CLIP Latents,” arXiv, 2022.
+

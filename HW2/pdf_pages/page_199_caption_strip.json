@@ -1,0 +1,25 @@
+{
+  "title": "An Example of Coding (Codeforces task) (3/3)",
+  "definitions": {
+    "Python3": "Python3 code to solve the original problem.",
+    "int": "Integer data type in Python.",
+    "input": "Function to take user input.",
+    "range": "Function to generate a sequence of numbers.",
+    "list": "Function to create a list.",
+    "map": "Function to apply a function to all items in an iterable.",
+    "split": "Function to split a string into a list."
+  },
+  "formulas": [
+    "prefix * arr[i]",
+    "suffix * arr[i]",
+    "k = i"
+  ],
+  "keywords": [
+    "Python3",
+    "int",
+    "input",
+    "range",
+    "list"
+  ],
+  "summary": "The slide provides a Python3 code example to solve a coding problem on Codeforces. It includes a step-by-step explanation of the solution and the actual code."
+}

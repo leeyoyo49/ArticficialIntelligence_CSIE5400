@@ -1,0 +1,19 @@
+{
+  "title": "Example: Language Translation with Transformers",
+  "definitions": {
+    "Autoregressive generation": "the inference-time procedure of iteratively calling a model with its own generated outputs, given a few initial inputs."
+  },
+  "formulas": [
+    "X1:7",
+    "y0=BOS",
+    "y1=Ich"
+  ],
+  "keywords": [
+    "Autoregressive",
+    "generation",
+    "inference-time",
+    "model",
+    "outputs"
+  ],
+  "summary": "The slide provides an example of language translation using transformers, explaining the concept of autoregressive generation and illustrating the process with a diagram of encoder and decoder blocks."
+}

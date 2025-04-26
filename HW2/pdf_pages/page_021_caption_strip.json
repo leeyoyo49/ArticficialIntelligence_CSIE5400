@@ -1,0 +1,19 @@
+{
+  "title": "Positional Encoding",
+  "definitions": {
+    "self-attention": "A mechanism in neural networks that allows the model to weigh the importance of different parts of the input data.",
+    "position encoding": "A method used in neural networks to give the model information about the position of words in a sentence."
+  },
+  "formulas": [
+    "p(t) = [sin(ω1.t), cos(ω1.t), sin(ω2.t), cos(ω2.t), ..., sin(ωd/2.t), cos(ωd/2.t)]",
+    "ωk = 1 / (10000^(2k/d))"
+  ],
+  "keywords": [
+    "self-attention",
+    "position encoding",
+    "lookup table",
+    "fixed function",
+    "desiderata"
+  ],
+  "summary": "The slide discusses positional encoding in neural networks, explaining how to concatenate special positional encoding to each input vector and the options for the function pos(t). It includes a diagram illustrating the process and a formula for calculating p(t)."
+}

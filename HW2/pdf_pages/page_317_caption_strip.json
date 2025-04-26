@@ -1,0 +1,17 @@
+{
+  "title": "Utilities of Sequences",
+  "definitions": {
+    "Sequence": "A sequence is an ordered list of elements, often used in mathematics and computer science to represent a series of items or data points."
+  },
+  "formulas": [
+    "The nth term of an arithmetic sequence can be found using the formula: a_n = a_1 + (n - 1)d, where a_n is the nth term, a_1 is the first term, and d is the common difference."
+  ],
+  "keywords": [
+    "Sequence",
+    "Arithmetic",
+    "Term",
+    "Common difference",
+    "Nth term"
+  ],
+  "summary": "The slide discusses the concept of sequences, specifically focusing on the utility of sequences in mathematics and computer science. It defines a sequence and provides a formula for finding the nth term of an arithmetic sequence."
+}

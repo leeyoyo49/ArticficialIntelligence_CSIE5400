@@ -1,0 +1,41 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Model-Free Learning",
+  "definitions": {
+    "Model-Free Learning": "A type of machine learning where the algorithm learns to make decisions based on the current state and the reward received, without building a model of the environment."
+  },
+  "formulas": [
+    "Q-learning formula: Q(s, a) = Q(s, a) + alpha * (reward + gamma * max(Q(s', a)) - Q(s, a))"
+  ],
+  "keywords": [
+    "Model-Free Learning",
+    "machine learning",
+    "algorithm",
+    "state",
+    "reward"
+  ],
+  "summary": "The slide presents the concept of Model-Free Learning, a machine learning approach where decisions are made based on the current state and received rewards, without constructing a predictive model of the environment. It includes the Q-learning formula, which is central to this learning method."
+}
+```

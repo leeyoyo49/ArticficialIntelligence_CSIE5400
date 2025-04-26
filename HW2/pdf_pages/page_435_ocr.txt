@@ -1,0 +1,21 @@
+iY   Potential for Self-Improvement                        (
+『
+
+m Experiments conducted on NLP benchmarks
+
+= Benchmark#1 (reasoning):
+
+e Bigbench-hard (2023)
+¢ including multiple reasoning tasks consisting of multiple-choice and
+
+direct-generation tasks.
+
+BIG-bench 到
+
+The Beyond the Imitation Game Benchmark (BIG-bench) is a collaborative benchmark intended to probe large
+language models and extrapolate their future capabilities. The more than 200 tasks included in BIG-bench are
+
+https://github.com/google/BIG-bench?tab=readme-ov-file
+
+150
+

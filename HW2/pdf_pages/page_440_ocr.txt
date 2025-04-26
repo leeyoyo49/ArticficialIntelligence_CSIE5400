@@ -1,0 +1,26 @@
+ 
+
+ 
+
+iY   Potential for Self-Improvement
+_
+
+m Experiments conducted on NLP benchmarks
+
+m Benchmark#2 (Summarization):
+
+e CNN/Daily Mail (2016)
+
+¢ including 286,817 training pairs, 13,368 validation pairs and 11,487
+test pairs, as defined by their scripts from new-stories in CNN and
+Daily Mail websites. The source documents in the training set have
+766 words spanning 29.74 sentences on an average while the
+summaries consist of 53 words and 3.72 sentences.
+
+e BBC (2021)
+¢ including 2225 BBC news website documents in five topical areas
+from 2004-2005
+
+Reference#1: “Abstractive text summarization using sequence-to-sequence RNNs and beyond,” CoNLL 2016
+Reference#2: “Automated News Summarization Using Transformers,” ICSAC 2021.
+

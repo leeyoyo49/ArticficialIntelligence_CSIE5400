@@ -1,0 +1,18 @@
+{
+  "title": "DM: feature point matching methods",
+  "definitions": {
+    "MSE": "Mean Squared Error"
+  },
+  "formulas": [
+    "min L(D, D1|Z_R)",
+    "L(D, D2|Z_R)"
+  ],
+  "keywords": [
+    "feature point matching",
+    "MSE",
+    "pixel-level",
+    "patch-level",
+    "semantic structures"
+  ],
+  "summary": "The slide discusses the limitations of Mean Squared Error (MSE) in matching methods, which only captures pixel-level or patch-level information without considering the semantic structures in high-dimensional manifolds. It suggests that MSE is not suitable for distribution comparison. A diagram illustrates the concept of minimizing distance within a set Z_R, comparing synthetic and real data."
+}

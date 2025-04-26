@@ -1,0 +1,62 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>¢ MMBench [ECCV 2024]      Fine-grained Perception
+
+(cross-instance)
+
+Spatial Relationship
+
+Q: Which country is north of the
+country circled in blue?
+
+ 
+
+Attribute Comparison
+
+Q: Are the two arrows in the same
+direction in the picture?
+
+A. Same
+
+B. Not the same
+
+C. Can't judge
+
+GT: B
+
+104
+
+ 
+
+Which country is the southernmost
+
+Q: Are the candies in the two jars
+in the picture the same color?
+
+A. Same
+
+B. Not the same
+
+C. Can't judge
+
+GT: B<|im_end|><|im_start|>assistant<|im_sep|>{
+  "title": "Various reasoning benchmarks are emerging",
+  "definitions": {
+    "MMBench": "Fine-grained Perception (cross-instance)"
+  },
+  "formulas": [],
+  "keywords": ["MMBench", "ECCV 2024", "Fine-grained Perception", "cross-instance", "Spatial Relationship", "Attribute Comparison"],
+  "summary": "The slide discusses emerging reasoning benchmarks, specifically MMBench [ECCV 2024], which focuses on fine-grained perception (cross-instance). It includes examples of spatial relationship and attribute comparison questions, with answers provided for each."
+}

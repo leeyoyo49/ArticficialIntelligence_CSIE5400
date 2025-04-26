@@ -1,0 +1,19 @@
+{
+  "title": "Multimodal Reasoning",
+  "definitions": {
+    "VPG": "Visual-Prompt Generators"
+  },
+  "formulas": [
+    "MLLMs focus on a single image",
+    "MLLMs with few-shot ability",
+    "MLLMs with text-to-image reference"
+  ],
+  "keywords": [
+    "Multimodal",
+    "Reasoning",
+    "VPG",
+    "LLM",
+    "Image Declaration"
+  ],
+  "summary": "The slide presents the concept of Multimodal Reasoning, focusing on Visual-Prompt Generators (VPG). It illustrates three types of Multimodal Language Models (MLLMs): those focusing on a single image, those with few-shot ability, and those with text-to-image reference. The diagram shows the flow of information from text inputs through LLMs to VPGs, which then generate images. The source of the information is cited as 'MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,' ICLR, 2024."
+}

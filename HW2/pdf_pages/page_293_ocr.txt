@@ -1,0 +1,43 @@
+Achieved performances of this paper
+
+    
+   
+  
+
+Full Dataset
+
+oO)
+0
+
+on
+Oo
+
+                                                                                                                                                                                                                                                                                                                                    
+   
+
+Speed (second / iteration)
+\ IPC 1 10 50 100
+i
+
+°  C)    ' NCFM/0.8 0.7 1.0 0.8
+
+            | DATM| 88 14.8 15.2 15.6
+oO      1
+DATM | 20 me mw 56 | fics
+
+1                               10                             50
+Image Per Class (IPC)
+
+oe二
+
+GPU Memory
+
+Test Accuracy (%)
+wo 條
+©          0
+
+NO
+0
+
+100
+

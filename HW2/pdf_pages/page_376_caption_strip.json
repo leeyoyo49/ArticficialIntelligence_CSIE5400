@@ -1,0 +1,18 @@
+{
+  "title": "Policy Iteration",
+  "definitions": {
+    "Policy Iteration": "A method used in reinforcement learning to find the optimal policy by iteratively evaluating and improving a policy."
+  },
+  "formulas": [
+    "V^π_i(s) = Σ T(s, π_i(s), s') [R(s, π_i(s), s') + γV^π_i(s')]",
+    "π_i+1(s) = arg max_a Σ T(s, a, s') [R(s, a, s') + γV^π_i(s')]"
+  ],
+  "keywords": [
+    "Policy Iteration",
+    "Reinforcement Learning",
+    "Optimal Policy",
+    "Evaluation",
+    "Improvement"
+  ],
+  "summary": "The slide discusses Policy Iteration in reinforcement learning, detailing the evaluation and improvement steps. It includes formulas for calculating the value function and policy updates."
+}

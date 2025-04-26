@@ -1,0 +1,39 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the ocr of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }<|im_end|><|im_start|>user<|im_sep|>iY    Multimodal Reasoning
+mm
+
+Example Problem: Logical
+
+ 
+
+ 
+   
+
+ 
+
+e= = 2] 2] 2] 2] 2] =] =] =| =| = = = =my
+f                                                                               \
+i            Please take a closer look at the two                  i
+i  XS   images and explain the connection                i
+i        between them.                                                   j
+1                                                                                 |
+上                                                                                 |
+:              The baby is crying as he broke the                .
+cup.
+I                                                                   I
+N                                   還                                       儿
+
+40                                                              Source: “MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning,” ICLR, 2024.<|im_end|><|im_start|>assistant<|im_sep|>{"title": "Multimodal Reasoning", "definitions": {"Multimodal Reasoning": "A type of reasoning that involves multiple modes of input, such as visual, auditory, and textual information."}, "formulas": ["e= = 2", "2] 2] 2] 2] 2] =] =| =| = = = =my", "keywords": ["Multimodal", "Reasoning", "Logical", "Example Problem", "Images", "Connection", "Baby", "Crying", "Cup", "Robot"], "summary": "The slide presents an example problem of logical multimodal reasoning, where the task is to explain the connection between two images: one showing broken cups and the other showing a crying baby. The slide also includes a robot icon, possibly representing AI or technology."}

@@ -1,0 +1,17 @@
+iY   Text to Image Generation
+和
+
+  
+
+with Diffusion Based Models
+
+m= Diffusion Process
+
+e If we look at the movement of a single molecule on a very short time scale,
+it follows a Gaussian distribution.
+
+e Since the direction of mixing and the opposite direction are the same ina
+very short time, the opposite direction also follows a Gaussian distribution.
+
+39                                                               Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

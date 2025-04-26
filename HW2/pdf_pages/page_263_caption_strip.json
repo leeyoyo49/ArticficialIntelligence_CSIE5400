@@ -1,0 +1,19 @@
+{
+  "title": "MLLM Pretraining with Event Semantic Structures",
+  "definitions": {
+    "MLLM": "Multi-Label Learning Model",
+    "Pretraining": "The process of training a model on a large dataset before using it for a specific task",
+    "Event Semantic Structures": "A framework for understanding and representing events in a structured manner"
+  },
+  "formulas": [
+    "No formulas present"
+  ],
+  "keywords": [
+    "MLLM",
+    "Pretraining",
+    "Event Semantic Structures",
+    "Multi-Label Learning",
+    "Vision-Language Encoding"
+  ],
+  "summary": "The slide presents the concept of MLLM Pretraining with Event Semantic Structures, explaining the process and its components. It includes a diagram illustrating the relationships between entities, agents, and actions in an event context."
+}

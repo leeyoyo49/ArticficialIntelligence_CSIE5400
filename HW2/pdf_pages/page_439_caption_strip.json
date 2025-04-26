@@ -1,0 +1,18 @@
+{
+  "title": "Potential for Self-Improvement",
+  "definitions": {
+    "SE": "Self-Improvement"
+  },
+  "formulas": [
+    "w/o SE: the answer is a directly deterministic output of the LLM.",
+    "w/ SE: LLM generates an answer and evaluates its correctness. If the evaluation indicates the answer is incorrect, LLM re-generates an answer as the final output."
+  ],
+  "keywords": [
+    "Self-Improvement",
+    "LLM",
+    "answer generation",
+    "evaluation",
+    "correctness"
+  ],
+  "summary": "The slide discusses two answer generation strategies for LLMs, comparing their performance in various tasks with and without self-improvement. The strategies include direct deterministic output and iterative evaluation and re-generation for correctness."
+}

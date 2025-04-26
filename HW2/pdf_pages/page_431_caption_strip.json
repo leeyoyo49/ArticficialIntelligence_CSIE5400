@@ -1,0 +1,17 @@
+{
+  "title": "Tricks for handling a constantly changing input and output",
+  "definitions": {
+    "Experience Replay": "Instead of running Q-learning on state/action pairs as they occur during simulation or the actual experience, we 'replay' the stored data [state, action, reward, next_state]."
+  },
+  "formulas": [
+    "Q-learning on state/action pairs as they occur during simulation or the actual experience"
+  ],
+  "keywords": [
+    "Tricks",
+    "constantly changing input",
+    "output",
+    "Experience Replay",
+    "Q-learning"
+  ],
+  "summary": "The slide discusses a technique called 'Experience Replay' used in Q-learning to handle constantly changing inputs and outputs. It explains that instead of running Q-learning on state/action pairs as they occur, the data is replayed. An example is given of building a video game bot, where each frame of the game represents a different state, and a random batch of frames is sampled during training."
+}

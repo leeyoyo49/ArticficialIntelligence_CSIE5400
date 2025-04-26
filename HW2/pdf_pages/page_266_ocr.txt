@@ -1,0 +1,34 @@
+iY  MLLM Pretraining with Event Semantic Structures
+和
+
+,            ,       ,                    T
+Structured Alignment via Optimal Transport 了 ~~
+9g
+
+Text Event Graph
+
+1 | Define cost matrix C (embedding similarity)
+VU aD,
+Event Level Alignment
+2 | Optimization Goal: minimize transport distance         The optimal 7 is approximated by a differentiable
+六4                  D(S,T) = minT*C                 J      Sinkhorn Knopp algorithm (Sinkhorn, 1964; Cuturi, 2013)
+
+T = diag(p) exp(—C/7) diag(q)
+for 7 = 0,1, 2,... until convergence,
+p''' =10(Kq'),
+git} =10(K'p'*),
+92                                                                s          T* := diag(p*) Kdiag(q*)
+
+   
+                                                                                                                                                                                            
+  
+   
+
+ 
+
+                                                                                                                                                                                                                                                                 
+
+Image Event Graph
+
+Independence Square
+

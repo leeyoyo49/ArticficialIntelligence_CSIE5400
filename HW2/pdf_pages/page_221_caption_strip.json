@@ -1,0 +1,20 @@
+{
+  "title": "Performance on 'Winoground'",
+  "definitions": {
+    "Winoground": "A task of correctly matching two given images and captions"
+  },
+  "formulas": [
+    "s(C0, I0)",
+    "s(C0, I1)",
+    "s(C1, I0)",
+    "s(C1, I1)"
+  ],
+  "keywords": [
+    "Performance",
+    "Winoground",
+    "task",
+    "images",
+    "captions"
+  ],
+  "summary": "The slide presents the 'Winoground' task, which involves matching images with captions. It includes a visual example and a table showing the performance of different models on this task."
+}

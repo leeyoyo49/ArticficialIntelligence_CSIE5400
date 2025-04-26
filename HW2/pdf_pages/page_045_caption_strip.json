@@ -1,0 +1,18 @@
+{
+  "title": "Denoising Diffusion Models",
+  "definitions": {
+    "Reverse denoising process": "Removing noise",
+    "q(x_t-1|x_t)": "We can't directly calculate this because it involves complex data-related calculations. Instead, we model the reverse process with a neural network to estimate q(x_t-1|x_t)."
+  },
+  "formulas": [
+    "p_theta(x_t-1|x_t) = N(x_t-1; mu_theta(x_t, t), sum_theta(x_t, t))"
+  ],
+  "keywords": [
+    "Denoising",
+    "Diffusion",
+    "Models",
+    "Reverse denoising process",
+    "Noise"
+  ],
+  "summary": "The slide discusses Denoising Diffusion Models, focusing on the reverse denoising process to remove noise. It explains the complexity of direct calculations and the use of neural networks to model the reverse process. A formula is provided to estimate the reverse process, and a diagram illustrates the process flow from an initial noisy image to a denoised image."
+}

@@ -1,0 +1,19 @@
+Analogical Reasoning: An Example
+
+  
+
+ What is the area of the square with the four vertices at (-2, 2), (2, -2), (-2, -6), and (-6,
+; -2)? Recall a related problem, and then solve this one.
+
+: The related problem is finding the distance between two points on a coordinate
+; plane. To find the distance between two points, we use the distance formula: d = ¥
+: ((x2-x1)*2 + (y2-y1)"2).
+: In this problem, we have four points: (-2, 2), (2, -2), (-2, -6), and (-6, -2). Let's choose (-2, 2) !
+and (2, -2) to find the distance d between them: d =   \((2- -(-2))42 + (-2-2)42) = v(442 +
+
+: (- -4)\2) = \(16 + 16) = ¥32. We know that the distance between two opposite sides of a
+ : square is equal. So, the length of each side of the square is V32. To find the area of the
+ : Square, we square the length of one side: Area = (V32)*2 = 32.
+
+21                                                                                      Source: “Large Language Models as Analogical Reasoners,” ICLR, 2024.
+

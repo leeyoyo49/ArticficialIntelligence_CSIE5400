@@ -1,0 +1,15 @@
+Utilities for a Fixed Policy
+
+ 
+
+m Define the utility of astate s, under a fixed policy z:
+V"(s) = expected total discounted rewards starting in s and following zr
+
+= What is the recursive relation?
+
+ 
+
+V*(s) = max) T(s, a, s’)  [R(s, a,s’) + yV*(s')|
+
+Ss
+

@@ -1,0 +1,22 @@
+Example:
+
+Language Translation with Transformers
+Autoregressive generation is the inference-time
+
+Step  1          procedure of iteratively calling a model with its       Step  2
+own generated outputs, given a few initial inputs.
+
+  
+
+i            i,
+fh th
+HEIR                                               ae        ~_ ~
+
+ 
+
+t+ * 1和1 1和1 1 1和1 1      +                 1 +
+|      q                 E   =
+x;=I x.=want x3=to x,=buy X5=a Xg=Car x;=EOS                             yo=BOS                                                                                                     yo=BOS = yi=Ich
+
+12                                                                                                                                               Source: https://huggingface.co/blog/encoder-decoder
+

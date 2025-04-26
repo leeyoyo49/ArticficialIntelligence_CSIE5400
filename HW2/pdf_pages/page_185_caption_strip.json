@@ -1,0 +1,22 @@
+{
+   "title": "Last Letter Concatenation",
+   "definitions": {
+      "Rule": "Take the last letter of each word, and then concatenate them"
+   },
+   "formulas": [
+      "Input: \"Elon Musk\"",
+      "Output: \"nk\"",
+      "Input: \"Bill Gates\"",
+      "Output: \"Is\"",
+      "Input: \"Barack Obama\"",
+      "Output: \"?\""
+   ],
+   "keywords": [
+      "Last Letter",
+      "Concatenation",
+      "Rule",
+      "Input",
+      "Output"
+   ],
+   "summary": "The slide presents a toy problem called 'Last Letter Concatenation' where the rule is to take the last letter of each word and concatenate them. Examples are provided with inputs 'Elon Musk', 'Bill Gates', and 'Barack Obama' with outputs 'nk', 'Is', and '?' respectively."
+}

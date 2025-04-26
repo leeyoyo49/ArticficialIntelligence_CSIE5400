@@ -1,0 +1,46 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Exploration Functions",
+  "definitions": {
+    "Random actions": "explore a fixed amount",
+    "Better idea": "explore areas whose badness is not (yet) established, eventually stop exploring"
+  },
+  "formulas": [
+    "f(u, n) = u + k/n",
+    "Q(s, a) <=> a R(s, a, s') + gamma max Q(s', a')",
+    "Q(s, a) <=> a R(s, a, s') + gamma max f(Q(s', a'), N(s', a'))",
+    "x <=> (1 - alpha) x + alpha v"
+  ],
+  "keywords": [
+    "Exploration",
+    "Functions",
+    "Value estimate",
+    "Visit count",
+    "Optimistic utility"
+  ],
+  "summary": "The slide discusses when to explore in the context of artificial intelligence, suggesting to explore areas with unknown badness and to stop eventually. It introduces the exploration function, which takes a value estimate and a visit count to return an optimistic utility. Two update rules, Regular Q-Update and Modified Q-Update, are presented with their respective formulas."
+  }
+}
+```

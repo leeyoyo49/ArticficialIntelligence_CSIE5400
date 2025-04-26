@@ -1,0 +1,17 @@
+m Diffusion Process                     (ESP WrHER I)
+e Diffusion models are inspired by non-equilibrium thermodynamics.
+
+e For a small fraction of the time, it is difficult to determine whether particles
+are moving in the direction of mixing or in the opposite direction.
+
+se
+
+>            Ce)
+rs % 20?
+
+eo"
+
+ 
+
+38                                                           Source: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf
+

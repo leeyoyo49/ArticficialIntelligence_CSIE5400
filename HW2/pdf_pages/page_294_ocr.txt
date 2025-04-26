@@ -1,0 +1,9 @@
+Distribution Matching (DM)
+
+¢ Among various methods, distribution matching (DM) based
+approaches stand out for their balance of computational efficiency
+and strong performance.
+
+¢ A key challenge in DM lies in defining an effective metric to measure
+distributional discrepancies between real and synthetic datasets.
+

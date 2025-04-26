@@ -1,0 +1,23 @@
+ 
+
+iY   Transforming              into Long-Term Memory
+『
+
+on
+
+Pee
+—            Read            & 一      Observation
+
+A long-term memory
+
+  
+
+For agents, however, generating useful reflective feedback is
+challenging since it requires:
+* agood understanding of where the model made mistakes;
+
+¢ the ability to generate a summary containing actionable insights for
+improvement.
+
+78
+

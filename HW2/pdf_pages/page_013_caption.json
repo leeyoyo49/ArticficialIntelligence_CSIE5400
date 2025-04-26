@@ -1,0 +1,40 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
+
+1. Extract every piece of written content:
+   • Slide title
+   • Sub-bullets and their full text
+   • Definitions, formulas, and any inline examples
+
+2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
+
+3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
+
+4. Organize your output as a valid JSON object with these fields:
+   {
+     "title": string,
+     "definitions": { term: definition },
+     "formulas": [ string ],
+     "keywords": [ string ],
+     "summary": string
+   }
+
+5. Output ONLY the JSON object as a string—no extra text or formatting.
+
+6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
+{
+  "title": "Example: Image Captioning with Transformers",
+  "definitions": {
+    "Image Captioning": "The task of describing the content of an image in words."
+  },
+  "formulas": [],
+  "keywords": [
+    "Image Captioning",
+    "Transformers",
+    "Captioning Model",
+    "Content",
+    "Words"
+  ],
+  "summary": "The slide provides an example of image captioning using transformers. It defines image captioning as the task of describing an image's content in words. A captioning model is then shown, which has generated the caption 'A happy dog is standing in the ocean' for the image of a dog with a red collar in the ocean."
+  }
+}
+```

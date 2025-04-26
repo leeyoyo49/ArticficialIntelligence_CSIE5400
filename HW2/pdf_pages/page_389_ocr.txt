@@ -1,0 +1,27 @@
+Passive Reinforcement Learning
+
+ 
+
+g Simplified task: policy evaluation
+m Input: a fixed policy 7(s)
+m You don’t know the transitions T(s,a,s’)
+m You don’t know the rewards R(s,a,s’)
+m Goal: learn the state values
+
+  
+                                                                                                                                                                                                                                                                      
+
+   
+  
+
+AN
+
+y
+Hey
+
+m In this case:
+m Learner is “along for the ride”
+= No choice about what actions to take
+m Just execute the policy and learn from experience
+a This is NOT offline planning! You actually take actions in the world.
+

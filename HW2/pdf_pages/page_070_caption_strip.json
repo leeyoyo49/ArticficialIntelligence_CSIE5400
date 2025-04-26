@@ -1,0 +1,20 @@
+{
+  "title": "Agent Architecture",
+  "definitions": {
+    "MLLM": "Multi-Layer Perceptron",
+    "Level 2": "Using MLLM to reason to act (reasoning)",
+    "Level 1": "Using MLLM to act (acting)"
+  },
+  "formulas": [
+    "Action −∂ L",
+    "Observation −∂ L"
+  ],
+  "keywords": [
+    "Agent",
+    "Architecture",
+    "MLLM",
+    "Reasoning",
+    "Acting"
+  ],
+  "summary": "The slide presents the concept of Agent Architecture, focusing on the use of Multi-Layer Perceptron (MLLM) in two levels: reasoning to act and acting. It illustrates the flow from memory and tool use to action and observation, emphasizing the role of MLLM in both processes."
+}

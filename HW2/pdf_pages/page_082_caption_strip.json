@@ -1,0 +1,16 @@
+{
+  "title": "ALFWorld [ICLR 2021]",
+  "definitions": {
+    "ALFWorld": "A simulator that enables agents to learn abstract, text based policies"
+  },
+  "formulas": [],
+  "keywords": [
+    "ALFWorld",
+    "simulator",
+    "agents",
+    "learn",
+    "abstract",
+    "text based policies"
+  ],
+  "summary": "ALFWorld is a simulator designed to help agents learn abstract, text-based policies. The slide provides a scenario where an agent is tasked with putting a vase in a safe, detailing the steps taken to achieve this task."
+}

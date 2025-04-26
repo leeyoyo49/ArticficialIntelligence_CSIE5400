@@ -1,0 +1,18 @@
+{
+  "title": "Text to Image Generation with Diffusion Based Models",
+  "definitions": {
+    "Diffusion Process": "If we look at the movement of a single molecule on a very short time scale, it follows a Gaussian distribution. Since the direction of mixing and the opposite direction are the same in a very short time, the opposite direction also follows a Gaussian distribution."
+  },
+  "formulas": [
+    "m= Diffusion Process",
+    "e If we look at the movement of a single molecule on a very short time scale, it follows a Gaussian distribution. Since the direction of mixing and the opposite direction are the same in a very short time, the opposite direction also follows a Gaussian distribution."
+  ],
+  "keywords": [
+    "Text to Image Generation",
+    "Diffusion Based Models",
+    "Diffusion Process",
+    "Gaussian Distribution",
+    "Single Molecule"
+  ],
+  "summary": "The slide discusses the concept of diffusion process in the context of text to image generation using diffusion based models. It explains that the movement of a single molecule on a very short time scale follows a Gaussian distribution, and this applies to both the direction of mixing and its opposite. The slide also includes a diagram illustrating the diffusion process and a mathematical formula related to it."
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Memory",
+  "definitions": {
+    "A long-term memory": "Stores experience, skills, knowledge...",
+    "A short-term memory": "Append-only, Limited context, Limited attention, Do not persist over new tasks"
+  },
+  "formulas": [],
+  "keywords": [
+    "Memory",
+    "Long-term memory",
+    "Short-term memory",
+    "Experience",
+    "Skills",
+    "Knowledge",
+    "Append-only",
+    "Limited context",
+    "Limited attention",
+    "New tasks"
+  ],
+  "summary": "The slide discusses the concepts of long-term and short-term memory. Long-term memory stores experiences, skills, and knowledge and persists over new experiences. Short-term memory is append-only, has limited context and attention, and does not persist over new tasks."
+}

@@ -1,0 +1,21 @@
+How to Explore?
+
+ 
+
+m Several schemes for forcing exploration
+
+m Simplest: random actions (e-greedy)
+m Every time step, flip acoin
+= With (small) probability <, act randomly
+= With (large) probability 1-e, act on current policy
+
+= Problems with random actions?
+
+= You do eventually explore the space, but keep
+thrashing around once learning is done
+
+= One solution: lower e over time
+= Another solution: exploration functions
+
+ 
+

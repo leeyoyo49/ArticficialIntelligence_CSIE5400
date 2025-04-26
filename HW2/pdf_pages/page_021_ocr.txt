@@ -1,0 +1,32 @@
+Positional Encoding
+
+  
+
+  
+ 
+ 
+
+Options for pos(.)
+
+1. Learn a lookup table:
+© Learn parameters to use for pos(t) for t € [0, T)
+© Lookup table contains T x d parameters.
+
+                                                                                                                                                                                                                                                                 
+
+2. Design a fixed function with the desiderata
+
+sin(w.t)
+
+                                                                                                                                                                                                                                                                 
+
+cos(w}. t)
+sin(w». t)
+Concatenate special positional                       _ | c0s(we- 2)
+encoding Pp, to each input vector x               p(t) =
+We use a function pos: N ->R°
+to process the position j of the                           sin(wa/2. t)                    _ 1
+vector into a d-dimensional vector                       cos(wa/2-t) | ,    where +    100007*/4
+
+21               So, bp 三 pos(j)                                                   Source: “Attention is all you need,” NeurlPS, 2017.
+

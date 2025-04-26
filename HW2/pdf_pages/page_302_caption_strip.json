@@ -1,0 +1,17 @@
+{
+  "title": "Distribution Matching with NCFD",
+  "definitions": {
+    "CF-based methods": "CF-based methods directly compare distributions by balancing the amplitude and phase in the complex plane, enhancing distributional similarity."
+  },
+  "formulas": [
+    "minimizing CF makes the distributions similar"
+  ],
+  "keywords": [
+    "Distribution Matching",
+    "NCFD",
+    "CF-based methods",
+    "Amplitude",
+    "Phase"
+  ],
+  "summary": "The slide discusses Distribution Matching with NCFD, explaining that CF-based methods enhance distributional similarity by balancing amplitude and phase in the complex plane. It includes a visual representation of Characteristic Function Matching over iterations."
+}

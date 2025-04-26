@@ -1,0 +1,20 @@
+{
+  "title": "Approximate Q-Learning",
+  "definitions": {
+    "Q-function": "a function (or value function) for any state using a few weights w1, w2, ...",
+    "V-function": "V(s) = w1f1(s) + w2f2(s) + ... + wn.fn(s)",
+    "Q-function with action": "Q(s, a) = w1f1(s, a) + w2f2(s, a) + ... + wn.fn(s, a)"
+  },
+  "formulas": [
+    "V(s) = w1f1(s) + w2f2(s) + ... + wn.fn(s)",
+    "Q(s, a) = w1f1(s, a) + w2f2(s, a) + ... + wn.fn(s, a)"
+  ],
+  "keywords": [
+    "Approximate Q-Learning",
+    "Feature representation",
+    "Q-function",
+    "V-function",
+    "Weights"
+  ],
+  "summary": "The slide discusses Approximate Q-Learning, explaining how a Q-function or V-function can be written for any state using a few weights. It presents the formulas for V(s) and Q(s, a) and highlights the advantage of summarizing experience with powerful numbers. However, it also points out the disadvantage that states may share features but be very different in value, with an example provided."
+}

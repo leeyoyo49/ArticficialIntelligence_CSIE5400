@@ -1,0 +1,23 @@
+{
+  "title": "The Story So Far: MDPs and RL",
+  "definitions": {
+    "MDP": "Markov Decision Process",
+    "RL": "Reinforcement Learning"
+  },
+  "formulas": [
+    "V*",
+    "Q*",
+    "π*"
+  ],
+  "keywords": [
+    "MDP",
+    "Offline Solution",
+    "Model-Based",
+    "Model-Free",
+    "Value Iteration",
+    "Policy Iteration",
+    "Q-Learning",
+    "Value Learning"
+  ],
+  "summary": "The slide presents an overview of Markov Decision Processes (MDPs) and Reinforcement Learning (RL), focusing on different approaches to solving MDPs. It distinguishes between known MDPs with offline solutions, and unknown MDPs, which are further divided into model-based and model-free techniques. The goals and techniques for each approach are outlined, with specific methods like value iteration, policy iteration, Q-learning, and value learning mentioned."
+}

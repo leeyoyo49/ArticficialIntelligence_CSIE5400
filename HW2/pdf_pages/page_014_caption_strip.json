@@ -1,0 +1,19 @@
+{
+  "title": "Example: Image Captioning with Transformers",
+  "definitions": {
+    "Image Captioning": "The process of generating textual descriptions for images.",
+    "Transformer": "A type of model architecture used in deep learning for tasks such as language translation and image captioning."
+  },
+  "formulas": [
+    "y = y1, y2, ..., yT",
+    "C0,0, C0,1, C0,2, ..., C2,2"
+  ],
+  "keywords": [
+    "Image Captioning",
+    "Transformers",
+    "Decoder",
+    "Encoder",
+    "Sequence"
+  ],
+  "summary": "The slide provides an example of image captioning using a transformer model. It includes a diagram showing the flow from input image to output caption, with a transformer encoder and decoder. The encoder processes the image into a sequence of tokens, which the decoder then uses to generate a caption."
+}

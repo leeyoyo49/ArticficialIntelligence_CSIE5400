@@ -1,0 +1,37 @@
+18 Dec 2024
+
+ 
+
+Ne <
+
+Thinking in Space: How Multimodal Large Language Models
+See, Remember, and Recall Spaces
+
+Jihan Yang'* Shusheng Yang!* Anjali W.Gupta!* RilynHan?* Li Fei-Fei? Saining Xie!
+'New York University Yale University *Stanford University
+
+@ Project Page        €) Evaluation Code        ®, VSI-Bench
+
+See a video of an apartment                                    a laboratory                                                  a factory
+
+ 
+   
+
+Higsa WO sOeREOISS fa TAS Oo
+
+Milling Plastic Rolling stool Soo Workbench
+Machine Drum Stand
+
+                                                                                                                                                                                                                                                                  
+
+Remember?
+Multimodal LLM’s “cognitive map” of the space
+
+ 
+
+    
+
+Cabinet Door Chair sink Furst Ald er Box  Ss aes oon Printer Basket Keyboard TV Blanket Fridge Table Pan
+
+     
+

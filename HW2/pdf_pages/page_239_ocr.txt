@@ -1,0 +1,16 @@
+65
+
+ 
+
+Source: “
+
+What happened?
+
+Yes! A protest.
+
+ 
+
+ 
+
+Knowledge-Driven Vision-Language Encoding,” Tutorial, CVPR, 2023.
+

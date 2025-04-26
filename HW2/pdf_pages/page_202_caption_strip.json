@@ -1,0 +1,21 @@
+{
+  "title": "A Running Example",
+  "definitions": {
+    "Nicolas Cage": "Nicolas Cage was born in an odd year.",
+    "Even": "Even.",
+    "Odd": "Odd.",
+    "1964": "1964, an even year.",
+    "He": "He was born in an even year.",
+    "Cage": "Cage was born in 1964, an even year."
+  },
+  "formulas": [],
+  "keywords": [
+    "Nicolas Cage",
+    "Even",
+    "Odd",
+    "1964",
+    "He",
+    "Cage"
+  ],
+  "summary": "The slide provides a running example of chain-of-thought decoding, specifically answering the question of whether Nicolas Cage was born in an even or odd year. The answer is that Nicolas Cage was born in an even year, 1964."
+}

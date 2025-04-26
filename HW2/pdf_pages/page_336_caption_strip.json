@@ -1,0 +1,17 @@
+{
+  "title": "Racing Search Tree",
+  "definitions": {
+    "Racing Search Tree": "A tree data structure used in artificial intelligence for decision-making processes, where each node represents a state and each branch a possible action."
+  },
+  "formulas": [
+    "The number of nodes in a tree is equal to the number of leaves plus one."
+  ],
+  "keywords": [
+    "Racing Search Tree",
+    "tree data structure",
+    "decision-making",
+    "state",
+    "action"
+  ],
+  "summary": "The slide presents a Racing Search Tree, a type of tree data structure used in AI for decision-making. It visually represents the tree with nodes and branches, where each node is a state and each branch an action. The slide also includes a formula related to the number of nodes in a tree."
+}
