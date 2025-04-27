@@ -1,0 +1,7 @@
+The slide is titled "Challenges in Deep Reinforcement Learning" and discusses the issue of non-stationary or unstable learning targets in deep reinforcement learning. It explains that in deep learning, the target variable does not change and hence the training is stable. However, this is not true for reinforcement learning, where the learning target is continuously changing with each iteration. The slide also mentions that we often depend on the policy or value functions in reinforcement learning to sample actions, but this is frequently changing as we continuously learn what to explore. As we play out the game, we get to know more about the ground truth values of states and actions and hence, the output is also changing.
+
+The slide includes a mathematical formula: Q(s_t, a_t) = Q(s_{t}, a_{t}) + α[r_{t+1} + γ max Q(s_{\tau+1}, a)]. This formula represents the update rule for the Q-value function in Q-learning, a type of reinforcement learning algorithm. The formula includes terms for the current Q-value, the learning rate, the reward, the discount factor, and the maximum Q-value for the next state and action.
+
+The keywords from this slide that are most relevant to the topic of artificial intelligence are: "Challenges", "Deep", "Reinforcement", "Learning", and "Unstable".
+
+There is no plot shown on this slide.

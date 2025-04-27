@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal CoT Reasoning" and discusses "Examples of commonsense mistakes: About utilizing alphabet." The content is divided into two sections: "Problem" and "Prediction."
+
+In the "Problem," a question is posed: "Which word would you find on a dictionary page with the following guide words? helping - hunter." The context provided is a diagram showing a solution with one solute, represented by a green ball, in a closed container divided by a membrane. The diagram illustrates how the solution can change over time during the process of diffusion. Two options are given: (A) hospital and (B) hardship.
+
+The "Prediction" section provides a rationale for each option. For option (A), the rationale is that since "hospital" is between the guide words "helping - hunter," it would be found on that page. The answer is confirmed as (A). For the second prediction, the rationale for option (B), "hardship," is provided, stating that it would also be found between the given guide words.
+
+The slide does not contain any formulas or plots. However, it does reference a source at the bottom: "Source: 'Multimodual Chain-of-Thought Reasoning in Language Models,' TMLR, 2024."
+
+Keywords: Multimodal, CoT, Reasoning, Commonsense, Mistakes, Alphabet, Dictionary, Guide Words, Solution, Solute, Membrane, Diffusion, Hospital, Hardship.
+
+The formula is not present on the slide.

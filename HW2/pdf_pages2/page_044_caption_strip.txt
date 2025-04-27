@@ -1,0 +1,14 @@
+The slide is titled "Denoising Diffusion Models" and discusses the forward diffusion process, which involves introducing noise into a distribution over T steps, resulting in a series of increasingly noisy samples. The slide includes a diagram illustrating the process, with a sequence of circles labeled from x0 to xT, representing the progression of the diffusion process. Each circle is connected by arrows, indicating the flow from one state to the next. Below the diagram, there is a mathematical formula: q(x_t|x_{t-1}) = N(x_t; √(1 - β_tx_t-1), β_tI), where N represents a normal distribution with mean μ and variance σ^2. The formula is used to calculate the probability of the current state given the previous state in the diffusion model. The source of the content is provided as a URL at the bottom of the slide.
+
+Summary: The slide presents the concept of denoising diffusion models in artificial intelligence. It explains that the process involves adding small Gaussian noise to a distribution incrementally over a number of steps, which results in a set of samples with increasing levels of noise. A diagram visually represents this process, showing the progression from an initial state to a final noisy state. A mathematical formula is provided to describe the probability calculation at each step of the process.
+
+Keywords: Denoising, Diffusion, Models, Forward diffusion, Noise, Gaussian, Distribution, Samples, Probability, Normal distribution, Mean, Variance.
+
+Plot Description: The plot on the slide is a diagram that visually represents the forward diffusions process. It consists of a horizontal sequence of five circles, each labeled with a different state from the initial (x0) to the final (xT). Arrows connect the circles in sequence, illustrating the step-by-step addition of noise to the distribution. The diagram is accompanied by a mathematical equation that quantifies the noise addition process.
+
+LaTeX Formula: The formula presented in the slide can be written as follows:
+q(x_t | x_{t−1}) =
+N(x_t;
+√(1 − β_t x_t−1, β_t I)
+
+This formula represents the conditional distribution of the state x_t given the state at the previous time step x_{τ−1}. The normal distribution N is parameterized by the mean (μ) and variance (σ^2), with the mean being a function of the previous state's value and the variance being a product of a constant β_t and the identity matrix I.

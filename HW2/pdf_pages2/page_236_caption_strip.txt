@@ -1,0 +1,7 @@
+The slide is titled "Visual Commonsense Knowledge" and introduces the concept of "VisualCOMET: Cognitive Image Understanding via Visual Commonsense Graphs." The slide does not contain any formulas or plots.
+
+The main content of the slide is a diagram that explains the reasoning process of a person named Person2 in a specific situation. The diagram is divided into three sections: "Before Person2 needed to...", "Because Person2 wanted to...", and "After Person2 will most likely...". Each section contains a set of actions or outcomes related to Person2's situation.
+
+The diagram also includes a photograph of Person2 holding onto a bronze statue while waves of water crash around him, indicating that he is inside a sinking ship. The source of the information is cited as "VisualICOMET: Reasoning About the Dynamic Context of a Still Image," ECCV, 2020.
+
+The keywords related to the slide are VisualCOMET, Cognitive Image, Understanding, Visual Commonsence, Graphs, Reasoning, Dynamic Context, Still Image, and ECCV.

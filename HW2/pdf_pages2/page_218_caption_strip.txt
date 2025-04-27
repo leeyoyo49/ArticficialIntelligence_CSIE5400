@@ -1,0 +1,5 @@
+The slide is titled "Multimodal Reasoning" and discusses how Multimodal Language Models (MLLMs) can understand text-to-image references. The Image Declaration is proposed as a solution to establish the reference between image and text. The slide is divided into four sections: Original Visual Question Answering, Image Declaration, Multi-modal Data with Interconnected Images, and Unified Multi-modal-in-context Format. Each section provides an example of how MLLMs can analyze images to answer questions, generate descriptions, and establish connections between images. The source of the information is cited as "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning," ICLR, 2024.
+
+Keywords: Multimodality, Reasoning, Language Models, Text, Image, Declaration, Reference, Solution, Example, Analysis, Description, Connection, Source, Citation.
+
+There is no plot or formula on the slide to describe.

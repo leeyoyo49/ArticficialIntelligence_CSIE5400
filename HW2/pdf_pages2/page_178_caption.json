@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Thinking in Space: How Multimodal Large Language Models See, Remember, and Recall Spaces". The authors of the slide are Jihan Yang, Shusheng Yang, Anjali W. Gupta, Rilyn Han, Li Fei-Fei, and Saining Xie. They are affiliated with New York University, Yale University, and Stanford University respectively. The slide is part of the "AI Weekly" series and was published on 18 Dec 2024.
+
+The slide discusses the concept of multimodal large language models (LLMs) and their ability to perceive, remember, and recall different types of spaces. It provides examples of three different spaces: an apartment, a laboratory, and a factory. Each space is represented by a series of images and a list of objects found in that space. For instance, the apartment includes images of a living room, kitchen, and bedroom, along with objects like a cabinet, door, chair, sink, and TV. Similarly, the laboratory and factory are represented by their respective images and lists of objects.
+
+A key concept introduced in the slide is the "cognitive map" of the space, which is a term used to describe how LLMs perceive and understand different environments. This cognitive map is represented visually on the slide through the images and objects listed for each space.
+
+There are no formulas or plots presented on this slide.

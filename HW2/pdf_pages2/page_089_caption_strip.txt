@@ -1,0 +1,5 @@
+The slide is titled "A Running Example (1/4)" and falls under the category of "Automatic Curriculum". The main content of the slide is a circular flow diagram that represents a sequence of tasks in an automated curriculum. The tasks include "Make Crafting Table", "Combat Zombie", "Mine Wood Log", and "Mine Diamond". Each task is represented by an image and is connected in a clockwise direction, indicating the order in which they should be performed. The slide number is 89.
+
+The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. There is no plot shown on the slide.
+
+The keywords that are most relevant to the slide are "Running Example", "Automatic", "Curriculum", "Crafting", "Zombie", "Wood Log", "Diamond", "Mining", and the slide number "89".

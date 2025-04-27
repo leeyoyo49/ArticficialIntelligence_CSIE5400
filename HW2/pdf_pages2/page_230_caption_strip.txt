@@ -1,0 +1,5 @@
+The slide is titled "Multimodal CoT Reasoning" and discusses examples of commonsense mistakes about maps. It presents a problem and a prediction, each with a question, context, options, rationale, and answer. The problem is about identifying a city marked on a map, with the options being Las Vegas, San Francisco, Phoenix, and Salt Lake City. The rationale for the correct answer is that Las Vegas is marked on the map, while the incorrect prediction mistakenly identifies San Francisco as the marked city. The slide also includes a small map with gray circles marking the cities. The source of the content is cited as a 2024 TMLR publication.
+
+Keywords: Multimodal, CoT, Reasoning, Commonsense, Mistakes, Maps, Problem, Prediction, Rationale, Answer, City, Source, Publication.
+
+There is no plot or formula on the slide to describe.

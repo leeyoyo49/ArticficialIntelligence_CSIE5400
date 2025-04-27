@@ -1,0 +1,18 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Self-Attention Layer" and discusses the concept of self-attention in the context of artificial intelligence. The main content of the slide is divided into two sections: "Outputs" and "Inputs". 
+
+In the Outputs section, it is mentioned that the context vectors have a shape of N x D, where N is the number of context vectors and D is the dimension of each context vector. The context vectors are represented by y0, y1, and y2 in the diagram.
+
+In the Inputs section, the input vectors are mentioned to have the same shape as the output vectors, which is N x  D. The input vector is represented by x0, x1, x2.
+
+The slide also includes a diagram that visually represents the process of a self-attentional layer. The diagram consists of two layers: an input layer and an output layer, separated by a "self-attention" layer. Each layer contains three elements, represented by boxes with labels x0 to x2 and y0 to y2 respectively. The arrows between the layers indicate the flow of information from the input layer to the output layer.
+
+The source of the content is provided as a URL link to a Stanford University lecture.
+
+The keywords that are most relevant to the slide are: "Self Attention Layer", "Outputs", "Context Vectors", "Inputs", "N x D", and "Self-attention".
+
+The diagram does not contain a plot or a formula. Therefore, there is no plot description or formula to provide.

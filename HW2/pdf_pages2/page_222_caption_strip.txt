@@ -1,0 +1,5 @@
+The slide is titled "Performance on 'RAVEN'" and discusses a task where each question has 3 or 8 images as input and 6 candidate images with a unique answer. The goal is to predict the right image. The slide also includes a table titled "Table 3: Zero-shot generalization on Raven IQ test." The table lists four models: Random Choice, InstructBlip, Otter, and KOSMOS-1, with their respective accuracy percentages. The highest accuracy is achieved by the MMICL (FLAN-T5-XXL) model with 34.00%.
+
+The slide does not contain any formulas or plots. However, it does include an example of a question from the task, which is "Do you agree the following image is:". The answer provided is "P{Yes|Q}".
+
+The keywords that are most relevant to the slide are: RAVEN, task, images, candidate images, unique answer, goal, predict, right image, table, models, accuracy, Random Choice.

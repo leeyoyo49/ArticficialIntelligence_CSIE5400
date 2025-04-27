@@ -1,0 +1,11 @@
+The slide is titled "Various reasoning benchmarks are emerging" and is part of the "MMS [NeurIPS 2024]" series. It discusses the emergence of various reasoning benchmarks in the field of artificial intelligence.
+
+The slide contains several sections, each with a question and multiple-choice answers. The first question asks about the capital of Nebraska, with the correct answer being Lincoln. The second question inquires about the shape of a round dirt circle, with options including square, triangle, circle, and diamond. The correct answer is circle.
+
+The third question is about which model can achieve the best ImageNet 10-shot accuracy score. The options include Soft MoE, Experts Choice, Tokens Choice, Dense, and a fourth option that is not visible in the image.
+
+The fourth question asks which cell type is pictured in a microscopic image. The possible answers are Eosinophil, Thrombocyte, Lymphocyte, Monocyte, and Neutrophil. The image does not provide a clear view of the cell type, but the slide indicates that the answer is E.
+
+There are also two graphs on the slide. One graph shows the relationship between total training TPU3-days and total training ExaFLOP, with different models represented by different colored dots. The other graph is not fully visible, but it appears to be related to the third question about ImageNet accuracy scores.
+
+There is no plot or formula visible on this slide. However, the graphs and the multiple-choice questions suggest that the slide is discussing the performance of different AI models in various reasoning tasks.

@@ -1,0 +1,7 @@
+The slide is titled "Memory" and discusses two types of memory: long-term memory and short-term memory. Long-term memory is described as a storage for experiences, skills, and knowledge that persist over new experiences. Short-term memory, on the other hand, is characterized as append-only, having limited context and attention, and not persisting over new tasks.
+
+The slide also includes a diagram illustrating the process of memory. The diagram shows a flow from "Write" to "Read" and then to "Action," with an arrow pointing back to "Observation." This suggests a cyclical process where actions lead to observations, which are then stored in memory for future reference.
+
+The formula presented on the slide is "Instruction: ... Thought: ... Action: ... Obs: ...". This formula seems to represent the components of a cognitive process, where an instruction is given, a thought is formed, an action is taken, and an observation is made. However, without further context, it's difficult to provide a detailed explanation of this formula.
+
+In summary, the slide provides an overview of the different types of human memory and illustrates the cyclical nature of cognitive processes through a diagram. The keywords associated with this slide are "Memory," "Long-term," "Short-term," and "Cognitive process."

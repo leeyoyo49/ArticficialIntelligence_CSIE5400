@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Memory" and discusses two types of memory: long-term memory and short-term memory. Long-term memory is described as a storage for experiences, skills, and knowledge that persist over new experiences. Short-term memory, on the other hand, is characterized as append-only, having limited context and attention, and not persisting over new tasks.
+
+The slide also includes a diagram illustrating the process of memory. The diagram shows a flow from "Write" to "Read" and then to "Action," with an arrow pointing back to "Observation." This suggests a cyclical process where actions lead to observations, which are then stored in memory for future reference.
+
+The formula presented on the slide is "Instruction: ... Thought: ... Action: ... Obs: ...". This formula seems to represent the components of a cognitive process, where an instruction is given, a thought is formed, an action is taken, and an observation is made. However, without further context, it's difficult to provide a detailed explanation of this formula.
+
+In summary, the slide provides an overview of the different types of human memory and illustrates the cyclical nature of cognitive processes through a diagram. The keywords associated with this slide are "Memory," "Long-term," "Short-term," and "Cognitive process."

@@ -1,0 +1,6 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>As an AI visual assistant, I am unable to process the image you have provided. The image appears to be a blank or darkened slide with no discernible content, making it impossible for me to extract any written content, keywords, or formulas. Therefore, I cannot generate a summary, identify relevant keywords, describe a plot or formula, or provide any other information about the slide. If you could provide a different image or clarify your request, I would be happy to assist you further.

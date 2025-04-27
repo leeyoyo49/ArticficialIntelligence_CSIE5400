@@ -1,0 +1,5 @@
+The slide is titled "Policies" and discusses the concept of policies in the context of deterministic single-agent search problems and Markov Decision Processes (MDPs). It explains that an optimal plan or sequence of actions is desired from the start to a goal. The slide defines an optimal policy as one that maximizes expected utility if followed. It also mentions that an explicit policy defines a reflex agent.
+
+The slide contains the following keywords: Deterministic, Single-agent, Search problems, Optimal plan, Sequence of actions, Start, Goal, MDPs, Optimal policy, S→A, Action, State, Expected utility, Followed, Explicit policy, Reflex agent.
+
+There is no plot or formula on the slide to describe.

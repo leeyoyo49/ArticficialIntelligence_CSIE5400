@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal Reasoning" and discusses an example problem related to text-to-image reference. The problem involves analyzing images and answering questions about their differences and similarities. The slide does not contain any formulas or plots, but it does reference a source titled "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning" from ICLR, 2024.
+
+The slide presents a scenario where a user is asked to analyze two images: one of a sporty car on a road and the other of an off-road jeep with mountainous terrain. The user is prompted to identify the differences between the images, such as the size and shape of the vehicles and their environments. The images are accompanied by speech bubbles that simulate a conversation between a user and an AI assistant, with the assistant providing answers to the user's questions.
+
+The keywords that can be extracted from this slide are: Multimodal, Reasoning, Text-to-image, Reference, Problem, Images, Differences, Similarities, Vehicles, Environments, AI, Assistant, Conversation, Speech Bubbles, Source, MMICL, Empowering, Vision-language, Model, and ICLR.
+
+The summary of the slide is as follows: The slide introduces the concept of multimodal reasoning in the context of AI, specifically focusing on the ability to reference and analyze images based on textual descriptions. It presents a problem where the user must discern the differences in size, shape, and environment between two images of vehicles. The AI assistant's role is to guide the user through this analysis by providing responses to questions about the images. The source of the content is a paper from the International Conference on Learning Representations (ICLR) in 2023.

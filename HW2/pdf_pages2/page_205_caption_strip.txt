@@ -1,0 +1,9 @@
+The slide is titled "Inference Approaches" and discusses three types of search methods used in artificial intelligence: Best-of-N search, Sentence-level Beam Search, and Stage-level Beam search. The slide also includes three diagrams representing each of these search methods.
+
+The first diagram, "Best-of-N Search," shows a tree structure where each node represents a potential answer to a question. The nodes are color-coded to indicate whether the answer has been verified (green), skipped (yellow), or rejected (red) upon verification.
+
+The second and third diagrams, "Sentence-level Beam Scan" and "Stage-Level Beam Search," respectively, show more complex tree structures. These diagrams illustrate how each search method generates multiple candidate options for each reasoning stage and selects the best option at each stage.
+
+The slide does not contain any formulas or inline examples, but it does include a legend explaining the color-coding used in the diagrams. The source of the information is cited as "LLAVA-CoT: Let Vision Language Models Reason Step-by-step," arXiv, 2025.
+
+In summary, the slide provides an overview of three different inference approaches used in AI, each with its unique method of generating and selecting candidate options. The diagrams visually represent how each approach works, making it easier to understand the differences between them.

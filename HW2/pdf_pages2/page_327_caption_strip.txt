@@ -1,0 +1,15 @@
+The slide is titled "Example – Gridworld V* Values" and contains a 4x4 grid with numerical values in each cell. The grid is color-coded with green for positive values and red for negative values. The values in the grid are as follows:
+
+|   |   |
+|---|---|
+| 0.64 | -1.00 |
+| 1.0  |  57  |
+| -0.57 | 57   |
+
+The slide also includes a note at the bottom stating "Values after 100 iterations". 
+
+The slide does not contain any formulas or definitions, but it does show a plot of the gridworld with the V* values. 
+
+The keywords that can be extracted from this slide are: Gridworld, V*, Values, Iterations, Positive, Negative, 100, 1, 57, 64, 28, 43, 48, 49, 74, 85.
+
+The plot in the slide is a grid with 4 rows and 4 columns, each cell containing a numerical value. The cells with positive values are colored green, while the cell with a negative value is colored red.

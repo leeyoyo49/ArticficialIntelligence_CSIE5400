@@ -1,0 +1,13 @@
+The slide is titled "MLLM Pretraining with Event Semantic Structures" and discusses the concept of "Structured Alignment via Optimal Transport". The main content of the slide is divided into two sections: "Text Event Graph" and "Image Event Graph". Both sections are connected by a double-sided arrow, indicating a relationship or comparison between the two. The slide also includes a diagram labeled "Event Level Alignment" that visually represents the relationship between different entities such as "person", "agent", "instrument", and "place" in the context of an event. The diagram uses different shapes and colors to represent different types of entities and their interactions. The source of the content is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+Summary:
+The slide presents the topic of MLLM pretraining with event semantic structures, focusing on structured alignment via optimal transport. It compares text and image event graphs and illustrates the alignment of different entities in an event using a diagram. The entities are represented by various shapes and are connected to show their relationships. The content is sourced from a tutorial presented at the CVPR conference.
+
+Keywords:
+MLLM, Pretraining, Event, Semantic Structures, Structured Alignment, Optimal Transport, Text Event Graph, Image Event Graph.
+
+Plot Description:
+The plot is a diagram that shows the alignment at the event level. It includes various entities like person, agent, instrument, and place, each represented by a different shape and color. The connections between the entities indicate their relationships and interactions during an event.
+
+Formula Description:
+There is no formula presented on the slide.

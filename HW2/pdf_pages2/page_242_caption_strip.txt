@@ -1,0 +1,5 @@
+The slide is titled "Existing object-centric info miss situational understanding" and is divided into two sections: "Vision" and "Object". The Vision section contains a photograph of a group of people holding signs with messages such as "NO Mandate!" and "Brady's NBT Domestic". The Object section is empty. The slide also includes a source citation at the bottom: "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+The slide seems to be discussing the limitations of object-centric information in understanding situational contexts. The photograph in the Vision section might be used as an example to illustrate this point. However, without more context, it's difficult to provide a detailed summary of the slide's content.
+
+As for the keywords, they might include "Object-centric information", "situational understanding", "Vision", "Object", and "Mandate". However, these are just educated guesses based on the visible text on the slide.

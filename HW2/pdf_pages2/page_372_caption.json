@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Policy Extraction" and does not contain any written content such as bullet points or definitions. There are no formulas or inline examples visible on the slide. However, there is a visual representation of a grid with numbers and symbols, and a robot character pointing at it. The grid appears to be a part of a game or puzzle, with numbers +1 and -1 indicating positive and negative values, respectively. The robot character seems to be interacting with the grid, possibly indicating a process of policy extraction or decision-making based on the values in the grid.
+
+The slide does not show a plot that can be described, and there is no formula present to be saved in LaTex format. Therefore, the summary of the slide is as follows:
+
+The slide presents the concept of 'Policy Extraction' in the context of artificial intelligence. It uses a visual metaphor of a robot interacting with a grid to illustrate the process of decision-making or policy extraction based on certain values or inputs. The presence of the robot character suggests an automated or machine learning approach to policy extraction, where the robot analyzes the grid and makes decisions accordingly. The +1, -1, and other symbols on the grid may represent different outcomes or actions that the robot can take, and the robot's interaction with these symbols could be part of an algorithm or strategy for policy extraction.
+
+Keywords: Policy Extraction, Artificial Intelligence, Robot, Grid, Decision-making, Machine Learning, Algorithm, Strategy, Outcomes, Actions, Values, Inputs, Positive, Negative.
+
+Since there are no written content, formulas to describe, or a plot to summarize, the rest of the instructions are not applicable to this slide.

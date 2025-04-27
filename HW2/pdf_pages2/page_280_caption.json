@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Various reasoning benchmarks are emerging" and falls under the category of "Relation Reasoning". It is part of the "MMBench [ECCV 2024]" series. The slide is divided into two main sections: "Social Relation" and "Nature Relation". Each section contains a question and four multiple-choice answers, with the correct answer indicated in green.
+
+In the Social Relation section, the question is "What can be the relationship between the two persons in this image?" The options are: A. Father and daughter, B. Mother and son, C. Brother and sister, D. Husband and wife. The correct answer is D. The image shows a man and a woman sitting together at a table, suggesting they are husband and wife.
+
+The Nature Relation section poses the question "In nature, what's the relation between these two creatures?" with the options: A, B, C, D being "Predatory relationships, Competitive relationships, Parasitic relationships, Symbiotic relationship" respectively. Each option is associated with an image: a lion and a cheetah, a bird and a gazelle, and a bird perched on the gazelle's horns respectively. The answer to this question is D, indicating a symbiotic relationship.
+
+The slide does not contain any formulas or plots. However, it does provide an example of a multiple-choice question and answer format, which is a common method used in AI and machine learning to test reasoning and decision-making abilities.

@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Event-Driven Vision-Language Pretraining" and discusses the concept of event-driven vision-language pretraining in the context of artificial intelligence. The main content of the slide is a caption text that reads: "Antigovernment protesters carry an injured man on a stretcher after clashes with riot police on Independence Square in Kyiv on February 20, 2014." This caption text is an example of an event that can be used in the pretraining process.
+
+The slide also includes a diagram that illustrates the process of text information extraction. The diagram shows a flow from the caption text to the event type, transport (carry), agent, target, and instrument. The event type is not specified in the diagram, but it is implied that it is related to the action of carrying the injured man by the protesters.
+
+The source of the information is cited as "Knowledge-Driven VISION-Language Encoding," Tutorial, CVPR, 2023.
+
+In summary, the slide provides an overview of how event-driven pretraining can be applied to vision-language tasks in AI, using the example of a protest event to illustrate the process. The keywords related to this slide are "Event," "Vision-Language," "Pretraining," "Text Information Extraction," "Agent," "Transport," "Target," and "Instrument."
+
+The slide does not contain any formulas or plots.

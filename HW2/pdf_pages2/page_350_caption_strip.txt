@@ -1,0 +1,18 @@
+The slide is titled "k=1" and discusses the values after one iteration in a gridworld display. The gridworld is a 3x3 grid with each cell containing a numerical value. The cells are color-coded: green, red, and gray. The green cell contains the value "1.00", the red cell contains "-1.0", and the gray cells contain "0.00". The slide also includes a formula for calculating the value of each cell, which is based on the values of the neighboring cells and the discount factor. The discount factor is given as 0.9, and the learning reward is set to 0.
+
+Keywords: k=1, Gridworld Display, Values After 1 Iteration, Green Cell, Red Cell, Gray Cells, Numerical Value, Formula, Discount Factor, Learning Reward.
+
+There is no plot shown on the slide.
+
+The formula used in the slide is as follows:
+a = ∑(s, s'∈S) p(s, a, s') [r + γV(s')]
+where:
+- a is the action taken
+- s is the current state (cell in the grid)
+- s' is the next state (neighboring cell)
+- p is the probability of transitioning from state s to state s' given action a
+- r is the reward received for taking action a in state s
+- γ is the discount rate (discount factor)
+- V(s') is the estimated value of state s'
+
+The formula is used to calculate the expected value of taking an action in a given state, considering the possible outcomes and their probabilities.

@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Potential for Self-Improvement" and discusses two answer generation strategies in the context of Large Language Models (LLMs). The first strategy, labeled as (1) w/o SE, is where the answer is a directly deterministic output of the LLM. The second strategy, (2) w/ SE, involves LLM generating an answer and evaluating its correctness, and if the evaluation indicates the answer as incorrect, LLM re-generates an answer as the final output.
+
+The slide also includes a table that compares the performance of these two strategies across different tasks. The tasks include "Reasoning about Colored Objects Deduction", "Logical Deduction (7)", "Tracking Shuffled Objects (5)", "Object Counting", "Geometric Objects (3)", "Shapes", "Web of Lies", "Sports Understanding", and "Penguins in a Table". The table shows the percentage of correct answers for each task under both strategies.
+
+The keywords that can be extracted from this slide are: Artificial Intelligence, Large Language Model (LLM), Answer Generation Strategies, Deterministic Output, Self-Evaluation, Correctness Evaluation, Re-generation, and Performance Comparison.
+
+There is no plot or formula shown on the slide.

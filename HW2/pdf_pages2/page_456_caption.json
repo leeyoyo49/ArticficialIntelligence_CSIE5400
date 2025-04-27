@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Problem Formulation (2/3)" and discusses how to fine-tune a Language Model (LLM) with reinforcement learning using Markov Decision Process (MDP). The MDP is described as a tuple (S, A, P, R, γ, d₀), where:
+
+- State space S: This is the space of input token sequences, represented as q ∈ {o₀, o₁, ..., oₜ}. Here, s₀ is defined as the token sequence of the question q.
+- Action space A: The space of tokens oᵗ.
+- Reward function R(q, {oᵢ, ..., 0ₜ}): A score that reflects the quality of the generated answer to the question.
+- Transition P: Sₜ₊₁ = Sᵀ ∪ 0ʜₜ+₁. This represents the transition from one state to the next, where the next state is a combination of the current state and a new token.
+- Initial distribution dₒ: The distribution of the initial question q.
+
+The slide does not contain any plots, formulas to be saved in LaTex format, or inline examples. The keywords from this slide that are most relevant to the topic of artificial intelligence are: Problem Formulation, Language Model, Fine-tune, Reinforcement Learning, MDP, State space, Action space, Reward function, Transition, Initial distribution.
+
+The summary of the slide is as follows: The slide provides a detailed explanation of how to apply reinforcement learning to a language model. It introduces the concept of MDP and breaks it down into its components: state space, action space, reward function, transition, and initial distribution. Each component is defined and explained in the context of fine-tuning an LLM. The slide is part of a larger presentation, as indicated by the slide number 171.

@@ -1,0 +1,7 @@
+The slide is titled "Denoising Diffusion Models" and discusses the two processes involved in denoising diffusion models. The first process is the forward diffusion process, which gradually adds noise to the input data. The second process, known as the reverse denoisising process, is generative and aims to reconstruct the original data by removing the noise.
+
+The slide also includes a visual representation of the forward and reverse processes. The forward process is depicted as a series of images of a cat, with each subsequent image showing an increasing amount of noise added to the original image. The reverse process is shown as the same images, but with the noise gradually being removed, resulting in the original cat image being restored.
+
+The keywords from this slide are: Denoising, Diffusion, Models, Forward diffusion, Reverse denoising, Process, Data, Noise, Generative, and Reconstruct.
+
+There is no plot or formula on the slide to describe. The source of the information is provided at the bottom of the slide: https://sgvr.kaist.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf.

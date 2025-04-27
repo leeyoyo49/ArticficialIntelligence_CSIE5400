@@ -1,0 +1,13 @@
+The slide is titled "Reinforcement Learning" and discusses the Markov Decision Process (MDP) in the context of reinforcement learning. The slide contains the following written content:
+
+- A set of states (s) in S
+- A list of actions (per state) A
+- An action-value function T(s,a,s')
+- A reward function R(s, a, s')
+- Still looking for a policy π(s)
+
+The slide also includes a diagram illustrating a Markov decision process with three states: "Cool", "Fast", and "Overheated". The diagram shows the transitions between these states based on the actions taken, with numerical values indicating the rewards or penalties associated with each transition.
+
+The slide does not contain any formulas or inline examples.
+
+The summary of the slide is as follows: The slide introduces the concept of Reinforcement Learning, focusing on the use of the MDP in this context. It explains the components of an MDP, including states, actions, action-value functions, and reward functions. The goal is to find a policy that maximizes the expected reward. The diagram provides a visual representation of how actions can lead to different states and rewards in a reinforcement learning scenario.

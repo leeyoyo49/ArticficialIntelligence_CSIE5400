@@ -1,0 +1,13 @@
+The slide is titled "Example: Pacman" and discusses the concept of "naive q-learning" in the context of the Pacman game. The slide is divided into two sections, each containing a visual representation of the game and a corresponding text explanation.
+
+The left section of the slide features a visual of the classic arcade game Pacman. The game is set in a maze-like environment with Pacman, a yellow ghost, and a red ghost. Pacman is located at the bottom left corner of the maze, while the ghosts are positioned at the top right and bottom right corners. The maze is outlined in blue, and the ghosts and Pacman are represented by white dots.
+
+The text in this section states, "Let's say we discover through experience that this state is bad:". This suggests that the state represented by the image on the left is undesirable or unfavorable in the game of Pacman.
+
+The slide does not contain any formulas or mathematical expressions, so there is no need to convert any text into LaTex format.
+
+The keywords that can be identified from the text on the slide include "Pacman", "naïve q-learning", "state", "experience", and "bad". These keywords are relevant to the topic of artificial intelligence and machine learning, specifically in the area of reinforcement learning and decision-making algorithms.
+
+The plot of the image is a representation of a game environment, specifically the maze from the game Pacman's arcade version. The image is used to illustrate a concept in reinforcement learning, where an algorithm learns to make decisions based on the state of the environment. In this case, the state is considered "bad" based on past experiences.
+
+In summary, the slide provides an example of how an artificial intelligence algorithm, specifically one using naive q-learning, might learn to avoid certain states in a game based on previous experiences. The Pacman image serves as a visual aid to illustrate this concept.

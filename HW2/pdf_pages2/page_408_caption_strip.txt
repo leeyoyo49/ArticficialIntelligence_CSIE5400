@@ -1,0 +1,13 @@
+The slide is titled "Q-Learning" and discusses the concept of Q-Learning, which is a sample-based Q-value iteration in the field of artificial intelligence. The slide explains the process of learning Q(s,a) values as you go, which involves receiving a sample (s, a, s', r), considering your old estimate (Q(s, a)), considering your new sample estimate, and incorporating the new estimate into a running average. The formula presented on the slide is Q_k+1 (s,a) = Σ T(s,a,s') [ R(s,a, s') + γ max Q_k(s',a') ], where Q_k is the Q-value at iteration k, T is the transition function, R is the reward function, γ is the discount factor, and max is the maximum Q-value function.
+
+The slide also includes a visual representation of Q-values after 1000 episodes, showing a grid of numbers that represent the Q-values for different states and actions. The grid is color-coded, with green indicating positive Q-values and red indicating negative Q-values.
+
+The summary of the slide's content is as follows:
+
+- Q-learning is a method used in artificial intelligence to iteratively update Q-values, which are estimates of the expected rewards for taking a certain action (a) in a given state (s).
+- The process involves receiving samples from the environment, considering the old Q-value estimate, updating it with a new estimate based on the received sample, and then incorporating the updated estimate into the running average.
+- The formula for updating Q-values is a key component of Q-learning and is used to calculate the new Q-value for a state-action pair.
+
+The keywords that are most relevant to the slide are: Q-learning, sample-based, Q-value, iteration, sample, old estimate, new estimate, running average, formula, T (transition function), R (reward function), γ (discount factor), and max (maximum function).
+
+The plot in the image shows a grid with Q-values ranging from -1.00 to 0.88, indicating the estimated rewards for different state-action pairs. The color-coding of the grid helps to visually represent the positive and negative values.

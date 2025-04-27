@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Self-Attention Layer" and discusses the concept of self-attention in the context of artificial intelligence. Self-attention is a mechanism in neural networks that allows the model to weigh the importance of different parts of the input data differently. This is particularly useful in tasks such as machine translation, where the relevance of each word can change depending on the context.
+
+The slide explains that the outputs of a self-attentional layer are context vectors, denoted as 'y', with a shape of N x D, where N is the number of input vectors and D is the dimensionality of each vector. The operations performed in this layer involve query vectors, represented as 'q', which are calculated by multiplying the input vectors 'x' with a weight matrix 'Wq'. The query vectors are then used to compute the context vectors 'y'.
+
+The slide also includes a diagram illustrating the flow of data through the self-attension layer. The input vectors are represented by 'x', and the query vectors 'q' are derived from these inputs. The diagram shows that each input vector is multiplied by the weight matrix to produce the query vector, which is then used in the computation of the output context vectors.
+
+The keywords that are most relevant to this slide are: Self-Attentional Layer, Context Vectors, Query vectors, Weight Matrix, and Input Vectors.
+
+There is no plot or formula presented on the slide.

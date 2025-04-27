@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Hard negatives via manipulating event structures" and discusses the concept of hard negatives in the context of event structures in artificial intelligence. The slide is divided into two main sections: "Positive Labels" and "Negative Labels," each with sub-sections for "Events," "Agents," "Entities," and "Instruments."
+
+In the "Events" section, the positive label is "Protesters transported injured man using a stretcher," while the negative labels are "Arrest (arrest)" and "Transport (carry)." The "Agents" section lists "protesters" as the positive agent and "injured man" as both the positive and negative agents. The "Entities" section includes "injury" as a positive entity and "protester" as an additional negative entity. Lastly, in the " Instruments " section, "stretcher" is the positive instrument, while "protesting" is listed as a negative instrument.
+
+The slide also includes a visual representation of an image with labeled elements such as "Person," "Bench," and the "Injured man." The image appears to be a scene from a protest where an injured man is being transported by protesters.
+
+The source of the content is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+Keywords: Artificial Intelligence, Hard Negatives, Event Structures, Positive Labels, Negative Labels, Events, Agents, Entities, Instruments, Protesters, Injured Man, Stretcher, Arrest, Transport.
+
+There is no plot or formula present on the slide to describe.

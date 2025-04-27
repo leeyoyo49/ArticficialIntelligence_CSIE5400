@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Policy Methods" and features two cartoon robots. The robot on the left is holding a piece of paper with a grid of arrows pointing in different directions, while the one on the right is looking at a similar grid with different symbols like a diamond, a skull, and a cross. The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. There is no plot shown on the slide.
+
+The slide seems to be illustrating the concept of policy methods in the context of artificial intelligence. The grid with arrows could represent a decision-making process or a set of rules that an AI system might follow. The different symbols on the robot's grid might represent different outcomes or actions that the AI system can take based on the rules it follows.
+
+The keywords that can be extracted from this slide are: Policy Methods, Artificial Intelligence, Robots, Grid, Arrows, Diamond, Skull, Cross, Decision-making, Rules, Outcomes, Actions, and AI System.
+
+Since there is no formula or plot on this slide, there is nothing to save in LaTex format or to describe in detail.

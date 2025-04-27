@@ -1,0 +1,7 @@
+The slide is titled "CVPR 2025 (Rating: 555)" and discusses the topic of "Dataset Distillation with Neural Characteristic Function: A Minmax Perspective". The authors of the slide are Shaobo Wang, Yicun Yang, Zhiyuan Liu, Chenghao Sun, Xuming Hu, Conghui He, and Linfeng Zhang, who are affiliated with various institutions including the School of Artificial Intelligence, Shanghai Jiao Tong University, EPIC Lab, Shanghai Jiaotong University, Hong Kong University of Science and Technology, and Shanghai Artificial Intelligence Laboratory. The slide number is 5.
+
+The slide does not contain any visual elements such as charts, tables, or diagrams. However, it does provide the email addresses of two of the authors, shaobowang1009 and zhanglinfeng, for further contact.
+
+The keywords that can be extracted from this slide are: CVPR, dataset distillation, neural characteristic function, minmax perspective, authors, institutions, and email addresses.
+
+As for the formula, there is no formula present on the slide.

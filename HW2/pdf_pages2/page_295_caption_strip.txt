@@ -1,0 +1,15 @@
+The slide is titled "DM: feature point matching methods" and discusses the use of Mean Squared Error (MSE) as an early method for comparing point-wise features in Euclidean space, denoted as ZR. The slide includes a diagram illustrating the process of matching synthetic data (represented by red circles) to real data (blue stars) by minimizing the distance within ZR.
+
+The formula presented on the slide is:
+L_MSE = E[||f(x) - f(x̃)||^2]
+where f denotes the feature extractor network, D and D̃ represent the real and synthetic data distributions, respectively, and x and x̃ are samples drawn from the respective data distributions.
+
+The keywords from this slide are:
+1. Feature point
+2. Matching methods
+3. MSE
+4. Euclidean Space
+5. Synthetic Data
+6. Real Data
+
+The plot in the slide visually represents the concept of minimizing distance within a space (ZR) to match features from synthetic and real data.

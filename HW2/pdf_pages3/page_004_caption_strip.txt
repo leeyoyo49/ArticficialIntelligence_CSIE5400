@@ -1,0 +1,17 @@
+The slide presents the "Basic principle of deep reinforcement learning," which is a fundamental concept in the field of artificial intelligence. The title "AI Weekly" suggests that this slide is part of a series or a collection of educational content related to artificial intelligence.
+
+The slide features a diagram that illustrates the interaction between an agent and its environment in the context of reinforcement learning. The agent is represented by a deep neural network, which processes the state of the environment to determine an action. The state is depicted as a complex network of interconnected nodes, symbolizing the agent's perception and understanding of its surroundings. The action is shown as a simpler network, indicating the decision-making process of the agent.
+
+The diagram also includes a feedback loop from the environment back to the agent, labeled as "Reward." This loop signifies that the agent receives a reward based on the action it takes, which in turn influences its future decisions and learning process.
+
+The keywords highlighted in the slide are "Agent," "State," "Action," "Deep Neural Network," and "Environment." These terms are crucial to understanding the basic principle of how an agent learns and adapts within a given environment through reinforcement learning.
+
+- **Agent**: An entity that interacts with its environment to achieve a goal.
+- **State**: The current situation or context within which the agent operates, including all relevant information about the environment and the agent itself.
+- Action: The decision or choice made by the agent in response to the current state.
+- Deep Neural Network: A type of artificial neural network with multiple layers, capable of learning complex patterns and representations.
+- Environment: The external factors and conditions that influence the state and the decisions of an agent.
+
+There is no plot or formula presented in the image, but the diagram serves as a visual representation of the reinforcement learning process, where the agent learns to maximize the cumulative reward through trial and error, guided by the feedback it receives in the form of rewards.
+
+In summary, the slide provides a visual and conceptual explanation of the basic mechanism by which an agent in a reinforcement learning system learns from its interactions with the environment. It emphasizes the role of deep neural networks in processing information and making decisions, and the importance of rewards in shaping the learning process.

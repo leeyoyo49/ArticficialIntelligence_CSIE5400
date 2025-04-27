@@ -1,0 +1,18 @@
+The slide is titled "Markov Decision Processes" and is divided into two main sections. The first section is a bulleted list that defines an MDP (Markov decision process) and includes the following points:
+
+- An MDP is defined by:
+  - A set of states s in S
+  - An action set a in A
+    - A transition function T(s, a, s')
+    - Probability that a from s leads to s', i.e., P(s'|s, a)
+    - Also called the model or the dynamics
+      - A reward function R(s,a,s')
+      - Sometimes just R(s) or R(s')
+  - And a start state
+  And maybe a terminal state
+
+The second section of the slide is a diagram that visually represents a Markov Decision Process. The diagram is a grid with four cells, each representing a state. The cells are numbered from 1 to 4, with 1 being the start state and 4 being the terminal state. There are arrows indicating the possible transitions between states, with each arrow labeled with the action taken and the resulting state.
+
+The keywords that can be extracted from this slide are: Markov, Decision Processes, MDP, states, actions, transition function, probability, model, dynamics, reward function, start state, terminal state, grid, cells, arrows, action, resulting state, start, terminal.
+
+The diagram does not contain any formulas, so there is no formula to save in LaTex format. However, the transition function can be described as a function that takes three inputs: the current state s, the action a, and the next state s'. The output of this function is the probability that the action will lead to the next specified state.

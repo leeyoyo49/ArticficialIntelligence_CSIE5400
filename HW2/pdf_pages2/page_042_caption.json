@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Denoising Diffusion Models" and discusses the concept of denoising in the context of diffusion models in artificial intelligence. The main content of the slide is divided into two sections, each representing a different type of data distribution: unknown and known. The unknown data distribution is represented by a blue shape with a red dot inside it, while the known distribution is depicted as a blurred blue shape. The slide also includes a formula for sampling, which is a process used in the generation of data in diffusion models. The formula is represented as "Sampling (Unconditional generation)" and is written in red text. The source of the information is provided as a URL at the bottom of the image.
+
+Keywords: Denoising, Diffusion, Models, Artificial Intelligence, Sampling, Unconditional generation, Data distribution, Unknown, Known, Red dot, Blue shape, Blurred shape, Formula, Source, URL.
+
+There is no plot shown on the slide.
+
+The formula represented in the image is not provided, so it cannot be saved in LaTex format or described in detail.

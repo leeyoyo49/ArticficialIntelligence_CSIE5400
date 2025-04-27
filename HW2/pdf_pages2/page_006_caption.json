@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "SkillMim: Skill Learning Results" and discusses the results of skill learning in the context of artificial intelligence. The slide is divided into six sections, each depicting a different basketball skill that has been learned by an AI system. The skills are dribble left, dribble turn, layup, jump shot, rebound, pick up, and pass. Each skill is represented by a sequence of images showing the progression of the AI's learning and execution of the skill.
+
+The slide does not contain any written content such as formulas or definitions, but it does provide a visual representation of the learning process. The images show the AI in various stages of learning each skill, starting from a basic level and progressing to a more advanced level. The AI is depicted as a green figure on a basketball court, and the images are arranged in a grid format, with each row representing a different skill.
+
+There is no plot shown on the slide, but the images collectively represent the plot of skill acquisition and improvement over time. The title of the slide suggests that the AI has been able to learn diverse basketball skills within a single policy, indicating a level of versatility and adaptability in its learning process.
+
+The keywords that are most relevant to the slide include "skill learning," "artificial intelligence," "basketball skills," "AI system," and "learning process." These keywords capture the main themes and concepts presented in the slide.

@@ -1,0 +1,13 @@
+The slide presents the concept of "Transfer text event knowledge to images" in the field of Artificial Intelligence. The slide is divided into three main sections: Caption Text, Image, and Information Extraction.
+
+The Caption Text section provides a detailed description of an event, stating that antigovernment protesters carried an injured man on a stretcher after clashes with riot police on Independence Square in Kyiv on February 20, 2014.
+
+The Image section displays a photograph of the event, with several individuals labeled as "Person" and a "Bench" visible in the background.
+
+The Information Extraction section contains a table with three columns: Event Type, Transport (carry), Agent, Target, and Instrument. The table lists the event type as "carry", the agent as "protesters", the target as "injured man", and the instrument as "stretcher".
+
+The slide also mentions "Weakly Supervision" as a method used in the process.
+
+The slide does not contain any formulas or plots. However, it does reference a source titled "Knowledge-Driven Vision-Language Encoding" from CVPR, 2023.
+
+In summary, the slide provides a comprehensive overview of how AI can be used to extract and transfer information from text to images, using a specific event as an example. The keywords related to this slide could be "Artificial Intelligence", "Caption Text", "Image", "Information Extraction", "Event Type", "Transport (carry)", "Agent", "Target", "Instrument", and "Weak Supervision".

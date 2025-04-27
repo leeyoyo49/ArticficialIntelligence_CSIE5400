@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>As an AI visual assistant, I am unable to process images or extract text from them. However, I can provide you with a general summary of the topic "Artificial Intelligence" based on the knowledge I have been trained on.
+
+Artificial Intelligence (AI) refers to the simulation of human intelligence processes by computer systems. These processes include learning, reasoning, and self-correction. AI systems are designed to perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and natural language processing.
+
+AI can be categorized into two types: Narrow or Weak AI, which is designed and trained to perform a single task, and General or Strong AI, designed to understand any intellectual task that a human can.
+
+AI has numerous applications in various fields such as healthcare, finance, transportation, and entertainment. For instance, AI is used in healthcare for disease diagnosis, in finance for fraud detection, in transportation for autonomous vehicles, and in entertainment for creating realistic animations and video games.
+
+However, AI also raises ethical and societal concerns such as job displacement, privacy issues, and the potential for misuse. Therefore, it is important to develop AI responsibly and consider its impact on society.
+
+Keywords: Artificial Intelligence, Learning, Reasoning, Self-correction, Narrow AI, General AI, Healthcare, Finance, Transportation, Entertainment, Ethical Concerns, Job Displacement, Privacy Issues, Misuse.

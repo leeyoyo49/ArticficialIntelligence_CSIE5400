@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Stanford AI Village [JUST 2023] Episodic memory of experience". It is the 99th slide in the presentation and the source of the content is "Generative Agents: Interactive Simulacra of Human Behavior," UIST, 2022. The slide is divided into four sections, each depicting a different scenario: "Taking a walk in the park", "Joining for coffee at a cafe", "Arriving at school", and "Sharing news with colleagues". Each scenario is represented by a screenshot of a virtual environment with characters interacting with each other.
+
+The slide does not contain any formulas or mathematical expressions, so there is no need to save any content in LaTex format. The scenarios depicted on the slide are examples of how artificial intelligence can be used to simulate human behavior and create episodic memories of experiences. This is a key concept in the field of AI, as it allows machines to learn from and adapt to their environment in a way that is similar to how humans do.
+
+The keywords that are most relevant to this slide are: Stanford AI Village, episodic memory, experience, AI, human behavior, simulation, and generative agents.

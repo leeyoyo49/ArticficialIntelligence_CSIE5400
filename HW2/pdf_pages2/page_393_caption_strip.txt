@@ -1,0 +1,13 @@
+The slide is titled "Analogy: Expected Age" and aims to explain how to compute the expected age of current students in NTU CSIE. The slide is divided into two main sections, each discussing a different approach to handle unknown probabilities.
+
+The first section, "Known P(A)," presents a formula for calculating the expected value (E[A]) of a random variable A. The formula is E[A] = Σ P(a) * a = 0.35 * 20 + ..., where Σ denotes the summation over all possible values of a. This approach assumes that the probability of each age (P(a)) is known.
+
+The second section is split into two subsections, "Unknown P(A): Model Based" and "Model Free." In the "Model Based" approach, a probability P̂(a) is calculated as the number of occurrences of age a divided by the total number of samples (N). The expected value is then approximated as the sum of these probabilities multiplied by the corresponding ages. This method requires a model to estimate the probabilities.
+
+In contrast, the "Unmodel Free" approach does not rely on a specific model. Instead, it uses the average of the collected samples (ā) as an approximation for E[A]. This method is based on the assumption that the samples appear with the right frequencies.
+
+The slide also poses two questions: "Why does this work? Because eventually you learn the right model." This suggests that the effectiveness of these methods lies in their ability to approximate the true expected value, even when the exact probabilities are unknown.
+
+The keywords associated with this slide are: Analogy, Expected Age, Known P(A), Unmodel Free, Model Based, Model Free, Probability, Expected Value, Summation, Age, Samples, and Frequencies.
+
+There is no plot or formula presented on the slide.

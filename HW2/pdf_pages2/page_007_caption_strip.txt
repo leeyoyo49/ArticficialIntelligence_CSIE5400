@@ -1,0 +1,1 @@
+The slide is titled "This Lecture – Agenda" and it outlines the topics that will be covered in the lecture. The topics include "Preliminaries," "Generative Models," "Multimodal Embedding Spaces," and "AI Agent Basics." Under the "AI agent basics" section, there are three subtopics: "Acting," "Tool Use," and

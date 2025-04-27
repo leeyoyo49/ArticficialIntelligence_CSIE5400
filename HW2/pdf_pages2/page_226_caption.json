@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal CoT Reasoning" and discusses how multimodality contributes to effective rationales in artificial intelligence. The slide includes a line graph and a bar chart.
+
+The line graph shows the accuracy of different models over 10 epochs. The models are "One-stage Baseline", "One-Stage Multimodal", "Two-Stage Baseline" and "Two Stage Multimodality". The accuracy of all models increases over the epochs, with the "Two-stage Multimodel" having the highest accuracy.
+
+The bar chart compares the accuracy with and without vision modality for two datasets, "base (200M)" and "large (700M)". The "with Vision Modality" model has higher accuracy for both datasets.
+
+The slide does not contain any formulas or definitions.
+
+The keywords are: Multimode, CoT, Reasoning, Artificial Intelligence, Accuracy, Epochs, Models, Baseline, Two-Stage, One-Stage.
+
+There is no plot described in the slide.

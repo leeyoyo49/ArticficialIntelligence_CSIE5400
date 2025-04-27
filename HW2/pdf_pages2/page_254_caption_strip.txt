@@ -1,0 +1,9 @@
+The slide is titled "Goal: Entity-Centric → Event-Centric" and discusses the transition from entity-centric to event-centric approaches in the context of artificial intelligence. The main content of the slide is divided into two sections: "State-of-the-art Captioner" and "Entity-centric vs. Event-centric."
+
+In the "State of the art Captioner," the slide provides examples of how a captioner might describe a woman holding a sign in different ways, focusing on either the entity (the woman) or the event (the act of holding the sign).
+
+The slide also includes a diagram illustrating the difference between entity-centric and event-centric descriptions. In the entity-centric description, the focus is on the individual elements such as the protester, parent, child, banner, and tool. In contrast, the event-centric description focuses on the actions and interactions between these elements, such as a protester holding a banner.
+
+The slide does not contain any formulas or plots. However, it does reference a source titled "Knowledge-Driven Vision-Language Encoding" from CVPR, 2023, which suggests that the content is based on recent research in the field.
+
+The keywords that are most relevant to the slide are: Entity, Event, Centric, Captioner, Protester, Parent, Child, Banner, Tool, Knowledge-Driven, Vision, Language, Encoding, and CVPR.

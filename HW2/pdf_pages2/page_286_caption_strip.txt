@@ -1,0 +1,7 @@
+The slide is titled "Artificial Intelligence" and has a subtitle "Learning to Act". The presenter is Wen-Huang Cheng from National Taiwan University, and his email address is wenhuang@csie.ntu.edu.tw. The slide features a graphic of a human head with an AI chip inside it, symbolizing the integration of artificial intelligence in the human brain. The background of the slide is a light blue color with a network of interconnected nodes and lines, representing the complex and interconnected nature of AI systems.
+
+The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. Therefore, there is no plot to describe, and no formula to save in LaTex format.
+
+The keywords that can be extracted from the image are: Artificial Intelligence, Learning to Act, Wen-Huan Cheng, National Taiwan University's logo, AI chip, human head, network, interconnected nodes, lines, light blue background, email address, csie, ntu, edu, tw.
+
+In summary, the slide introduces the topic of Artificial Intelligence and its application in learning to act. It also provides information about the presenter and his affiliation. The visual elements on the slide further emphasize the theme of AI and its integration with human cognition.

@@ -1,0 +1,19 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Sample Task: Reasoning about Colored Objects (3/3)" and is the 153rd slide in a series. The main content of the slide is a question type, specifically question type 5, which asks "How many objects of a type remain when some objects are removed?" An example is provided to illustrate this question type. The example involves a nightstand with various objects, including mugs and jugs of different colors. The question asks how many brown objects would remain on the nightstand if all the jugs were removed.
+
+The slide does not contain any formulas or plots, and there are no keywords that stand out as particularly relevant to the content. The slide is simple and straightforward, with a focus on the question type and its example.
+
+Here is the formula for the example given in the slide:
+
+Let B be the number of brown objects on the table.
+Let J be the total number of jugs.
+Let M be the brown mugs.
+Let G be the gold mugs.
+
+The question asks for the value of B after removing all J jugs.
+
+The answer to the question would be B - M, as all the brown objects are mugs and none of them are jugs.

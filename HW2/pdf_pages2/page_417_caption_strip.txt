@@ -1,0 +1,7 @@
+The slide is titled "Are We Done?" and contains a single bullet point with the text "Large and complex state spaces are still a problem!" There are no other written content, diagrams, plots, or formulas on the slide.
+
+The summary of the slide is that it is addressing the ongoing issue of large state spaces in artificial intelligence. Despite advancements in the field, the complexity and size of state spaces remain a significant challenge that needs to be addressed.
+
+The keywords from this slide are: Artificial Intelligence, State Spaces, Large, Complex, Problem.
+
+Since the slide does not contain a plot or formula, there is no additional information to provide in that regard.

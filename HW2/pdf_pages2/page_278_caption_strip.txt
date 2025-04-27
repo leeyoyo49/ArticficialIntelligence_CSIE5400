@@ -1,0 +1,9 @@
+The slide is titled "Various reasoning benchmarks are emerging" and is part of the "MMBench [ECCV 2024] Fine-grained Perception (cross-instance)". The slide is divided into three sections: Spatial Relationship, Attribute Comparison, and a question-answer format.
+
+In the Spatial Relationship section, there is a map of Asia with a question asking which country is north of the country circled in blue. The options given are Laos, Thailand, China, and Indonesia, with the correct answer being China.
+
+The Attribute Comparison section contains a diagram with two arrows pointing in different directions and a corresponding question asking if the two arrows are in the same direction. The answer provided is "Not the same".
+
+The question-answer section contains two questions with multiple-choice answers. The first question asks about the southernmost country of all the countries shown in the picture, with options being Australia, Indonesia, and New Zealand. The correct answer is Indonesia. The second question asks if the candies in the two jars in a picture are the same color, with answers being Same, Not the same, and Can't judge.
+
+The slide does not contain any formulas or plots.

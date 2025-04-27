@@ -1,0 +1,7 @@
+The slide is titled "Temporal Difference Learning" and discusses the concept of learning from every experience in the context of artificial intelligence. It emphasizes the importance of updating values (V(s)) each time a transition (s, a, s', r) occurs, with likely outcomes (s') contributing to updates more frequently. The slide also introduces the idea of temporal difference learning of values, where the policy remains fixed while the evaluation continues. It suggests moving values toward the value of whatever successor occurs, using a running average for this purpose.
+
+The slide provides a sample of V(s) as a function of R(s, π(s), s') + γV^π(s'), where R is the reward function, π is the policy, s' is the successor state, and γ is the discount factor. It also presents an update formula for V^π (s) as (1 - α)V^π_(s) + (α)sample, where α is the learning rate, and sample is a sample from the distribution of s' given s and π(s). The same update can be expressed as V^τ (s), where τ is the time step.
+
+The keywords from this slide are: Temporal Difference Learning, Experience, Transition, Likely Outcomes, Policy, Evaluation, Values, Reward Function, Policy π, Discount Factor γ, Learning Rate α, Sample, Successor State s', Time Step τ, Running Average.
+
+There is no plot or formula on the slide to describe.

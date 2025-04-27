@@ -1,0 +1,7 @@
+The slide is titled "Problems with Direct Evaluation" and discusses the pros and cons of direct evaluation in the context of artificial intelligence. Direct evaluation is easy to understand and doesn't require any knowledge of T, R, and it eventually computes the correct average values using just sample transitions. However, it wastes information about state connections and needs to have all episodes ahead of time, which is not feasible as it cannot "stream" in transitions.
+
+The slide also includes a table with output values for different states and actions. The table shows that if B and E both go to C under this policy, their values can be different. This is a problem with direct evaluation as it doesn't take into account the connections between states.
+
+The keywords that are most relevant to this slide are: Direct Evaluation, State Connections, Episodes, Transitions, and Output Values.
+
+There is no plot or formula shown on the slide.

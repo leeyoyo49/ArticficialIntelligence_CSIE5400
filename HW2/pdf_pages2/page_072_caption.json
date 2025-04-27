@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Tool Use: Example" and discusses the concept of "Tool Augmented Language Models." It explains that these models take an input, use a tool to process it, and then produce an output. The process is illustrated with a diagram showing the flow from input to tool input, tool result, and finally to output.
+
+The slide also provides an example of an abstract task and a weather task. In the abstract task, the input text is "tool-call tool input text" and the output is "output task output text." In the weather task, a user asks "how hot will it get in NYC today?" and the tool input is "weather lookup region=NYC |result precipitation chance: 10, high temp: 20c, low-temp: 12c |output today’s high will be 20C."
+
+The slide does not contain any formulas or plots. However, it does mention a source for the information presented: "TALM: Tool Augmenting Language Models," arXiv, 2022.
+
+Keywords: Tool Use, Language Model, Tool Augmented, Abstract Task, Weather Task, Input, Output, Tool Input, Tool Result, Region, Precipitation Chance, High Temp, Low Temp, Output Text.

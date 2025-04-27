@@ -1,0 +1,8 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "The Story So Far: Reinforcement Learning". It discusses the concept of a Markov Decision Process (MDP) in the context of reinforcement learning. An MDP is defined by four components: a set of states (S), actions (A), a transition model (T), and a reward function (R). The slide also mentions the ongoing search for a policy (π) that maximizes the expected return. A new twist in reinforcement learning is introduced, where the transition model and reward function are unknown, and actions must be tried out. The big idea presented is to compute all averages over the transition function using sample outcomes. The keywords from this slide are: MDP, states, actions, transition model, reward function, policy, reinforcement learning, sample outcomes.
+
+There is no plot or formula on the slide to describe.

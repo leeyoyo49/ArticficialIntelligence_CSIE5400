@@ -1,0 +1,5 @@
+The slide is titled "k=12" and is part of a presentation on Artificial Intelligence. The main content of the slide is a 4x4 grid with each cell containing a numerical value. The cells are color-coded: green for positive values, red for negative values, and gray for neutral values. The values range from -1.00 to 1.0. The slide also includes a legend explaining that the values represent "Values After 12 Iterations". Additionally, there are three parameters listed: Noise = 0.2, Discount = -0.9, and Living reward = -1.
+
+Keywords: Artificial Intelligence, k=12, Grid, Values, Iterations, Noise, Discount, Living reward, Positive values, Negative values, Neutral values.
+
+There is no plot or formula present on the slide.

@@ -1,0 +1,19 @@
+The slide is titled "MLLMs as Agent Models" and is divided into two main sections: Level 2: Using MLLM to reason to act (reasoning) and Level 1: Using MLLM to act. The slide contains the following written content:
+
+- "Level 2" section: 
+This section discusses the use of Multimodal Large Language Models (MLLM) to reason before acting. It includes a diagram with a robot icon, a brain icon, and a wrench icon, representing memory, tool use, and thinking respectively. The diagram shows a flow from "think about" to the robot, then to "Action" and "Observation", and finally to the Earth, symbolizing the global impact of the action. The source of the information is provided as "https://rdi.berkeley.edu/llm-agents/f24".
+
+- "Reasoning" section:
+This section is explored in the later lectures. It is represented by a text box with the words "think", "about", and "..." inside it, indicating the process of thinking or reasoning.
+
+- "Acting" Section:
+This part of the slide discusses the application of MLLMs in taking action. It uses a diagram to illustrate the relationship between action and observation, represented by the symbols "Action ∈ L" (Action is a member of L) and "observation" (observation is a part of L).
+
+- Keywords: 
+The keywords in the slide are "MLLLMs", "Agent Models", "Reason", "Act", "Observe", "Memory", "Tool Use", "Think", "Action", "Observation".
+
+- Plot Description:
+The plot on the slide is a flowchart that starts with the robot thinking about something, then taking an action based on the observation, and finally impacting the Earth. The flowchart is a visual representation of the process described in the text.
+
+- Formulas:
+The slide contains two formulas: "Action ⊂ L" which means Action is a subset of L, and "action ∈ ℓ" which indicates that action is an element of ℓ.

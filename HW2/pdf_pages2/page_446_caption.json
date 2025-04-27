@@ -1,0 +1,8 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "BLEU (4/4)" and discusses the concept of Brevity Penalty (BP) in the context of the BLEU (Bilingual Evaluation Understudy) score, which is a metric used to evaluate the quality of machine translation. The slide explains that BP is added as a penalty for a candidate whose length is less than the reference. The final BLEU score is calculated as the product of BP and the mean of BLEU scores. The formula for BP is given as BP = e^(1-r/c) if c > r, and BP = 1 if c ≤ r, where c is the length of the candidate, r is the reference length, and e is the base of the natural logarithm. The keywords from this slide are: BLEU, Brevitiy Penalty, BP, MEAN_BLEU, candidate, reference, length, e, r, c.
+
+The slide does not contain a plot or any other visual elements besides text and mathematical formulas.

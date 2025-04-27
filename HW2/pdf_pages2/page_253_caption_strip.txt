@@ -1,0 +1,7 @@
+The slide is titled "Goal: Entity-Centric → Event-Centric" and is divided into two main sections: an image on the left and a table on the right. The image shows two children holding signs that read "NO Mandate!" and "Parati's No Domestic Terrorism." The table is a comparison between Entity-centric and Event-centric concepts, with corresponding terms listed under each category.
+
+The Entity-centric section includes the following terms: Entity, Relation, Entity-Relation Graph, Verb, and Event Structure. The Event-centric section lists: Object, Object-Relation, Scene Graph, Activity, and Image Event Graph.
+
+The slide does not contain any formulas or plots. However, it does reference a source at the bottom: "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+In summary, the slide aims to explain the transition from Entity-centric to Event-centric approaches in the context of artificial intelligence. The Entity-centric approach focuses on entities and their relationships, while the Event-centric approach emphasizes objects, their relations, and activities within a scene or image.

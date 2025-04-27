@@ -1,0 +1,7 @@
+The slide is titled "Artificial Intelligence: Preliminaries and AI Agent Basics" and is presented by Wen-Huang Cheng from National Taiwan University. The slide's background features a network of interconnected nodes and lines, symbolizing the complex and interconnected nature of artificial intelligence systems.
+
+The slide does not contain any bullet points, formulas or inline examples. However, it does feature a graphic of a human head with the letters "AI" inside it, representing the concept of an artificial intelligence agent. The graphic is placed on the right side of the slide, next to the slide's title.
+
+The keywords that can be extracted from this slide are: Artificial Intelligence, Preliminary, AI Agent, Basics, Wen-Huan Cheng, National Taiwan University's logo, and the email address wenhuang@csie.ntu.edu.tw.
+
+There is no plot or formula present on the slide that needs to be described. The main focus of this slide is to introduce the topic of Artificial Intelligence and the basics of AI agents.

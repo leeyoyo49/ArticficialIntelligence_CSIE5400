@@ -1,0 +1,7 @@
+The slide is titled "Existing object-centric info miss situational understanding" and discusses the limitations of object-centric information in artificial intelligence. The slide includes a photograph of children holding signs with messages such as "NO Mandate!" and "Brady's NBT Domestic Terrorism." The slide also contains a table with the headers "Vision," "Object," "Relation," and "Scene Graph," but the content under these headers is not filled in. The source of the slide is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+The slide does not contain any formulas or plots. However, it does include a scene graph, which is a visual representation of the relationships between objects in a scene. In this case, the scene graph would include the children, the signs they are holding, and their relative positions to each other and their surroundings.
+
+The keywords that are most relevant to this slide include "object-centric information," "situational understanding," "children," "signs," "relationships," "scene graph," "knowledge-driven," "vision-language encoding," "CVPR," "2023," "Mandate," "NBT," "Domestic Terrorism."
+
+The slide suggests that relying solely on object-centric data can lead to a lack of understanding of the situational context, as exemplified by the children's signs. This highlights the importance of incorporating contextual information into AI systems to better understand and interpret the world around us.

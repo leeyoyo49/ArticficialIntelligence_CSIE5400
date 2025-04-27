@@ -1,0 +1,7 @@
+The slide is titled "Toolformer: Language Models Can Teach Themselves to Use Tools" and is part of the NeurIPS 2023 conference. The slide explains the process of how language models can be trained to use tools by following three key steps: sampling API calls, executing these calls, and filtering out the calls that do not reduce the loss over the next tokens. The process is illustrated with an example where the input text is "Pittsburgh is also known as the Steel City" and the API calls are "What other name is Pittsburgh known by?" and "Which country is Pittsburgh in?".
+
+The slide also includes a flowchart that visually represents the three steps mentioned above. The flowchart starts with the "LM Dataset", then moves to "Sample API Calls", followed by "Execute API Calls" and finally "Filter API Calls". The final output is a new text, "x*", which is the result of the process.
+
+The slide contains the following keywords: Toolformer, Language Models, Tools, API Calls, Execute, Filter, Loss, Tokens, Input Text, Position, Corresponding API Call Candidates, Interleave, Original Text, New Text.
+
+There is no plot or formula shown on the slide.

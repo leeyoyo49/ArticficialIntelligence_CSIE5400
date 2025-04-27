@@ -1,0 +1,7 @@
+The slide is titled "Multimodal CoT Reasoning" and discusses "Error Analysis" in the context of artificial intelligence. The most prevalent error type is "commonsense mistakes," which account for 80% of the errors. These mistakes occur when the model is faced with questions that require commonsense knowledge, such as interpreting maps, counting objects in images, or utilizing the alphabet. The slide also includes a pie chart that breaks down the types of errors into three categories: Commonsense (80%), Logical (14%), and Others (6%). The source of the information is cited as "Multidimensional Chain-of-Thought Reasoning in Language Models," TMLR, 2024.
+
+Keywords: Multimodal, CoT, Reasoning, Error Analysis, Commonsense, Logical, Others, Pie Chart, Artificial Intelligence.
+
+The pie chart is a visual representation of the distribution of error types. It shows that the majority of errors (80%) are commonsense mistakes, followed by logical errors (14%) and other types (6%).
+
+The formula for the pie chart cannot be provided as it is not a mathematical formula but a graphical representation of data.

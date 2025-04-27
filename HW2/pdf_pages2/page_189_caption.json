@@ -1,0 +1,8 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Few-shot chain-of-thought (CoT)" and discusses the concept of adding a "reasoning process" before providing an answer. The slide contains three questions and their corresponding answers, demonstrating the reasoning process. The questions are "Elon Musk", "Bill Gates", and "Barack Obama", with the answers being "nk", "Is", and a blank space respectively. The source of the content is "Large Language Model Agents," CS294/194-196, Berkeley University, 2024.
+
+The slide does not contain any formulas or plots. However, it does provide an example of a reasoning process, which is a key concept in artificial intelligence. The reasoning process involves breaking down a problem or question into smaller parts, analyzing each part, and then combining the analysis to arrive at a solution or answer. This process is essential in many AI applications, such as natural language processing, decision-making, and problem-solving.

@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "What is reasoning?" and discusses the concept of reasoning in the context of artificial intelligence (AI). The main content of the slide is divided into two bullet points. The first bullet point states that humans can learn from just a few examples because humans can reason. The second bullet point suggests that AI should be able to learn from a small number of examples, similar to how humans typically do.
+
+The slide does not contain any formulas, plots, or inline examples. However, it does include a source citation at the bottom, which reads: "Source: 'Large Language Model Agents,' CS294/194-196, Berkeley University, 2024."
+
+The keywords that are most relevant to the content of this slide are: "reasoning," "AI," "humans," "examples," and "learning."
+
+Since there are no plots or formulas on the slide, there is no description of a plot or formula to provide.

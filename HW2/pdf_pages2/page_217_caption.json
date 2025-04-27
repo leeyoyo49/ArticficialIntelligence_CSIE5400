@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal Reasoning" and discusses an "Example Problem: Text-to-image reference". The problem involves describing the contents of four images of a tree at different growth stages. The images are labeled as follows: Image 0 is just germinating, Image 1 is only a bare trunk, and Image 2 is luxuriant. Image 3 is a growing plant. The source of the content is cited as "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning, ICLR, 2024."
+
+The slide does not contain any formulas or plots. However, it does provide a visual representation of the growth stages of a plant, which can be used to understand the concept of multimodal reasoning in artificial intelligence. Multimodal reasoning refers to the ability of a system to process and integrate information from multiple sources or modalities, such as text and images, to make decisions or solve problems.
+
+The keywords that are most relevant to the content of the slide are: Multimodality, Reasoning, Artificial Intelligence, Text-to-Image, Reference, Growth Stages, and Plant.
+
+The formula that is mentioned in the slide is not a mathematical formula but a reference to a source of information. It is written as: "Source: MMICL; Empowering vision-language model with multi-modal in-context learning; ICLR; 2023."

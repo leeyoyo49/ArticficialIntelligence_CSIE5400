@@ -1,39 +1,15 @@
 <|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
-
-1. Extract every piece of written content:
-   • Slide title
-   • Sub-bullets and their full text
-   • Definitions, formulas, and any inline examples
-
-2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
-
-3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
-
-4. Organize your output as a valid JSON object with these fields:
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, but need to be readable in the JSON output.
+5. Organize your output as a valid JSON object with these fields:
    {
      "title": string,
+     "summary": string,
      "definitions": { term: definition },
-     "formulas": [ string ],
      "keywords": [ string ],
-     "summary": string
+     "formulas": [ string ]
    }
-
-5. Output ONLY the JSON object as a string—no extra text or formatting.
-
-6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
-{
-  "title": "AI Weekly",
-  "definitions": {
-    "SkillMimic": "Learning Reusable Basketball Skills from Demonstrations"
-  },
-  "formulas": [],
-  "keywords": [
-    "Artificial Intelligence",
-    "SkillMimic",
-    "Reusable",
-    "Basketball Skills",
-    "Demonstrations"
-  ],
-  "summary": "The slide is from 'AI Weekly' and discusses 'SkillMimic', a method for learning reusable basketball skills from demonstrations. It includes a visual of a basketball court and a green figure demonstrating a skill. The slide also lists the authors and their affiliations."
-}
-```
+6. Output ONLY the JSON object as a string, with no extra text or formatting.<|im_end|><|im_start|>assistant<|im_sep|>{"title": "SkillMimic: Learning Reusable Basketball Skills from Demonstrations", "slide_number": "2", "authors": "Yinhai Wang*, Qihan Zhao*, Runyi Yu*, Ailing Leng, Jing lin, Zhengyi Luo, Hok Wai Tsui, Jiwen Yu, Xiu Li, Qifeng Chen, Jian Zhang, Lei Zhang, Ping Tan", "affiliations": ["The Hong Kong University of Science and Technology", "UNITEER", "Peking University", "TSINGHUA UNIVERSITY", "IDEA", "Tencent", "Mellon University"], "event": "CVPR/Nashville", "event_dates": "June 11-15, 2025"}

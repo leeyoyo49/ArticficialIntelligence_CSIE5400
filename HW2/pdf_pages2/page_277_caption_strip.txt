@@ -1,0 +1,7 @@
+The slide is titled "Various reasoning benchmarks are emerging" and is divided into two main sections: "MMBench [ECCV 2024]" and "Fine-grained Perception (single-instance)". The first section, MMBench, discusses object localization and OCR (Optical Character Recognition) with examples and multiple-choice questions. The second section discusses fine-grained perception with an example of a "WORK HARD!" sign and a question about what the picture wants to express.
+
+The slide does not contain any formulas or plots. However, it does provide examples of reasoning benchmarks in the field of artificial intelligence. These benchmarks are used to evaluate the performance of AI models in tasks such as object localization, OCR, and understanding the context or intent behind an image.
+
+The keywords that can be extracted from this slide are: "Artificial Intelligence", "Reasoning Benchmarks", "Object Localization", "OCR", "Work Hard", "Single Instance", "Multiple Choice Questions", and "Context Understanding".
+
+The formula mentioned in the slide is for OCR, which stands for Optical Character Recognition. OCR is a technology used to convert different types of documents, such as scanned paper documents, PDF files, or images captured by a digital camera, into editable and searchable data. The formula for OCR is not provided in the image.

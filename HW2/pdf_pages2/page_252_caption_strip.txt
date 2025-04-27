@@ -1,0 +1,9 @@
+The slide is titled "Definition of 'Event'". The main content of the slide is divided into two sections. The first section is a table that defines an event in the context of a protest. The table has three columns labeled "Event", "Protester", and "Tool", and one row of data. The event is defined as a "No vaccine mandate for kids" protest, the protesters are identified as parents and children, and the tool used in the protest is a banner.
+
+The second section of the content is a diagram that further breaks down the components of the event. The diagram is a flowchart that starts with the question "What happened?" and branches out to "Who?" and "What?". Under "Who?", there are two categories: "protester" and "child". The "protest" category is further divided into "parent", "child", "tool tool", "banner", "parent protester", "banners", "we are", "kids", "NO", "Mandate!", and "NO vaccine". Under "What?", there is a single category: "tool".
+
+The slide does not contain any formulas or plots. However, the diagram can be described as a hierarchical representation of the elements involved in the event, starting from the general question of what happened, breaking it down into who was involved and what they did, and further detailing the roles and actions of the protesters and the tools they used.
+
+The keywords that can be extracted from this slide are: Event, Protest, Protester, Tool, Parent, Child, Banner, NO, Vaccine, Mandate, Kids.
+
+The diagram does not represent a mathematical or scientific formula, so it cannot be saved or described as such. It is a visual representation of information related to a specific event, in this case, a protest against vaccine mandates for children.

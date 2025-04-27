@@ -1,0 +1,5 @@
+The slide is titled "This Lecture – Agenda" and is divided into three main sections: "Preliminaries," "Generative Models," and "Multimodal Embedding Spaces." Under "Generatve Models," there are two subcategories: "Transformers" and "Diffusion Models." The "AI Agent Basics" section is further divided into "Acting," "Tool Use," "Memory."
+
+The slide does not contain any formulas or plots, and there are no inline examples provided. The keywords that can be extracted from this slide are: Artificial Intelligence, Lecture, Agenda, Preliminaries, Generative Models, Transformers, Diffusion Models, Multimodal, Embedding, Spaces, AI Agent, Acting, Tool Use, Memory.
+
+The summary of the slide is as follows: This slide outlines the agenda for a lecture on Artificial Intelligence. The lecture will cover preliminaries, generative models including transformers and diffusion models, and multimodal embedding spaces. It will also delve into the basics of AI agents, focusing on their acting, tool use, and memory.

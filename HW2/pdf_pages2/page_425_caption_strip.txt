@@ -1,0 +1,11 @@
+The slide is titled "A Comparison Between Q-learning & Deep Q-learning". The main content of the slide is divided into two sections: "Q-Table" and "DQN". 
+
+In the Q-Table section, there is a mathematical representation of the Q-learning algorithm. The formula is "Q(s, a) -> Q(3, 1) -> s -> +5.31". This formula represents the process of updating the Q-value for a state-action pair in Q-learning. The Q-value is then used to determine the best action to take in a given state.
+
+In the DQN section, the slide presents a diagram of a neural network, which is used in Deep Q-Learning. The diagram shows the flow of data through the network, starting from the input layer, through the hidden layers, and finally to the output layer. The output layer represents the Q-values for the possible actions in the current state.
+
+The slide also includes a table with numerical values, which are used to illustrate the Q-table. The table has two rows labeled "a0" and a1", and four columns labeled S0, S1, S2, S3, and S4. The values in the table represent the updated Q-values after each action is taken in the respective states.
+
+The keywords that are most relevant to the slide are: Q-learning, Deep Learning, Q-table, Neural Network, and Q-values.
+
+There is no plot or formula in the slide that needs to be described.

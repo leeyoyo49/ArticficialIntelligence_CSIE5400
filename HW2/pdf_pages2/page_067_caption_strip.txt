@@ -1,0 +1,7 @@
+The slide is titled "Example: RT-2: Vision-Language-Action Models [PLMR 2023]" and is associated with Google DeepMind. The main content of the slide is a question "What should the robot do to <task>?" followed by a series of numbers "A: = 132 114 128 5 25 156". Below the question, there is a diagram illustrating the process of a robot performing a task. The diagram includes a large language model, a vision-language-action model (ViLT), and a robot action. The language model is connected to the ViLT, which then connects to the robot action.
+
+The slide also includes a formula "Δ T = [0.1, -0.2, 0]" and "Δ R = [10°, 25°, -7°]". These formulas represent the changes in the task and the robot's position, respectively.
+
+The keywords from this slide are "RT-2", "Vision-Language Action Models", "Google DeepMind", "Language Model", "ViLT", "Robot Action", "Task", "Delta T", and "Delta R".
+
+There is no plot shown on the slide.

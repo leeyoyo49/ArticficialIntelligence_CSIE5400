@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Problem Formulation (1/3)" and discusses the concept of a Language Model (LM) in the context of artificial intelligence. The slide explains that given a vocabulary Σ and an LM M, the model takes a token sequence of the question q = {q0, ..., qn} as input and predicts the next token using autoregressive modeling. The formula presented on the slide is: Ot+1 = M(q, {ot, ..., ot}), where q ∈ Σ^n and ot ∈ ∑. This formula represents the process of predicting the next word in a sequence based on the previous words and the given vocabulary.
+
+The keywords that are most relevant to the content of the slide are: Problem Formulation, Language Model, Vocabulary, Token Sequence, Autoregressive Modeling, and Prediction.
+
+The slide does not contain a plot or any other visual representation of data. It is a text-based slide with bullet points and a mathematical formula.

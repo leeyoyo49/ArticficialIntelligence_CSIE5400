@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "MLLM Pretraining with Event Semantic Structures" and discusses the challenge of "Structured Encoding" in the context of machine learning and artificial intelligence. The main content of the slide is divided into three sections: Event Structure, Image & Caption, and Source.
+
+The Event Structure section contains a diagram that illustrates the relationships between different entities involved in an event. The entities include a person, a car, a stretcher, a protester, a police officer, and a building. The relationships between these entities are represented by arrows, indicating actions such as "carry," "attack," "clashes," and "place." This diagram is a visual representation of the semantic structure of an event, which is crucial for understanding the context and relationships between entities in a given scenario.
+
+The second section, "Image & Caption," provides an example of how the event structure can be applied to a specific image and its caption. The image shows a scene from a protest where antigovernment protesters are carrying an injured man on a stretainer after clashes with riot police on Independence Square in Kyiv on February 20, 2014. The caption provides additional context and details about the event.
+
+The Source section cites the source of the information as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+In summary, the slide presents the concept of structured encoding in machine learning, using an event semantic structure diagram and an example image and caption to illustrate how this approach can be used to understand and analyze complex events. The keywords associated with this slide are "MLMM," "Pretraining," "Event Semantic Structures," "Challenge: Structured Encoding," "Entity," "Agent," "Instrument," "Person," "Car," "Stretcher," "Protester," "Police," "Building," "Carry," "Attack," "Clashes," "Place," "Image," "Caption," "Source," "Antigovernment Protesters," "Injured Man," "Riot Police," "Independence Square," "Kyiv," "February 20," "2014."
+
+The slide does not contain any formulas or plots.

@@ -1,0 +1,18 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Transforming Experience into Long-Term Memory" and discusses how humans learn from their mistakes to perform better on a task. It introduces the concept of self-reflection as a mechanism to build a long-term memory of experiences, which allows humans to identify their own errors and self-suggest lessons to learn from these mistakes over time. The slide also includes a comic strip titled "The Tragedy of a Three Second Memory" that humorously illustrates the fleeting nature of short-term memory and the importance of reflection for long-term learning. The comic strip shows a fish thinking about a complex mathematical equation, only to forget it moments later, highlighting the transient nature of human memory.
+
+Keywords: Artificial Intelligence, Humans, Mistakes, Self-reflection, Long-term Memory, Comic Strip, Mathematical Equation, Short-term Memory.
+
+There is no plot shown on the slide, but the comic strip can be described as a visual representation of the concept discussed in the text. The mathematical equation in the comic is a complex calculation involving fractions and pi, which the fish is trying to remember. However, the fish quickly forgets the equation, emphasizing the theme of the slide.
+
+The formula shown in the slide is a mathematical equation involving fractions, pi, and algebraic expressions. It can be saved in LaTex format as follows:
+
+\[
+\frac{3.10}{6y^2} \left( \frac{ax}{y} \right)^2 + \frac{\pi}{y^3} \div \frac{x}{3} - 2 \pi \div x^3 = 22.61 \div y^2
+\]
+
+This formula is likely used to illustrate the complexity of the mathematical equation that the fish was attempting to remember, further emphasizing the point about the challenges of retaining short-term memories.

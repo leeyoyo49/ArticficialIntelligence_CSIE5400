@@ -1,0 +1,20 @@
+The slide is titled "An Example of Coding (Codeforces task) (3/3)" and is the 25th slide in a series. The content of the slide is a Python3 code snippet that solves a problem related to prefix and suffix products in a sequence of numbers. The code initializes two variables, 'prefix' and 'suffix', to 1, and a variable 'k' to -1. It then calculates the product of all elements in the sequence using the prefix product algorithm and iterates through the sequence from right to left, updating the 'prefix', 'suffix' variables, and the value of 'k'. If the prefix is equal to the suffix, it updates k to the current index. The final value of k is then printed.
+
+The keywords that can be extracted from this slide are: Python3, code, prefix, suffix, product, sequence, algorithm, iterate, update, if, print, k, index, input, range, list, map, split, int.
+
+The slide does not contain a plot or a formula to be saved in LaTex format. However, the code snippet can be described as follows:
+
+```python
+t = int(input())
+for n in range(t):
+    arr = list(map(int, input().split()))
+    prefix = suffix = 1; k = -1
+    for i in range(n):
+        prefix = prefix * arr[i]
+        suffix = suffix * arr[-i-1]
+        if prefix == suffix:
+            k = i
+    print(k)
+```
+
+The code snippet is a solution to a coding problem where the task is to find the index of a number in a list such that the number of elements to the left of the index is greater than the number to the right. The solution uses a prefix product and suffix product algorithm to solve the problem.

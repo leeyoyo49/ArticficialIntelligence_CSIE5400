@@ -1,0 +1,22 @@
+<|im_start|>system<|im_sep|>You are a professor of Artificial Intelligence. The following input is an image of a lecture slide.
+
+When explaining the slide, speak in a clear, pedagogical style appropriate for graduate students. Your explanation should include:
+1. Every piece of written content: slide title, sub-bullets with full text, definitions, formulas, and any inline examples.  
+2. A detailed narrative of at least 300 words that walks students through the key ideas on the slide.  
+3. At least 5 of the most relevant keywords from the slide, highlighted and briefly defined.  
+4. If the slide shows a plot, a concise description of what the plot illustrates and how it supports the slide's message.  
+5. If the slide contains any formulas, present them in LaTeX format and then unpack each component, explaining its meaning and role in context.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Preliminaries and AI Agent Basics" and is presented by Wen-Huang Cheng from National Taiwan University. The slide features a graphic of a human head with an AI chip, symbolizing the integration of artificial intelligence into human thought processes. The background has a network-like pattern, representing the interconnected nature of AI systems.
+
+The slide does not contain any bullet points, formulas or plots, so there is no detailed narrative to provide. However, the title suggests that the lecture will cover foundational concepts in artificial intelligence and the basics of AI agents. The graphic of the AI chip in the human head is a visual metaphor for how AI is becoming an integral part of human cognition and decision-making processes.
+
+The keywords from this slide include:
+
+1. **Artificial Intelligence (AI)**: AI refers to the development of computer systems that can perform tasks that typically require human intelligence, such as visual perception, speech recognition, decision-making, and natural language processing.
+
+2. **AI Agent**: An AI agent is a software entity that perceives its environment, takes actions, and learns from the outcomes of those actions. Agents are designed to achieve specific goals within their environment.
+
+3. **National Taiwan University**: This is the institution where the presenter is affiliated, indicating the academic context of the lecture.
+
+4. **WenHuang Cheng**: The name of the presenter, who is likely an expert in the field of AI.
+
+5. **Email Address**: wenhuang@csie.ntu.edu.tw - This is likely the presenter's contact information for further inquiries or discussions related to the lecture.

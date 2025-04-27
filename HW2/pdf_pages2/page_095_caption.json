@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "The system prompt for automatic curriculum (3/3)" and is the 95th slide in the presentation. The content of the slide is divided into two sections. The first section provides instructions on how to respond in a specific format. The response format consists of two parts: 'Reasoning' and 'Task'. The 'reasoning' part should be based on the information provided above, and the 'task' part is the next task to be performed. An example response is given, where the reasoning is that the inventory is empty and the task is to chop down a tree to get some wood.
+
+The second section of the content is an example response. The reasoning provided is the same as in the first section, that is, the inventory being empty. The task in this case is to obtain a wood log.
+
+The slide does not contain any visual elements such as charts, tables, or diagrams. There are no formulas or mathematical expressions present on the slide. Therefore, there is no plot to describe.
+
+The keywords that can be extracted from this slide are: "system prompt", "automatic curriculum", "reasoning", "task", "inventory", "wood log".

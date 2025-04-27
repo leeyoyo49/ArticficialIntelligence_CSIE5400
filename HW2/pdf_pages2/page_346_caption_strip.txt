@@ -1,0 +1,35 @@
+The slide is titled "Example: Value Iteration" and discusses the concept of value iteration in the context of artificial intelligence. Value iteration is a method used in reinforcement learning, a subfield of machine learning, to find the optimal policy for an agent in a Markov Decision Process (MDP). The slide includes a table with three rows labeled V0, V1, and V2, each containing three columns with numerical values. The table seems to represent the value function at different stages of the value iteration process.
+
+The slide also includes a diagram illustrating the concept. The diagram shows a car with different states labeled as "Slow," "Cool," "Fast," "Warm," and "Overheated." Each state is connected by arrows indicating the possible transitions between states, with associated rewards or penalties. The rewards are represented by numerical values, such as +1, +2, -10, and 0.
+
+The formula presented on the slide is "V_k+1 (s) <- max Σ T(s, a, s') [R(s,a,s') + γV_k(s')]", which is the Bellman equation used in value iteration. This equation calculates the value of a state by taking the maximum over all possible actions of the sum of the immediate reward and the discounted value of the next state. The discount factor is represented by the symbol γ.
+
+The keywords extracted from this slide are:
+- Artificial Intelligence
+- Reinforcement Learning
+- Markovian Decision Process
+- Bellman Equation
+- Value Function
+- Optimal Policy
+- State
+- Action
+- Reward
+- Discount Factor
+
+The plot in the diagram shows the transitions between different states of the car, with the rewards and penalties associated with each transition. The car starts in the "Slow" state and can transition to other states based on the actions taken. The goal is to find an optimal policy that maximizes the total reward while avoiding penalties.
+
+The value iteration formula is represented as:
+\[
+V_{k+1}(s) = \max_{a \in A(s)} \sum_{s' \in S} P(s'|s,a) \left[ R(s,a) + \gamma V_k(s') \right]
+\]
+where:
+- \( V_{k} \) is the value at iteration \( k \),
+- \( s \) and \( s' \) are the current and next states,
+- \( a \) represents the action taken,
+- \(\sum\) denotes the summation over all next states \(s'\) that can be reached from state \(s\) by action \(a\),
+- \(|s,a,s'\|\) is a tuple of the current state, action, and next state,
+- and \( R \) denotes a reward function.
+
+The example calculations provided in the slide demonstrate how to calculate the value for a state when the action is "slow" and "fast." For the action "slow," the value is calculated as \( 0.5(1 + 2) + 0 \), which equals \( 2.5 \). For the "fast" action, the calculation is \( -10 \), indicating a penalty.
+
+In summary, the slide provides an example of how value iteration is used to determine the optimal action in a reinforcement learning scenario, using a car's states and transitions as a visual aid. The Bellman formula is central to this process, and the example calculations illustrate how to apply the formula to specific actions.

@@ -1,0 +1,7 @@
+The slide is titled "Denoising Diffusion Models" and discusses the reverse denoising process, which is used to remove noise from data. The slide explains that direct calculation of q(x_t-1|x_t) is complex due to data-related calculations. Instead, a neural network is modeled to estimate this value. A diagram illustrates the process, showing a sequence of images from a noisy image (X_t) to a clean image (x_0). The slide also includes a mathematical formula: pθ(x_t−1|X_t)=N(μθ(X_t, t), Σθ(Xt, t)), which represents the normal distribution used in the model.
+
+The summary of the slide is as follows: The slide introduces the concept of denoizing diffusion models, which are used to clean noisy data. It explains that the process involves modeling the reverse process with a neural net to estimate the probability of a previous state given the current state and time. The diagram shows the progression of an image from noisy to clean, and the formula represents the mathematical model used in this process.
+
+The keywords from this slide are: Denoising, Diffusion, Models, Reverse denoicing process, Noise, Neural network, Probability, Normal distribution, Data-related calculations, Clean image, Noisy image, Sequence, Estimation.
+
+There is no plot or formula in the slide that needs to be described.

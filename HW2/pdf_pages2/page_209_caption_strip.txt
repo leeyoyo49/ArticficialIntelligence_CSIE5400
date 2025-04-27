@@ -1,0 +1,5 @@
+The slide is titled "Leap-of-Thought (LoT)" and discusses the concept of CoT (Chain of Thought) in the context of Large Language Models (LLMs). It explains that CoT guides LLMs to reason step-by-step and can motivate their logical reasoning ability. However, it is not conducive to creative problem-solving, which often requires out-of-box thoughts and is crucial for innovation advancements. CoT is described as a non-sequential, creative paradigm involving strong associations and knowledge leaps. The slide also includes two diagrams illustrating the concepts of Chain of Thought (CoT) and Leap of Thought. The CoT diagram shows a linear progression of thoughts, while the LoT diagram depicts a non-linear, creative thought process. The source of the information is a paper titled "Let's Think Outside the Box: Exploring Leap-of-Thought in Large Langauge Models with Creative Humor Generation" from CVPR, 2024.
+
+Keywords: Leap-of Thought, CoT, Large Language Model, Logical Reasoning, Creative Problem-Solving, Innovation Advancements, Non-Sequential, Creative Paradigm, Strong Associations, Knowledge Leaps.
+
+The slide does not contain any formulas or plots.

@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal Embedding Spaces" and discusses the concept of multimodal learning, which is the generalization across any-to-any modalities. The slide is divided into four main sections, each representing a different type of modality: RGB modalities, Edge modalities, Text modalities, and Metadata modalities. Each section contains images and examples to illustrate the different modalities.
+
+The RGB modalities section includes images of a color palette, SAM edges, and Canny edges. The Edge modalities section shows images of SAM instances. The Text modalities section contains examples of captions, T5-XXL embeddings, and web text. The Metadata modalities section provides examples of semantic metadata, geometric metadata, and image metadata.
+
+The slide also includes a diagram of an "Any-to-any model" with a transformer encoder and decoder. The diagram shows how different modalities can be input into the model and how the output can be used for various tasks.
+
+The keywords from this slide are: Multimodal, Embedding, Spaces, Generalization, Any-to-any, Modalities, RGB, Edge, Text, Metadata, Transformer, Encoder, Decoder, CLIP features, DINOv2 features, ImageBind features, Semantic metadata, Geometric metadata, Image metadata.
+
+There is no plot or formula on this slide to describe.

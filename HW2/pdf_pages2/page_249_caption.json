@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Definition of 'Event'". The main content of the slide is a table with two columns. The first column is labeled "Event" and contains the word "Protest". The second column is not labeled and does not contain any text. Below the table, there is a speech bubble with the text "What happened?" and a green upward-pointing triangle next to it. The source of the content is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+The image on the slide depicts a protest with people holding signs. The signs have various messages written on them, including "NO CHOICE" and "Parati's NOT Domestic Terrorism". The image is used to visually represent the concept of an event, in this case, a protest.
+
+There is no plot or formula present in the slide, so there is no need to describe a plot or provide a formula. The keywords that can be identified from the content are: Event, Protest, NO CHOICE, Parati's, NOT, Domestic, Terrorism, Knowledge-Driven, Vision, Language, Encoding, Tutorial, and CVPR.
+
+The summary of the lecture slide is as follows:
+
+The slide provides a definition of the term 'Event', using the example of a protest to illustrate the concept. The protest is visually represented by an image showing individuals holding signs with various messages. The slide prompts the viewer to think about what happened during the protest. The content is sourced from a tutorial presented at the Conference on Computer Vision and Pattern Recognition (CVPR) in 2022.

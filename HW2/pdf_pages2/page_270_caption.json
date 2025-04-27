@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Visual Event Extraction" and discusses "Supporting Zero-shot Vision Event Extraction." The content is divided into four categories: Vaccination, Arrest, Protest, and Celebration. Each category is represented by a set of images with bounding boxes and labels indicating the roles of the people in the images, such as "agent," "target," "detainee," "demonstrator," and "attendee." The images are examples of different events that can be extracted from a single image without prior training.
+
+The summary of the slide is as follows: The slide presents the concept of visual event extraction in the context of zero-shot vision event extraction. It demonstrates how this technology can identify and categorize different types of events from images without the need for prior training. The events covered include vaccination, arrest, protest, and celebration. The slide uses images with labeled bounding boxes to illustrate how the technology can distinguish between different roles in these events.
+
+The keywords from this slide are: Visual Event Extraction, Zero-shot, Vision Event, Vaccination Event, Arrest Event, Protest Event, Celebration Event, Agent, Target, Detainee, Demonstrator, Attendee.
+
+There is no plot or formula on the slide to describe.

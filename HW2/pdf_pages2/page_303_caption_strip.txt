@@ -1,0 +1,11 @@
+The slide is titled "Dataset Distillation with NCFM" and discusses the process of sampling and embedding real and synthetic data points through a feature extractor network. The synthetic data is optimized by minimizing the distributional discrepancy between the real data and the synthetic data, measured via the Neural Characteristic Function Discrepancy (NCFD) in the complex plane. An auxiliary network learns an optimal sampling distribution for the frequency arguments of the characteristic function.
+
+The slide also includes a diagram illustrating the process. The diagram shows a real dataset D and a synthetic dataset D̃, both of which are input into a feature network f. The output of the feature network is then plotted on a complex plane, with the goal of minimizing the Lagrangian (L) to match the real dataset distribution. The auxiliary network is represented by a sampling network, which is optimized to learn an optimal distribution that samples frequency arguments t.
+
+The formula presented on the slide is Φ_x(t) = E_x∼D [e^(it) f(x)], which represents the expected value of the exponential of the product of the imaginary unit i, the frequency argument t, and the feature function f(x). The goal is to maximize L to learn a distribution which samples the correct frequency arguments.
+
+Keywords: Dataset Distillation, Feature Extractor Network, Synthetic Data, Real Data, Neural Characteric Function, Complex Plane, Auxiliary Network, Sampling Network, Frequency Arguments.
+
+The plot in the diagram represents the distribution of data points in the real and complex planes. The red dashed line represents the gradient for the synthetic dataset, while the green dashed line and solid line represent the gradients for the sampling network.
+
+LaTeX representation of the formula: \Phi_{x}(t) = \mathbb{E}_{x \sim D} [e^{it} f(x)]

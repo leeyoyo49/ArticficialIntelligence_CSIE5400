@@ -1,0 +1,9 @@
+The slide is titled "MLLM Pretraining with Event Semantic Structures" and discusses the concept of "Structured Alignment via Optimal Transport." The slide is divided into two main sections. The first section defines a cost matrix C (embedding similarity) and the optimization goal, which is to minimize transport distance. The second section explains the Sinkhorn Knopp algorithm for approximating the optimal T.
+
+The slide also includes a diagram of a Text Event Graph and an Image Event Graph, showing the relationships between different entities such as 'person,' 'agent,' 'instrument,' and 'place.' The diagram uses different shapes and colors to represent these entities and their connections.
+
+The formula presented on the slide is T = diag(p) exp(-C/γ) diag(q), which is used to approximate the optimal transport. The formula includes variables such as p, q, C, and γ, and it is explained in detail in the slide text.
+
+The keywords that are most relevant to the slide are: MLLM, pretraining, event semantic structures, structured alignment, optimal transport, cost matrix, embedding similarity, transport distance, Sinkhorn algorithm, and convergence.
+
+The plot in the diagram shows the connections between different events and entities, which are represented by lines connecting the shapes. The shapes are color-coded to represent different entities, and the lines show the flow or sequence of events.

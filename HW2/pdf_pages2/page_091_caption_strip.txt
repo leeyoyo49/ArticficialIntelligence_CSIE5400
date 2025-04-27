@@ -1,0 +1,9 @@
+The slide is titled "A Running Example (3/4)" and is divided into three main sections: "Automatic Curriculum," "Iterative Prompting Mechanism," and "Skill Library." The Automatic Curriculum section shows a flowchart with four steps: "Mine Wood Log," "Combat Zombie," "Make Crafting Table," and a new task that is not fully visible in the image. Each step is represented by an image from the game Minecraft, indicating the actions to be taken in the game.
+
+The Iterative Promising Mechanism section contains a code snippet written in JavaScript. The code defines an asynchronous function named "combatZombie" that takes a parameter "bot." The function checks if the "bot" has a "sword" in its inventory. If it does, the bot equips the sword. If not, the function waits for the bot to craft a "stone_sword" and then equips it. There are ellipses indicating that there are additional steps in the function that are not shown.
+
+The Skill Library section lists five skills that can be retrieved by the bot: "Stone Sword," "Craft Shield," "Cook Steak," "Fight Zombie," and one skill that is partially occluded but can be inferred as "Mine Diamond" based on the context.
+
+The slide also includes a visual representation of the environment in which the bot operates, depicted as a screenshot of the Minecraft game interface. The slide number is 91, indicating that this is the 91st slide in the presentation.
+
+In summary, the slide provides an example of how a bot can use an automatic curriculum and an iterative prompting mechanism to perform tasks in a game environment. The bot can mine wood, combat zombies, and craft items, and it can retrieve these skills from a skill library.

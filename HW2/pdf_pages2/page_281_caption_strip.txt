@@ -1,0 +1,9 @@
+The slide is titled "Various reasoning benchmarks are emerging" and is divided into three main sections: Future Prediction, Logic Reasoning, and Structured Image-text Understanding. 
+
+In the Future Prediction section, there is a multiple-choice question asking what will happen next to a person on a motorcycle, with the correct answer being "the motorcycle is gonna crash". 
+
+The logic reasoning section contains a similar question about the same scenario, but with different answer choices. 
+
+The structured image-text understanding section presents two questions based on images. The first question asks which fruit the most kids like according to a bar chart, and the answer is "Orange". The second question asks what hobby is liked the least based on a pie chart of hobbies, with "Painting" being the least liked. 
+
+There are no formulas or plots on the slide.

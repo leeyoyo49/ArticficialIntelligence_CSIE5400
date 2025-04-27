@@ -1,0 +1,5 @@
+The slide is titled "ALFWorld [ICLR 2021]" and it is about a simulator that enables agents to learn abstract, text-based policies. The slide provides a scenario where the agent is in a room with various objects and the task is to put a vase in a safe. The agent navigates through the room, picks up the vase, and places it in the safe. There is no plot or formula on the slide. The source of the information is provided as "http://alfworld.github.io/".
+
+Keywords: ALFWorld, simulator, agents, learn, abstract, policies, task, vase, safe, room, objects, navigation, pick up, place, scenario, ICLR 2020.
+
+The slide does not contain any written content that can be extracted for the purpose of this task.

@@ -1,0 +1,5 @@
+The slide is titled "BERTScore" and discusses a method used to measure the quality of text summarization. It explains that BERTScore measures how similar the text summary is to the original text. The slide also addresses two common issues that n-gram-based metrics often encounter. The first issue is the incorrect matching of paraphrases due to semantically accurate expressions differing from the surface form of the reference text, which can lead to incorrect performance estimation. The second issue is n-grams' inability to capture long-range dependencies and penalize semantically significant reordering.
+
+The slide does not contain any formulas, plots, or inline examples. The most relevant keyword from this slide would be "BertScore," "text summarization," "n-gram models," "paraphrases," and "performance estimation."
+
+Since there is no plot or formula on the slide, there is nothing to describe in that regard.

@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Tool Use" and discusses the use of Machine Learning Models (MLMs) to predict model-specific tokens. It explains that sometimes, invoking 'tool calls' is necessary to accomplish the 'prediction' task. The slide also mentions that special tokens can be exploited to invoke tool calls for search engines, calculators, task-specific models like translation, and APIs.
+
+The slide does not contain any plots or formulas, so there is no plot description or formula to provide. However, there is a formula presented on the slide which is: (w1, w2, ..., wt) -> wt+1. This formula represents the prediction of the next token (wt+1) based on the current sequence of tokens (wt).
+
+The summary of the slide is as follows: The slide discusses the role of tool calls in the prediction task of MLMs. It highlights the use and exploitation of special tokens to invoke these tool calls, which can be used for various tasks such as searching, calculating, translating, and interacting with APIs. The formula presented represents the process of token prediction in MLMs.
+
+The keywords from this slide are: Tool Use, Model-Specific Tokens, Prediction, Tool Calls, Special Tokens, Search Engine, Calculator, Task-Specific Models, Translation, APIs.

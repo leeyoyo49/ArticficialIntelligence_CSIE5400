@@ -1,0 +1,5 @@
+The slide is titled "Agent Architecture" and is divided into two levels. Level 1 is "Using MLLM to act (acting)" and Level 2 is "Using MLLL to reason (reasoning)". The slide uses a diagram to illustrate the relationship between an agent's actions and observations. The agent is represented by a robot icon, which is connected to a memory icon and a tool use icon. The memory icon is linked to the phrase "think about ...", indicating that the agent uses its memory to reason. The tool use and observation icons are connected to the robot, indicating the actions the agent takes. The slide also includes a formula "Action ∈ L" and "Observation ∈ ℓ", which are not fully visible in the image. The source of the slide is provided as "https://rdi.berkeley.edu/llm-agents/f24".
+
+Keywords: Agent Architecture, MLLLM, reasoning, acting, robot, memory, tool use, action, observation, formula, source.
+
+There is no plot shown on the slide. The formula is not visible, so it cannot be described.

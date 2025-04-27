@@ -1,0 +1,11 @@
+The slide is titled "Model-Based Learning" and discusses the concept of learning an approximate model based on experiences and solving for values as if the learned model were correct. The slide is divided into two main steps. Step 1 is about learning an empirical Markov Decision Process (MDP) model, which involves counting outcomes for each state-action pair, normalizing to give an estimate of the transition probability, and discovering the reward function when we experience a state-action-state triplet. The second step is about solving the learned MDP, with an example of using value iteration as before.
+
+The keywords that can be extracted from this slide are: Model-Based Learning, Model-Based Idea, Empirical MDP model, Count outcomes, Normalize, Estimate, Transition probability, Reward function, State-action-state, Value iteration.
+
+There is no plot or formula shown on the slide, so there is no description of a plot or a formula to provide.
+
+The summary of the slide is as follows:
+
+The slide presents the concept and steps involved in model-based learning in the context of artificial intelligence. Model-based learning involves learning an approximation of a model from experiences and using this model to solve for values. The first step in this process is to learn an empirical MDP by counting and normalizing outcomes to estimate transition probabilities and discovering reward functions. The learned model is then used in the second step to solve the MDP using methods such as value iteration.
+
+The slide also includes a visual representation of a learning process, depicted by a fish jumping from one state to another, symbolizing the transition from one experience to the next in the learning process.

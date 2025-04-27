@@ -1,0 +1,7 @@
+The slide is titled "Model-Based Learning" and features a cartoon image of two robots. The robot on the left is holding a pencil and appears to be writing or drawing on a piece of paper, while the other robot is lying on the ground with its head up, looking at the first robot.
+
+The slide does not contain any written content such as bullet points, sub-points, or definitions. There are no formulas or inline examples present on the slide. The image does not show a plot.
+
+The keywords that can be extracted from this slide are: Model-Based Learning, Robots, Pencil, Drawing, and Ground.
+
+The formula is not present on this slide.

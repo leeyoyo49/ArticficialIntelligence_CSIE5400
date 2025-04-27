@@ -1,0 +1,7 @@
+The slide is titled "Transformers without Normalization" and is authored by Jiachun Zhu, Xinlei Chen, Kaiming He, Yann LeCun, and Zhuang Liu. The slide is part of a presentation for the CVPR 2025 event. The authors are affiliated with Meta, NYU, MIT, and Princeton University.
+
+The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. There is no plot or graph shown on the slide.
+
+The keywords that can be identified from the image are: Transformers, Normalization, Meta, New York University (NYU), Massachusetts Institute of Technology (MIT), Princeton University, and CVPR.
+
+The formula cannot be identified as there is no formula present on the image.

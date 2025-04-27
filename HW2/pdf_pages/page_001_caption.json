@@ -1,42 +1,15 @@
 <|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image and the OCR of a lecture slide about “Artificial Intelligence.”
-
-1. Extract every piece of written content:
-   • Slide title
-   • Sub-bullets and their full text
-   • Definitions, formulas, and any inline examples
-
-2. The summary should be as thorough and precise as possible—this will be used for later retrieval and generation.
-
-3. The keywords should be the most relevant terms from the slide, containing at least 5 terms.
-
-4. Organize your output as a valid JSON object with these fields:
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, but need to be readable in the JSON output.
+5. Organize your output as a valid JSON object with these fields:
    {
      "title": string,
+     "summary": string,
      "definitions": { term: definition },
-     "formulas": [ string ],
      "keywords": [ string ],
-     "summary": string
+     "formulas": [ string ]
    }
-
-5. Output ONLY the JSON object as a string—no extra text or formatting.
-
-6. The JSON object should be valid and parsable.<|im_end|><|im_start|>assistant<|im_sep|>```json
-{
-  "title": "Artificial Intelligence",
-  "definitions": {
-    "Artificial Intelligence": "AI is the simulation of human intelligence processes by computer systems.",
-    "AI Agent": "An AI agent is a system that perceives its environment and takes actions to achieve its goals."
-  },
-  "formulas": [
-    "AI = Intelligence + Technology"
-  ],
-  "keywords": [
-    "Artificial Intelligence",
-    "AI Agent",
-    "Intelligence",
-    "Simulation",
-    "Computer Systems"
-  ],
-  "summary": "The slide introduces the topic of Artificial Intelligence, focusing on preliminaries and the basics of AI agents. It includes a definition of AI and AI agents, and presents a simple formula combining intelligence and technology."
-}
-```
+6. Output ONLY the JSON object as a string, with no extra text or formatting.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>{"title": "Preliminaries and AI Agent Basics", "author": "Wen-Huang Cheng", "affiliation": "National Taiwan University", "email": "wenhuang@csie.ntu.edu.tw", "content": "The slide provides an introduction to Artificial Intelligence, focusing on preliminaries and the basics of AI agents. It includes a visual representation of an AI agent within a human head, symbolizing the integration of AI in human cognitive processes. The background features a network of interconnected nodes and lines, representing the complex and interconnected nature of AI systems. The slide does not contain any formulas or specific definitions, but it sets the stage for a deeper exploration of AI concepts and their applications."}

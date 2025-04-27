@@ -1,0 +1,13 @@
+The slide is titled "DM: moment matching methods" and discusses the relationship between distributional equivalence and moment equivalence in the context of aligning synthetic data with real data. It emphasizes that aligning moments alone does not guarantee full distributional matching.
+
+The slide contains two diagrams labeled (a) and (b), representing the previous paradigm and a new method, respectively. Both diagrams illustrate the process of minimizing the distance within a latent space (Z) using a parameterized network (ψ). The diagrams use circles to represent data points, with red circles for synthetic data and blue stars for real data.
+
+The formulas in the diagrams are as follows:
+- MSE (Mean Squared Error): min L(D, D1|Z_R)
+- MMD (Maximum Mean Discrepancy): minL (D, D2|Z_H)
+
+These formulas represent the objective functions to be minimized in the respective methods.
+
+The keywords extracted are: DM, moment matching, methods, synthetic data, real data, MSE, MMD, Latent Space, Parameterized Network, Z_R, Z_H, L, D, ψ.
+
+The plot in the slide is a visual representation of the optimization process in both the MSE and MMD methods, showing the alignment of synthetic and real data points in the latent space.

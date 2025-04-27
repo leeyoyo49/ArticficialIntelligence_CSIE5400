@@ -1,0 +1,7 @@
+The slide is titled "Example: RT-2: Vision-Language-Action Models [PLMR 2023]" and discusses the transfer of web knowledge to robotic control. The main content is divided into two sections: "Internet-Scale VQA + Robot Action Data" and "Closed-Loop Robot Control."
+
+In the first section, there are three images with corresponding questions and answers. The first image shows a donkey, with the question "What is happening in the image?" and the answer "A grey donkey walks down the street." The second image is of a cooking scene with a question in French "Que puis-je faire avec ces objets?" and an answer "Faire cuire un gâteau." The third image depicts a robotic arm performing a task, with a task description "Put the strawberry into the correct bowl" and a translation and rotation data "[0.1, -0.2, 0] Δ Rotation = [10°, 25°, -7°]."
+
+The second section shows a flowchart with three steps: "Co-Fine-Tune," "Vision-Language Action Models for Robot Control RT -2," and "Deploy." Below the flowchart, there is a section titled "Closed Loop Robot Control" with three images showing different tasks a robot can perform: "Pick the nearly falling bag," "Pick object that is different," and a third task with an obscured image.
+
+The slide does not contain any formulas, so there is no LaTex format to provide. However, the rotation data in the third image can be described as a set of three values representing the rotation in degrees for the x, y, and z axes.

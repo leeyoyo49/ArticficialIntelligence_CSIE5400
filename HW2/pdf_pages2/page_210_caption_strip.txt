@@ -1,0 +1,17 @@
+The slide is titled "Example: Exploring LoT in MLLM with Creative Humor Generation" and discusses the concept of "Oogiri (大喜利) game" where players are required to make surprising and creative humorous responses to multimodal information such as images, text, or both. The slide provides three examples of this concept:
+
+1. Image & Text to Text (IT2T): An image of two people, one saying "Excuse me, Sir" and the other asking "What?!", with the humorous response "Would... Would you mind uncuffing me?"
+2. Text to Image (T2I): A text saying "Get out of my way! My friend is badly hurt!" with the corresponding image of an ambulance with its lights on.
+3.
+
+The slide also includes a formula for converting text to text, represented as "Ctrl+C / Ctrl+V", which is a common keyboard shortcut for copying and pasting text.
+
+The keywords that are most relevant to the content of the slide are: Oogiri, game, players, surprising, creative, humorous, multimodal, information, images, and text.
+
+There is no plot shown on the slide.
+
+The formula in the slide is represented as:
+\[
+\text{Formula: Ctrl+C /Ctrl+V}
+\]
+This formula is used for copying text from one location to another.

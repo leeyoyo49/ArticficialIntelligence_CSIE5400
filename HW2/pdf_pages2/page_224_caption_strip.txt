@@ -1,0 +1,23 @@
+The slide is titled "Multimodal CoT Reasoning" and discusses a proposed mechanism to incorporate language (text) and vision (images) modalities into a two-stage framework that separates rationale generation and answer inference. Both stages share the same model structure but differ in the input and output. The slide includes a visual representation of the process, which consists of three stages: Vision, Rationale Generation, and Answer Inference. In the Vision stage, there are images of a cracker and fries, and a question is posed asking which property the two objects have in common, with options (A) soft and (B) salty. The rationale generation stage involves looking at each object and deciding if it has a certain property, with an example given that potato chips have a salty taste. The answer inference stage provides the final answer, stating that the common property of both objects is salty, and the answer is (B). The slide also includes a source citation for the information presented.
+
+Summary:
+The slide presents the concept of Multimodal Chain-of-Thought (CoT) Reasoning, which is a mechanism designed to integrate text and image modalities into an AI framework. This framework divides the process into two stages: rationale generation, where the AI examines objects to determine their properties, and an inference stage, where it deduces the answer based on the rationale. An example is given using images of potato chips and fries to illustrate how the AI would process the question and arrive at the answer that both objects are salty.
+
+Relevant Keywords:
+- Artificial Intelligence (AI)
+- Language (text)
+- Vision (images)
+- Two-stage framework
+- Rationale generation
+- Answer inference
+- Potato chips
+- Fries
+- Salty taste
+- Soft object
+- Common property
+
+Plot Description:
+The visual representation on the slide depicts a flowchart with three stages. The first stage, "Vision," shows two images of food items, a cracker, and fries. Below the images, there is a question asking about a common property between the two items, with two options provided. The second stage, labeled "Rationale Generation," is a text box that explains the process of examining each object to determine its properties. The third stage is "Answer Inference," which leads to the conclusion that both items share the property of being salty, with the answer being option (B).
+
+LaTeX Formula Description:
+There is no formula present on this slide to be described in LaTex format.

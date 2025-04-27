@@ -1,0 +1,5 @@
+The slide is titled "Summary: MDP Algorithms" and discusses three main points related to Markov Decision Processes (MDP) algorithms. The first point is about computing optimal values using either value iteration or policy iteration. The second point discusses computing values for a particular policy using policy evaluation. The third point talks about turning values into a policy using one-step lookahead and policy extraction.
+
+The slide does not contain any formulas or plots. However, it does include flowcharts that visually represent the processes mentioned in the text. The flowcharts show the steps involved in value iteration, policy iteration, and policy evaluation, as well as the transition from values to a policy.
+
+The keywords that are most relevant to the content of the slide are: "MDP Algorithms", "Value Iteration", "Policy Evaluation", "One-step Lookahead", and "Policy Extraction".

@@ -1,0 +1,11 @@
+The slide is titled "Hard negatives via manipulating event structures" and discusses the concept of hard negatives in the context of event structures in artificial intelligence. The slide is divided into two main sections, one for positive labels and one for negative labels, each containing a table with three columns labeled "Event Type," "Transport (carry)," "Agent," "Target," and "Instrument."
+
+In the positive labels section, the event type is "carry," the agent is "protesters," the target is an "injured man," and the instrument is a "stretcher." In contrast, the negative labels section has an event type of "arrest," with the same agent, target, and instrument.
+
+The slide also includes an image labeled "Image i," which appears to be a photograph of a chaotic scene with multiple people, some of whom are labeled as "Person" and others as "Bench." The image is used to illustrate the concept being discussed.
+
+The source of the information is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+Keywords: Hard negatives, Event structures, Artificial Intelligence, Positive labels, Negative labels, Event Type, Transport, Carry, Agent, Protesters, Target, Injured man, Instrument, Stretcher, Arrest, Arrestees, Knowledge-driven, Vision-language, Encoding.
+
+There is no plot or formula present on the slide.

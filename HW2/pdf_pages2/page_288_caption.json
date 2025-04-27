@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "AI Weekly" and is the third slide in a series. The main content of the slide is divided into two sections: a flowchart on the left and a series of graphs on the right.
+
+The flowchart is a representation of a process in artificial intelligence. It starts with an "original block" which then goes through two stages: "Attention / FFN" and "Layer Norm". The output from this process is then passed through a "scale & shift" operation, resulting in the final "output".
+
+The graphs are scatter plots that show the relationship between the input and output of different layers in a neural network. The layers are labeled as "ViT LN layer 5", "wav2vec LN layers 5, 30, 35, 40", and "DiT LN Layers 5 and 13, 21, 28". The graphs show that as the layer number increases, the output becomes more spread out and less linear.
+
+The slide also introduces the concept of "Dynamic Tanh (DyT)" with the formula "DyT(x) = tanh(αx)". This is a mathematical function that is used in the process represented by the flowchart.
+
+Keywords: AI, Weekly, Flowchart, Graphs, Scatter plots, Neural network, Layer Norm, Attention, FFN, Scale & Shift, Dynamic Tanh, tanh, α, x.
+
+There is no plot described in the slide.

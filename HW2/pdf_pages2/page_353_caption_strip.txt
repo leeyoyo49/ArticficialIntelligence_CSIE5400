@@ -1,0 +1,7 @@
+The slide is titled "k=3" and contains a Gridworld Display, which is a type of grid-based environment used in reinforcement learning. The grid is divided into 9 squares, with each square representing a state in the environment. The states are color-coded: green for positive rewards, red for negative rewards, and gray for neutral states. The values after 3 iterations are displayed in each square, indicating the estimated value of each state. The slide also provides information about the noise, discount, and living reward, which are parameters used in the reinforcement learning algorithm.
+
+Keywords: Gridworld, Reinforcement Learning, k=3, Values, Iterations, Noise, Discount, Living Reward.
+
+The plot in the slide is a 3x3 grid with each cell containing a numerical value. The colors of the cells represent different states in the gridworld, with green cells indicating positive rewards and red cells indicating negative rewards. The numerical values in each cell represent the estimated values of the corresponding states after three iterations of the algorithm.
+
+The formula on the slide appears to be related to the values in the Gridworld. However, the specific formula is not provided in the image.

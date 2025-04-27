@@ -1,0 +1,18 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Positional Encoding" and discusses the concept of positional encoding in the context of self-attention mechanisms in artificial intelligence. The slide is divided into two main sections: a diagram on the left and a list of options and considerations for positional encoding on the right.
+
+The diagram illustrates the process of combining special positional encoding with input vectors. It shows three input vectors (x0, x1, x2) and their corresponding special positional encodings (p0, p1, p2). These are then combined to form a new set of vectors (y0, y1, y2), which are fed into a self-attentive mechanism.
+
+The list on the slide provides options for the function pos(t), which is used in positional encoding. It suggests learning a lookup table to use for pos(t) for t in the range [0, T], where T is the length of the sequence. The lookup table contains T x d parameters, where d is the dimensionality of the input vectors.
+
+The slide also lists four considerations for the data of pos(t): it should output a unique encoding for each time-step (word's position in a sentence), the distance between any two time-steps should be consistent across sentences with different lengths, the model should generalize to longer sentences without any efforts, and the function must be deterministic.
+
+The source of the information is cited as "Attention is all you need," from NeurIPS, 2017.
+
+Keywords: Positional Encoding, Self-Attention, Lookup Table, Time-Step, Sentence Length, Deterministic, Neural Information Processing Society (NeurIPS).
+
+The slide does not contain any formulas or plots.

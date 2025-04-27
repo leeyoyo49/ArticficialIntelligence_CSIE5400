@@ -1,0 +1,11 @@
+The slide is titled "Values of States" and discusses the recursive definition of value, which is similar to the concept of "expectimax" in artificial intelligence. The slide contains two main formulas:
+
+1. V*(s) = max Q*(s, a) - This formula represents the value of a state 's' in a decision-making process, where 'a' is an action taken in that state. The value is calculated by taking the maximum over all possible actions 'a', and the result is the maximum value of the next state 'Q*(s,a)'. This is a recursive definition, meaning it refers back to itself in the calculation of the value.
+
+2. Q*(S,a) = Σ T(s, a, s') [R(s,a,s') + γV*(s')] - This is the Q-value function, which calculates the expected value of an action 'a'. It takes into account all possible next states 's'' and their probabilities 'T', the reward 'R' for transitioning to that state, and the discounted future value of that state 'V*'. The discount factor 'γ' is used to weigh the importance of future rewards.
+
+The slide also includes a diagram that visually represents the concepts of states, actions, and transitions in decision-making processes. The states are represented by blue triangles, actions by red arrows, and next states by green circles. The diagram shows how a state can transition to another state through an action, and how the value and Q-value are calculated based on these transitions.
+
+Keywords: Artificial Intelligence, Values of States, Recursive Definition, Expectimax, Q-value Function, Decision-Making, States, Actions, Transitions, Next States, Probabilities, Rewards, Discount Factor, Future Value.
+
+The plot in the diagram is a visual representation of a decision tree, where each node represents a state and each edge represents a possible action leading to a new state.

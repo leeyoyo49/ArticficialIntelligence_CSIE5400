@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "The Transformer Encoder Block (1/5)" and is the 15th slide in the presentation. The main content of the slide is a diagram of a transformer encoder block, which is made up of N encoder blocks. Each encoder block is represented by a blue rectangle, and there are four of them shown in the diagram. The encoder blocks are connected by arrows, indicating the flow of data through the block. The diagram also includes labels for the input and output of the encoder blocks, with the input labeled as "x N" and the output as "z_0,1,2,...,z_2,2". The source of the content is provided as a link to a Stanford University lecture.
+
+The slide does not contain any written content in the form of bullet points or definitions, nor does it contain any formulas or inline examples. There is no plot shown on the slide. However, the diagram itself can be considered a plot as it visually represents the structure and flow of the transformer encoder blocks.
+
+The keywords that are most relevant to the slide are: Transformer, Encoder, Block, N, Input, Output, Data Flow, Stanford University, Lecture.

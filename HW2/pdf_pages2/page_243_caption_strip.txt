@@ -1,0 +1,5 @@
+The slide is titled "Existing object-centric info miss situational understanding" and discusses the limitations of object-centric information in artificial intelligence. The slide is divided into three sections: Vision, Object, Relation, and Scene Graph. The Vision section is not visible in the image. The Object section is represented by a photograph of children holding signs. The Relation section is also not visible. The Scene Graph section is a diagram showing the spatial relationships between the children and the signs they are holding.
+
+The slide does not contain any formulas or plots. However, the Scene Graph diagram can be described as a visual representation of the relationships between objects in a scene. In this case, the diagram shows the children holding the signs, with arrows indicating the direction of the signs and the children.
+
+The keywords that can be extracted from this slide are: "Artificial Intelligence", "Object-centric", "Situational Understanding", "Vision", "Relation", and "Scene Graph".

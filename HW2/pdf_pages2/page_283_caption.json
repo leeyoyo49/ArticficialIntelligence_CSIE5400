@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Various reasoning benchmarks are emerging" and is part of the MathVista [ICLR 2024] presentation. It discusses the emergence of various reasoning benchmarks in the field of artificial intelligence. The slide is divided into three sections, each containing a different type of reasoning benchmark.
+
+The first section presents a math puzzle from IQTest, where the task is to find the missing value in a math equation. The solution is provided, and the answer is 27. This section falls under the category of Math-targeted tasks, with a context of a puzzle test, and is suitable for an elementary school grade level. The math involved is logical reasoning.
+
+The second section features a function plot from FunctionQA, asking which function is monotonic in the range [0, pi]. The answer is the blue one. This task is also math-targeted, but is more advanced, falling under the context of function plot and suitable for a college grade level.
+
+The third section displays a bar graph from PaperQA, showing the performance gap in the AgentBench Overall Score between the worst API-based LLM and the best open-sourced LLM. The performance gap is 0.16.
+
+The keywords from this slide are: MathVista, ICLR 2023, MathTargeted, IQ Test, Function QA, Paper QA, AgentBench, Overall Score, API-based, Open-sourced, LLMs, Performance Gap, Monotonic Function, and Logical Reasoning.
+
+The plot in the second section is a graph with two curves, one in red and one in blue, representing different functions. The x-axis ranges from -4 to 4 and the y-axis from -1 to 1. The red curve is a downward parabola, while the blue curve is an upward parabola.

@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Example: Grid World" and discusses the concept of an "Amaze-like problem" in the context of artificial intelligence. The agent in this problem lives in a grid, and walls block the agent's path. The movement of the agent is described as "Noisy," meaning that actions do not always go as planned. For instance, 80% of the time, the action North takes the agent North (if there is no wall there), and 10% each for the actions West and East. If there is a wall in the direction the agent would have been taken, the agent stays put.
+
+The agent receives rewards each time step, with a small "living" reward each step that can be negative, and big rewards come at the end, which can be either good or bad. The goal of this problem is to maximize the sum of rewards.
+
+The slide also includes a visual representation of the grid world, with the agent starting at the bottom left corner and the goal at the top right corner. The walls are represented by gray squares, and the rewards are indicated by numbers and symbols. The slide does not contain any formulas or plots.

@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "This Lecture – Agenda" and it outlines the topics that will be covered in the lecture. The agenda is divided into four main sections: "Preliminaries," "Generative Models," "Multimodal Embedding Spaces," and "AI Agent Basics." 
+
+Under "Generatve Models," there are two subtopics: "Transformers" and "Diffusion Models." These are types of generative models used in artificial intelligence to create new data that resembles the original data. 
+
+The "Multmodal Embedding Space" section does not have any subtopics or further details provided in the slide.
+
+The "AI Agents Basics" section is further divided into three subtopics, which are "Acting," "Tool Use," "Memory." These subtopics likely cover the fundamental aspects of AI agents, including how they interact with their environment, use tools, and store information.
+
+The slide does not contain any images, plots, or formulas, so there is no additional information to provide in those areas. The slide number is 36, indicating that this is likely the 36th slide in the presentation.

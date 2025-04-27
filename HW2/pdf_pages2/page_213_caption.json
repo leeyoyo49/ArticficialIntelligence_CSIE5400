@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal Reasoning" and discusses an example problem related to spatial reasoning. The problem is presented as a scenario where a man is seen walking down a street with a large orange cat sitting on his head. The cat appears to be enjoying the walk. The slide is part of a larger presentation, as indicated by the slide number 39. The source of the content is cited as "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning," ICLR, 2024.
+
+The slide does not contain any formulas or plots. However, it does contain an example of a multimodal reasoning problem, which involves understanding and reasoning about visual and textual information. In this case, the problem requires understanding the spatial relationship between the man and the cat, as well as interpreting the cat's behavior based on its position on the man's head.
+
+The keywords related to this slide could include "multimodal reasoning," "spatial," "man," "cat," "orange," "street," "walking," and "enjoying the walk." These keywords are relevant to the content of the slide and help to summarize the main concepts being presented.

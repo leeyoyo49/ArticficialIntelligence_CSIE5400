@@ -1,0 +1,7 @@
+The slide is titled "A Walk in the Park: Learning to Walk in 20 Minutes With Model-Free Reinforcement Learning". The authors of the slide are Laura Smith, Ilya Kostrikov, and Sergey Levine, who have made an equal contribution to the work. They are affiliated with Berkeley AI Research and UC Berkeley. The slide also provides their email addresses for further contact.
+
+The slide contains three images of a robot walking in a park. The images are overlaid on a map of a park, with the robot's path highlighted in different colors: blue, green, and yellow. The blue image shows the robot walking on a paved path, the green image shows it walking on grass, and the yellow image shows its path on a dirt path.
+
+There is no formula or plot shown on the slide. However, the slide does provide a link to a PDF document for further reading: https://arxiv.org/pdf/2208.07860.pdf.
+
+Keywords: Artificial Intelligence, Learning, Reinforcement, Model-Free, Robot, Park, Map, Path, Paved Path, Grass, Dirt Path, Authors, Affiliation, Email, Link, PDF.

@@ -1,0 +1,9 @@
+The slide is titled "Time-Limited Values" and discusses the concept of time-limited values in the context of game theory. The key idea is to define V_k(s) as the optimal value of s if the game ends in k more time steps. This is equivalent to what a depth-k expectimax would give from s. The slide includes a diagram of a decision tree with nodes representing different states and arrows indicating possible moves. There is also a triangle labeled V_2(s) representing the value of a specific state s after 2 time steps.
+
+The summary of the slide is as follows: The concept of "Time Limited Values" in game theory is introduced, with a focus on the optimal values of a game state after a certain number of time steps, specifically k. This concept is related to the depth of an expectimax tree, which is a decision-making algorithm used in artificial intelligence. The decision tree diagram illustrates the possible states and moves in a game, while the triangle represents a specific state's value after a given time step. The keywords associated with this slide are: Time Limited Values, Optimal Value, Game Theory, Depth, Expectimax Tree, Decision Tree, States, Moves, and Time Steps.
+
+The formula presented on the slide can be saved in LaTex format as follows:
+\[
+V_{k}(s) = \text{optimal value of } s \text { if the end of the game occurs in } k\text { more steps}
+\]
+This formula defines the value V_k of a state s, given that the game will end after k more steps.

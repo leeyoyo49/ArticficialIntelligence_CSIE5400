@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Contrastive Learning on Event Semantics" and discusses the concept of contrastive learning in the context of event semantics. The main content of the slide is divided into three sections: Positive Labels (events), Negative Labels (arguments), and a visual representation of the learning process.
+
+The Positive Labels section describes an event where "Protesters transported an injured man using a stretcher." The Negative Labels section, on the other hand, describes an argument where "Injured man transported a stretcher with protesters." The slide also includes a diagram illustrating the learning and encoding process, with arrows indicating the flow of information from the image to the text and then to the encoder.
+
+The slide also contains a reference to the source of the content, which is "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+In summary, the slide provides a detailed explanation of the contrastive approach to learning event semantics, using the example of a protest scenario to illustrate the concept. The diagram further aids in understanding the process of encoding and learning from visual and textual data.

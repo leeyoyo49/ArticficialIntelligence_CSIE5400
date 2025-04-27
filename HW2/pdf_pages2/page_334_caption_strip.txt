@@ -1,0 +1,12 @@
+The slide is titled "Values of States" and discusses the recursive definition of value, similar to the concept of 'expectimax' in artificial intelligence. The main content of the slide is divided into two sections. The first section provides the recursive definitions of V*(s) and Q*(s,a), which are mathematical formulas used in decision-making processes in AI. The second section poses a question about how to solve these equations.
+
+The slide also includes a diagram that visually represents the concepts discussed in the text. The diagram consists of three main elements: a state (s), an action (a), and a transition (T(s,a,s')). The state is represented by a blue triangle, the action by a green circle, and the transition by a red triangle. The relationships between these elements are indicated by arrows, with the action leading from the state to the transition.
+
+The formulas presented in the slide are as follows:
+- V*(S) = max Q*(S, a) for all actions 'a'
+- Q*( S, a ) = Σ T(S, a, s') [R(S, A, S') + γV*(s')] for all states 's'
+- V* (s)  = max Σ T (s, a , s' ) [R (s , a , S' ) + γ V*( s ' ) ] for all transitions 'a'
+
+The keywords that can be extracted from this slide are: Artificial Intelligence, Values of States, Recursive definition, Expectimax, Decision-making, State, Action, Transition, and Equations.
+
+The diagram does not represent a plot in the traditional sense, but it does provide a visual representation of the relationships between the state, action, and transition in the context of AI decision-making.

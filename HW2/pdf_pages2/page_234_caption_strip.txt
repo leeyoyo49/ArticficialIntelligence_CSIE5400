@@ -1,0 +1,9 @@
+The slide is titled "Visual Commonsense Knowledge" and discusses the concept of Visual Commonsense Reasoning (VCR), which is a part of the broader field of Artificial Intelligence. The slide is divided into two main sections. The first section provides a definition and explanation of VCR, while the second section presents two examples of how VCR is applied in real-world scenarios.
+
+In the first example, the slide presents a scenario where a person is pointing at another person who has pancakes in front of them. The question posed is "Why is [person4] pointing at [person1]?" and four possible answers are provided, each with a different explanation. The second example is a question about how [person2] got the money that's in the front of [person3]. Again, four possible explanations are given.
+
+The slide also includes two images that illustrate the scenarios described in the examples. The images are annotated with labels identifying the people and objects involved in the scenes. The annotations are color-coded to match the labels in the text, making it easier to follow the connections between the text and the images.
+
+The source of the information on the slide is a paper titled "From Recognition to Cognition: VisualCommonsenseReasoning," published in CVPR in 2019.
+
+In summary, this slide provides a comprehensive overview of the topic of visual commonsense reasoning in the field of artificial intelligence. It explains the concept, provides real-world examples, and uses images and annotations to illustrate the application of the concept.

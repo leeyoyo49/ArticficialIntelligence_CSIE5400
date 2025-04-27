@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Stanford AI Village [UIST 2023] Episodic memory of experience" and discusses "The agent architecture". The main content of the slide is a flowchart that illustrates the process of episodic memory in an agent architecture. The flowchart is divided into three main components: "Plan", "Memory Stream", and "Act". The "Plan" component is connected to the "Act" component, indicating a flow of actions. The "MemoryStream" is a central component that connects to "Retrieve" and "Retrieve Memories" components, which are part of the "Generative Agent Memory". There is also a "Reflect" component that feeds back into the "Plan". The slide does not contain any formulas or plots.
+
+The summary of the content is as follows: The slide presents the concept of episodical memory in artificial intelligence agents. It explains how an agent uses a generative agent memory to retrieve and reflect on past experiences, which then informs its planning and actions. This process is cyclical, with the agent continuously learning and adapting based on its experiences.
+
+The keywords from this slide are: Stanford AI Village, UIST, Episodical memory, Experience, Agent architecture, Plan, Memory Stream, Act, Retrieve, Retrieve Memories, Reflect, Generative, Agent Memory.
+
+The flowchart does not represent a specific plot, but rather a conceptual model of how an AI agent might process and utilize episodic memories to make decisions and take actions.

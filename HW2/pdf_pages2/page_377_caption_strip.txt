@@ -1,0 +1,11 @@
+The slide is titled "Comparison" and discusses the differences between value iteration and policy iteration in the context of dynamic programming for solving Markov Decision Processes (MDPs). 
+
+Value iteration updates both the values and the policy implicitly with every iteration, without explicitly tracking the policy. Instead, the maximum over actions is taken implicitly to recompute the policy.
+
+Policy iteration, on the other hand, involves several passes that update utilities with a fixed policy. Each pass is fast because only one action is considered, not all of them. After the policy is evaluated, a new policy is chosen, which is slow like a value iteration pass. The new policy will be better, or the process will be done.
+
+Both methods are dynamic programs for solving MDPs.
+
+The keywords that can be extracted from this slide are: Comparison, Value iteration, Policy iteration, Dynamic programs, MDP, Utilities, Policy, Actions, Iteration, Max, Recompute, Evaluate, New policy, Better.
+
+There is no plot or formula shown on the slide.

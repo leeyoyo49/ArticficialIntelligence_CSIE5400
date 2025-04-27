@@ -1,0 +1,11 @@
+The slide is titled "Example: Temporal Difference Learning" and is divided into two main sections: "States" and "Observed Transitions". 
+
+In the States section, there is a 3x3 grid with the letters A, B, C, D, and E. Each letter represents a state in a Markov Decision Process (MDP). 
+
+The Observed Transitions section shows three different transitions between states. Each transition is represented by a pair of states and a reward value. For example, the transition from state B to state C has a reward of -2. 
+
+The slide also includes a mathematical formula: V^π(s) = (1 - α)V^π (s) + α [R(s, π (s), s') + γV^τ (s')]. This formula is used to calculate the value of a state under a given policy π, with α representing the learning rate and γ representing the discount factor. 
+
+Relevant keywords from this slide include "Temporal Difference Learning", "States", "Transitions", "Rewards", "Discount Factor", and "Value Function". 
+
+There is no plot shown on this slide.

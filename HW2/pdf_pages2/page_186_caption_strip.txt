@@ -1,0 +1,5 @@
+The slide is titled "Solve it by Machine Learning (ML)?" and discusses the requirement of "Tons of labeled data" for machine learning. It poses a question about whether machine learning should still be referred to as artificial intelligence when it requires vast amounts of data to learn a "simple" task. The slide also includes a diagram of a machine learning model with an "Encoder" and a "Decoder" connected by an arrow, indicating the flow of data. The diagram is labeled "Bill Gates." The source of the information is cited as "Large Language Model Agents," CS294/194-196, Berkeley University, 2024.
+
+Keywords: Machine Learning, Artificial Intelligence, Labeled Data, Encoder, Decoder, Bill Gates, Large Language Model, CS294.
+
+The diagram does not contain a plot or a formula.

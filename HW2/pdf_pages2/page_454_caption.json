@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Overall Training Procedure of RLC" and is divided into three main sections. The first section outlines the three steps of the training procedure: (1) Answer generation to the unlabeled questions, (2) Self-evaluation by asking LM using evaluation prompt, with the evaluation results as the reward, and (3) Update the language model to maximize the reward using reinforcement learning algorithms. A note at the bottom of this section explains that the solid lines represent the data flow, while the dashed line represents the update of LM parameters.
+
+The second section of the slide presents a list of unlabeled question examples, such as "Given a movie review, your task is to classify it as positive, negative, or neutral based on the text: The movie is so interesting ...", "Sort the following list of words alphabetically: The word list: over costume counterpart.", and "Today is Christmas Eve of 1937. What is the date 10 days ago? Options: (A) 12/14/2026, (B) 10/12/2007, (C) 11/11/1937."
+
+The third section provides an example of an evaluation prompt and its corresponding answer. The evaluation prompt asks the user to evaluate the answer to the question and give a score from 1 to 10. The example given is: "The question is [Q]. The answer is [A]."
+
+The slide does not contain any formulas or plots. However, it does include a flowchart that visually represents the process of generating an answer, evaluating it, and then improving the model. The flowchart consists of three boxes labeled "Language model," "Evaluation prompt," and "Reward," with arrows indicating the flow of information between these components.
+
+The keywords that are most relevant to the slide are: Artificial Intelligence, Training Procedure, RLC, Answer Generation, Self-Evaluation, Evaluation Prompt, Reward, Language Model, and Reinforcement Learning Algorithms.

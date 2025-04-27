@@ -1,0 +1,11 @@
+The slide is titled "An Example of Coding (Codeforces task) (2/3)" and discusses the prefix product algorithm, which is used to calculate the product of all the elements in a prefix of an array. The algorithm works by initializing a variable "prefix" to 1, and then iterating through the array from left to right. At each iteration, the current element is multiplied with the prefix, and the result is stored in the prefix variable. This way, the prefix keeps track of the product. The time complexity of this algorithm is O(n), where n is the size of the input array.
+
+The slide also provides three example problems related to this algorithm:
+1. Given an array of integers, find the largest subarray with a product less than or equal to a given target. This problem can be solved by modifying the prefix algorithm to keep track of all subarrays with products less than the target and then finding the one with the largest size.
+2, 3. The solutions for these problems are not provided on the slide.
+
+The code for the prefix_product function is also provided, which takes an array and a size k as input, and returns the largest product of any subarray of size k.
+
+The keywords that can be extracted from this slide are: prefix, product, algorithm, time complexity, array, subarray, and Codeforces task.
+
+There is no plot or formula on this slide.

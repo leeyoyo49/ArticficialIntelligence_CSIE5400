@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Visual Event Extraction" and discusses "Supporting Zero-shot Vision Event Extraction." The content is divided into four sections, each representing a different event: Vaccination, Arrest, Protest, and Celebration. Each section contains images with bounding boxes and labels indicating the roles of the people in the images, such as "agent," "target," "detainee," "demonstrator," and "attendee."
+
+The slide does not contain any formulas or mathematical expressions, so there is no need to save any content in LaTex format. However, the bounding boxes around the images are likely used to identify and categorize the different roles of individuals in the events depicted.
+
+The most relevant keyword from this slide would be "Zero-shot Visual Event Extraction," as it is the main topic of the slide. Other relevant keywords could include "Vaccination," "Arrest," "Protest," "Celebration," and the various roles of people in these events.
+
+There is no plot shown on the slide, but the images and bounding boxes provide a visual representation of the different types of events that can be extracted using zero-shot visual event extraction.

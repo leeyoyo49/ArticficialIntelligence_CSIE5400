@@ -1,0 +1,18 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Hard negatives via manipulating event structures" and discusses the concept of hard negatives in the context of event structures in artificial intelligence. The slide is divided into two main sections: "Positive Labels" and "Negative Labels."
+
+In the Positive Labels section, there is a table with three columns labeled "Event Type," "Transport (carry)," "Agent," "Target," and "Instrument." The event type is "Transport," the transport is "carry," the agent is "protesters," the target is "injured man," and the instrument is "stretcher." This table represents a positive event structure where protesters are carrying an injured man using a stretcher.
+
+In the Negative Labels section of the slide, there are two tables. The first table represents an event type "Arrest (arrest)" with the same columns as the positive labels table. The second table represents another event structure with the "Transport" event type, but this time the agent, target, and instrument roles are switched. The agent is the injured man, the entity being transported is the stretcher, and the transporter is the protesters.
+
+The slide also includes an image labeled "Image i" showing a group of people, some of whom are labeled as "Person" and others as "Bench." This image is likely used to illustrate the context in which the event structures are being discussed.
+
+The source of the content on the slide is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+Keywords: Hard negatives, Event structures, Artificial Intelligence, Positive Labels, Negative Labels, Transport, Carry, Agent, Target, Instrument, Protesters, Injured man, Stretcher, Arrest, Role Switching.
+
+There is no plot or formula presented on this slide.

@@ -1,0 +1,11 @@
+The slide is titled "AI Weekly" and is the third slide in a series. The main content of the slide is divided into two sections: a flowchart on the left and a series of graphs on the right.
+
+The flowchart is a representation of a process in artificial intelligence. It starts with an "original block" which then goes through two stages: "Attention / FFN" and "Layer Norm". The output from this process is then passed through a "scale & shift" operation, resulting in the final "output".
+
+The graphs are scatter plots that show the relationship between the input and output of different layers in a neural network. The layers are labeled as "ViT LN layer 5", "wav2vec LN layers 5, 30, 35, 40", and "DiT LN Layers 5 and 13, 21, 28". The graphs show that as the layer number increases, the output becomes more spread out and less linear.
+
+The slide also introduces the concept of "Dynamic Tanh (DyT)" with the formula "DyT(x) = tanh(αx)". This is a mathematical function that is used in the process represented by the flowchart.
+
+Keywords: AI, Weekly, Flowchart, Graphs, Scatter plots, Neural network, Layer Norm, Attention, FFN, Scale & Shift, Dynamic Tanh, tanh, α, x.
+
+There is no plot described in the slide.

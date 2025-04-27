@@ -1,0 +1,18 @@
+The slide presents the concept of "SkillMimic," which is a system designed for unified learning across all basketball skills. The slide is divided into three main sections, each depicting a different aspect of the SkillMim system.
+
+1. **Real-World Skill**: The first section on the left shows a real-world scenario where a person is practicing basketball. This represents the actual skill that the system aims to learn and replicate.
+
+2. **Motion Capture and HOI Motion Data**: In the middle section, there is an icon representing motion capture, followed by a figure of a basketball player in motion. This indicates that the Skill MIMic system uses motion capture technology to record the player's movements, which are then processed into High-Order Interaction (HOI) motion data. HOI motion data is a type of data that captures the complexity of human motion, which is crucial for accurately modeling and replicating real-world skills.
+
+3. **Skill in Simulator**: On the right, there are two images of a figure playing basketball in a simulated environment. This suggests that the motion data captured and processed from the real-world skill is used to train the system within a virtual simulator, allowing for the replication of the basketball skill in a controlled, digital space.
+
+The plot illustrated by the slide is the process of capturing real-world basketball skills, processing them into a format that can be understood and replicated by a computer, and then using that data to train a system within an interactive simulator. This process is essential for developing AI systems that can learn and perform complex tasks by mimicking human actions.
+
+The keywords highlighted in the slide are:
+- **SkillMIMic**: A concept or system that aims to unify the learning process for all aspects of basketball skills.
+- **Motion**: Refers to the movement or activity of the player, captured for analysis and replication.
+- ***Motion Capture***: A technology used to record and digitize movements for further processing and analysis.
+- *HOI (High-Order Interactions)*: A type of motion data that includes complex interactions and movements, providing a detailed representation of the skill.
+- ****Skill in Simulator****: The application of the learned motion data within a simulated basketball environment.
+
+The slide does not contain any formulas or plots, but it does provide a conceptual overview of how SkillMImic functions to bridge the gap between real-world physical skills and their digital replication for AI learning purposes.

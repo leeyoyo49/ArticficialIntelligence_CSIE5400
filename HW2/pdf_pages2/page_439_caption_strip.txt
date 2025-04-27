@@ -1,0 +1,7 @@
+The slide is titled "Potential for Self-Improvement" and discusses two answer generation strategies in the context of Large Language Models (LLMs). The first strategy, labeled as (1) w/o SE, is where the answer is a directly deterministic output of the LLM. The second strategy, (2) w/ SE, involves LLM generating an answer and evaluating its correctness, and if the evaluation indicates the answer as incorrect, LLM re-generates an answer as the final output.
+
+The slide also includes a table that compares the performance of these two strategies across different tasks. The tasks include "Reasoning about Colored Objects Deduction", "Logical Deduction (7)", "Tracking Shuffled Objects (5)", "Object Counting", "Geometric Objects (3)", "Shapes", "Web of Lies", "Sports Understanding", and "Penguins in a Table". The table shows the percentage of correct answers for each task under both strategies.
+
+The keywords that can be extracted from this slide are: Artificial Intelligence, Large Language Model (LLM), Answer Generation Strategies, Deterministic Output, Self-Evaluation, Correctness Evaluation, Re-generation, and Performance Comparison.
+
+There is no plot or formula shown on the slide.

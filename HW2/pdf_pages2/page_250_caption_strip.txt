@@ -1,0 +1,5 @@
+The slide is titled "Definition of 'Event'". The main content of the slide is divided into two sections. The first section is a table that defines an event as a protest, a parent, a child, a banner, and a mandate for kids. The second section contains a visual representation of a protest event, with images of a parent and a child holding signs that read "NO Vaccine Mandate for Kids". The slide also includes a speech bubble with the text "What happened? Who? Protest". The source of the information is cited as "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+The slide does not contain any formulas or plots. However, it does contain a diagram that visually represents the concept of an event, specifically a protest. The diagram consists of a triangle with the word "Protest" at the top, and three circles below it labeled "parent", "child", and "banner". The diagram is a simple representation of the different elements that can be involved in an event.
+
+The keywords that are most relevant to the slide are: Event, Protest, Parent, Child, Banner, Mandate, Kids, Knowledge-Driven, Vision, Language, Encoding, Tutorial, and CVPR.

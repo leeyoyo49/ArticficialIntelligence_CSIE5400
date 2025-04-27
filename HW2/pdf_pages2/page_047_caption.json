@@ -1,0 +1,14 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Example: Stable Diffusion" and discusses the process of stable diffusion in the context of image synthesis. The slide is divided into three main sections: Pixel Space, Latent Space, and Conditioning. 
+
+In the Pixel Space section, the slide explains the denoising step, cross-attention, switch, skip connection, and concatenation process. The Pixel Space is represented by a pink rectangle with the variables x and D inside it. 
+
+The Latent space section is depicted by a green rectangle and contains the Diffusion Process and Denoising U-Net εθ. The Diffusion process is a series of steps that transform the input data into a latent space representation. The Dnoising U-net εθ is a type of neural network that is used to denoise the data in the latent space.
+
+The Conditioning section includes Semantic Map, Text, Representations, and Images. These elements are used to condition the diffusion process and influence the final output of the image synthesis.
+
+The slide does not contain any formulas or plots. The source of the information is a paper titled "High-Resolution Image Synthesis with Latent Diffusion Models," published in CVPR in 2022.

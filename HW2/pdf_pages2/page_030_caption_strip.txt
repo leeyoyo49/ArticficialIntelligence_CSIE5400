@@ -1,0 +1,5 @@
+The slide is titled "The Transformer Decoder Block (1)" and is the 30th slide in the presentation. The main content of the slide is a diagram of a transformer decoder block, which is made up of N decoder blocks. The diagram shows the flow of information from the input sequence to the output sequence. The input sequence is represented by the words "person", "wearing", and "hat", and the output sequences are represented by y0, y1, y2, and y3. The decoder blocks are arranged in a grid-like structure, with each block receiving input from the previous block and passing output to the next block. The source of the content is a lecture from Stanford University, as indicated by the URL at the bottom of the image.
+
+Keywords: Transformer, Decoder Block, N, Decoder Blocks, Input Sequence, Output Sequence, Person, Wearing, Hat, Grid-like Structure, Previous Block, Next Block, Stanford University.
+
+The diagram does not contain any formulas or plots.

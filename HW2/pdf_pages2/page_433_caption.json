@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Reinforcement Learning Contemplation (RLC)" and is part of the "ICLR 2024" conference. The main content of the slide is divided into two sections: "Text generation task" and "Self-evaluation task."
+
+In the "Text Generation task" section, there is an example of a text generation task where a language model is asked to write a mystery that leaves the reader unable to predict the ending. The answer provided is: "The answer is: Detective James had been working on the case for weeks, but he couldn't seem to make any headway..."
+
+In the second section, "Self-Evaluation task," there is a question asking if the following article is a mystery, and the answer is "Yes, it is."
+
+The slide does not contain any formulas or plots. However, it does contain a flowchart that illustrates the process of the text generation and self-evaluation tasks. The flowchart shows that the language model generates a text, which is then evaluated by another language model to determine if it meets the criteria of a mystery.
+
+The keywords that can be extracted from this slide are: Reinforcement Learning, Language Model, Text Generation, Self-Evaluation, and Mystery.
+
+The summary of this slide is that it introduces the concept of Reinforcement Language Model (RLM) and explains how it can be used to generate and evaluate text. The slide also provides an example to illustrate how the RLM works in practice.

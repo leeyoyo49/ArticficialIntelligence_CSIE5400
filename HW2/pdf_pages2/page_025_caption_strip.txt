@@ -1,0 +1,9 @@
+The slide is titled "Self-Attention Layer" and discusses the concept of self-attention in the context of artificial intelligence. Self-attention is a mechanism in neural networks that allows the model to weigh the importance of different parts of the input data differently. This is particularly useful in tasks such as machine translation, where the relevance of each word can change depending on the context.
+
+The slide explains that the outputs of a self-attentional layer are context vectors, denoted as 'y', with a shape of N x D, where N is the number of input vectors and D is the dimensionality of each vector. The operations performed in this layer involve query vectors, represented as 'q', which are calculated by multiplying the input vectors 'x' with a weight matrix 'Wq'. The query vectors are then used to compute the context vectors 'y'.
+
+The slide also includes a diagram illustrating the flow of data through the self-attension layer. The input vectors are represented by 'x', and the query vectors 'q' are derived from these inputs. The diagram shows that each input vector is multiplied by the weight matrix to produce the query vector, which is then used in the computation of the output context vectors.
+
+The keywords that are most relevant to this slide are: Self-Attentional Layer, Context Vectors, Query vectors, Weight Matrix, and Input Vectors.
+
+There is no plot or formula presented on the slide.

@@ -1,0 +1,18 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "CoT Reasoning without Prompting" and discusses the concept of Chain of Thought (CoT) reasoning in the context of artificial intelligence. It explains that while CoT prompting is effective, it often involves manually intensive prompt engineering. The slide introduces a new finding that CoT reasoning paths can be elicited from pre-trained Language Learning Models (LLMs) by simply altering the decoding process.
+
+The slide presents a question in standard QA format: "I have 3 apples, my dad has 2 more apples than me, how many apples do we have in total?" It then shows the decoding step 0, where the language model considers alternative top-k tokens, rather than solely relying on the top-1 greedy decoding path. The decoding step continues with the model selecting the correct answer, which is "We have 5 apples in total."
+
+The slide also includes a formula for calculating the total number of apples: "3+5=8. You have 8 apples in the total." This formula is presented in LaTex format as: 
+
+\[
+\text{total\_apples} = \text{my\_apple\_count} + (\text{difference\_between\_me\_and\_dad} + 5)
+\]
+
+The slide suggests that by considering alternative tokens, the model can more accurately determine the total count of apples. The keywords from this slide are: CoT, Reasoning, Prompting, LLMs, Decoding, Top-k Tokens, Greedy Decoding Path, and Formula.
+
+There is no plot shown on the slide.

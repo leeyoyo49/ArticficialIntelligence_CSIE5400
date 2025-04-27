@@ -1,0 +1,19 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Recall: Racing" and discusses the concept of reinforcement learning in the context of a racing game. The slide contains the following written content:
+
+- A robot car wants to travel far, quickly.
+- There are three states: Cool, Warm, Overheated.
+- Two actions: Slow, Fast.
+- Going faster gets double reward.
+
+The slide also includes a diagram illustrating the states and actions of the robot car. The states are represented by three images of a car in different conditions: Cool (blue car), Warm (pink car), and Overheated (gray car). The actions are indicated by arrows pointing from one state to another, with numerical values representing the reward for each action. For example, going from the Cool state to the Slow state gives a reward of 1.0, while going to the Fast state from the Overheated state results in a penalty of -10.
+
+Keywords: Robot car, Racing, States, Actions, Reward, Double reward.
+
+There is no plot or formula on the slide.
+
+The summary of the slide is as follows: The slide presents the concept that a robot car aims to travel as far as possible quickly. It introduces the idea of states (Cool, Warm) and actions (Slow, Fast) in reinforcement learning. The reward system is also explained, where going faster results in double reward. The diagram visually represents these concepts, showing the transitions between states and the associated rewards or penalties.

@@ -1,0 +1,9 @@
+The slide is titled "AI Weekly" and is part of a presentation on "Towards Long-Horizon Vision-Language Navigation: Platform, Benchmark and Method". The presentation is scheduled for June 11-15, 2025, and is associated with CVPR (Conference on Computer Vision and Pattern Recognition).
+
+The slide provides an example of a long-horizon vision-language navigation task. The task is to "Take the backpack from the bedroom to the couch in the living room, then retrieve a book from the dining table." This task is visually represented by two images. The first image shows a cluttered bedroom with a backpack on the floor. The second image is a floor plan of a house showing the path to take the backpack, turn left for the couch, and then turn left again for the book.
+
+The slide does not contain any formulas or plots. However, it does contain an example that could be used to explain the concept of vision-language tasks in artificial intelligence. These tasks require an AI system to understand and execute instructions that involve both visual understanding of the environment and language comprehension of the instructions.
+
+Keywords: AI Weekly, CVPR, Vision-Langage Navigation, Long-Hour Vision, Benchmarks, Method, Backpack, Bedroom, Couch, Living Room, Book, Dining Table, Floor Plan, Cluttered Room, Path, Turn Left, Retrieve.
+
+The formula is not present on the slide, so it cannot be provided.

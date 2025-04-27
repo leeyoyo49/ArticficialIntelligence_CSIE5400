@@ -1,0 +1,7 @@
+The slide is titled "MLLM Pretraining with Event Semantic Structures" and is numbered 89. It is sourced from "Knowledge-Driven Vision-Language Encoding," a tutorial by CVPR, 2023.
+
+The slide features a diagram illustrating the concept of "Event Level Alignment" in the context of pretraining a Multilayer Perceptron (MLP) with event semantic structures. The diagram includes various entities such as "Transport Person," "Person," "Instrument," "Agent," and "Place," each represented by different shapes and colors. These entities are connected by dashed lines, indicating relationships or interactions between them. For example, a "Person" is connected to an "Instrument" by a dashed line labeled "carry," suggesting that the person is carrying the instrument.
+
+The diagram also includes images of people and objects, such as a police officer, a stretcher, and a building, which are likely used to provide visual context for the entities and relationships depicted in the diagram.
+
+There are no formulas or mathematical expressions present on the slide, so none can be saved in LaTex format. However, the diagram itself can be described as a visual representation of the relationships and interactions between different entities in a given scenario, which is a key aspect of understanding event-level alignment in MLLM pretraining.

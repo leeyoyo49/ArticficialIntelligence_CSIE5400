@@ -1,0 +1,7 @@
+The slide is titled "Denoising Diffusion Models" and is the 43rd slide in the presentation. The main content of the slide is a visual representation of the process of denoising diffusion models in artificial intelligence. The slide features a series of images that transition from a noisy, pixelated image to a clear, detailed image. This visual representation is meant to illustrate the concept of diffusion in the context of AI and machine learning.
+
+The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. Therefore, there is no text to extract or summarize, and no keywords to select.
+
+The source of the content on this slide is provided at the bottom: "https://sgvr.kaisst.ac.kr/~sungeui/CG/Slides/slides_24/CS380_Talk3_Diffusion.pdf".
+
+The slide number is also provided at 43, indicating its position within the overall presentation.

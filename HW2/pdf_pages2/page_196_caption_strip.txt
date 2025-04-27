@@ -1,0 +1,5 @@
+The slide is titled "Analogical Prompting" and discusses the goal of adaptively generating relevant examples and knowledge, rather than just using a fixed set of examples. An example of coding (Codeforces task) is provided to illustrate this concept. The source of the information is "Large Language Models as Analogical Reasoners," ICLR, 2024.
+
+Keywords: Analogical Promoting, Goal, adaptively generate, relevant examples, knowledge, coding, Codeforces task.
+
+There is no plot or formula on the slide to describe.

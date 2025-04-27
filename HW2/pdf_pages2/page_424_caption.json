@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Deep Q-Learning Networks (DQNs)" and discusses the concept of using a neural network to approximate the Q-function. The Q-function estimates the expected cumulative reward for each action in a given state. This approach, known as deep Q-learning, can handle environments with large state spaces and aims to enable agents to learn optimal actions in complex, high-dimensional environments.
+
+The slide also includes a diagram illustrating the process of deep learning. The diagram shows a state represented by a yellow rectangle, which is connected to multiple nodes representing different actions. These nodes are then connected to a final node representing the Q-value of the action. This visual representation helps to understand how deep learning can be used in the context of Q-learning.
+
+The keywords that are most relevant to the content of the slide are: Deep Learning, Q-Value, State, Neural Network, and Cumulative Reward.
+
+There is no plot or formula shown on the slide.

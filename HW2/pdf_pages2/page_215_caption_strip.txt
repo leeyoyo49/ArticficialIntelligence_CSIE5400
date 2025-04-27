@@ -1,0 +1,5 @@
+The slide is titled "Multimodal Reasoning" and discusses an example problem related to temporal reasoning in the context of artificial intelligence. The problem is presented as a scenario where a man hits a golf ball and falls to the ground in front of a green grassy area with trees and shrubbery surrounding the spot where he hit the ball. The question posed is "What happens to the man after hitting the ball?" The source of the content is cited as "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning," ICLR, 2024.
+
+The slide does not contain any formulas or plots. However, it does include a series of images depicting the sequence of events described in the problem. The images show a man in different stages of hitting the golf ball, and the final image shows the man lying on the ground after the ball has been hit.
+
+The keywords that are most relevant to the content of the slide are: Multimodal, Reasoning, Temporal, Example Problem, and Artificial Intelligence.

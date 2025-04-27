@@ -1,0 +1,7 @@
+The slide is titled "The Story So Far: MDPs and RL" and is divided into two main sections. The first section is "Known MDP: Offline Solution" which has two sub-sections: "Goal" and "Technique". The goal is to "Compute V*, Q*, π*" and to "Evaluate a fixed policy π". The technique used is "Value / policy iteration". The second main section is split into two parts, each with a sub-section: "Unknown MDP". The first part is "Model-Based" with the goal to "VI/PI on approx. MDP" and the technique is "PE on approx MDP", while the second part, "Model-Free", has the same goals as the first part but uses "Q-learning" as the technique.
+
+The slide does not contain any plots or formulas, so there is no plot description or formula to provide in this case.
+
+The keywords from this slide that are most relevant to the topic of artificial intelligence are: "MDP", "Goal", "Technique", "Value Iteration", "Policy Evaluation", "VI", "PI", "Q-Learning", "PE", and "Approximate MDP".
+
+The summary of the slide is as follows: The slide provides an overview of different approaches to solving Markov Decision Processes (MDPs) in the context of Reinforcement Learning (RL). It outlines the goals and techniques for both known and unknown MDP scenarios. The known MDP scenario uses value/policy iteration as a technique, while the unknown scenarios are divided into model-based and model-free approaches. The model-based approach uses policy evaluation and value iteration on an approximate MDP, whereas the model-free approach uses Q-learning and value learning.

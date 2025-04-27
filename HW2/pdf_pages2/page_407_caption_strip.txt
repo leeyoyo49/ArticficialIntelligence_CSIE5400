@@ -1,0 +1,13 @@
+The slide is titled "Problems with TD Value Learning" and discusses the challenges associated with Temporal Difference (TD) value learning in the context of policy evaluation in artificial intelligence. The slide content is as follows:
+
+- TD value leaning is a model-free way to do policy evaluation.
+- However, if we want to turn values into a (new) policy, we're stuck.
+- The slide presents a mathematical formula: π(s) = arg max(Q(s, a)) where Q(s,a) is defined as the sum from s' in S of T(s,a,s') times R(s',a,s') plus γV(s'), where T is the transition function, R is the reward function, γ is the discount factor, and V is the value function.
+
+The slide suggests two solutions to the problem:
+- Learn Q-values, not values.
+- This approach also makes action selection model-free.
+
+The keywords from this slide are: TD value learning, model-free, policy evaluation, π(s), arg max, Q-value, values, action selection, T, R, γ, V, S.
+
+There is no plot or graph on this slide, but the formula presented is crucial for understanding the concept being discussed.

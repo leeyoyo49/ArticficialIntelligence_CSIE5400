@@ -1,0 +1,9 @@
+The slide is titled "Grid World Actions" and is divided into two main sections: "Deterministic Grid World" and "Stochastic Grid World." The Deterministic section shows a grid with a fire and a sprinkler, with an arrow pointing from the fire to the sprinkler, indicating the sprinkler's action to extinguish the fire. The Stochastic section shows the same grid but with a question mark and arrows with probabilities (0.1 and 0.8) pointing to different actions, indicating uncertainty in the grid world's actions.
+
+The slide does not contain any written content such as bullet points or definitions, nor does it contain any formulas or inline examples. There is no plot shown on the slide.
+
+The keywords from this slide are: Grid World, Actions, Fire, Sprinkler, Uncertainty, Probabilities, Determinism, Stochastics.
+
+The formula present on the Stochastic grid world slide is not a mathematical formula but rather a representation of the probabilities of different actions. It can be described as follows: There is a 10% chance of the sprinkler not taking any action, a 90% chance that the sprinkler will move to the left, and an 80% chance it will move downwards.
+
+The summary of the slide is that it explains the difference between deterministic and stochastic grid worlds in the context of artificial intelligence. In a deterministic grid world, the actions are predictable and certain, as shown by the sprinkler extinguishing the fire without any uncertainty. In contrast, a stochastic grid world introduces uncertainty into the actions, as represented by the probabilities associated with different actions the sprinkler might take. This concept is important in artificial intelligence as it deals with the unpredictability and randomness that can occur in real-world scenarios.

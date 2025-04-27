@@ -1,15 +1,16 @@
 {
-  "title": "AI Weekly",
-  "definitions": {
-    "SkillMimic": "Learning Reusable Basketball Skills from Demonstrations"
-  },
-  "formulas": [],
-  "keywords": [
-    "Artificial Intelligence",
-    "SkillMimic",
-    "Reusable",
-    "Basketball Skills",
-    "Demonstrations"
+  "title": "SkillMimic: Learning Reusable Basketball Skills from Demonstrations",
+  "slide_number": "2",
+  "authors": "Yinhai Wang*, Qihan Zhao*, Runyi Yu*, Ailing Leng, Jing lin, Zhengyi Luo, Hok Wai Tsui, Jiwen Yu, Xiu Li, Qifeng Chen, Jian Zhang, Lei Zhang, Ping Tan",
+  "affiliations": [
+    "The Hong Kong University of Science and Technology",
+    "UNITEER",
+    "Peking University",
+    "TSINGHUA UNIVERSITY",
+    "IDEA",
+    "Tencent",
+    "Mellon University"
   ],
-  "summary": "The slide is from 'AI Weekly' and discusses 'SkillMimic', a method for learning reusable basketball skills from demonstrations. It includes a visual of a basketball court and a green figure demonstrating a skill. The slide also lists the authors and their affiliations."
+  "event": "CVPR/Nashville",
+  "event_dates": "June 11-15, 2025"
 }

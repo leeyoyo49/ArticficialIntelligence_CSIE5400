@@ -1,0 +1,7 @@
+The slide is titled "Image Declaration" and discusses the process of allocating a unique image proxy to reference the visual embedding of an image. This unique identifier helps Multi-Modal Learning Models (MLLMs) to index and distinguish between visual and text embeddings. The slide also mentions the use of natural language prompts to establish references between text and image, and the incorporation of explicit text-to-image reference in the image declaration to assist the model in correlating the text with the appropriate image.
+
+The slide does not contain any formulas, plots, or inline examples. However, it does provide a source for the information presented, which is "MMICL: Empowering Vision-language Model with Multi-Modality In-Context Learning," ICLR, 2024.
+
+Keywords: Image Declaration, Image Proxy, Visual Embedding, MLLMs, Text Embeddings, Natural Language Prompts, Text-to-Image Reference, Correlation, Model, Appropriate Image.
+
+The formula mentioned in the slide is not provided, so it cannot be saved in LaTex format or described.

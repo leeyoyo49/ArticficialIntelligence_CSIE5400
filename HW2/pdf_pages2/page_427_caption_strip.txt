@@ -1,0 +1,13 @@
+The slide is titled "Training DQNs" and discusses the simplification of the Q-learning algorithm by replacing the Q-table with a neural network. The main content of the slide is a mathematical formula that represents the Q-value update rule in Q-learning. The formula is as follows:
+
+Q(st, at) <- Q(st, a) + α[rt+1 + γ max Q(st+1, a)] - Q(s, a)
+
+The formula is color-coded to highlight different components: the current Q-table value being updated is in light blue, the learning rate is in pink, the reward is in green, the discount factor is in yellow, and the estimated reward from the next action is in red.
+
+The slide also explains that with the neural network taking the place of the traditional Q-table, the need for a separate learning rate becomes unnecessary as the back-propagating optimizer will already handle that. It further states that once the learning_rate is removed, the two Q(st,a) terms can be eliminated because they cancel each other out.
+
+The keywords that are most relevant to the content of this slide are: Q-learning, neural network, Q-value, learning rate, reward, discount factor, and estimated reward.
+
+There is no plot shown on the slide.
+
+The formula in the slide can be described as follows: The Q-value for a given state (st) and action (at) is updated by taking the current value of Q for that state and action, adding the product of the reward and the discounted maximum Q-value of the next state and all possible actions, and subtracting the old Q-value. The learning rate (α) and discount factor (γ) are hyperparameters that control the rate of learning and the importance of future rewards, respectively.

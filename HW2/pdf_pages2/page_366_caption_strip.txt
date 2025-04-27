@@ -1,0 +1,13 @@
+The slide is titled "Fixed Policies" and discusses the concept of fixed policies in the context of artificial intelligence. The slide is divided into two sections, each representing a different approach to decision-making in AI: "Do the optimal action" and "Do what π(s) says to do."
+
+In the first section, a tree diagram is used to illustrate the process of computing optimal values. The tree starts with a state 's' and branches out into different actions 'a', leading to new states 's', 's'', and 's''. The tree is labeled with 's, a' at the root, and 'sas', 'sas'', 'sas'' at the nodes, indicating the sequence of actions and states.
+
+In the second section, the tree diagram shows a fixed policy 'π(s)' applied to the state 'S'. The tree branches out from 'S' to 'S, π(S)' and 'S'', with 'π(S)' indicating the action determined by the policy for the given state.
+
+The slide also includes two bullet points. The first bullet point states that "Expectimax trees max over all actions to compute the optimal values." The second bullet point explains that "If we fixed some policy π(s), then the tree would be simpler – only one action per state though the tree's value would depend on which policy we fixed."
+
+The slide does not contain any formulas or inline examples, but it does provide a visual representation of the decision-making process in AI using tree diagrams. The diagrams use different colors to distinguish between states, actions, and the policy function.
+
+The keywords extracted from this slide are: Fixed Policies, Optimal Action, Fixed Policy, Tree Diagram, State, Action, Policy Function, Expectimax Trees, Optimal Values, and Decision-Making.
+
+The plot described in the slide is a decision tree diagram that visually represents the process and outcome of applying fixed policies to a given state in AI decision-making.

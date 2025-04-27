@@ -1,0 +1,11 @@
+The slide is titled "Recap: Defining MDPs" and discusses Markov Decision Processes (MDPs) in the context of artificial intelligence. The content is divided into two main sections: "Markov decision processes" and "MDP quantities so far."
+
+In the first section, the slide lists the components of Markov decision problems: a set of states (S), a start state (s0), a set (of) actions (A), transitions (P(s'|s,a)), and rewards (R(s,a,s')) with a discount factor (γ). The slide also includes a diagram illustrating the concept of states, actions, and transitions in an MDP. The states are represented by circles, actions by arrows, and the transitions are shown as dashed lines connecting the states and actions.
+
+The second section of the slide defines two MDP quantities: Policy and Utility. Policy is defined as the choice of action for each state, and Utility is the sum of (discounted) rewards.
+
+The slide does not contain any formulas or inline examples, but it does provide a visual representation of the MDP concept through the diagram. The diagram shows a state 's' with three possible actions 'a', leading to three different states 's', 's'', and 's'''. The transitions between these states are indicated by dashed lines.
+
+The keywords from this slide are: Markov, decision processes, states, transitions, rewards, discount factor, policy, utility, and artificial intelligence.
+
+The plot in the slide is a diagram that visually represents the states (circles), actions (arrows), and transitions (dashed lines) in a Markovian decision process.

@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "k=2" and discusses the values after 2 iterations in a gridworld display. The grid is divided into four quadrants, each with a different value. The top left quadrant has a value of 0.00, the top right has 1.0, the bottom left has 0, and the bottom right has -1.00. The slide also includes a formula for calculating these values, which involves the variables a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z. The formula is complex and involves multiple operations, including multiplication, addition, subtraction, and exponentiation.
+
+The slide also provides information about the noise, discount, and living reward in the gridworld. The noise is set to a value between 0 and 1, the discount is also set to 0-1, and there is no living reward.
+
+The keywords that are most relevant to the slide include "k", "2 iterations", "gridworld display", "values", "formula", "noise", "discount", and "living reward". The plot on the slide is a grid with different values in each quadrant, which are calculated using the formula provided.

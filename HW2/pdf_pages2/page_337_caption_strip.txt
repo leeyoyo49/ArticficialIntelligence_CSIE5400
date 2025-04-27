@@ -1,0 +1,7 @@
+The slide is titled "Racing Search Tree" and discusses two main problems related to the use of the expectimax algorithm in artificial intelligence. The first problem is that states are repeated, and the proposed solution is to only compute needed quantities once and cache the rest in a lookup table. The second problem is the tree going on forever, with the solution being to do a depth-limited computation, increasing depths until the change is small, and noting that deep parts of the tree eventually don't matter if γ < 1.
+
+The slide also includes a diagram of a racing search tree, which visually represents the decision-making process in a search tree. The tree starts with a blue car at the top, branching out into different paths with red, green, and blue cars at various nodes. The paths are color-coded to represent different outcomes or decisions made at each node. The diagram illustrates how the search tree expands and contracts based on the decisions made, and how the problem of repeated states and infinite tree depth can be addressed.
+
+The keywords that are most relevant to the content of the slide are: Racing Search Tree, expectimax, states, repeated, tree, depth, computation, change, γ, lookup table, and decision-making.
+
+The formula mentioned in the slide is not explicitly provided, so it cannot be saved in LaTex format or described in detail.

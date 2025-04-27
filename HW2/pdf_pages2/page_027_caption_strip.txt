@@ -1,0 +1,7 @@
+The slide is titled "Self-Attention Layer" and discusses the concept of "Permutation equivariant" in the context of self-attention layers in artificial intelligence. The main content of the slide is divided into two parts: a textual explanation and a visual representation.
+
+The textual explanation highlights the problem of encoding ordered sequences like language or spatially ordered image features. It emphasizes the need for positional encoding to address this issue. The visual representation consists of three diagrams, each showing a different permutation of inputs (y1, y0, y2) and their corresponding outputs (x1, x0, x2). The diagrams illustrate that the self-attension layer does not care about the order of the inputs, which is a key characteristic of permutation equivariant.
+
+The slide does not contain any formulas or inline examples. However, it does provide a link to the source material for further reading.
+
+In summary, the slide provides an overview of the self-atention layer in artificial neural networks, focusing on its permutation equivariance property and the necessity of positional encoding for encoding sequential data.

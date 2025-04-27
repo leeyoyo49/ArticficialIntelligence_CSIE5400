@@ -1,0 +1,22 @@
+The slide is titled "What Is Agentic AI?" and is presented by Erik Pounds on October 22, 2024. The main content of the slide is a definition of agentic AI, which is described as using sophisticated reasoning and iterative planning to autonomously solve complex, multi-step problems. The slide also includes a diagram illustrating the components and flow of an AI agent system, which consists of a user, database, vector database, data flywheel, model customization, LLM (Language Model), and action. Additionally, the slide mentions upcoming events related to AI, such as the 2nd MEIS Workshop at CVPR 2025, the AI Agent for Information Retrieval (Agent4IR) event, and the WMAC 2023 workshop on Advancing LLM-Based Multi-Agent Collaboration.
+
+Summary:
+Agentic AI is a concept that involves using advanced reasoning and planning to solve complex problems autonomously. It is a key topic in the field of artificial intelligence and is expected to play a significant role in the future of AI development. The diagram on the slide provides a visual representation of the different components and processes involved in AI agent systems, including user interaction, data management, and model customization. The upcoming AI-related events mentioned in the slide highlight the ongoing research and discussions in the AI community, focusing on topics such as hypothesis generation, information retrieval, and multi-agent collaboration.
+
+Keywords:
+- Agentive AI
+- Sophisticated reasoning
+- Iterative planning
+- Autonomous problem-solving
+- Complex problems
+- Multi-step processes
+- User interaction
+- Data management
+- Model customization
+- LLM
+- Action
+- AI community
+- Hypothesis generation
+- Information retrieval
+
+The slide does not contain a plot or a formula to describe.

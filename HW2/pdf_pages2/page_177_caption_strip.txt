@@ -1,0 +1,11 @@
+The slide is titled "AI Weekly" and discusses the topic of Artificial Intelligence. The slide is divided into several sections, each with its own content and visual elements.
+
+The first section of the slide presents a task for the viewer, which is to take a book from the living room to the desk in the office, and then take the clock from the office to the kitchen counter in the kitchen. This task is labeled as "Subtask finished & Few steps" and is accompanied by a series of images showing the different locations involved in the task.
+
+The next section introduces the concept of "CoT Feedback," which stands for "Chain of Thought Feedback." This section explains that CoT Feedback involves three components: instruction comprehension, task positioning, and CoT generation. The instruction comprehension is represented by the symbol "<ins>", the task positioning by "<cot>", and the observation by "<obs>". The memory is denoted by "<hist>".
+
+The slide also includes a diagram that illustrates the process of a Long Short-Term Memory (LSTM) network, a type of artificial neural network used in machine learning. The diagram shows the flow of information through the network, with components such as the observation, vision encoder, multi-view fusion, short-term memory, and long-term memory. The LSTM network is used to generate a confidence vector and an action based on the input data.
+
+The slide concludes with a list of keywords that are relevant to the content presented. These keywords include "AI," "Weekly," "Task," "Comprehension," "Positioning," "Generation," "LSTM," "Memory," "Confidence," "Vector," and "Action."
+
+In summary, the slide provides an overview of a task that involves moving objects between different locations, and explains the role of CoT feedback and LSTM networks in AI. It also presents a diagram of the LSTM process and lists several keywords related to the topic.

@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Discounting" and discusses the concept of maximizing the sum of rewards in decision-making. It suggests that it is reasonable to prefer rewards now over rewards later, and proposes a solution where the values of rewards decay exponentially over time. The slide uses three images to illustrate this concept: a diamond labeled "Worth Now," a diamond with a question mark "Worth Next Step," and a pile of broken diamonds "Worth In Two Steps." The slide does not contain any formulas or plots.
+
+Keywords: Discounting, rewards, decision-making, time, exponential decay.
+
+The formula mentioned in the slide is not explicitly given, but it can be inferred that the value of rewards decays exponentially, which can be represented as V = V0 * e^(-rt), where V is the value at time t, V0 is the initial value, r is the decay rate, and t is the time.

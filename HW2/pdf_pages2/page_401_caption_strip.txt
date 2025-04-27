@@ -1,0 +1,11 @@
+The slide is titled "Why Not Use Policy Evaluation?" and discusses the concept of policy evaluation in the context of artificial intelligence. The slide contains several bullet points and mathematical formulas.
+
+The first bullet point explains that simplified updates calculate V for a fixed policy by replacing V with a one-step-look-ahead layer over V. This approach fully exploits the connections between the states. However, it requires the use of T and R, which are not always available.
+
+The second bullet point presents a key question: how can we do this update to V without knowing T (transition probabilities) and R (reward function)? This is essentially asking how to take a weighted average without knowing the weights.
+
+The slide does not contain any plots or formulas that need to be saved in LaTex format.
+
+The keywords from this slide are: Policy Evaluation, Simplified Updates, V, Fixed Policy, T, R, Weighted Average.
+
+The summary of the slide is as follows: The slide discusses the limitations of using simplified updates in policy evaluation, specifically the need for transition probabilities (T) and reward function (R). It poses a question about how to update the value function (V) without knowing these parameters, essentially asking for a method to take weighted averages without knowing their weights.

@@ -1,0 +1,33 @@
+The slide is titled "A Running Example (4/4)" and is divided into three main sections: "Automatic Curriculum," "Iterative Prompting Mechanism," and "Skill Library." The Automatic Curriculum section shows a flowchart with four steps: "Mine Wood Log," "Combat Zombie," "Make Crafting Table," and a new task that is not fully visible in the image. Each step is represented by an image from the game Minecraft, indicating the actions to be performed in the game. The Iterative Promptming Mechanism section contains a code snippet written in JavaScript, which is part of an asynchronous function named "combatZombie." This function checks if the bot has a sword in its inventory. If it does, the bot equips the sword; if not, it waits for the bot to craft a stone sword. The Skill Library section displays a list of skills that the bot can perform, such as "Make Wood Log" and "Craft Stone Sword." The slide also includes a feedback loop from "Env Feedback Execution Errors" to "Code as Actions," indicating a process of refining the program based on errors encountered during execution. The slide number is 92.
+
+The summary of the slide is as follows:
+
+This slide presents a running example of an artificial intelligence system that uses an automatic curriculum and an iterative prompting mechanism to teach a bot how to perform tasks in Minecraft. The bot's skills are stored in a skill library, and the system refines the bot's actions based on feedback from execution errors. The code snippet demonstrates how the bot decides whether to equip itself with a sword or wait for it to be crafted. The process is iterative, with the bot learning from its environment and updating its actions accordingly.
+
+The keywords from this slide are:
+- Artificial Intelligence
+- Automatic Curriculum
+- Minecraft
+- Combat Zombie
+- JavaScript
+- Code as Actions
+- Skill Library
+- Feedback Loop
+- Execution Errors
+- Program Refinement
+
+There is no plot shown on the slide, but the flowchart represents a sequence of actions and decisions made by the AI system.
+
+The formula present in the code snippet is:
+```javascript
+async function combatZombie(bot) {
+  const sword = bot.inventory.findInventoryItem("stone_sword");
+  if (sword) {
+    await bot.equip(sword, "hand");
+  } else {
+    // await craftStoneSword(bot);
+  }
+  // ...
+}
+```
+This formula represents the logic for equipping a sword to the bot, either if it already has one or if it needs to craft one. The `await` keyword indicates that the function will wait for the action to complete before moving on to the next line of code.

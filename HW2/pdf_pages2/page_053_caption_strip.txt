@@ -1,0 +1,5 @@
+The slide is titled "Alttext Examples (1/2)" and contains two images with captions. The first image is of a 2013 Ducati Monster 1100 evo diesel motorcycle, and the second image is the cover of the Oregon Wine Press magazine from February 2019. The captions provide additional information about the images, such as the motorcycle's photos and specifications, and that the magazine cover features Indian fare and fine wine.
+
+The slide does not contain any written content that can be extracted, nor does it contain any formulas or plots. However, it does provide examples of how to use the Alttext tool to add captions to images. The keywords that are most relevant to this slide are "Altext," "Ducati Monster 1000," "Oregon Wine Press," "Indian fare," and "fine wine."
+
+The formula that is present on the slide is not a mathematical or scientific formula, but rather a caption for the image of the motorcycle. The caption reads: "2013 ducati monster 11000 diesel motorcycle photos and specification. Black Bedroom Furniture Sets. Home Design Ideas." This caption is an example of how the Altext tool can be used to add descriptive text to an image.

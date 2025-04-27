@@ -1,0 +1,24 @@
+The slide is titled "A decision-making example" and discusses a scenario where a person is in the middle of a room with various objects around them. The task given is to examine the mug with the desk lamp. The objects in the room include a bed, a desk, multiple drawers, a garbage can, a laundry hamper, a safe, and several shelves. The slide also includes images of an eye, a mug, and a desk lamp to visually represent the task.
+
+The slide does not contain any formulas or plots, and there are no keywords that stand out as particularly relevant to the content. The main focus of the slide is to provide an example of a decision-making task in the context of artificial intelligence.
+
+Here is a summary in markdown format:
+
+```markdown
+# A decision-making Example
+
+## Environment
+- You are in a room
+- Various objects are present: bed, desk, drawers, trash can, laundry hampers, safe, shelves
+
+## Task
+- The task is to **examine** the **mug** with the **desk lamp**
+
+## Visual Elements
+- Eye
+- Mug
+- Desk Lamp
+
+## Slide Number
+- 83
+```

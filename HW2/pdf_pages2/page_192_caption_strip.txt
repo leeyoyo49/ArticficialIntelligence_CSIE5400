@@ -1,0 +1,7 @@
+The slide is titled "How to perform step by step reasoning without using demonstration examples?" and discusses the concept of "Zero-shot CoT" (Chain of Thought). It presents a problem about a juggler who can juggle 16 balls, half of which are golf balls, and half of the golf balls are blue. The problem asks how many blue golf balls there are. The slide provides a step-by-step solution to the problem, explaining that there are 8 golf balls in total (half of 16), half of these are blue, resulting in 4 blue balls.
+
+The slide also mentions that "zero-shot" is usually significantly worse than "few-shot" in the context of zero-shot chain of thought reasoning. The source of the information is cited as "Large Language Models are Zero-Shot Reasoners," NeurIPS, 2022.
+
+Keywords: Artificial Intelligence, Zero-shot, CoT, Chain of Thought, Reasoning, Demonstration Examples, Problem Solving, Juggler, Balls, Golf Balls, Blue Balls.
+
+There is no plot or formula on the slide to describe.

@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Example: Image Captioning with Transformers" and is the 14th slide in the presentation. The main content of the slide is a diagram illustrating the process of image captioning using transformers. The diagram is divided into three main parts: the input image, the transformer encoder, and the transformer decoder.
+
+The input image is a photograph of a person wearing a hat. The transformer encoder takes this image as input and processes it to generate a sequence of tokens. These tokens are represented by boxes labeled y1, y2, y3, and y4, which correspond to the words "person", "wearing", "hat", and "END" respectively.
+
+The transformer decoder then takes these tokens and generates a caption for the image. The caption is represented by the same tokens as the input, but in a different order. The tokens are generated one at a time, with each token influencing the generation of the next token.
+
+The slide does not contain any formulas or plots. However, it does contain a URL at the bottom, which is the source of the content presented on the slide.
+
+The keywords related to this slide are "Image", "Caption", "Transformers", "Encoder", "Decoder", "Tokens", "Person", "Wearing", "Hat", "END", "Input", "Output", "Sequence", "Process", "Diagram", "Photograph", "URL", "Source", "Presentation", "Slide", "AI", "Machine Learning", "Computer Vision", "Natural Language Processing", "Neural Networks", "Deep Learning".
+
+The formula represented in the diagram is the transformer model, which consists of an encoder and a decoder. The encoder processes the input data and the decoder generates the output data. The formula is not explicitly written out, but it can be inferred from the diagram.

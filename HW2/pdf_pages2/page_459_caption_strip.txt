@@ -1,0 +1,7 @@
+The slide is titled "Evaluations" and discusses "Model output examples on BigBench-hard". It contains two main sections: "Object Counting" and "Logical Deduction Objects (3)". 
+
+In the Object Counting section, there is a problem statement about counting animals, followed by a step-by-step solution before and after training a model. The problem involves counting two fish, four cats, two chickens, a mouse, and a goat. The solution before training involves adding all the animals together and then dividing by 4 and multiplying by 2 to get the number of animals, which is 48. After training, the solution involves adding the numbers of fish, cats, chickens, mice, and goats together to get a total of 10 animals.
+
+In the Logical Deduction section, the slide presents a problem about arranging three birds: a blue jay, a quail, and an eagle. The correct answer is that the blue jay is the second from the left. The slide also shows the model's incorrect answer before training and the correct answer after training.
+
+The slide does not contain any formulas or plots. However, it does provide an example of how a model's output can change after training, demonstrating the improvement in its ability to solve problems.

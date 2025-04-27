@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Challenges: Structure-Aware Encoding" and is divided into two main sections: Text and Vision. The Text section highlights the strong ability in reasoning and semantic structure understanding. The Vision section emphasizes better capturing details with visual features.
+
+The slide also includes a series of images depicting the action "Sitting on a sofa" over time. These images are annotated with labels such as "person", "sofa", "in front of", "beneath", and "next to". These labels are connected by arrows, forming a spatiotemporal scene graph that represents the spatial and temporal relationships between the objects and actions in the images.
+
+There is no formula presented on the slide, so it cannot be saved in LaTex format. However, the scene graph can be described as a directed graph where nodes represent objects or actions, and edges represent the relationships between them. The nodes are color-coded, with pink for people, green for the sofa, and grey for spatial relationships.
+
+The keywords that can be extracted from this slide are: "Challenges", "Structure-Aware", "Encoding", "Text", "Vision", "Reasoning", "Semantic Structure", "Details", "Visual Features", "Action", "Sofa", "Person", "Spatial Relationships", "Temporal Relationships".

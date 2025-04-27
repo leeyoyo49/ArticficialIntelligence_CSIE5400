@@ -1,0 +1,19 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>1. Written Content:
+   - Slide Title: Examples
+   - Sub-bullet 1: Short Caption (given by human): A blue willys gasser car
+     - Long Caption: A willys ganger car in blue color. It is placed near the car shed on the floor. In the back, there is a man seated in the chair.
+   - Example 2: A glass of iced tea
+
+2. Summary:
+   The slide provides two examples to illustrate the concept of artificial intelligence. The first example is a blue Willys Ganger car, which is a type of vehicle. The car is in a blue color, placed near a car shed, and a man is seated in a chair in the back. The second example is an iced tea in a glass saucer decorated with mint leaves, placed on a wooden table. These examples are given by humans and are used to demonstrate how artificial intelligence can interpret and understand human descriptions.
+
+3. Keywords: Artificial Intelligence, Examples, Blue Willys gasser Car, Iced Tea, Glass Saucer, Mint Leaves, Wooden Table, Car Shed, Man, Chair
+
+4. Plot Description: The slide does not contain a plot.
+
+5. Formula: There is no formula present on the slide.

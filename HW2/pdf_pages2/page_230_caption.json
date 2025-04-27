@@ -1,0 +1,10 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal CoT Reasoning" and discusses examples of commonsense mistakes about maps. It presents a problem and a prediction, each with a question, context, options, rationale, and answer. The problem is about identifying a city marked on a map, with the options being Las Vegas, San Francisco, Phoenix, and Salt Lake City. The rationale for the correct answer is that Las Vegas is marked on the map, while the incorrect prediction mistakenly identifies San Francisco as the marked city. The slide also includes a small map with gray circles marking the cities. The source of the content is cited as a 2024 TMLR publication.
+
+Keywords: Multimodal, CoT, Reasoning, Commonsense, Mistakes, Maps, Problem, Prediction, Rationale, Answer, City, Source, Publication.
+
+There is no plot or formula on the slide to describe.

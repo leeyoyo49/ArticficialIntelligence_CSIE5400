@@ -1,0 +1,19 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Multimodal Reasoning" and discusses an example problem related to logical reasoning. The content of the slide is as follows:
+
+- The slide title is "Multmodal Reasoning".
+- The sub-bullet is "Example Problem: Logical".
+- There are two images on the slide. The first image shows a baby crying with a caption that reads "The baby is crying as he broke the cup." The second image is not fully visible, but it appears to be related to the first image.
+- The source of the content is cited as "MMICL: Empowering Vision-language Model with Multi-Modal In-Context Learning, ICLR, 2024."
+
+The slide does not contain any formulas or mathematical expressions, so there is no need to save any content in LaTex format.
+
+The plot of this slide is a visual representation of a logical reasoning problem involving a baby who has broken a cup and is crying. The connection between the two images and the caption is meant to be explained by the viewer.
+
+The keywords that can be extracted from this slide are: Multimodal, Reasoning, Example Problem, Logical, Baby, Crying, Cup, Images, Caption, Source, MMICL, Vision-language, Model, and In-context Learning.
+
+The slide also contains an instruction for the viewer to take a closer look at the images and explain the connection between them. This suggests that the viewer is expected to engage with the content and apply their understanding of multimodal reasoning to solve the problem presented.

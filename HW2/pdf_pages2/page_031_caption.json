@@ -1,0 +1,20 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "The Transformer Decoder Block (2)" and is the 31st slide in the presentation. The main content of the slide is a diagram of a transformer decoder block, which is a part of the transformer model used in natural language processing tasks. The diagram is divided into three main sections: the input sequence, the transformer decoder, and the output sequence.
+
+The input sequence is represented by the words "person," "wearing," and "hat," followed by an end-of-sequence token "[END]." The transformer decoder is a complex structure with multiple layers, each containing a self-attention mechanism and a feed-forward neural network. The output sequence consists of the predicted words "y0," "y1," "y's2," and a special token "y3."
+
+The diagram also includes a formula for calculating the attention weights, which are used to determine the relevance of each input token to the current output token. The attention weights are calculated using the dot product of the query (Q), key (K), and value (V) matrices, followed by a softmax function to normalize the weights.
+
+The keywords that are most relevant to the slide are: Transformer, Decoder Block, Input Sequence, Output Sequence, Attention Weights, Self-Attention, Feed-Forward Neural Network, Dot Product, Softmax Function, Query Matrix, Key Matrix, Value Matrix, and End-of-Sequence Token.
+
+The plot in the diagram shows the flow of information from the input tokens to the output tokens, with the attention mechanism playing a crucial role in determining the output based on the input.
+
+The formula in the slide can be represented in LaTex format as follows:
+\[
+\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d}}\right)V
+\]
+where Q is the query matrix, K is the key matrix, V is the value matrix, and d is the dimension of the vectors.

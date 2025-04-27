@@ -1,0 +1,11 @@
+The slide is titled "Challenges" and discusses two main challenges in the field of Artificial Intelligence. The first challenge is "Structured: Capturing semantic structure," which refers to the difficulty of AI systems in understanding and replicating the structure of human language. This involves the ability to comprehend the relationships between words and phrases in a sentence, and how they contribute to the overall meaning of the text.
+
+The second challenge mentioned is "Abstract: Understanding abstract and complicated concepts," which highlights the difficulty AI systems face in grasping concepts that are not concrete or straightforward. This includes understanding metaphors, idioms, and other forms of figurative language, as well as more complex ideas that require a deep understanding of context and background knowledge.
+
+The slide also features a graphic with two arrows pointing towards each other, labeled "Structural Alignment" and "Abstract Semantics." This suggests that these two challenges are interconnected and that progress in one area may contribute to progress in the other.
+
+The formula presented on the slide is not visible, so it cannot be described.
+
+The keywords that can be extracted from this slide are: "Challenges," "Structured," "Semantic structure," "Abstract," "Understanding," and "Complicated concepts."
+
+The slide does not contain a plot or any other visual representation of data.

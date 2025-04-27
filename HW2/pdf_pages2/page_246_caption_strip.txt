@@ -1,0 +1,9 @@
+The slide is titled "Existing object-centric info miss situational understanding" and discusses the limitations of object-centric information in artificial intelligence. The main content of the slide is divided into two sections: a visual representation and a textual explanation.
+
+The visual representation shows a group of people holding signs with messages such as "NO Mandate!" and "Brady's NBT Domestic Terrorism." The people are labeled with "hold" and "behind" to indicate their positions and actions. This visual representation is used to illustrate the concept that object-centric data, such as the position and actions of individuals in a scene, may not provide a complete understanding of the situation.
+
+The textual explanation provides a table with three columns: "Vision," "Object," "Relation," "Scene Graph," and "Entity-Relation Graph." The "Vision" column refers to the visual data, the "Object" column lists the objects in the scene, the second "Relation" column describes the relationships between objects, and the last two columns list the corresponding data in the "Scene" and the "Entity" and their relationships.
+
+The slide does not contain any formulas or plots. However, it does reference a source: "Knowledge-Driven Vision-Language Encoding," Tutorial, CVPR, 2023.
+
+In summary, the slide emphasizes the importance of considering situational context in addition to individual object data for a more comprehensive understanding of a scene. The keywords related to this slide could be "object-centric information," "situational understanding," "visual representation," "textual explanation," "vision," "object," "relation," "scene graph," "entity-relation graph," and the source of the information.

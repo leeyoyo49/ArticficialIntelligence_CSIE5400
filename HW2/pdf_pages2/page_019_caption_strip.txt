@@ -1,0 +1,11 @@
+The slide is titled "Positional Encoding" and discusses the concept of positional encoding in the context of self-attention in artificial intelligence. The main content of the slide is divided into two sections: a diagram on the left and a bulleted list of considerations on the right.
+
+The diagram illustrates the process of applying positional encoding to input vectors. It shows three input vectors (x0, x1, x2) and their corresponding positional encodings (p0, p1, p2). The positional encoders are then fed into a self-attentive mechanism, resulting in three output vectors (y0, y1, y2). This process is represented by a flowchart with arrows indicating the flow of data from the input vectors to the output vectors.
+
+The bulleted text provides a set of considerations for designing a positional encoding function (pos). These considerations include ensuring that the function outputs a unique encoding for each time-step, maintaining consistent distance between time-steps across sentences of different lengths, generalizing to longer sentences, and making the function deterministic.
+
+The slide does not contain any formulas or inline examples, but it does reference a source for further reading: "Attention is all you need," by NeurIPS, 2017.
+
+Keywords: Positional Encoding, Self-Attention, Input Vectors, Positional Encodings, Time-Steps, Sentence Lengths, Deterministic, Unique Encoding, Consistent Distance, Generalization, Neural Information Processing Society (NeurIPS).
+
+There is no plot shown on the slide, but the flowchart provides a visual representation of the positional encoding process.

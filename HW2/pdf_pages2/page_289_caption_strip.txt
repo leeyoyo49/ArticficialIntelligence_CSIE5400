@@ -1,0 +1,11 @@
+The slide is titled "AI Weekly" and discusses a comparison between the original block and the block with DyT in the context of artificial intelligence. The original block consists of an "Attention / FFN" followed by a "Layer Norm" and then a "scale & shift" operation. The block with "DyT" has an additional "tanh(αx)" operation before the "scale" and "shift" operation.
+
+The slide also includes a table comparing the inference and training times of two models, LLaMA 7B and RMSNorm, with and without DyT. The table shows that the use of DyT results in a significant reduction in time for both models, with the most notable reduction being 52.4% for the RMSNorm model during inference.
+
+The keywords that can be extracted from this slide are: AI, Weekly, Original Block, DyT, Attention, FFN, Layer Norm, Scale & Shift, tanh, αx, Inference, Training, Time, Reduction, RMSNorm.
+
+There is no plot shown on the slide, but there is a diagram illustrating the flow of operations in the original and modified blocks. The diagram uses arrows to indicate the direction of data flow and different colors to distinguish between the various components of the blocks.
+
+The formula presented in the slide is: tanh(x), which is the hyperbolic tangent function applied to the variable x. This function is commonly used in neural networks to introduce non-linearity into the model.
+
+In summary, the slide presents a comparison of two neural network blocks, one with and one without the DyT operation, and demonstrates the efficiency gains achieved by incorporating DyT into the block. The slide also provides a detailed comparison of the performance of two different models, highlighting the time savings achieved by using DyT.

@@ -1,0 +1,7 @@
+The slide is titled "Example: Model-Based Imitation Learning for Urban Driving [NeurIPS 2022]". It explains that the model can drive in a simulator with a driving plan predicted entirely from imagination. The slide contains three images. The first image shows an RGB input of a car driving on a road. The second image is a graph comparing the ground truth and predicted bird's-eye view (BEV) of the car's position over time. The third image is another graph showing the predicted and ground truth semantic segmentation of the road and surrounding environment.
+
+The slide does not contain any formulas or definitions, but it does mention that the RGB input becomes sepia-colored when the model is driving in imagination.
+
+Keywords: Model-based imitation learning, urban driving, simulator, driving plan, imagination, RGB input, sepia-coloured, ground truth BEV, predicted BEV.
+
+The plot in the second and third images shows the comparison between the predicted values and the actual ground truth values of the BEV and semantic segmentation, respectively. The predicted values are slightly different from the actual values, indicating the accuracy of the model's predictions.

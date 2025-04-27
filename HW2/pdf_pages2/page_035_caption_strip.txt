@@ -1,0 +1,9 @@
+The slide is titled "The Transformer Decoder Block (4)" and is the 35th slide in the presentation. The main content of the slide is a diagram of a transformer decoder block, which is a part of the transformer model used in natural language processing and computer vision tasks. The diagram is divided into two main sections: the Transformer decoder and the Multi-head attention block.
+
+The Transformer decoder section of the diagram shows a series of layers, each consisting of a Multi-Head Attention mechanism and a Feed-Forward Neural Network (FFN). The Multi-Hat Attention mechanism is further divided into three parts: Query (Q), Key (K), and Value (V), which are used to calculate the attention scores. The FFN consists of two fully connected layers with a ReLU activation function in between. The output of the FFN is then added to the original input through a residual connection.
+
+The Multi-head Attention block is a key component of the Transformer model. It is not self-attention, meaning it does not attend over encoder outputs. Instead, it attends over the outputs of the encoder. For image captions, this is how we inject image features into the decoder.
+
+The slide does not contain any formulas or plots. However, it does contain a diagram that visually represents the structure and components of a Transformer decoder block.
+
+Keywords: Transformer, Decoder Block, Multi-head Attention, Query, Key, Value, Attention Scores, FFN, Residual Connection, Image Features, Encoder Outputs, Image Captions, Natural Language Processing, Computer Vision.

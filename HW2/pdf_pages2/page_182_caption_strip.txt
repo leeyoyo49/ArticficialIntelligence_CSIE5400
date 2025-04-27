@@ -1,0 +1,7 @@
+The slide is titled "AI Weekly" and is the 8th slide in a series. It is divided into two main sections, each containing a series of questions and answers related to spatial reasoning tasks. The left section includes questions about object count, relative distance, appearance order, and relative direction in a room. The right section contains questions about the size of an object, absolute distance, room size, and a route plan for a robot.
+
+The slide does not contain any formulas or plots. However, it does reference a figure, Figure 3, which is a demonstration of VSI-Bench. This figure is not visible in the image provided.
+
+The keywords that can be extracted from this slide are: AI, Weekly, Spatial Reasoning, Object Count, Relative Distance, Appearance Order, Relative Direction, Object Size, Absolute Distance, Room Size, Route Plan, Robot, VSI-Bench.
+
+The summary of the slide is as follows: The slide is part of a series on artificial intelligence and focuses on tasks that require spatial reasoning. It presents a variety of questions that test the viewer's ability to count objects, measure distances, determine the order of appearance of objects, and navigate a space. The slide also includes a reference to a figure that demonstrates these tasks.

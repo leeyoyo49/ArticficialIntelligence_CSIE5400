@@ -1,0 +1,11 @@
+The slide is titled "Existing object-centric info miss situational understanding" and discusses the limitations of object-centric information in artificial intelligence. The main content of the slide is divided into three sections: Vision, Entity-centric, and State-of-the-art Captioner. 
+
+In the Vision section, there is a photograph of a woman holding a sign in a park. The sign reads "NO Mandate!" and "We are Patriotic, Not Domestic Terrorists!" 
+
+The Entity-centric section contains a table with two columns: Vision and Text. The Vision column lists "Object," "Entity," "Relation," and "Scene Graph," while the Text column lists the corresponding descriptions for each category. 
+
+The State of the art Captioner section provides examples of captions that could be generated for the image. These captions describe the woman holding the sign in different contexts, such as in front of a group of people, while standing in the park, or in a crowd.
+
+The slide does not contain any formulas or plots. However, it does reference a source titled "Knowledge-Driven Vision-Language Encoding" from CVPR, 2023. 
+
+Keywords: Artificial Intelligence, Object-centric, Situational Understanding, Vision, Text, Captioner, Entity, Relation, Scene Graph.

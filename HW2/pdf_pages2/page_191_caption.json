@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Key Idea: Derive the Final Answer through Intermediate Steps" and discusses a pioneering study that utilized natural language rationales to solve math problems by deriving the final answer through a series of small steps. The study proposed a model to jointly learn to generate the text in the rationale and to perform the math operations required to solve the problem.
+
+The slide presents a math problem: "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is: Options: A) 3/7 B) 5/2 C) 7/8 D) 8/3 E) 2/2". The solution to the problem is provided, with the correct answer being option B, which is the ratio of the speeds of the two trains being 5:2. The rationale for the solution is explained step by step, using algebraic equations to represent the lengths of the trains and the time it takes for them to pass each other.
+
+The keywords from this slide are: Key Idea, Derive, Final Answer, Intermediate Steps, Pioneering Study, Natural Language Rationales, Math Problems, Model, Text Generation, Math Operations, Solution, Ratio, Speeds, Trains, Opposite Directions, Man, Platform, Seconds, Algebraic Word Problems, ACL, 2017.
+
+There is no plot or formula on the slide to describe.

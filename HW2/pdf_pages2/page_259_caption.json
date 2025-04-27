@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Hard negatives via manipulating event structures" and discusses the concept of hard negatives in the context of event structures in artificial intelligence. The slide is divided into two main sections: Positive Labels and Negative Labels. 
+
+In the Positive Labels section, there is a table with three columns: Event Type, Agent, and Instrument. The Event Type is "Transport (carry)", the Agent is "protesters", and the Instrument is "stretcher". This table represents a scenario where protesters are transporting an injured man using a stretcher.
+
+In the Negative Labels sections, there are two tables. The first table represents an event type "Arrest (arrest)" with the same Agent and Instrument as the positive labels, but the Target is an "injured man". The second table represents another event type, "Transport", with the Agent as "injected man", the Instrument as "protester" and the Target as "stretcher". 
+
+The slide also includes an image labeled "Image i" showing a group of people, some of whom are labeled as "Person" and others as "Bench". This image is likely used to illustrate the event types discussed in the tables.
+
+The slide does not contain any formulas or plots. However, it does reference a source titled "Knowledge-Driven Vision-Language Encoding, Tutorial, CVPR, 2023" which suggests that the content of the slide is based on research presented at the Conference on Computer Vision and Pattern Recognition (CVPR).
+
+Keywords: Artificial Intelligence, Hard Negatives, Event Structures, Positive Labels, Negative Labels, Transport, Protesters, Injured Man, Stretcher, Arrest, Image, Person, Bench.

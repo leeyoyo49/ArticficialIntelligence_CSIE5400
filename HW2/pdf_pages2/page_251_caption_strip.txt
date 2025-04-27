@@ -1,0 +1,9 @@
+The slide is titled "Definition of 'Event'". The main content of the slide is divided into two sections. The first section is a table that defines an event in the context of artificial intelligence. The table has three columns and four rows. The columns are labeled "Event", "Protester", and "banner". The rows define the event as "No vaccine mandate for kids", the protesters as "parent" and "child", and the banner as "Protest".
+
+The second section of the content is a diagram that illustrates the concept of an event. The diagram is a flowchart that starts with the question "What happened?" and branches out into two paths: "Who?" and "What?". Under "Who?", there are three nodes labeled "protester", "parent", "child". Under "What?", there is a single node labeled "banner".
+
+The slide also includes a source citation at the bottom: "Source: 'Knowledge-Driven Vision-Language Encoding,' Tutorial, CVPR, 2023."
+
+The keywords that are most relevant to the slide are: Event, Protest, Protester, Parent, Child, Banner, No Vaccine Mandate for Kids.
+
+There is no plot or formula shown on the slide.

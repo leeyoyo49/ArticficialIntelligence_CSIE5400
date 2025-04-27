@@ -1,0 +1,13 @@
+The slide is titled "SkillMimic: Learning Reusable Basketball Skills from Demonstrations" and is part of a presentation, as indicated by the "A: Weekly" label at the top. The main content of the slide is a visual representation of a basketball court with a green figure demonstrating basketball skills. The figure is positioned near the hoop, suggesting the act of shooting or preparing to shoot a basketball. Below the image, there is a list of authors and their affiliations, which include various universities and institutions such as The Hong Kong University of Science and Technology, Peking University, Tsinghua University, and others. The slide also features logos of CVPR (Conference on Computer Vision and Pattern Recognition) and Tencent, indicating that this work was presented at the CVPR conference in Nashville, TN, USA, from June 11-15, 2025.
+
+The slide does not contain any written content such as bullet points, formulas or inline examples that would require detailed explanation. However, it does include keywords that are relevant to the topic of the presentation:
+
+1. **SkillMIMic**: This likely refers to a method or system developed by the authors for learning basketball skills through demonstrations.
+2. **Reusable Basketball Skills**: The concept of skills that can be learned and applied in different contexts or situations.
+3. **Demonstrations**: A method of showing how to perform a skill, which in this case is basketball.
+4. **CVPR**: An abbreviation for the Conference on Computer Vi**sion and Pattern Re**g**ression, a well-known conference in the field of computer vision.
+5. **Nashville, TN**: Indicates the location of the conference where the presentation was made.
+
+The plot in the image illustrates the concept of learning through demonstration, which is a key idea in the presentation. It supports the message that the authors have developed a system that can learn basketball skills by observing demonstrations, rather than through direct instruction or traditional training methods.
+
+There are no formulas presented on the image to unpack.

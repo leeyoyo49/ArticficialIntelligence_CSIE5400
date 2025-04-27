@@ -1,0 +1,11 @@
+The slide is titled "Example: Exploring LoT in MLLM with Creative Humor Generation". It discusses the use of Large Language Models (LLMs) in Machine Learning (MLL) to generate creative humor. The slide is divided into two main sections: "Image to Text (I2T)" and "Text to Text(T2T)". 
+
+In the I2T section, there is an example of a visual language model that takes an image as input and generates a humorous caption. The image is of a cat with its mouth open, and the generated caption is "An apple a day keeps the doctor away". This is a play on the common phrase "an apple a penny saves nine", adding a humorous twist by replacing 'penny' with 'apple'.
+
+In the Text to Text section, the slide provides examples of how LLMs can be used to generate humorous text. The examples are in both English and Chinese. The English examples include "What else can wake you up besides coffee?", "Maybe you need to enlist the help of some angry bees.", and "A cup of deadline.". The Chinese examples include "@ Haha this is a happy cat with his mouth open ...", "@ What?! Going to the pet hospital now for a neutering surgery?!", and "@ Not for me, but it's hard for my supervisor."
+
+The slide also includes a reference to the source of the information, which is a paper titled "Let's Think Outside the Box: Exploring Leap-of-Thought in Large Language models with Creative Humour Generation", published in CVPR, 2024.
+
+Keywords: Artificial Intelligence, Humor Generation, Visual Language Model, Machine Learning, Text to Image, Image to Text, English, Chinese.
+
+There is no plot or formula on the slide.

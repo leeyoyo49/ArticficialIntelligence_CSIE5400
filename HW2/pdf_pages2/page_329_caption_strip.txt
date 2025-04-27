@@ -1,0 +1,27 @@
+The slide is titled "Values of States" and discusses the recursive definition of value, which is similar to the concept of 'expectimax' in artificial intelligence. The formula presented on the slide is "V*(s) = Q*(s,a) + T(s,a,s') * V*(s')", where 's' is a state, 'a' is an action, and 's'' is the next state. The slide also includes a diagram that visually represents the recursive nature of the formula. The diagram shows a state 's', an action 'a', and a transition to a new state 'a'. The value of the state is represented by a green circle, the action by a red circle, and the transition by a blue triangle. The transition from one state to another is indicated by a dashed line with an arrow.
+
+Summary:
+The slide provides an explanation of the values of states in the context of AI, specifically in relation to the expectimax algorithm. It presents a recursive formula that defines the value of a state in terms of the quality of the action taken and the expected future value. A diagram is used to visually represent the concept, with different shapes and colors indicating states, actions, and transitions.
+
+Keywords:
+1. Values of States
+2. Recursive definition
+3. Expectimax
+4. AI
+5. State
+6. Action
+7. Next state
+8. Quality
+9. Transition
+10. Diagram
+
+Plot Description:
+The plot is a visual representation of the recursive formula. It consists of three main elements: a state (green circle), an action (red circle), and a next state (blue triangle). The state and action are connected by a solid line, while the transition from the state to the new state is shown with a dashed arrow. This diagram helps to illustrate the process of calculating the value based on the given formula.
+
+LaTeX Format of the Formula:
+The formula presented in the slide can be written in LaTex format as follows:
+$$V^*(s)=Q^*(\text{s,a})+T(s,a,\text{s'})\cdot V^*(\text{s'}),$$
+where:
+- $V^*$ represents the value function,
+- $Q^*$ is the quality function, and
+- $T$ is the transition function.

@@ -1,0 +1,22 @@
+The slide is titled "Policy Evaluation" and discusses how to calculate the value function (V) for a fixed policy (π) in the context of reinforcement learning. There are two main ideas presented:
+
+1. The first idea is to transform recursive equations into updates, similar to value iteration. This is represented by the equation V^π(s) = 0, which is the initial value function for a state s under policy π. The recursive equation is V^k+1(s) ≤ ΣT(s, π(s), s') [R(s,π(s),s') + γV^k(s')], where T(s, s', π(s)) is the transition function, R is the reward function, and γ is the discount factor.
+
+2. The second idea is that without the max operator, the equations are just a linear system. This can be solved using a favorite linear system solver.
+
+The slide also includes a diagram that visually represents the recursive process of policy evaluation, with arrows indicating the flow from one state to another under the policy π.
+
+The keywords from this slide are:
+- Policy Evaluation
+- Value Function (V)
+- Fixed Policy (π)
+- Recursive Equations
+- Linear System
+- Discount Factor (γ)
+- Transition Function (T)
+- Reward Function (R)
+- State (s)
+- Action (a)
+- Value Iteration
+
+There is no plot or formula on the slide that needs to be described in LaTex format.

@@ -1,0 +1,7 @@
+The slide is titled "Visual Event Extraction" and discusses "Supporting Zero-shot Vision Event Extraction." The content is divided into four categories: Vaccination, Arrest, Protest, and Celebration. Each category is represented by a set of images with bounding boxes and labels indicating the roles of the people in the images, such as "agent," "target," "detainee," "demonstrator," and "attendee." The images are examples of different events that can be extracted from a single image without prior training.
+
+The summary of the slide is as follows: The slide presents the concept of visual event extraction in the context of zero-shot vision event extraction. It demonstrates how this technology can identify and categorize different types of events from images without the need for prior training. The events covered include vaccination, arrest, protest, and celebration. The slide uses images with labeled bounding boxes to illustrate how the technology can distinguish between different roles in these events.
+
+The keywords from this slide are: Visual Event Extraction, Zero-shot, Vision Event, Vaccination Event, Arrest Event, Protest Event, Celebration Event, Agent, Target, Detainee, Demonstrator, Attendee.
+
+There is no plot or formula on the slide to describe.

@@ -1,0 +1,5 @@
+The slide is titled "Reinforcement Learning" and discusses the concept of a Markov Decision Process (MDP) in the context of reinforcement learning. The slide is divided into two main sections. The first section outlines the components of an MDP, which include a set of states (S), actions (A), a model (T), and a reward function (R). The second section introduces a new twist in reinforcement learning, where the reward function is not known, and the agent must try out actions and states to learn.
+
+The slide does not contain any formulas or plots. However, it does include three images of cars in different states: cool, warm, and overheated. These images are used to visually represent the different states that an agent might encounter in a reinforcement learning scenario.
+
+The keywords that are most relevant to the content of the slide are: Reinforcement Learning, Markov decision process, states, actions, model, reward function, policy, and unknown reward function.

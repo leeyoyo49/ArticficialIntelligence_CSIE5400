@@ -1,0 +1,16 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Example: Policy Evaluation" and is divided into two sections, each representing a different policy. The left section is labeled "Always Go Right" and contains a grid of red squares, each with a value of -10.00, except for one green square with a positive value of 1.09. The right section, labeled "Alway Go Forward," contains a similar grid but with green squares having positive values of 100.00 and 70.20, and a red square with the same value as the other red squares.
+
+The slide does not contain any formulas or plots, and there are no definitions or inline examples provided. However, the values in the grids could represent some form of numerical data related to the policies being evaluated.
+
+The summary of the slide is as follows:
+
+The slide presents an example of policy evaluation in the context of artificial intelligence. It compares two different policies, "Always go right" and "always go forward," using a grid-based visual representation. Each grid contains squares with numerical values, with the green squares indicating positive values and the red squares indicating negative values. The "Always GO Right" policy has a single positive value, while the "always GO Forward" policy contains multiple positive values. This suggests that the latter policy may be more effective or beneficial than the former.
+
+The keywords related to this slide are: Artificial Intelligence, Policy Evaluation, Always Go Right, Alway GO Forward, Grid, Numerical Data, Positive Values, Negative Values, Red Squares, Green Squares, Positive Value, Negative Value.
+
+The formula is not present on the slide.

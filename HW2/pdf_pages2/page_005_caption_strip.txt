@@ -1,0 +1,13 @@
+The slide is titled "SkillMim: Concept" and discusses the concept of SkillMim, which is a system for unified learning of all basketball skills. The slide is divided into three sections, each representing a different aspect of the concept.
+
+1. Real-World Skill: The first section shows a person playing basketball in a real-world setting. This represents the actual skill that the system aims to learn and replicate.
+
+2. Motion Capture: The second section depicts a blue figure in a virtual environment, representing the motion capture process. This is where the real-world skill is recorded and converted into data that can be used by the system.
+
+3. Skill in Simulator: The third section shows the same blue figure, but this time in a simulated environment. This demonstrates how the system can replicate the learned skill in a controlled, virtual setting.
+
+The slide does not contain any formulas or definitions, but it does provide a visual representation of the process of learning and replicating a basketball skill using the SkillMIm concept.
+
+The keywords that are most relevant to this slide are: SkillMIMic, Concept, Motion Capture, HOI Motion Data, and Skill Simulator.
+
+There is no plot shown on the slide, but the sequence of images from left to right represents the process from capturing real-world skills to replicating them in a simulator.

@@ -1,0 +1,9 @@
+The slide is titled "Evaluation Metrics for Text Summarization" and discusses three different metrics used to evaluate text summarization: BLEU, ROUGE, and BERTScore. 
+
+BLEU (Bilingual Evaluation Understudy) is a method for automatic evaluation of machine translation. ROUGE (Recall-Oriented Understudy for Gisting Evaluation) is another method for evaluating automatic summarization. BERT (Bidirectional Encoder Representations from Transformers) Score is used for measuring semantic similarity.
+
+The slide also provides three references for further reading on these topics. 
+
+The keywords associated with this slide are: Evaluation, Metrics, Text Summary, Machine Translation, Automatic Evaluation, Semantic Similarity.
+
+There is no plot or formula presented on this slide.

@@ -1,0 +1,9 @@
+The slide is titled "Paradigms to achieve Multimodal CoT" and is divided into two main sections, each illustrating a different approach to multimodal chain-of-thought reasoning. The first section, labeled "(a) Caption-based Reasoning," shows a flowchart with the following steps: Image, Question, Caption Model, Caption, Prompted Text, LLM (Language Model), and Answer. The flowchart indicates that an image is first processed by a caption model to generate a caption, which is then used as prompted text for a language model to produce an answer. The second section, "(b) CoT-based reasoning," follows a similar structure but starts with a question and a model, leading to a rationale, another model, and finally an answer.
+
+The slide does not contain any formulas or plots, and there are no inline examples provided. However, it does reference a source at the bottom: "Multimodal Chain-of-Thought Reasoning in Language Models," TMLR, 2024.
+
+Keywords that can be extracted from this slide include: Paradigms, Artificial Intelligence, Multimodality, CoT (Chain of Thought), Reasoning, Caption-based, Prompting, Language Model, Rationale, and Answer.
+
+Since there is no plot or formula to describe, the summary of the slide is as follows:
+
+The slide presents two paradigms for achieving multimodal coT reasoning in artificial intelligence. The caption-based reasoning approach involves generating a caption from an image and using it as prompted input for a LLM to generate an answer, while the coT-based approach involves reasoning from a question through a series of models to produce a rationale and answer. Both methods aim to integrate visual and textual information to enhance AI's reasoning capabilities.

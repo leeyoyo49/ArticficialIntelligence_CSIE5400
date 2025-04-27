@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are an AI lecture slide analyzer. The following input is an image of a lecture slide about “Artificial Intelligence.”
+1. Extract every piece of written content: slide title, sub-bullets and their full text, definitions, formulas, and any inline examples.
+2. Generate a summary of at least 300 words, as thorough and precise as possible, for retrieval and generation.
+3. Select at least 5 of the most relevant keywords from the slide.
+4. If the slide shows a plot, include a description of the plot.
+5. If the slide contains a formula, save it in LaTeX format, and describe the formula as thorough as possible.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Grandmaster level in StarCraft II using multi-agent reinforcement learning" and was published on 30 October 2019. The main content of the slide is divided into two sections. The first section is a screenshot of a StarCraft game, which is a real-time strategy game. The game is being played at the Grandmaster level, indicating a high level of skill and strategy. The second section contains a flowchart that explains the process of decision-making in the game using reinforcement learning. The flowchart includes four decision points: "What?", "Who?", "Where?", and "When next action?".
+
+The slide also contains several keywords that are relevant to the topic. These include "Nature", "Article", "Published", "30 October", "2019", "StarCraft II", "multi-agent", "reinforcement learning", "actions limit", "requested delay", "Move", "Attack", "Build", and "processing delay".
+
+There is no plot shown on the slide. However, the flowchart can be interpreted as a plot of the decision-making process in a game using a specific type of artificial intelligence.
+
+The slide does not contain any formulas or mathematical expressions that can be converted into Latex format.

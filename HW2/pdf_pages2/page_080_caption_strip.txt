@@ -1,0 +1,7 @@
+The slide is titled "The Reflexion process" and is divided into two main sections: Initialization and Repeat. 
+
+In the Initialization section, the Actor produces a trajectory τ0 by interacting with the environment. The Evaluator then produces a score r0, which is computed as τt = Me(τ0), where τt is only a scalar reward for trial t. The Self-Reflection model analyzes the set of {τ0, r0} to produce a summary sr0 which is stored in the memory mem, where sr_t is a verbal experience feedback for trial_t.
+
+In the Repeat section, The Actor, Evaluator, and Self-Reflexion model work together through trials in a loop until the Evaluator deems sr_t to be correct. Note that after each trial t, sr_t, is appended mem.
+
+The slide does not contain any plots or formulas, so there is no plot description or formula to provide. The keywords from this slide could be: Actor, Trajectory, Environment, Score, Self-Reflection model, Memory, Verbal experience feedback, Trial, Loop, Scalar reward, and Deems.
