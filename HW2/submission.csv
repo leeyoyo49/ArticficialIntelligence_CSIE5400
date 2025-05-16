@@ -1,201 +1,243 @@
 ﻿ID,Answer
-0,96
-1,377
-2,290
-3,432
-4,395
-5,90
-6,389
-7,409
-8,267
-9,292
-10,387
-11,416
-12,55
-13,267
-14,78
-15,314
-16,323
-17,384
-18,440
-19,391
-20,232
-21,231
-22,458
-23,341
-24,180
-25,208
-26,460
-27,228
-28,366
-29,289
-30,405
-31,296
-32,87
-33,324
-34,407
-35,305
-36,7
-37,253
-38,391
-39,424
-40,255
-41,94
-42,451
-43,262
-44,58
-45,452
-46,222
-47,193
-48,64
-49,96
-50,58
-51,94
-52,222
-53,102
-54,66
-55,220
-56,62
-57,211
-58,51
-59,445
-60,193
-61,421
-62,181
-63,432
-64,429
-65,459
-66,187
-67,409
-68,98
-69,179
-70,38
-71,347
-72,439
-73,457
-74,192
-75,185
-76,342
-77,11
-78,56
-79,397
-80,301
-81,196
-82,326
-83,181
-84,230
-85,260
-86,175
-87,287
-88,195
-89,65
-90,238
-91,247
-92,408
-93,228
-94,439
-95,8
-96,251
-97,284
-98,417
-99,228
-100,220
-101,62
-102,211
-103,49
-104,445
-105,229
-106,310
-107,432
-108,459
-109,187
-110,429
-111,98
-112,409
-113,231
-114,422
-115,179
-116,262
-117,209
-118,210
-119,102
-120,176
-121,442
-122,441
-123,434
-124,86
-125,8
-126,234
-127,100
-128,380
-129,219
-130,186
-131,338
-132,457
-133,449
-134,179
-135,435
-136,302
-137,306
-138,435
-139,181
-140,377
-141,368
-142,368
-143,231
-144,295
-145,185
-146,460
-147,227
-148,393
-149,441
-150,230
-151,419
-152,33
-153,97
-154,66
-155,53
-156,382
-157,446
-158,199
-159,98
-160,218
-161,74
-162,445
+0,"Page 1
+
+The reasoning behind upgrading from a wooden pickaxe to a stone pickaxe for improved"
+1,Page 2
+2,"Page 5
+
+The slide is titled ""Artificial Intelligence"" and focuses on the subtopic of """
+3,147
+4,Page 1
+5,Page 91
+6,Page 1
+7,Page 1
+8,Page 89
+9,Page 2
+10,Page 3
+11,Page 1
+12,Page 2
+13,Page 89
+14,Page 1
+15,Page 1
+16,Page 2
+17,Page 2
+18,Page 2
+19,Page 1
+20,"Page 2
+
+The slide is titled ""Multimodal CoT Reasoning"" and discusses the"
+21,2
+22,Page 1
+23,Page 2
+24,Page 1
+25,Page 1
+26,Page 2
+27,"Page 2
+
+The slide is titled ""Model-Based Learning"" and features a cartoon image of two"
+28,Page 2
+29,Page 3
+30,Page 2
+31,Page 1
+32,Page 1
+33,1
+34,Page 2
+35,Page 2
+36,Page 2
+37,Page 2
+38,Page 2
+39,Page 2
+40,"Slide 2: ""Event-Driven Vision-Language Pretraining"""
+41,Page 1
+42,Page 2
+43,Page 2
+44,Page 1
+45,Page 2
+46,Page 1
+47,Page 2
+48,Page 1
+49,Page 2
+50,"Page 1
+
+Question: Which page in the document is likely to contain a discussion on the use"
+51,2
+52,Page 3
+53,Page 2
+54,Page 1
+55,Page 2
+56,Page 1
+57,Page 2
+58,Page 1
+59,Page 3
+60,38
+61,Page 1
+62,"1
+
+Question: On which page in the document might you find a description of a person sitting"
+63,"147
+
+The slide is titled ""Reinforcement Learning Contemplation (RLC)"" and"
+64,Page 2
+65,Page 1
+66,Page 1
+67,Page 2
+68,Page 2
+69,1
+70,1
+71,Page 3
+72,Page 1
+73,Page 147
+74,Page 2
+75,Page 1
+76,Page 2
+77,23
+78,Page 2
+79,Page 2
+80,Page 2
+81,Page 1:
+82,Page 1
+83,Page 83
+84,Page 2
+85,Page 2
+86,Page 1
+87,Page 1
+88,Page 1
+89,Page 1
+90,63
+91,Page 2
+92,Page 1
+93,"Page 1: The slide titled ""Multimodal CoT Reasoning"" discusses the magnetic force"
+94,Page 2
+95,"Page 2
+
+The slide is titled ""Multimodal CoT Reasoning"" and discusses examples"
+96,Page 2
+97,Page 1
+98,Page 2
+99,"Page 2: Gold Rationale
+
+Question: Where in the document is the concept explained that the"
+100,Page 1
+101,Page 2
+102,Page 2
+103,Page 1
+104,Page 3
+105,Page 1
+106,Page 2
+107,"Page 147
+
+The slide is titled ""Reinforcement Learning Contemplation (RLC)"""
+108,Page 1
+109,Page 1
+110,Page 2
+111,Page 2
+112,Page 2
+113,Page 2
+114,Page 2
+115,Page 1
+116,"Page 2
+
+The provided text does not contain any information about a Hull midfielder, Garry Monk"
+117,Page 2
+118,Page 3
+119,Page 1
+120,"Page 1
+
+Question: On which page is the concept of a cognitive map, as it pertains"
+121,Page 2
+122,Page 1
+123,Page 2
+124,Page 1
+125,Page 2
+126,38
+127,Page 1
+128,Page 2
+129,Page 1
+130,Page 1
+131,Page 2
+132,Page 172
+133,Page 1
+134,Page 2
+135,Page 2
+136,17
+137,Page 1
+138,Page 2
+139,"Page 2
+
+Question: On which page is the method for determining the height of the stool—"
+140,Page 3
+141,Page 2
+142,Page 2
+143,2
+144,Page 1
+145,Page 1
+146,Page 1
+147,53
+148,Page 2
+149,"Page 1: The slide titled ""Sample Data of CNN/Daily Mail"" contains a table with"
+150,Page 2
+151,Page 2
+152,Page 1
+153,Page 3
+154,Page 66
+155,"Page 2
+
+Question: On which page is the concept of a robot performing a task, such"
+156,"Page 1: The slide titled ""A Walk in the Park: Learning to Walk in 20"
+157,Page 2
+158,Page 23
+159,Page 1
+160,Page 2
+161,Page 3
+162,Page 2
 163,91
-164,257
-165,55
-166,55
-167,280
-168,228
-169,200
-170,460
-171,232
-172,208
-173,206
-174,191
-175,93
-176,62
-177,442
-178,441
-179,9
-180,208
-181,295
-182,266
-183,182
-184,459
-185,342
-186,301
-187,82
-188,380
-189,217
-190,297
-191,303
-192,461
-193,85
-194,195
-195,203
-196,188
-197,196
-198,419
-199,200
+164,Page 2
+165,Page 1b
+166,"Page 1: The RECAP Framework
+
+Question: Where in the document can one find a discussion"
+167,Page 2
+168,"Page 2
+
+The slide is titled ""The Transformer Decoder Block (1)"" and is the"
+169,Page 1
+170,Page 1
+171,Page 2
+172,Page 1
+173,Page 1
+174,Page 2
+175,Page 2
+176,Page 1
+177,Page 2
+178,Page 1
+179,Page 1
+180,Page 1
+181,"Page 1
+
+The slide is titled ""DM: feature point matching methods"" and discusses the use"
+182,Page 2
+183,83
+184,Page 1
+185,Page 2
+186,Page 1
+187,Page 1
+188,"Page 2
+
+The slide titled ""Top 10 Companies by Video Game Revenue in 2017"
+189,"Page 2
+
+The slide titled ""Multimodal Reasoning"" discusses an ""Example Problem:"
+190,Page 2
+191,Page 17
+192,Page 2
+193,"83
+
+The slide is titled ""A decision-making example"" and discusses a scenario where a person"
+194,Page 2
+195,"Page 2
+
+Question: Which page in the document likely contains a discussion on the impact of the"
+196,Page 2
+197,Page 1
+198,Page 1
+199,2

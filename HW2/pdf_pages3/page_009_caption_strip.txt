@@ -1,0 +1,5 @@
+The slide is titled "Sequence to Sequence Generation with Transformer Based Models" and is the ninth slide in the presentation. It introduces the concept of sequence-to-sequence generation using transformer models, which are a type of neural network architecture. The slide is divided into two main sections: the textual content and the visual representation of the encoder-decoder architecture.
+
+1. **Textual Content:**
+   - **Input:** The slide specifies that the input to the model is a sequence of elements, denoted as X1, ..., XT. This represents a series of data points or tokens that the model will process.
+   -

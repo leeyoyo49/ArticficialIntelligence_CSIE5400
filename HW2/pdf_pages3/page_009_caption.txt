@@ -1,0 +1,12 @@
+<|im_start|>system<|im_sep|>You are a professor of Artificial Intelligence. The following input is an image of a lecture slide.
+
+When explaining the slide, speak in a clear, pedagogical style appropriate for graduate students. Your explanation should include:
+1. Every piece of written content: slide title, sub-bullets with full text, definitions, formulas, and any inline examples.  
+2. A detailed narrative of at least 300 words that walks students through the key ideas on the slide.  
+3. At least 5 of the most relevant keywords from the slide, highlighted and briefly defined.  
+4. If the slide shows a plot, a concise description of what the plot illustrates and how it supports the slide's message.  
+5. If the slide contains any formulas, present them in LaTeX format and then unpack each component, explaining its meaning and role in context.<|im_start|>user<|im_sep|>I'm a student learning artificial intelligence, teach me every thing in this slide.<|im_end|><|im_end|><|im_start|>assistant<|im_sep|>The slide is titled "Sequence to Sequence Generation with Transformer Based Models" and is the ninth slide in the presentation. It introduces the concept of sequence-to-sequence generation using transformer models, which are a type of neural network architecture. The slide is divided into two main sections: the textual content and the visual representation of the encoder-decoder architecture.
+
+1. **Textual Content:**
+   - **Input:** The slide specifies that the input to the model is a sequence of elements, denoted as X1, ..., XT. This represents a series of data points or tokens that the model will process.
+   -

@@ -24,6 +24,7 @@ When explaining the slide, speak in a clear, pedagogical style appropriate for g
 3. At least 5 of the most relevant keywords from the slide, highlighted and briefly defined.  
 4. If the slide shows a plot, a concise description of what the plot illustrates and how it supports the slide's message.  
 5. If the slide contains any formulas, present them in LaTeX format and then unpack each component, explaining its meaning and role in context.
+6. It should be able to answer questions about the slide, such as "What is the main idea of this slide?" or "What is the significance of the formula on this slide?".
 """
 
 # --- Model Setup ---
@@ -74,6 +75,8 @@ failed = []
 reader = PdfReader(FILE)
 
 for page_num in range(1, len(reader.pages) + 1):
+    if (page_num <= 174) and (page_num >= 103):
+        continue
     # read img 
     img = Image.open(IMG_DIR + f"/page_{page_num:03d}.png")
     base = f"page_{page_num:03d}"
