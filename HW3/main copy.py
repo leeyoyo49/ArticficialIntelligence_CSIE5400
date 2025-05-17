@@ -2,24 +2,14 @@ from __future__ import annotations
 from autogen import ConversableAgent, register_function
 import os, sys, re, ast
 from typing import Dict, List, get_type_hints
-import json
-from typing import Tuple
 
 SCORE_KEYWORDS: dict[int, list[str]] = {
     1: ["awful", "horrible", "disgusting"],
-    2: ["bad", "offensive", "disinterested"],
-    3: ["average", "uninspiring", "middling", "okay", "unpleasant"],
-    4: ["good", "enjoyable", "satisfying", "forgettable", "friendly", "peak", "great", "efficient"],
+    2: ["bad", "unpleasant", "offensive"],
+    3: ["average", "uninspiring", "forgettable"],
+    4: ["good", "enjoyable", "satisfying"],
     5: ["awesome", "incredible", "amazing"]
 }
-
-# SCORE_KEYWORDS: dict[int, list[str]] = {
-#     1: ["awful", "horrible", "disgusting", "terrible"],
-#     2: ["bad", "unpleasant", "offensive", "unappetizing", "insipid", "stale", "unfriendly", "disinterested", "rushed", "unhelpful", "rude"],
-#     3: ["average", "uninspiring", "mediocre", "acceptable", "decent", "ordinary", "bland", "okay", "middling", "passable", "fine", "edible", "forgettable"],
-#     4: ["good", "enjoyable", "satisfying", "pleasant", "tasty", "savory", "flavorful", "yummy", "enjoyable", "friendly", "thumbs-up", "attentive", "fine"],
-#     5: ["awesome", "incredible", "amazing", "fantastic"],
-# }
 
 # ────────────────────────────────────────────────────────────────
 # 0. OpenAI API key setup ── *Do **not** modify this block.*
@@ -45,17 +35,12 @@ def fetch_restaurant_data(restaurant_name: str) -> dict[str, list[str]]:
             name, review = line.split('.', 1)
             if normalize(name) == target:
                 data.setdefault(name.strip(), []).append(review.strip())
-    data = json.dumps(data, ensure_ascii=False)
-    # save into json
-    with open(f"{target}_restaurant_data.json", "w", encoding="utf-8") as f:
-        f.write(data)
     return data
 
 
 def calculate_overall_score(restaurant_name: str, food_scores: List[int], customer_service_scores: List[int]) -> dict[str, str]:
     """Geometric-mean rating rounded to 3 dp."""
     n = len(food_scores)
-    print(f"Calculating score for {restaurant_name} with {n} reviews.")
     if n == 0 or n != len(customer_service_scores):
         raise ValueError("food_scores and customer_service_scores must be non-empty and same length")
     total = sum(((f**2 * s)**0.5) * (1 / (n * (125**0.5))) * 10 for f, s in zip(food_scores, customer_service_scores))
@@ -78,23 +63,13 @@ DATA_FETCH = build_agent(
 )
 ANALYZER = build_agent(
     "review_analyzer_agent",
-    f"""
-Input is {{"Restaurant Name": ["Review1", "Review2", ... ]}}. 
-Treat each array element as one review, we will give you the amount of reviews, the returned array size needs to be exactly the same as the input size.
-For each review (i.e. each string in the array), identify exactly two adjectives:
-  - one describing the FOOD 
-  - one describing the SERVICE 
-FOOD and SERVICE adjectives are independent of each others.
-Map each adjective to its numeric score using the predefined Table, if there are multiple adjectives, use the score of the avg.
-f{SCORE_KEYWORDS}.
-There might be along with some common synonyms and typical misspellings.
-
-Reply only:\nfood_scores=[...]\ncustomer_service_scores=[...]
-"""
+    "Input is {'Name': [...reviews...]}. Each review has 2 adjectives (food, service).\n"
+    "Reply only:\nfood_scores=[...]\ncustomer_service_scores=[...]\nTable:\n"
+    f"{SCORE_KEYWORDS}"
 )
 SCORER = build_agent(
     "scoring_agent",
-    "Given name + two lists. Reply only: \n{restaurant_name} = <score>\n"
+    "Given name + two lists. Reply only: calculate_overall_score(...)"
 )
 ENTRY = build_agent("entry", "Coordinator")
 
@@ -153,112 +128,27 @@ ConversableAgent.initiate_chats = lambda self, seq: run_chat_sequence(self, seq)
 def main(user_query: str, data_path: str = "restaurant-data.txt"):
     global DATA_PATH
     DATA_PATH = data_path
-    score_result = None
+    agents = {"data_fetch": DATA_FETCH, "analyzer": ANALYZER, "scorer": SCORER}
+    chat_sequence = [
+        {"recipient": agents["data_fetch"], 
+         "message": "Find reviews for this query: {user_query}", 
+         "summary_method": "last_msg", 
+         "max_turns": 2},
 
-    while score_result is None:
-        # 1. ENTRY calls DATA_FETCH
-        ENTRY._initiate_chats_ctx = {"user_query": user_query}
-        fetch_chat = ENTRY.initiate_chat(
-            DATA_FETCH,
-            message=f"Find reviews for this query: {user_query}",
-            summary_method="last_msg",
-            max_turns=2
-        )
+        {"recipient": agents["analyzer"], 
+         "message": "Here are the reviews from the data fetch agent:\n{reviews_dict}\n\nExtract food and service scores for each review.", 
+         "summary_method": "last_msg", 
+         "max_turns": 1},
 
-
-        reviews_dict = None
-        for msg in reversed(fetch_chat.chat_history):
-            if msg.get("role") == "tool":
-                try:
-                    reviews_dict = json.loads(msg["content"])
-                except json.JSONDecodeError:
-                    continue
-                break
-
-        if not reviews_dict:
-            raise RuntimeError("No reviews returned by DATA_FETCH")
-
-        restaurant_name = next(iter(reviews_dict))
-
-        # 3. ENTRY calls ANALYZER, feeding it the received data
-        reviews_list = reviews_dict[restaurant_name]
-        n = len(reviews_list)
-        reviews_json = json.dumps(reviews_dict, ensure_ascii=False)
-
-        analyzer_prompt = f"""
-    Here is a valid JSON object mapping one restaurant to its reviews:
-
-    {reviews_json}
-
-    There are exactly {n} reviews in the array under "{restaurant_name}".  
-    Reply only with two Python lists of length exactly {n}:
-
-        food_scores = [...]
-        customer_service_scores = [...]
-    """
-        print(analyzer_prompt)
-        analyzer_chat = ENTRY.initiate_chat(
-            ANALYZER,
-            message=(
-                analyzer_prompt
-            ),
-            summary_method="last_msg",
-            max_turns=1
-        )
-
-        analyzer_output = analyzer_chat.summary  # e.g. "food_scores=[...]\ncustomer_service_scores=[...]"
-        analyzer_output += f"\n{restaurant_name}"
-        print("ANALYZER output:", analyzer_output)
-        
-
-        # 4. ENTRY calls SCORER, feeding it the analyzer’s output
-        scorer_chat = ENTRY.initiate_chat(
-            SCORER,
-            message=analyzer_output,
-            summary_method="last_msg",
-            max_turns=2
-        )
-
-        score_result = scorer_chat.summary  # e.g. '{"Subway": "4.236"}'
-        # if the result does'n contain any numbers, retry
-        if not re.search(r"\d", score_result):
-            print("No numbers found in SCORER output, retrying...")
-            score_result = None
-            continue
-        
-        queries = {
-            "Taco Bell":0,
-            "Chick-fil-A":1,
-            "Starbucks":2,
-            "In-n-Out":3,
-            "McDonald's":4,
-        }  
-
-        expected = [3.00, 9.35, 8.06, 9.54, 3.65]
-        tolerances = [0.20, 0.20, 0.15, 0.15, 0.15]
-
-        def contains_num_with_tolerance(text: str, target: float, tol: float) -> Tuple[bool, float]:
-            """
-            Extract only the FIRST number (int or float) from the text.
-            Compare it against the expected target value with a given tolerance.
-            
-            Returns:
-                passed (bool): Whether the prediction is within tolerance.
-                pred (float or None): The parsed prediction value or None if not found.
-            """
-            match = re.search(r"\d+(?:\.\d+)?", text)
-            if not match:
-                return False, None
-            pred = float(match.group())
-            return abs(pred - target) <= tol, pred
-
-        if not contains_num_with_tolerance(score_result, expected[queries[restaurant_name]], tolerances[queries[restaurant_name]])[0]:
-            print("SCORER output is not within tolerance, retrying...")
-            score_result = None
-            continue
-        
-    print("Final score:", score_result)
-    return score_result
+        {"recipient": agents["scorer"], 
+         "message": "{analyzer_output}", 
+         "summary_method": "last_msg", 
+         "max_turns": 2},
+    ]
+    ENTRY._initiate_chats_ctx = {"user_query": user_query}
+    result = ENTRY.initiate_chats(chat_sequence)
+    print(f"result: {result}")
+    return result
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:

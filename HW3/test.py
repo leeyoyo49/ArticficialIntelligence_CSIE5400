@@ -124,6 +124,9 @@ def public_tests() -> None:
                 f"Expected: {expected[i]:.3f}  Predicted: {pred}  "
                 f"Query: {q}"
             )
+            raise ValueError(
+                f"Test {i+1} failed. Expected: {expected[i]:.3f}, Predicted: {pred}"
+            )
 
     mae = sum(abs_errors) / len(abs_errors)
     print(f"---------- {passed}/{len(queries)} Tests Passed. MAE: {mae:.4f} ----------")
