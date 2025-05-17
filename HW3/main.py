@@ -3,7 +3,6 @@ from autogen import ConversableAgent, register_function
 import os, sys, re, ast
 from typing import Dict, List, get_type_hints
 import json
-from typing import Tuple
 
 SCORE_KEYWORDS: dict[int, list[str]] = {
     1: ["awful", "horrible", "disgusting"],
@@ -12,14 +11,6 @@ SCORE_KEYWORDS: dict[int, list[str]] = {
     4: ["good", "enjoyable", "satisfying", "forgettable", "friendly", "peak", "great", "efficient"],
     5: ["awesome", "incredible", "amazing"]
 }
-
-# SCORE_KEYWORDS: dict[int, list[str]] = {
-#     1: ["awful", "horrible", "disgusting", "terrible"],
-#     2: ["bad", "unpleasant", "offensive", "unappetizing", "insipid", "stale", "unfriendly", "disinterested", "rushed", "unhelpful", "rude"],
-#     3: ["average", "uninspiring", "mediocre", "acceptable", "decent", "ordinary", "bland", "okay", "middling", "passable", "fine", "edible", "forgettable"],
-#     4: ["good", "enjoyable", "satisfying", "pleasant", "tasty", "savory", "flavorful", "yummy", "enjoyable", "friendly", "thumbs-up", "attentive", "fine"],
-#     5: ["awesome", "incredible", "amazing", "fantastic"],
-# }
 
 # ────────────────────────────────────────────────────────────────
 # 0. OpenAI API key setup ── *Do **not** modify this block.*
@@ -226,37 +217,7 @@ def main(user_query: str, data_path: str = "restaurant-data.txt"):
             score_result = None
             continue
         
-        queries = {
-            "Taco Bell":0,
-            "Chick-fil-A":1,
-            "Starbucks":2,
-            "In-n-Out":3,
-            "McDonald's":4,
-        }  
 
-        expected = [3.00, 9.35, 8.06, 9.54, 3.65]
-        tolerances = [0.20, 0.20, 0.15, 0.15, 0.15]
-
-        def contains_num_with_tolerance(text: str, target: float, tol: float) -> Tuple[bool, float]:
-            """
-            Extract only the FIRST number (int or float) from the text.
-            Compare it against the expected target value with a given tolerance.
-            
-            Returns:
-                passed (bool): Whether the prediction is within tolerance.
-                pred (float or None): The parsed prediction value or None if not found.
-            """
-            match = re.search(r"\d+(?:\.\d+)?", text)
-            if not match:
-                return False, None
-            pred = float(match.group())
-            return abs(pred - target) <= tol, pred
-
-        if not contains_num_with_tolerance(score_result, expected[queries[restaurant_name]], tolerances[queries[restaurant_name]])[0]:
-            print("SCORER output is not within tolerance, retrying...")
-            score_result = None
-            continue
-        
     print("Final score:", score_result)
     return score_result
 
